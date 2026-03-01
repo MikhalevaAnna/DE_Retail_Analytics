@@ -359,7 +359,9 @@
 1. Есть `ETL процесс` на **PySpark**. Реализована логика хотя бы 10 полей из 30. (полный код в **GIT**)
 2. Файл формируется и загружается в **S3** (**MINIO**, **Selectel**).
 
-## Реализация проекта   
+## Реализация проекта
+**DE Retail Analytics** — это полноценная платформа для сбора, обработки и анализа данных розничной торговой сети. Система предназначена для управления данными магазинов двух форматов: гипермаркетов **«Большая Пикча»** и магазинов у дома **«Маленькая Пикча»**. 
+
 ### Диаграмма архитектуры проекта
 ```mermaid
 graph TD
@@ -459,3 +461,103 @@ graph TD
     class Email email;
     class ExternalSystems external;
 ```
+## 🛠 Технологический стек
+
+| Категория | Технология | Версия | Назначение |
+|-----------|------------|--------|------------|
+| **Оркестрация** | Apache Airflow | 2.9.2 | Управление DAG, планирование задач |
+| **Базы данных** | MongoDB | 6.0 | Документоориентированное хранилище |
+| | ClickHouse | Latest | Колоночное аналитическое хранилище |
+| | PostgreSQL | 13 | Metadatabase для Airflow |
+| **Стриминг** | Apache Kafka | 7.3.3 | Брокер сообщений |
+| | Zookeeper | 7.3.3 | Координация Kafka |
+| **Обработка** | Apache Spark | 3.4.2 | Распределённая обработка данных |
+| | PySpark | 3.4.2+ | Python API для Spark |
+| **Хранилище** | S3 Selectel | - | Объектное хранилище |
+| **Визуализация** | Grafana | Latest | Дашборды и мониторинг |
+| | Kafka UI | Latest | Мониторинг топиков Kafka |
+| **Контейнеризация** | Docker | Latest | Контейнеризация сервисов |
+| | Docker Compose | Latest | Оркестрация контейнеров |
+| **Языки** | Python | 3.11 | Основной язык разработки |
+| | SQL | - | Запросы к ClickHouse |
+| **Библиотеки** | Faker | 22.6.0 | Генерация тестовых данных |
+| | PyMongo | 4.5.0+ | Работа с MongoDB |
+| | kafka-python | 2.0.2 | Kafka клиент |
+| | clickhouse-driver | 0.2.9+ | ClickHouse клиент |
+| | boto3 | 1.26.0+ | S3 клиент |
+| | psycopg2 | 2.9.9+ | PostgreSQL драйвер |
+
+---
+
+## 📁 Структура проекта
+
+```
+DE_Retail_Analytics/
+├── 📄 docker-compose.yml          # Конфигурация Docker Compose (11 сервисов)
+├── 📄 Dockerfile                   # Кастомный образ Airflow + Spark + Java
+├── 📄 requirements.txt             # Python зависимости
+├── 📄 .env.example                 # Шаблон переменных окружения
+├── 📄 init-db.sql                  # Инициализация ClickHouse
+├── 📄 users.xml                    # Конфигурация пользователей ClickHouse
+│
+├── 📂 config/                      # Конфигурация проекта
+│   ├── __init__.py
+│   ├── config.py                   # Получение подключений из Airflow
+│   ├── constants.py                # Константы и настройки
+│   └── logger_setup.py             # Настройка логирования для генератора файлов
+│
+├── 📂 dags/                        # Apache Airflow DAGs
+│   ├── __init__.py
+│   └── pipeline_retail_data.py     # Основной DAG пайплайна
+│
+├── 📂 data_generator/              # Генератор тестовых данных
+│   └── generator.py                # Генерация Faker
+│
+├── 📂 utils/                       # Утилиты и вспомогательные модули
+│   ├── __init__.py
+│   ├── logging_config.py           # Конфигурация логирования для задач в Airflow
+│   │
+│   ├── 📂 mongo/                   # MongoDB модули
+│   │   ├── __init__.py
+│   │   ├── mongo_connector.py      # Подключение к MongoDB
+│   │   ├── load_to_mongo.py        # Загрузка данных в MongoDB
+│   │   ├── mongo_tasks.py          # Airflow задачи для MongoDB
+│   │   └── check_data_in_mongo.py  # Проверка данных в MongoDB
+│   │
+│   ├── 📂 kafka/                   # Kafka модули
+│   │   ├── __init__.py
+│   │   ├── mongo_kafka_transfer.py # Трансфер MongoDB → Kafka
+│   │   └── consumer_kafka_clickhouse.py # Consumer Kafka → ClickHouse
+│   │
+│   ├── 📂 clickhouse/              # ClickHouse модули
+│   │   ├── __init__.py
+│   │   ├── clickhouse_tables.py    # Управление таблицами
+│   │   └── clickhouse_reader.py    # Чтение данных для Spark
+│   │
+│   ├── 📂 spark/                   # Spark модули
+│   │   ├── __init__.py
+│   │   ├── pyspark_etl.py          # Основной ETL пайплайн
+│   │   └── feature_engineering.py  # Расчёт 30 признаков
+│   │
+│   └── 📂 s3/                      # S3 модули
+│       ├── __init__.py
+│       └── s3_writer.py            # Запись результатов в S3
+│
+├── 📂 source_data/                 # Исходные данные (генерируются)
+│   ├── stores/                     # JSON файлы магазинов
+│   ├── products/                   # JSON файлы товаров
+│   ├── customers/                  # JSON файлы покупателей
+│   └── purchases/                  # JSON файлы покупок
+│
+├── 📂 logs/                        # Логи приложения
+│   ├── dag_id=pipeline_retail_data/# Логи работы DAG
+│   ├── dag_processor_manager/                        
+│   ├── data_generator/             # Логи работы генератора данных 
+│   └── load_data_to_mongo/
+│
+├── 📂 screenshots/                 # Скриншоты интерфейсов
+│
+└── 📂 CSV_from_Selectel_S3/        # Результаты из S3
+```
+
+---
