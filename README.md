@@ -558,7 +558,7 @@ DE_Retail_Analytics/
 │   ├── data_generator/             # Логи работы генератора данных 
 │   └── scheduler/2026-03-01/       # Логи работы DAG
 │
-├── 📂 screenshots/                 # Скриншоты интерфейсов
+├── 📂 screenshots/                 # Скриншоты алертов, Airflow, Selectel S3
 │
 └── 📂 CSV_from_Selectel_S3/        # Результаты из S3
 ```
@@ -568,7 +568,7 @@ DE_Retail_Analytics/
 ### Генератор данных generator.py (папка `data_generator`)
 
 Модуль генерирует реалистичные тестовые данные для розничной сети с использованием библиотеки **Faker** и с </br>
-использованием словарей данных из `config.constants.py`.
+использованием словарей данных из `config/constants.py`.
 
 #### 📊 Генерируемые JSON файлы
 
@@ -578,4 +578,13 @@ DE_Retail_Analytics/
 | **Товары** | 116 | Продукты по 5 категориям с КБЖУ |
 | **Покупатели** | 89 | Клиенты с персональными данными |
 | **Покупки** | 500 | Транзакции с детализацией по позициям |
+ 
+### JSON файлы добавляются в NoSQL хранилище MongoDB.
+1) Добавляю **JSON** файлы в **NoSQL** хранилище `utils/ mongo/ mongo_tasks.py <- load_to_mongo.py` 
+2) Задача, которая отвечает за загрузку данных в **MongoDB** `load_mongo_task` из **DAG** `pipeline_retail_data.py`.
+3) За проверку загруженных данных в **MongoDB** отвечает задача `check_mongo_data_task` из **DAG** `pipeline_retail_data.py`.</br>
+   Задача использует `utils/ mongo/ mongo_tasks.py <- check_data_in_mongo.py`.
+4) Более наглядно выполнение задач можно увидеть на скриншоте `screenshots/ Airflow_Graph.png`.
+   
+### Далее, при помощи Kafka данные загружаются в RAW (сырое) хранилище ClickHouse.
 
