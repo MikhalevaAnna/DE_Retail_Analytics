@@ -553,7 +553,7 @@ DE_Retail_Analytics/
 │   ├── dag_id=pipeline_retail_data/# Логи работы DAG
 │   ├── dag_processor_manager/                        
 │   ├── data_generator/             # Логи работы генератора данных 
-│   └── load_data_to_mongo/
+│   └── scheduler/2026-03-01/
 │
 ├── 📂 screenshots/                 # Скриншоты интерфейсов
 │
