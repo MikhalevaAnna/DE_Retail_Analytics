@@ -582,9 +582,19 @@ DE_Retail_Analytics/
 ### JSON файлы добавляются в NoSQL хранилище MongoDB.
 1) Добавляю **JSON** файлы в **NoSQL** хранилище `utils/ mongo/ mongo_tasks.py <- load_to_mongo.py` 
 2) Задача, которая отвечает за загрузку данных в **MongoDB** `load_mongo_task` из **DAG** `pipeline_retail_data.py`.
-3) За проверку загруженных данных в **MongoDB** отвечает задача `check_mongo_data_task` из **DAG** `pipeline_retail_data.py`.</br>
-   Задача использует `utils/ mongo/ mongo_tasks.py <- check_data_in_mongo.py`.
-4) Более наглядно выполнение задач можно увидеть на скриншоте `screenshots/ Airflow_Graph.png`.
+3) Проверяем загруженные данные в **MongoDB**, за это отвечает задача `check_mongo_data_task` из **DAG** `pipeline_retail_data.py`.</br>
+   Задача использует `utils/ mongo/ mongo_tasks.py <- check_data_in_mongo.py`.</br>
+   Вывод 3-х документов из **MongoDB** можно также увидеть в логах `logs/dag_id=pipeline_retail_data/task_id=check_mongo_data_task/attempt=1.log`. 
+   <img width="1609" height="707" alt="image" src="https://github.com/user-attachments/assets/2cb4a898-289f-4e93-9ba6-67369515fac1" />
+
+5) Более наглядно выполнение задач можно увидеть на скриншоте `screenshots/ Airflow_Graph.png`.
+   <img width="1691" height="709" alt="image" src="https://github.com/user-attachments/assets/1562f872-63b8-445b-adec-575bbe37036a" />
+
+7) **MongoDB** служит промежуточным хранилищем для сырых данных перед отправкой в Kafka.
    
-### Далее, при помощи Kafka данные загружаются в RAW (сырое) хранилище ClickHouse.
+### При помощи Kafka данные загружаю в RAW (сырое) хранилище ClickHouse.
+1) До того, как данные попадают в `RAW (сырое) хранилище ClickHous` персональная информация (телефон и почта) </br>
+ приводится каждая к своему стандартному виду и шифруется `md5`.
+2) Отправляем данные в топики **Kafka**.
+3) Добавляем дату загрузки документов, как `kafka_send_date`. 
 
