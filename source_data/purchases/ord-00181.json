@@ -1,0 +1,95 @@
+{
+  "purchase_id": "ord-00181",
+  "customer": {
+    "customer_id": "cus-102061",
+    "first_name": "Алла",
+    "last_name": "Бурова",
+    "email": "alla.burova@rambler.ru",
+    "phone": "+7 (077) 125-4659",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-6CFAA3CA9"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ул. Лучезара",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Лучезара",
+      "house": "3",
+      "postal_code": "300397"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 326.94,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0030",
+      "name": "Яйцо куриное С1",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 95.19,
+      "total_price": 190.38,
+      "kbju": {
+        "calories": 155,
+        "protein": 12.7,
+        "fat": 10.9,
+        "carbohydrates": 0.7
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0090",
+      "name": "Арбуз",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 66.85,
+      "total_price": 66.85,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 7.6
+      }
+    }
+  ],
+  "total_amount": 584.17,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "наб. Больничная",
+    "house": "26",
+    "apartment": "111",
+    "postal_code": "765901"
+  },
+  "purchase_datetime": "2025-08-25T16:50:56.774715Z"
+}

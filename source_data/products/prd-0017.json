@@ -1,0 +1,24 @@
+{
+  "id": "prd-0017",
+  "name": "Пряники",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Пряники.",
+  "kbju": {
+    "calories": 350,
+    "protein": 5.0,
+    "fat": 3.0,
+    "carbohydrates": 76.0
+  },
+  "price": 163.26,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 69,
+  "is_organic": true,
+  "barcode": "9850583149334",
+  "manufacturer": {
+    "name": "ООО Каравай",
+    "country": "Россия",
+    "website": "https://karavay.ru",
+    "inn": "7723456789"
+  }
+}

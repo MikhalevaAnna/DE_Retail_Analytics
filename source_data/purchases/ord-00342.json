@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00342",
+  "customer": {
+    "customer_id": "cus-102001",
+    "first_name": "Мефодий",
+    "last_name": "Киселева",
+    "email": "mefodii.kiseleva@yandex.ru",
+    "phone": "87271425630",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-5980C86E2"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на ул. Блохинаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "ул. Блохинаа",
+      "house": "10",
+      "postal_code": "842894"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0088",
+      "name": "Смородина черная",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 252.0,
+      "total_price": 504.0,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.0,
+        "fat": 0.4,
+        "carbohydrates": 7.3
+      }
+    }
+  ],
+  "total_amount": 504.0,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "бул. Короленко",
+    "house": "22",
+    "apartment": "68",
+    "postal_code": "502320"
+  },
+  "purchase_datetime": "2025-06-26T16:50:56.863558Z"
+}

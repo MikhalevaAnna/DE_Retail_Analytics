@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102007",
+  "first_name": "Никодим",
+  "last_name": "Титова",
+  "email": "nikodim.titova@mail.ru",
+  "phone": "8 516 480 3686",
+  "birth_date": "1982-11-25",
+  "gender": "female",
+  "registration_date": "2025-06-26T16:50:56.636063Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-615E57E7F",
+  "purchase_location": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на ул. Дорофееваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "ул. Дорофееваа",
+    "house": "6",
+    "postal_code": "583032"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "ш. Санаторное",
+    "house": "49",
+    "apartment": "133",
+    "postal_code": "900549"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

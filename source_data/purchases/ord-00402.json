@@ -1,0 +1,119 @@
+{
+  "purchase_id": "ord-00402",
+  "customer": {
+    "customer_id": "cus-102002",
+    "first_name": "Аггей",
+    "last_name": "Селезнева",
+    "email": "aggei.selezneva@hotmail.com",
+    "phone": "+7 768 564 99 31",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7D18A718B"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на ул. Блохинаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "ул. Блохинаа",
+      "house": "10",
+      "postal_code": "842894"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0020",
+      "name": "Кекс",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 117.3,
+      "total_price": 351.9,
+      "kbju": {
+        "calories": 340,
+        "protein": 6.0,
+        "fat": 15.0,
+        "carbohydrates": 45.0
+      }
+    },
+    {
+      "product_id": "prd-0074",
+      "name": "Груши",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 158.17,
+      "total_price": 316.34,
+      "kbju": {
+        "calories": 57,
+        "protein": 0.4,
+        "fat": 0.3,
+        "carbohydrates": 15.0
+      }
+    },
+    {
+      "product_id": "prd-0096",
+      "name": "Лук репчатый",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 30.2,
+      "total_price": 90.6,
+      "kbju": {
+        "calories": 40,
+        "protein": 1.4,
+        "fat": 0.2,
+        "carbohydrates": 8.2
+      }
+    },
+    {
+      "product_id": "prd-0030",
+      "name": "Яйцо куриное С1",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 95.19,
+      "total_price": 95.19,
+      "kbju": {
+        "calories": 155,
+        "protein": 12.7,
+        "fat": 10.9,
+        "carbohydrates": 0.7
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0083",
+      "name": "Хурма",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 165.51,
+      "total_price": 165.51,
+      "kbju": {
+        "calories": 67,
+        "protein": 0.5,
+        "fat": 0.4,
+        "carbohydrates": 16.0
+      }
+    }
+  ],
+  "total_amount": 1019.54,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "алл. Ивановская",
+    "house": "13",
+    "apartment": "15",
+    "postal_code": "379874"
+  },
+  "purchase_datetime": "2025-05-23T16:50:56.894051Z"
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102030",
+  "first_name": "Максимильян",
+  "last_name": "Быков",
+  "email": "maksimilian.bykov@yandex.ru",
+  "phone": "8 (535) 375-4965",
+  "birth_date": "1995-07-21",
+  "gender": "male",
+  "registration_date": "2024-04-19T16:50:56.648062Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-7793A78A8",
+  "purchase_location": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "ул. Иринаа",
+    "house": "12",
+    "postal_code": "144801"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "наб. Островского",
+    "house": "25",
+    "apartment": "101",
+    "postal_code": "899351"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00272",
+  "customer": {
+    "customer_id": "cus-102051",
+    "first_name": "Кира",
+    "last_name": "Ситникова",
+    "email": "kira.sitnikova@gmail.com",
+    "phone": "+7 942 309 5361",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-85E980FD3"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на ул. Мирона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "ул. Мирона",
+      "house": "27",
+      "postal_code": "717225"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0063",
+      "name": "Творог зерненый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 105.17,
+      "total_price": 210.34,
+      "kbju": {
+        "calories": 110,
+        "protein": 12.0,
+        "fat": 5.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 210.34,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-24T16:50:56.823954Z"
+}

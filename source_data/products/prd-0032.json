@@ -1,0 +1,24 @@
+{
+  "id": "prd-0032",
+  "name": "Семга слабосоленая",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Семга слабосоленая.",
+  "kbju": {
+    "calories": 203,
+    "protein": 22.5,
+    "fat": 12.5,
+    "carbohydrates": 0.0
+  },
+  "price": 922.74,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 21,
+  "is_organic": true,
+  "barcode": "4379665445980",
+  "manufacturer": {
+    "name": "АПК Черкизово",
+    "country": "Россия",
+    "website": "https://cherkizovo.ru",
+    "inn": "7756789013"
+  }
+}

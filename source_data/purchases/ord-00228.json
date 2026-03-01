@@ -1,0 +1,117 @@
+{
+  "purchase_id": "ord-00228",
+  "customer": {
+    "customer_id": "cus-102083",
+    "first_name": "Леонтий",
+    "last_name": "Ковалева",
+    "email": "leontii.kovaleva@rambler.ru",
+    "phone": "8 (190) 244-82-53",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D24398828"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0078",
+      "name": "Малина",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 335.04,
+      "total_price": 670.08,
+      "kbju": {
+        "calories": 42,
+        "protein": 0.8,
+        "fat": 0.5,
+        "carbohydrates": 8.6
+      }
+    },
+    {
+      "product_id": "prd-0098",
+      "name": "Помидоры",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 159.68,
+      "total_price": 319.36,
+      "kbju": {
+        "calories": 20,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carbohydrates": 4.0
+      }
+    },
+    {
+      "product_id": "prd-0045",
+      "name": "Баранина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 559.68,
+      "total_price": 559.68,
+      "kbju": {
+        "calories": 209,
+        "protein": 15.6,
+        "fat": 16.3,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0041",
+      "name": "Сосиски",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 267.77,
+      "total_price": 267.77,
+      "kbju": {
+        "calories": 300,
+        "protein": 11.0,
+        "fat": 28.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0110",
+      "name": "Укроп",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 77.26,
+      "total_price": 154.52,
+      "kbju": {
+        "calories": 43,
+        "protein": 3.5,
+        "fat": 1.1,
+        "carbohydrates": 7.0
+      }
+    }
+  ],
+  "total_amount": 1971.41,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-19T16:50:56.799756Z"
+}

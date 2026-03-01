@@ -1,0 +1,87 @@
+{
+  "purchase_id": "ord-00441",
+  "customer": {
+    "customer_id": "cus-102053",
+    "first_name": "Варвара",
+    "last_name": "Воронов",
+    "email": "varvara.voronov@yandex.ru",
+    "phone": "8 519 030 01 45",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1B51C0597"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пр. Охотск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "пр. Охотск",
+      "house": "33",
+      "postal_code": "898849"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0068",
+      "name": "Биойогурт",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 80.21,
+      "total_price": 80.21,
+      "kbju": {
+        "calories": 90,
+        "protein": 3.5,
+        "fat": 3.0,
+        "carbohydrates": 11.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0114",
+      "name": "Сельдерей",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 130.13,
+      "total_price": 260.26,
+      "kbju": {
+        "calories": 16,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 3.0
+      }
+    },
+    {
+      "product_id": "prd-0030",
+      "name": "Яйцо куриное С1",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 95.19,
+      "total_price": 285.57,
+      "kbju": {
+        "calories": 155,
+        "protein": 12.7,
+        "fat": 10.9,
+        "carbohydrates": 0.7
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 626.04,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-24T16:50:56.914083Z"
+}

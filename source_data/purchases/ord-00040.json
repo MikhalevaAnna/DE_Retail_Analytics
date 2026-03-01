@@ -1,0 +1,110 @@
+{
+  "purchase_id": "ord-00040",
+  "customer": {
+    "customer_id": "cus-102075",
+    "first_name": "Мирон",
+    "last_name": "Фадеев",
+    "email": "miron.fadeev@yandex.ru",
+    "phone": "8 (247) 493-54-19",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-284FC0E93"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0073",
+      "name": "Лимоны",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 108.99,
+      "total_price": 217.98,
+      "kbju": {
+        "calories": 34,
+        "protein": 0.8,
+        "fat": 0.2,
+        "carbohydrates": 5.4
+      }
+    },
+    {
+      "product_id": "prd-0027",
+      "name": "Свинина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 392.61,
+      "total_price": 1177.83,
+      "kbju": {
+        "calories": 259,
+        "protein": 16.0,
+        "fat": 21.7,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0014",
+      "name": "Кукурузные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 121.93,
+      "total_price": 365.79,
+      "kbju": {
+        "calories": 363,
+        "protein": 7.7,
+        "fat": 1.2,
+        "carbohydrates": 84.0
+      }
+    },
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 326.94,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 2088.54,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "пр. Победа",
+    "house": "27",
+    "apartment": "19",
+    "postal_code": "583730"
+  },
+  "purchase_datetime": "2025-12-25T16:50:56.700591Z"
+}

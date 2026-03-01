@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00141",
+  "customer": {
+    "customer_id": "cus-102068",
+    "first_name": "Никанор",
+    "last_name": "Калинина",
+    "email": "nikanor.kalinina@yahoo.com",
+    "phone": "+7 (756) 213-99-14",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D9763F079"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на пр. Нефтекамск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "пр. Нефтекамск",
+      "house": "8",
+      "postal_code": "016782"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0043",
+      "name": "Колбаса вареная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 493.21,
+      "total_price": 986.42,
+      "kbju": {
+        "calories": 250,
+        "protein": 12.0,
+        "fat": 22.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    }
+  ],
+  "total_amount": 986.42,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-04T16:50:56.752591Z"
+}

@@ -1,0 +1,83 @@
+{
+  "purchase_id": "ord-00365",
+  "customer": {
+    "customer_id": "cus-102014",
+    "first_name": "Твердислав",
+    "last_name": "Королева",
+    "email": "tverdislav.koroleva@gmail.com",
+    "phone": "8 767 850 20 33",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9E5FE8A02"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ул. Аксеноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Челябинск",
+      "street": "ул. Аксеноваа",
+      "house": "29",
+      "postal_code": "749962"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0102",
+      "name": "Цветная капуста",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 167.2,
+      "total_price": 167.2,
+      "kbju": {
+        "calories": 30,
+        "protein": 2.5,
+        "fat": 0.3,
+        "carbohydrates": 5.4
+      }
+    },
+    {
+      "product_id": "prd-0015",
+      "name": "Сухари панировочные",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 52.48,
+      "total_price": 104.96,
+      "kbju": {
+        "calories": 350,
+        "protein": 11.2,
+        "fat": 1.4,
+        "carbohydrates": 72.4
+      }
+    },
+    {
+      "product_id": "prd-0075",
+      "name": "Виноград",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 168.65,
+      "total_price": 505.95,
+      "kbju": {
+        "calories": 69,
+        "protein": 0.6,
+        "fat": 0.3,
+        "carbohydrates": 16.0
+      }
+    }
+  ],
+  "total_amount": 778.11,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Челябинск",
+    "street": "ш. Кошевого",
+    "house": "20",
+    "apartment": "145",
+    "postal_code": "329144"
+  },
+  "purchase_datetime": "2025-06-20T16:50:56.875753Z"
+}

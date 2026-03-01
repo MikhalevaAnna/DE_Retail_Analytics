@@ -1,0 +1,68 @@
+{
+  "purchase_id": "ord-00158",
+  "customer": {
+    "customer_id": "cus-102028",
+    "first_name": "Еремей",
+    "last_name": "Афанасьева",
+    "email": "eremei.afanaseva@yahoo.com",
+    "phone": "8 790 433 6527",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-064806562"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0090",
+      "name": "Арбуз",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 66.85,
+      "total_price": 66.85,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0103",
+      "name": "Шпинат",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 117.06,
+      "total_price": 117.06,
+      "kbju": {
+        "calories": 23,
+        "protein": 2.9,
+        "fat": 0.4,
+        "carbohydrates": 3.6
+      }
+    }
+  ],
+  "total_amount": 183.91,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "ш. Запрудное",
+    "house": "48",
+    "apartment": "146",
+    "postal_code": "078440"
+  },
+  "purchase_datetime": "2025-05-18T16:50:56.761707Z"
+}

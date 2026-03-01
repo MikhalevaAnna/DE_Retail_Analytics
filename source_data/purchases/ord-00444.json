@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00444",
+  "customer": {
+    "customer_id": "cus-102034",
+    "first_name": "Твердислав",
+    "last_name": "Лобанов",
+    "email": "tverdislav.lobanov@yahoo.com",
+    "phone": "+7 (289) 258-24-79",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-551E6F87A"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на ул. Эраста",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Иркутск",
+      "street": "ул. Эраста",
+      "house": "13",
+      "postal_code": "983181"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0027",
+      "name": "Свинина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 392.61,
+      "total_price": 785.22,
+      "kbju": {
+        "calories": 259,
+        "protein": 16.0,
+        "fat": 21.7,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 785.22,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-08T16:50:56.916083Z"
+}

@@ -1,0 +1,39 @@
+{
+  "store_id": "store-037",
+  "store_name": "Маленькая Пикча — Магазин на ул. Валерияа",
+  "store_network": "Маленькая Пикча",
+  "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Аверьян Ерофеевич Алексеев",
+    "phone": "+7 (875) 437-3824",
+    "email": "hbobilev@example.net"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Краснодар",
+    "street": "ул. Валерияа",
+    "house": "26",
+    "postal_code": "760934",
+    "coordinates": {
+      "latitude": -35.527272,
+      "longitude": 158.925919
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "08:00-22:00",
+    "sat": "09:00-21:00",
+    "sun": "09:00-20:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": true,
+  "last_inventory_date": "2026-02-18"
+}

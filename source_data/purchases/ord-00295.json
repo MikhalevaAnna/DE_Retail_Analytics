@@ -1,0 +1,89 @@
+{
+  "purchase_id": "ord-00295",
+  "customer": {
+    "customer_id": "cus-102006",
+    "first_name": "Евлампий",
+    "last_name": "Щербаков",
+    "email": "evlampii.shcherbakov@mail.ru",
+    "phone": "8 526 266 8999",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AE253DB99"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пр. Охотск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "пр. Охотск",
+      "house": "33",
+      "postal_code": "898849"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0040",
+      "name": "Нут",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 137.86,
+      "total_price": 413.58,
+      "kbju": {
+        "calories": 364,
+        "protein": 19.0,
+        "fat": 6.0,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0008",
+      "name": "Макароны",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 96.25,
+      "total_price": 288.75,
+      "kbju": {
+        "calories": 340,
+        "protein": 11.0,
+        "fat": 1.3,
+        "carbohydrates": 70.0
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 326.52,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    }
+  ],
+  "total_amount": 1028.85,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "ул. Народная",
+    "house": "37",
+    "apartment": "110",
+    "postal_code": "494529"
+  },
+  "purchase_datetime": "2025-09-15T16:50:56.837960Z"
+}

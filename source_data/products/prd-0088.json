@@ -1,0 +1,24 @@
+{
+  "id": "prd-0088",
+  "name": "Смородина черная",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Смородина черная.",
+  "kbju": {
+    "calories": 44,
+    "protein": 1.0,
+    "fat": 0.4,
+    "carbohydrates": 7.3
+  },
+  "price": 252.0,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 6,
+  "is_organic": true,
+  "barcode": "5245785944148",
+  "manufacturer": {
+    "name": "ЗАО Сады Кубани",
+    "country": "Россия",
+    "website": "https://sadykubani.ru",
+    "inn": "7723456792"
+  }
+}

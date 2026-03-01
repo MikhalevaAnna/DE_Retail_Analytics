@@ -1,0 +1,75 @@
+{
+  "purchase_id": "ord-00421",
+  "customer": {
+    "customer_id": "cus-102080",
+    "first_name": "Адам",
+    "last_name": "Казакова",
+    "email": "adam.kazakova@yandex.ru",
+    "phone": "8 (564) 238-7998",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-736D70D86"
+  },
+  "store": {
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на ул. Волковаа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Москва",
+      "street": "ул. Волковаа",
+      "house": "28",
+      "postal_code": "948531"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0081",
+      "name": "Нектарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 157.4,
+      "total_price": 472.2,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 10.6
+      }
+    },
+    {
+      "product_id": "prd-0007",
+      "name": "Рис круглозерный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 97.72,
+      "total_price": 293.16,
+      "kbju": {
+        "calories": 330,
+        "protein": 6.7,
+        "fat": 0.7,
+        "carbohydrates": 78.9
+      }
+    },
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 583.29,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    }
+  ],
+  "total_amount": 1348.65,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-06T16:50:56.904083Z"
+}

@@ -1,0 +1,326 @@
+
+x-airflow-common:
+  &airflow-common
+  image: ${AIRFLOW_IMAGE_NAME:-airflow-with-java}
+  environment:
+    &airflow-common-env
+    AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+    AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+    AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
+    AIRFLOW__CELERY__BROKER_URL: redis://:@redis:6379/0
+    S3_ACCESS_KEY: ${S3_ACCESS_KEY}
+    S3_SECRET_KEY: ${S3_SECRET_KEY}
+    S3_ENDPOINT: ${S3_ENDPOINT:-https://s3.ru-7.storage.selcloud.ru}
+    AIRFLOW__CORE__FERNET_KEY: 'd6Vefz3G9U_5XB3CqQ8yJm7x1Yq2kR4L8mN3pX6sT9U='
+    AIRFLOW__WEBSERVER__SECRET_KEY: 'my-super-secret-key-2026-for-airflow-webserver'
+    AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+    AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    AIRFLOW__API__AUTH_BACKENDS: 'airflow.api.auth.backend.basic_auth,airflow.api.auth.backend.session'
+    AIRFLOW__SCHEDULER__ENABLE_HEALTH_CHECK: 'true'
+    AIRFLOW__LOGGING__LOGGING_LEVEL: INFO
+    AIRFLOW__LOGGING__FAB_LOGGING_LEVEL: WARN
+    AIRFLOW__LOGGING__REMOTE_LOGGING: 'false'
+    AIRFLOW__LOGGING__LOG_FORMAT: "[%(asctime)s] {%(filename)s:%(lineno)d} %(levelname)s - %(message)s"
+    AIRFLOW__LOGGING__SIMPLE_LOG_FORMAT: "[%(asctime)s] %(levelname)s - %(message)s"
+    _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
+    PYTHONPATH: /opt/airflow:/opt/airflow/utils:/opt/airflow/config
+  volumes:
+    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+    - ${AIRFLOW_PROJ_DIR:-.}/source_data:/opt/airflow/source_data
+    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    - ${AIRFLOW_PROJ_DIR:-.}/utils:/opt/airflow/utils
+    - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
+    - ${AIRFLOW_PROJ_DIR:-.}/airflow_config/webserver_config.py:/opt/airflow/webserver_config.py
+    - /var/run/docker.sock:/var/run/docker.sock
+  user: "${AIRFLOW_UID:-50000}:0"
+  depends_on:
+    &airflow-common-depends-on
+    redis:
+      condition: service_healthy
+    postgres:
+      condition: service_healthy
+    pg_extra:
+      condition: service_healthy
+
+services:
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/source_data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+    restart: always
+
+  pg_extra:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: extradb_user
+      POSTGRES_PASSWORD: extradb_password
+    volumes:
+      - pg-extra-db-volume:/var/lib/postgresql/source_data
+    ports:
+      - "5433:5432"  # доступ извне через порт 5433
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "extradb_user"]
+      interval: 10s
+      retries: 5
+      start_period: 5s
+    restart: always
+
+  redis:
+    image: redis:7.2-bookworm
+    expose:
+      - 6379
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 30s
+      retries: 50
+      start_period: 30s
+    restart: always
+
+  airflow-webserver:
+    <<: *airflow-common
+    command: webserver
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-scheduler:
+    <<: *airflow-common
+    command: scheduler
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8974/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-worker:
+    <<: *airflow-common
+    command: celery worker
+    healthcheck:
+      test:
+        - "CMD-SHELL"
+        - 'celery --app airflow.providers.celery.executors.celery_executor.app inspect ping -d "celery@$${HOSTNAME}" || celery --app airflow.executors.celery_executor.app inspect ping -d "celery@$${HOSTNAME}"'
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+    environment:
+      <<: *airflow-common-env
+      DUMB_INIT_SETSID: "0"
+    volumes:
+      - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+      - ${AIRFLOW_PROJ_DIR:-.}/source_data:/opt/airflow/source_data
+      - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+      - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+      - ${AIRFLOW_PROJ_DIR:-.}/utils:/opt/airflow/utils
+      - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
+      - ${AIRFLOW_PROJ_DIR:-.}/airflow_config/webserver_config.py:/opt/airflow/webserver_config.py
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: always
+    depends_on:
+      <<: *airflow-common-depends-on
+      airflow-init:
+        condition: service_completed_successfully
+
+  airflow-init:
+    <<: *airflow-common
+    entrypoint: /bin/bash
+    command:
+      - -c
+      - |
+        if [[ -z "${AIRFLOW_UID}" ]]; then
+          echo
+          echo -e "\033[1;33mWARNING!!!: AIRFLOW_UID not set!\e[0m"
+          echo "If you are on Linux, you SHOULD follow the instructions below to set "
+          echo "AIRFLOW_UID environment variable, otherwise files will be owned by root."
+          echo
+        fi
+        mkdir -p /sources/logs /sources/dags /sources/plugins
+        chown -R "${AIRFLOW_UID}:0" /sources/{logs,dags,plugins}
+        /entrypoint airflow version
+        airflow connections add 'clickhouse_default' \
+          --conn-type 'clickhouse' \
+          --conn-host 'clickhouse' \
+          --conn-port '9000' \
+          --conn-schema 'default' \
+          --conn-login 'user' \
+          --conn-password 'strongpassword' || true
+        airflow connections add 'clickhouse_raw' \
+          --conn-type 'clickhouse' \
+          --conn-host 'clickhouse' \
+          --conn-port '9000' \
+          --conn-schema 'raw_data' \
+          --conn-login 'user' \
+          --conn-password 'strongpassword' || true
+        airflow connections add 's3_default' \
+          --conn-type 'aws' \
+          --conn-login "${S3_ACCESS_KEY:-minioadmin}" \
+          --conn-password "${S3_SECRET_KEY:-minioadmin123}" \
+          --conn-extra '{"endpoint_url":"https://s3.ru-7.storage.selcloud.ru","region_name":"ru-7","bucket":"reports-for-customer"}'
+        airflow connections add 'mongodb_default' \
+          --conn-type 'mongo' \
+          --conn-host 'mongodb' \
+          --conn-port '27017' \
+          --conn-schema 'retail_data' \
+          --conn-login 'admin' \
+          --conn-password 'password123' \
+          --conn-extra '{"authSource":"admin"}' || true
+        airflow connections add 'kafka_default' \
+          --conn-type 'generic' \
+          --conn-host 'kafka' \
+          --conn-port '29092' \
+          --conn-extra '{"bootstrap.servers":"kafka:29092"}' || true
+    environment:
+      <<: *airflow-common-env
+      _AIRFLOW_DB_MIGRATE: 'true'
+      _AIRFLOW_WWW_USER_CREATE: 'true'
+      _AIRFLOW_WWW_USER_USERNAME: ${_AIRFLOW_WWW_USER_USERNAME:-airflow}
+      _AIRFLOW_WWW_USER_PASSWORD: ${_AIRFLOW_WWW_USER_PASSWORD:-airflow}
+      _PIP_ADDITIONAL_REQUIREMENTS: ''
+    user: "0:0"
+    volumes:
+      - ${AIRFLOW_PROJ_DIR:-.}:/sources
+
+  mongo:
+    image: mongo:6.0
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password123
+      MONGO_INITDB_DATABASE: retail_data
+    volumes:
+      - mongodb_data:/source_data/db
+    networks:
+      - default
+    restart: unless-stopped
+    command: mongod --auth --bind_ip_all
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.3.3
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+
+  kafka:
+    image: confluentinc/cp-kafka:7.3.3
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:29092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_JMX_PORT: 9997
+      KAFKA_JMX_HOSTNAME: kafka
+      KAFKA_JMX_OPTS: "-Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false"
+    container_name: kafka-server
+    healthcheck:
+      test: ["CMD-SHELL", "kafka-topics --bootstrap-server localhost:29092 --list"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+  kafka-ui:
+    container_name: kafka-ui
+    image: provectuslabs/kafka-ui:latest
+    ports:
+      - "8083:8080"  # Временно для отладки
+    environment:
+      DYNAMIC_CONFIG_ENABLED: true
+
+      KAFKA_CLUSTERS_0_NAME: "Local Kafka Cluster - STEPIK_DE"
+      KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: kafka:29092
+      KAFKA_CLUSTERS_0_ZOOKEEPER: zookeeper:2181
+
+      KAFKA_CLUSTERS_0_METRICS_CONFIG_TYPE: JMX
+      KAFKA_CLUSTERS_0_METRICS_CONFIG_PORT: 9997
+      KAFKA_CLUSTERS_0_METRICS_CONFIG_HOST: kafka
+
+    depends_on:
+      kafka:
+        condition: service_healthy
+    restart: unless-stopped
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: clickhouse
+    restart: unless-stopped
+    ports:
+      - "8123:8123"  # HTTP интерфейс (REST API)
+      - "9000:9000"  # Нативный TCP интерфейс (для клиентов)
+    environment:
+      CLICKHOUSE_DB: default
+      CLICKHOUSE_USER: ${CLICKHOUSE_USER:-user}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:-strongpassword}
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+      - ./users.xml:/etc/clickhouse-server/users.d/custom_users.xml:ro
+      - ./init-db.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8123/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - "3000:3000" # Порт для веб-интерфейса Grafana
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin # Логин администратора Grafana
+      - GF_SECURITY_ADMIN_PASSWORD=admin # Пароль администратора Grafana
+    volumes:
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - clickhouse
+
+networks:
+  default:
+    name: airflow_network
+
+volumes:
+  postgres-db-volume:
+  pg-extra-db-volume:
+  clickhouse_data:
+  mongodb_data:
+  grafana_data:

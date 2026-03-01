@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00084",
+  "customer": {
+    "customer_id": "cus-102061",
+    "first_name": "Алла",
+    "last_name": "Бурова",
+    "email": "alla.burova@rambler.ru",
+    "phone": "+7 (077) 125-4659",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-6CFAA3CA9"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на ул. Трифона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Трифона",
+      "house": "15",
+      "postal_code": "777632"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 163.26,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    }
+  ],
+  "total_amount": 163.26,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-23T16:50:56.722591Z"
+}

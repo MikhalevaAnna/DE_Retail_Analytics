@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00316",
+  "customer": {
+    "customer_id": "cus-102031",
+    "first_name": "Самуил",
+    "last_name": "Ильин",
+    "email": "samuil.ilin@gmail.com",
+    "phone": "+7 (809) 033-68-43",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-43CA76750"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на пр. Нефтекамск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "пр. Нефтекамск",
+      "house": "8",
+      "postal_code": "016782"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0109",
+      "name": "Редис",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 88.97,
+      "total_price": 177.94,
+      "kbju": {
+        "calories": 16,
+        "protein": 0.7,
+        "fat": 0.1,
+        "carbohydrates": 3.4
+      }
+    },
+    {
+      "product_id": "prd-0072",
+      "name": "Апельсины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 140.57,
+      "total_price": 421.71,
+      "kbju": {
+        "calories": 43,
+        "protein": 0.9,
+        "fat": 0.2,
+        "carbohydrates": 9.0
+      }
+    },
+    {
+      "product_id": "prd-0058",
+      "name": "Сыр плавленый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 66.59,
+      "total_price": 133.18,
+      "kbju": {
+        "calories": 240,
+        "protein": 12.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 732.83,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-09T16:50:56.848956Z"
+}

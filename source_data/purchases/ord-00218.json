@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00218",
+  "customer": {
+    "customer_id": "cus-102006",
+    "first_name": "Евлампий",
+    "last_name": "Щербаков",
+    "email": "evlampii.shcherbakov@mail.ru",
+    "phone": "8 526 266 8999",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AE253DB99"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Дьячкова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "ул. Дьячкова",
+      "house": "39",
+      "postal_code": "826126"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0112",
+      "name": "Зеленый лук",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 77.86,
+      "total_price": 155.72,
+      "kbju": {
+        "calories": 32,
+        "protein": 1.3,
+        "fat": 0.1,
+        "carbohydrates": 5.7
+      }
+    }
+  ],
+  "total_amount": 155.72,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "ул. Народная",
+    "house": "37",
+    "apartment": "110",
+    "postal_code": "494529"
+  },
+  "purchase_datetime": "2025-12-01T16:50:56.794715Z"
+}

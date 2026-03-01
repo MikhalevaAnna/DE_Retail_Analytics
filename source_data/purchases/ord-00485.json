@@ -1,0 +1,72 @@
+{
+  "purchase_id": "ord-00485",
+  "customer": {
+    "customer_id": "cus-102005",
+    "first_name": "Ермил",
+    "last_name": "Зайцева",
+    "email": "ermil.zaitseva@yahoo.com",
+    "phone": "8 826 311 57 12",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-792DD2879"
+  },
+  "store": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на пр. Новочеркасск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "пр. Новочеркасск",
+      "house": "11",
+      "postal_code": "724485"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0043",
+      "name": "Колбаса вареная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 493.21,
+      "total_price": 986.42,
+      "kbju": {
+        "calories": 250,
+        "protein": 12.0,
+        "fat": 22.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0038",
+      "name": "Горох",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 65.34,
+      "total_price": 196.02,
+      "kbju": {
+        "calories": 298,
+        "protein": 20.5,
+        "fat": 2.0,
+        "carbohydrates": 53.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 1182.44,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-25T16:50:56.936084Z"
+}

@@ -1,0 +1,39 @@
+{
+  "store_id": "store-002",
+  "store_name": "Большая Пикча — Магазин на пр. Новочеркасск",
+  "store_network": "Большая Пикча",
+  "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Иванна Егоровна Гаврилова",
+    "phone": "+7 (417) 222-7779",
+    "email": "pankrati_98@example.com"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "пр. Новочеркасск",
+    "house": "11",
+    "postal_code": "724485",
+    "coordinates": {
+      "latitude": 67.289185,
+      "longitude": 164.391658
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "09:00-21:00",
+    "sat": "10:00-20:00",
+    "sun": "10:00-18:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": false,
+  "last_inventory_date": "2026-01-24"
+}

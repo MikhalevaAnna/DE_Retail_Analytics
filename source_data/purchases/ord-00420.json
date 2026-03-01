@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00420",
+  "customer": {
+    "customer_id": "cus-102078",
+    "first_name": "Фаина",
+    "last_name": "Егорова",
+    "email": "faina.egorova@rambler.ru",
+    "phone": "87922361076",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0CFA04E04"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 580.1,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0021",
+      "name": "Ржаные хлебцы",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 84.23,
+      "total_price": 84.23,
+      "kbju": {
+        "calories": 300,
+        "protein": 8.0,
+        "fat": 2.0,
+        "carbohydrates": 60.0
+      }
+    }
+  ],
+  "total_amount": 664.33,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-09-28T16:50:56.903083Z"
+}

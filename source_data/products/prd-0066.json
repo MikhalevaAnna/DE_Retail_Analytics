@@ -1,0 +1,24 @@
+{
+  "id": "prd-0066",
+  "name": "Сыр Адыгейский",
+  "group": "🥛 Молочные продукты",
+  "description": "Сыр Адыгейский.",
+  "kbju": {
+    "calories": 220,
+    "protein": 18.0,
+    "fat": 16.0,
+    "carbohydrates": 1.5
+  },
+  "price": 251.23,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 34,
+  "is_organic": false,
+  "barcode": "2553353512563",
+  "manufacturer": {
+    "name": "АО Молочный Комбинат",
+    "country": "Россия",
+    "website": "https://moloko.ru",
+    "inn": "7712345680"
+  }
+}

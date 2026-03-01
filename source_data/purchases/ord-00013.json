@@ -1,0 +1,119 @@
+{
+  "purchase_id": "ord-00013",
+  "customer": {
+    "customer_id": "cus-102028",
+    "first_name": "Еремей",
+    "last_name": "Афанасьева",
+    "email": "eremei.afanaseva@yahoo.com",
+    "phone": "8 790 433 6527",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-064806562"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0004",
+      "name": "Лаваш армянский",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 68.88,
+      "total_price": 206.64,
+      "kbju": {
+        "calories": 236,
+        "protein": 7.0,
+        "fat": 1.0,
+        "carbohydrates": 48.0
+      }
+    },
+    {
+      "product_id": "prd-0115",
+      "name": "Имбирь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 170.21,
+      "total_price": 510.63,
+      "kbju": {
+        "calories": 80,
+        "protein": 1.8,
+        "fat": 0.8,
+        "carbohydrates": 17.8
+      }
+    },
+    {
+      "product_id": "prd-0007",
+      "name": "Рис круглозерный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 97.72,
+      "total_price": 195.44,
+      "kbju": {
+        "calories": 330,
+        "protein": 6.7,
+        "fat": 0.7,
+        "carbohydrates": 78.9
+      }
+    },
+    {
+      "product_id": "prd-0031",
+      "name": "Филе индейки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 417.98,
+      "total_price": 417.98,
+      "kbju": {
+        "calories": 112,
+        "protein": 22.6,
+        "fat": 1.8,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Рыбный мир",
+        "country": "Россия",
+        "website": "https://riba.ru",
+        "inn": "7734567891"
+      }
+    },
+    {
+      "product_id": "prd-0088",
+      "name": "Смородина черная",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 252.0,
+      "total_price": 252.0,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.0,
+        "fat": 0.4,
+        "carbohydrates": 7.3
+      }
+    }
+  ],
+  "total_amount": 1582.69,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "ш. Запрудное",
+    "house": "48",
+    "apartment": "146",
+    "postal_code": "078440"
+  },
+  "purchase_datetime": "2025-12-16T16:50:56.686589Z"
+}

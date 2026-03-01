@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00011",
+  "customer": {
+    "customer_id": "cus-102079",
+    "first_name": "Мартын",
+    "last_name": "Гусев",
+    "email": "martyn.gusev@gmail.com",
+    "phone": "+7 587 191 28 11",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-87BA1671D"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0093",
+      "name": "Лайм",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 144.76,
+      "total_price": 289.52,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 10.5
+      }
+    },
+    {
+      "product_id": "prd-0043",
+      "name": "Колбаса вареная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 493.21,
+      "total_price": 1479.63,
+      "kbju": {
+        "calories": 250,
+        "protein": 12.0,
+        "fat": 22.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    }
+  ],
+  "total_amount": 1769.15,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "пер. Кубанский",
+    "house": "20",
+    "apartment": "6",
+    "postal_code": "393408"
+  },
+  "purchase_datetime": "2025-07-01T16:50:56.685590Z"
+}

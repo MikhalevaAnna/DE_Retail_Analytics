@@ -1,0 +1,24 @@
+{
+  "id": "prd-0080",
+  "name": "Персики",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Персики.",
+  "kbju": {
+    "calories": 45,
+    "protein": 0.9,
+    "fat": 0.1,
+    "carbohydrates": 9.5
+  },
+  "price": 193.6,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 8,
+  "is_organic": false,
+  "barcode": "5550113768342",
+  "manufacturer": {
+    "name": "ООО Фруктовый рай",
+    "country": "Россия",
+    "website": "https://fruitparadise.ru",
+    "inn": "7712345681"
+  }
+}

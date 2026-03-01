@@ -1,0 +1,72 @@
+{
+  "purchase_id": "ord-00020",
+  "customer": {
+    "customer_id": "cus-102028",
+    "first_name": "Еремей",
+    "last_name": "Афанасьева",
+    "email": "eremei.afanaseva@yahoo.com",
+    "phone": "8 790 433 6527",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-064806562"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0029",
+      "name": "Котлеты",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 316.3,
+      "total_price": 632.6,
+      "kbju": {
+        "calories": 240,
+        "protein": 14.0,
+        "fat": 20.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 1160.2,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 1792.8,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-27T16:50:56.689591Z"
+}

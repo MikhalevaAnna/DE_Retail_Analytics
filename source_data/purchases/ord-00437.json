@@ -1,0 +1,68 @@
+{
+  "purchase_id": "ord-00437",
+  "customer": {
+    "customer_id": "cus-102052",
+    "first_name": "Клавдий",
+    "last_name": "Терентьева",
+    "email": "klavdii.terenteva@yahoo.com",
+    "phone": "89995639956",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B6E31602D"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Дьячкова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "ул. Дьячкова",
+      "house": "39",
+      "postal_code": "826126"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0097",
+      "name": "Капуста белокочанная",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 50.53,
+      "total_price": 50.53,
+      "kbju": {
+        "calories": 28,
+        "protein": 1.8,
+        "fat": 0.1,
+        "carbohydrates": 4.7
+      }
+    },
+    {
+      "product_id": "prd-0091",
+      "name": "Дыня",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 89.77,
+      "total_price": 269.31,
+      "kbju": {
+        "calories": 35,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 8.0
+      }
+    }
+  ],
+  "total_amount": 319.84,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "наб. Кооперативная",
+    "house": "5",
+    "apartment": "95",
+    "postal_code": "197380"
+  },
+  "purchase_datetime": "2025-07-04T16:50:56.912082Z"
+}

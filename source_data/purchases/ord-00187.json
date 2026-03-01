@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00187",
+  "customer": {
+    "customer_id": "cus-102072",
+    "first_name": "Денис",
+    "last_name": "Панова",
+    "email": "denis.panova@yandex.ru",
+    "phone": "+7 (431) 505-36-85",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CD9D6612E"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на ул. Евгенияа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Евгенияа",
+      "house": "1",
+      "postal_code": "271882"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0073",
+      "name": "Лимоны",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 108.99,
+      "total_price": 217.98,
+      "kbju": {
+        "calories": 34,
+        "protein": 0.8,
+        "fat": 0.2,
+        "carbohydrates": 5.4
+      }
+    }
+  ],
+  "total_amount": 217.98,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Санкт-Петербург",
+    "street": "ул. Тукая",
+    "house": "22",
+    "apartment": "84",
+    "postal_code": "391536"
+  },
+  "purchase_datetime": "2025-03-03T16:50:56.777715Z"
+}

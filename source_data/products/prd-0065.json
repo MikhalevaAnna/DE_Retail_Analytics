@@ -1,0 +1,24 @@
+{
+  "id": "prd-0065",
+  "name": "Айран",
+  "group": "🥛 Молочные продукты",
+  "description": "Айран.",
+  "kbju": {
+    "calories": 35,
+    "protein": 1.8,
+    "fat": 1.5,
+    "carbohydrates": 3.5
+  },
+  "price": 87.77,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 7,
+  "is_organic": true,
+  "barcode": "2321527614760",
+  "manufacturer": {
+    "name": "ЗАО Простоквашино",
+    "country": "Россия",
+    "website": "https://prostokvashino.ru",
+    "inn": "7734567892"
+  }
+}

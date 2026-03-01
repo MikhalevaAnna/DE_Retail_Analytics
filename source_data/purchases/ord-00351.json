@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00351",
+  "customer": {
+    "customer_id": "cus-102072",
+    "first_name": "Денис",
+    "last_name": "Панова",
+    "email": "denis.panova@yandex.ru",
+    "phone": "+7 (431) 505-36-85",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CD9D6612E"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на ул. Сысоева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Сысоева",
+      "house": "1",
+      "postal_code": "115335"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0064",
+      "name": "Кумыс",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 115.47,
+      "total_price": 230.94,
+      "kbju": {
+        "calories": 50,
+        "protein": 2.5,
+        "fat": 2.0,
+        "carbohydrates": 5.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 230.94,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-10-10T16:50:56.868558Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0025",
+  "name": "Куриное филе",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Куриное филе.",
+  "kbju": {
+    "calories": 110,
+    "protein": 23.0,
+    "fat": 1.2,
+    "carbohydrates": 0.0
+  },
+  "price": 265.39,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 5,
+  "is_organic": false,
+  "barcode": "6990956217635",
+  "manufacturer": {
+    "name": "ООО Мираторг",
+    "country": "Россия",
+    "website": "https://miratorg.ru",
+    "inn": "7745678902"
+  }
+}

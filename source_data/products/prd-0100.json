@@ -1,0 +1,24 @@
+{
+  "id": "prd-0100",
+  "name": "Перец болгарский",
+  "group": "🥦 Овощи и зелень",
+  "description": "Перец болгарский.",
+  "kbju": {
+    "calories": 27,
+    "protein": 1.3,
+    "fat": 0.2,
+    "carbohydrates": 5.3
+  },
+  "price": 196.78,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 7,
+  "is_organic": false,
+  "barcode": "1291369500976",
+  "manufacturer": {
+    "name": "ООО Овощебаза",
+    "country": "Россия",
+    "website": "https://ovoshi.ru",
+    "inn": "7723456793"
+  }
+}

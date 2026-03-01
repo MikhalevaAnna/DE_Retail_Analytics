@@ -1,0 +1,87 @@
+{
+  "purchase_id": "ord-00350",
+  "customer": {
+    "customer_id": "cus-102004",
+    "first_name": "Елена",
+    "last_name": "Михеева",
+    "email": "elena.mikheeva@mail.ru",
+    "phone": "8 (483) 860-52-68",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2AE23D145"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на ул. Мирона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "ул. Мирона",
+      "house": "27",
+      "postal_code": "717225"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0045",
+      "name": "Баранина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 559.68,
+      "total_price": 559.68,
+      "kbju": {
+        "calories": 209,
+        "protein": 15.6,
+        "fat": 16.3,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0097",
+      "name": "Капуста белокочанная",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 50.53,
+      "total_price": 151.59,
+      "kbju": {
+        "calories": 28,
+        "protein": 1.8,
+        "fat": 0.1,
+        "carbohydrates": 4.7
+      }
+    },
+    {
+      "product_id": "prd-0037",
+      "name": "Фасоль красная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 82.12,
+      "total_price": 82.12,
+      "kbju": {
+        "calories": 337,
+        "protein": 22.5,
+        "fat": 1.5,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 793.39,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-05T16:50:56.867558Z"
+}

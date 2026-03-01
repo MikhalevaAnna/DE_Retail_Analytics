@@ -1,0 +1,105 @@
+{
+  "purchase_id": "ord-00211",
+  "customer": {
+    "customer_id": "cus-102017",
+    "first_name": "Фотий",
+    "last_name": "Игнатов",
+    "email": "fotii.ignatov@yandex.ru",
+    "phone": "8 662 710 5386",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-28DF7B6F0"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на пр. Алексин",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Хабаровск",
+      "street": "пр. Алексин",
+      "house": "8",
+      "postal_code": "969218"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0085",
+      "name": "Манго",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 224.25,
+      "total_price": 448.5,
+      "kbju": {
+        "calories": 60,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 15.0
+      }
+    },
+    {
+      "product_id": "prd-0116",
+      "name": "Хрен",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 172.92,
+      "total_price": 345.84,
+      "kbju": {
+        "calories": 48,
+        "protein": 1.4,
+        "fat": 0.4,
+        "carbohydrates": 10.5
+      }
+    },
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 583.29,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    },
+    {
+      "product_id": "prd-0016",
+      "name": "Сушки",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 118.3,
+      "total_price": 118.3,
+      "kbju": {
+        "calories": 341,
+        "protein": 11.0,
+        "fat": 1.3,
+        "carbohydrates": 70.0
+      }
+    },
+    {
+      "product_id": "prd-0114",
+      "name": "Сельдерей",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 130.13,
+      "total_price": 390.39,
+      "kbju": {
+        "calories": 16,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 3.0
+      }
+    }
+  ],
+  "total_amount": 1886.32,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-01T16:50:56.790714Z"
+}

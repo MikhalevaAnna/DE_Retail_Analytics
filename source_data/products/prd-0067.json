@@ -1,0 +1,24 @@
+{
+  "id": "prd-0067",
+  "name": "Йогурт густой",
+  "group": "🥛 Молочные продукты",
+  "description": "Йогурт густой.",
+  "kbju": {
+    "calories": 100,
+    "protein": 4.0,
+    "fat": 3.5,
+    "carbohydrates": 12.0
+  },
+  "price": 62.09,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 20,
+  "is_organic": true,
+  "barcode": "0634327399129",
+  "manufacturer": {
+    "name": "ОАО Маслозавод",
+    "country": "Россия",
+    "website": "https://maslo.ru",
+    "inn": "7756789014"
+  }
+}

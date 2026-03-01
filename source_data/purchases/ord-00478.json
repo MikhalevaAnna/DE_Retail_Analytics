@@ -1,0 +1,113 @@
+{
+  "purchase_id": "ord-00478",
+  "customer": {
+    "customer_id": "cus-102028",
+    "first_name": "Еремей",
+    "last_name": "Афанасьева",
+    "email": "eremei.afanaseva@yahoo.com",
+    "phone": "8 790 433 6527",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-064806562"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на пр. Агата",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "пр. Агата",
+      "house": "32",
+      "postal_code": "460702"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0086",
+      "name": "Авокадо",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 185.15,
+      "total_price": 555.45,
+      "kbju": {
+        "calories": 160,
+        "protein": 2.0,
+        "fat": 14.7,
+        "carbohydrates": 8.5
+      }
+    },
+    {
+      "product_id": "prd-0081",
+      "name": "Нектарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 157.4,
+      "total_price": 314.8,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 10.6
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 489.78,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    },
+    {
+      "product_id": "prd-0023",
+      "name": "Булгур",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 132.33,
+      "total_price": 132.33,
+      "kbju": {
+        "calories": 342,
+        "protein": 12.3,
+        "fat": 1.3,
+        "carbohydrates": 75.9
+      }
+    },
+    {
+      "product_id": "prd-0107",
+      "name": "Баклажаны",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 108.62,
+      "total_price": 217.24,
+      "kbju": {
+        "calories": 24,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carbohydrates": 5.5
+      }
+    }
+  ],
+  "total_amount": 1709.6,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "ш. Запрудное",
+    "house": "48",
+    "apartment": "146",
+    "postal_code": "078440"
+  },
+  "purchase_datetime": "2025-06-08T16:50:56.933083Z"
+}

@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00021",
+  "customer": {
+    "customer_id": "cus-102066",
+    "first_name": "Никандр",
+    "last_name": "Гаврилова",
+    "email": "nikandr.gavrilova@hotmail.com",
+    "phone": "+72376033008",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C3AB73F91"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ул. Фадеева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "ул. Фадеева",
+      "house": "8",
+      "postal_code": "646736"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 119.59,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0039",
+      "name": "Чечевица",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 125.07,
+      "total_price": 125.07,
+      "kbju": {
+        "calories": 295,
+        "protein": 24.0,
+        "fat": 1.5,
+        "carbohydrates": 46.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 244.66,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "алл. Западная",
+    "house": "46",
+    "apartment": "39",
+    "postal_code": "431100"
+  },
+  "purchase_datetime": "2025-07-16T16:50:56.690590Z"
+}

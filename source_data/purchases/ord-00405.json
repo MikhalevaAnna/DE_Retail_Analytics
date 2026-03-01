@@ -1,0 +1,93 @@
+{
+  "purchase_id": "ord-00405",
+  "customer": {
+    "customer_id": "cus-102033",
+    "first_name": "Гедеон",
+    "last_name": "Харитонов",
+    "email": "gedeon.kharitonov@gmail.com",
+    "phone": "89342475584",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-82830ECCA"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на ул. Эраста",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Иркутск",
+      "street": "ул. Эраста",
+      "house": "13",
+      "postal_code": "983181"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0062",
+      "name": "Сыр Пармезан",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 845.19,
+      "total_price": 1690.38,
+      "kbju": {
+        "calories": 392,
+        "protein": 35.0,
+        "fat": 26.0,
+        "carbohydrates": 0.1
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0058",
+      "name": "Сыр плавленый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 66.59,
+      "total_price": 66.59,
+      "kbju": {
+        "calories": 240,
+        "protein": 12.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0043",
+      "name": "Колбаса вареная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 493.21,
+      "total_price": 986.42,
+      "kbju": {
+        "calories": 250,
+        "protein": 12.0,
+        "fat": 22.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    }
+  ],
+  "total_amount": 2743.39,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-07T16:50:56.896081Z"
+}

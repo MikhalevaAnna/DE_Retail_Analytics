@@ -1,0 +1,24 @@
+{
+  "id": "prd-0056",
+  "name": "Сливки 10%",
+  "group": "🥛 Молочные продукты",
+  "description": "Сливки 10%.",
+  "kbju": {
+    "calories": 118,
+    "protein": 3.0,
+    "fat": 10.0,
+    "carbohydrates": 4.0
+  },
+  "price": 108.98,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 9,
+  "is_organic": false,
+  "barcode": "6730602018335",
+  "manufacturer": {
+    "name": "ООО Вимм-Билль-Данн",
+    "country": "Россия",
+    "website": "https://wbd.ru",
+    "inn": "7723456791"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "purchase_id": "ord-00235",
+  "customer": {
+    "customer_id": "cus-102002",
+    "first_name": "Аггей",
+    "last_name": "Селезнева",
+    "email": "aggei.selezneva@hotmail.com",
+    "phone": "+7 768 564 99 31",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7D18A718B"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0031",
+      "name": "Филе индейки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 417.98,
+      "total_price": 1253.94,
+      "kbju": {
+        "calories": 112,
+        "protein": 22.6,
+        "fat": 1.8,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Рыбный мир",
+        "country": "Россия",
+        "website": "https://riba.ru",
+        "inn": "7734567891"
+      }
+    },
+    {
+      "product_id": "prd-0028",
+      "name": "Фарш говяжий",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 359.9,
+      "total_price": 1079.7,
+      "kbju": {
+        "calories": 190,
+        "protein": 17.0,
+        "fat": 14.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0093",
+      "name": "Лайм",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 144.76,
+      "total_price": 144.76,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 10.5
+      }
+    }
+  ],
+  "total_amount": 2478.4,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "алл. Ивановская",
+    "house": "13",
+    "apartment": "15",
+    "postal_code": "379874"
+  },
+  "purchase_datetime": "2025-07-20T16:50:56.803798Z"
+}

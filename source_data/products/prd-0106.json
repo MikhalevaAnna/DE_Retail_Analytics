@@ -1,0 +1,24 @@
+{
+  "id": "prd-0106",
+  "name": "Кабачки",
+  "group": "🥦 Овощи и зелень",
+  "description": "Кабачки.",
+  "kbju": {
+    "calories": 24,
+    "protein": 0.6,
+    "fat": 0.3,
+    "carbohydrates": 4.6
+  },
+  "price": 66.58,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 8,
+  "is_organic": true,
+  "barcode": "6318707817444",
+  "manufacturer": {
+    "name": "АО Тепличный",
+    "country": "Россия",
+    "website": "https://teplica.ru",
+    "inn": "7712345682"
+  }
+}

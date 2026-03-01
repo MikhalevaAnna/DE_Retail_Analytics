@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00220",
+  "customer": {
+    "customer_id": "cus-102021",
+    "first_name": "Амос",
+    "last_name": "Жданов",
+    "email": "amos.zhdanov@yahoo.com",
+    "phone": "8 686 624 0712",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8F70C3ED9"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Воронеж",
+      "street": "ул. Назароваа",
+      "house": "34",
+      "postal_code": "502070"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0030",
+      "name": "Яйцо куриное С1",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 95.19,
+      "total_price": 190.38,
+      "kbju": {
+        "calories": 155,
+        "protein": 12.7,
+        "fat": 10.9,
+        "carbohydrates": 0.7
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 122.16,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    }
+  ],
+  "total_amount": 312.54,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Воронеж",
+    "street": "бул. Станционный",
+    "house": "50",
+    "apartment": "89",
+    "postal_code": "090637"
+  },
+  "purchase_datetime": "2025-08-23T16:50:56.795755Z"
+}

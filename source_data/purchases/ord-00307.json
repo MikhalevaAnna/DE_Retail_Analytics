@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00307",
+  "customer": {
+    "customer_id": "cus-102025",
+    "first_name": "Филарет",
+    "last_name": "Константинова",
+    "email": "filaret.konstantinova@hotmail.com",
+    "phone": "8 (107) 633-1912",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0D0236C22"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ул. Емельяноваа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "ул. Емельяноваа",
+      "house": "6",
+      "postal_code": "482671"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 477.54,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    }
+  ],
+  "total_amount": 477.54,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-14T16:50:56.844956Z"
+}

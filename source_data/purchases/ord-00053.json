@@ -1,0 +1,89 @@
+{
+  "purchase_id": "ord-00053",
+  "customer": {
+    "customer_id": "cus-102050",
+    "first_name": "Гурий",
+    "last_name": "Кудряшов",
+    "email": "gurii.kudriashov@mail.ru",
+    "phone": "8 (991) 021-79-78",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1F5CC9CD2"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на ул. Мирона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "ул. Мирона",
+      "house": "27",
+      "postal_code": "717225"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0054",
+      "name": "Йогурт питьевой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 64.14,
+      "total_price": 192.42,
+      "kbju": {
+        "calories": 80,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 163.26,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    },
+    {
+      "product_id": "prd-0091",
+      "name": "Дыня",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 89.77,
+      "total_price": 269.31,
+      "kbju": {
+        "calories": 35,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 8.0
+      }
+    }
+  ],
+  "total_amount": 624.99,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "бул. Клубный",
+    "house": "47",
+    "apartment": "18",
+    "postal_code": "066543"
+  },
+  "purchase_datetime": "2025-10-25T16:50:56.706591Z"
+}

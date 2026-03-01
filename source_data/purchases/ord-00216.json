@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00216",
+  "customer": {
+    "customer_id": "cus-102013",
+    "first_name": "Моисей",
+    "last_name": "Блинова",
+    "email": "moisei.blinova@yahoo.com",
+    "phone": "+7 742 569 5571",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C0192FCB6"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "пр. Мостовской",
+      "house": "24",
+      "postal_code": "193220"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0055",
+      "name": "Ряженка",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 61.56,
+      "total_price": 184.68,
+      "kbju": {
+        "calories": 54,
+        "protein": 2.8,
+        "fat": 2.5,
+        "carbohydrates": 4.2
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 184.68,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-26T16:50:56.793715Z"
+}

@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00148",
+  "customer": {
+    "customer_id": "cus-102070",
+    "first_name": "Боян",
+    "last_name": "Воронова",
+    "email": "boian.voronova@yandex.ru",
+    "phone": "+7 996 362 2359",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-F28A29B7A"
+  },
+  "store": {
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на пр. Сорочинск",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Саратов",
+      "street": "пр. Сорочинск",
+      "house": "38",
+      "postal_code": "747986"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0037",
+      "name": "Фасоль красная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 82.12,
+      "total_price": 82.12,
+      "kbju": {
+        "calories": 337,
+        "protein": 22.5,
+        "fat": 1.5,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 82.12,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-01T16:50:56.757157Z"
+}

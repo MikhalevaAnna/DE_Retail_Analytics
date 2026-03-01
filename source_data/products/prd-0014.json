@@ -1,0 +1,24 @@
+{
+  "id": "prd-0014",
+  "name": "Кукурузные хлопья",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Кукурузные хлопья.",
+  "kbju": {
+    "calories": 363,
+    "protein": 7.7,
+    "fat": 1.2,
+    "carbohydrates": 84.0
+  },
+  "price": 121.93,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 260,
+  "is_organic": false,
+  "barcode": "6085009842060",
+  "manufacturer": {
+    "name": "АО Хлебный Дом",
+    "country": "Россия",
+    "website": "https://hlebnydom.ru",
+    "inn": "7712345678"
+  }
+}

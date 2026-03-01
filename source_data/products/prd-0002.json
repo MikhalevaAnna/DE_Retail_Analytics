@@ -1,0 +1,24 @@
+{
+  "id": "prd-0002",
+  "name": "Хлеб пшеничный",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Хлеб пшеничный.",
+  "kbju": {
+    "calories": 260,
+    "protein": 8.1,
+    "fat": 1.2,
+    "carbohydrates": 48.8
+  },
+  "price": 35.14,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 3,
+  "is_organic": false,
+  "barcode": "2351086158375",
+  "manufacturer": {
+    "name": "ООО Зернышко",
+    "country": "Россия",
+    "website": "https://zernyshko.ru",
+    "inn": "7756789012"
+  }
+}

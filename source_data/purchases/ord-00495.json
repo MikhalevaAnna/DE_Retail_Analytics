@@ -1,0 +1,117 @@
+{
+  "purchase_id": "ord-00495",
+  "customer": {
+    "customer_id": "cus-102064",
+    "first_name": "Конон",
+    "last_name": "Никитина",
+    "email": "konon.nikitina@rambler.ru",
+    "phone": "88155432072",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-11571A106"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на ул. Эраста",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Иркутск",
+      "street": "ул. Эраста",
+      "house": "13",
+      "postal_code": "983181"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0065",
+      "name": "Айран",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 87.77,
+      "total_price": 87.77,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.8,
+        "fat": 1.5,
+        "carbohydrates": 3.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0010",
+      "name": "Пшено",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 63.48,
+      "total_price": 190.44,
+      "kbju": {
+        "calories": 342,
+        "protein": 11.5,
+        "fat": 3.3,
+        "carbohydrates": 66.5
+      }
+    },
+    {
+      "product_id": "prd-0044",
+      "name": "Пельмени",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 235.45,
+      "total_price": 706.35,
+      "kbju": {
+        "calories": 280,
+        "protein": 12.0,
+        "fat": 14.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0074",
+      "name": "Груши",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 158.17,
+      "total_price": 158.17,
+      "kbju": {
+        "calories": 57,
+        "protein": 0.4,
+        "fat": 0.3,
+        "carbohydrates": 15.0
+      }
+    },
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 583.29,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    }
+  ],
+  "total_amount": 1726.02,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-20T16:50:56.941082Z"
+}

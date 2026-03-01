@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00422",
+  "customer": {
+    "customer_id": "cus-102031",
+    "first_name": "Самуил",
+    "last_name": "Ильин",
+    "email": "samuil.ilin@gmail.com",
+    "phone": "+7 (809) 033-68-43",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-43CA76750"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ул. Фадеева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "ул. Фадеева",
+      "house": "8",
+      "postal_code": "646736"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0107",
+      "name": "Баклажаны",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 108.62,
+      "total_price": 108.62,
+      "kbju": {
+        "calories": 24,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carbohydrates": 5.5
+      }
+    },
+    {
+      "product_id": "prd-0046",
+      "name": "Скумбрия",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 311.2,
+      "total_price": 311.2,
+      "kbju": {
+        "calories": 191,
+        "protein": 18.0,
+        "fat": 13.2,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    }
+  ],
+  "total_amount": 419.82,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "ул. Тельмана",
+    "house": "47",
+    "apartment": "81",
+    "postal_code": "596955"
+  },
+  "purchase_datetime": "2025-07-01T16:50:56.904083Z"
+}

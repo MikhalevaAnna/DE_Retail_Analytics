@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102079",
+  "first_name": "Мартын",
+  "last_name": "Гусев",
+  "email": "martyn.gusev@gmail.com",
+  "phone": "+7 587 191 28 11",
+  "birth_date": "1985-10-08",
+  "gender": "female",
+  "registration_date": "2025-07-25T16:50:56.674590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-87BA1671D",
+  "purchase_location": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на ул. Кирилловаа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "ул. Кирилловаа",
+    "house": "28",
+    "postal_code": "404165"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "пер. Кубанский",
+    "house": "20",
+    "apartment": "6",
+    "postal_code": "393408"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "store_id": "store-035",
+  "store_name": "Маленькая Пикча — Магазин на пр. Сорочинск",
+  "store_network": "Маленькая Пикча",
+  "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Силантий Васильевич Гуляев",
+    "phone": "+7 157 332 21 17",
+    "email": "konstantinignatov@example.com"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Саратов",
+    "street": "пр. Сорочинск",
+    "house": "38",
+    "postal_code": "747986",
+    "coordinates": {
+      "latitude": -8.103835,
+      "longitude": 171.375862
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "08:00-22:00",
+    "sat": "09:00-21:00",
+    "sun": "09:00-20:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": false,
+  "warehouse_connected": false,
+  "last_inventory_date": "2026-01-25"
+}

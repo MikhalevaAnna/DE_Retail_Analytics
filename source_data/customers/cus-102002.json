@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102002",
+  "first_name": "Аггей",
+  "last_name": "Селезнева",
+  "email": "aggei.selezneva@hotmail.com",
+  "phone": "+7 768 564 99 31",
+  "birth_date": "2005-04-28",
+  "gender": "male",
+  "registration_date": "2024-05-31T16:50:56.634063Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-7D18A718B",
+  "purchase_location": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на ул. Блохинаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "ул. Блохинаа",
+    "house": "10",
+    "postal_code": "842894"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "алл. Ивановская",
+    "house": "13",
+    "apartment": "15",
+    "postal_code": "379874"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "online",
+    "receive_promotions": true
+  }
+}

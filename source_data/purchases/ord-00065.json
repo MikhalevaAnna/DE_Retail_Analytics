@@ -1,0 +1,80 @@
+{
+  "purchase_id": "ord-00065",
+  "customer": {
+    "customer_id": "cus-102024",
+    "first_name": "Орест",
+    "last_name": "Емельянов",
+    "email": "orest.emelianov@yandex.ru",
+    "phone": "8 485 078 2786",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-451088E34"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на пр. Находка",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "пр. Находка",
+      "house": "24",
+      "postal_code": "799974"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0040",
+      "name": "Нут",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 137.86,
+      "total_price": 413.58,
+      "kbju": {
+        "calories": 364,
+        "protein": 19.0,
+        "fat": 6.0,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0059",
+      "name": "Мороженое пломбир",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 93.14,
+      "total_price": 93.14,
+      "kbju": {
+        "calories": 232,
+        "protein": 3.7,
+        "fat": 15.0,
+        "carbohydrates": 20.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 506.72,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ижевск",
+    "street": "ш. Алтайское",
+    "house": "49",
+    "apartment": "26",
+    "postal_code": "027236"
+  },
+  "purchase_datetime": "2026-01-15T16:50:56.712589Z"
+}

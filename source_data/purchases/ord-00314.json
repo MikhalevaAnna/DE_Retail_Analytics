@@ -1,0 +1,83 @@
+{
+  "purchase_id": "ord-00314",
+  "customer": {
+    "customer_id": "cus-102015",
+    "first_name": "Валерия",
+    "last_name": "Громова",
+    "email": "valeriia.gromova@yandex.ru",
+    "phone": "8 (245) 000-33-25",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4489EA5D7"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ул. Аксеноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Челябинск",
+      "street": "ул. Аксеноваа",
+      "house": "29",
+      "postal_code": "749962"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0075",
+      "name": "Виноград",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 168.65,
+      "total_price": 168.65,
+      "kbju": {
+        "calories": 69,
+        "protein": 0.6,
+        "fat": 0.3,
+        "carbohydrates": 16.0
+      }
+    },
+    {
+      "product_id": "prd-0006",
+      "name": "Крупа гречневая",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 112.67,
+      "total_price": 112.67,
+      "kbju": {
+        "calories": 308,
+        "protein": 12.6,
+        "fat": 3.3,
+        "carbohydrates": 57.1
+      }
+    },
+    {
+      "product_id": "prd-0087",
+      "name": "Черника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 418.4,
+      "total_price": 418.4,
+      "kbju": {
+        "calories": 44,
+        "protein": 0.9,
+        "fat": 0.4,
+        "carbohydrates": 7.6
+      }
+    }
+  ],
+  "total_amount": 699.72,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Челябинск",
+    "street": "пер. Крымский",
+    "house": "17",
+    "apartment": "147",
+    "postal_code": "354761"
+  },
+  "purchase_datetime": "2025-12-15T16:50:56.847957Z"
+}

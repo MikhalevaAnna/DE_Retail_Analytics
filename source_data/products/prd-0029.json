@@ -1,0 +1,24 @@
+{
+  "id": "prd-0029",
+  "name": "Котлеты",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Котлеты.",
+  "kbju": {
+    "calories": 240,
+    "protein": 14.0,
+    "fat": 20.0,
+    "carbohydrates": 3.0
+  },
+  "price": 316.3,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 5,
+  "is_organic": true,
+  "barcode": "0624834182963",
+  "manufacturer": {
+    "name": "АПК Черкизово",
+    "country": "Россия",
+    "website": "https://cherkizovo.ru",
+    "inn": "7756789013"
+  }
+}

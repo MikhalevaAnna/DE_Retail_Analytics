@@ -1,0 +1,24 @@
+{
+  "id": "prd-0054",
+  "name": "Йогурт питьевой",
+  "group": "🥛 Молочные продукты",
+  "description": "Йогурт питьевой.",
+  "kbju": {
+    "calories": 80,
+    "protein": 3.0,
+    "fat": 2.5,
+    "carbohydrates": 12.0
+  },
+  "price": 64.14,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 14,
+  "is_organic": true,
+  "barcode": "1803873289836",
+  "manufacturer": {
+    "name": "ООО Вимм-Билль-Данн",
+    "country": "Россия",
+    "website": "https://wbd.ru",
+    "inn": "7723456791"
+  }
+}

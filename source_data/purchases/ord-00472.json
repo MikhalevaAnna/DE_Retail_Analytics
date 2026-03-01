@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00472",
+  "customer": {
+    "customer_id": "cus-102058",
+    "first_name": "Ксения",
+    "last_name": "Сысоева",
+    "email": "kseniia.sysoeva@mail.ru",
+    "phone": "8 065 801 6708",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-A0D86168D"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 580.1,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 580.1,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-25T16:50:56.930082Z"
+}

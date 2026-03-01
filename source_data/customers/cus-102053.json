@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102053",
+  "first_name": "Варвара",
+  "last_name": "Воронов",
+  "email": "varvara.voronov@yandex.ru",
+  "phone": "8 519 030 01 45",
+  "birth_date": "1976-06-20",
+  "gender": "female",
+  "registration_date": "2025-01-20T16:50:56.660591Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-1B51C0597",
+  "purchase_location": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пр. Охотск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "пр. Охотск",
+    "house": "33",
+    "postal_code": "898849"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "алл. Полевая",
+    "house": "7",
+    "apartment": "30",
+    "postal_code": "538721"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

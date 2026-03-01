@@ -1,0 +1,117 @@
+{
+  "purchase_id": "ord-00081",
+  "customer": {
+    "customer_id": "cus-102059",
+    "first_name": "Ефим",
+    "last_name": "Сафонов",
+    "email": "efim.safonov@rambler.ru",
+    "phone": "+7 (809) 366-73-43",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-38CBF130C"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "пр. Мостовской",
+      "house": "24",
+      "postal_code": "193220"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0088",
+      "name": "Смородина черная",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 252.0,
+      "total_price": 756.0,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.0,
+        "fat": 0.4,
+        "carbohydrates": 7.3
+      }
+    },
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 326.94,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 358.77,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0059",
+      "name": "Мороженое пломбир",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 93.14,
+      "total_price": 93.14,
+      "kbju": {
+        "calories": 232,
+        "protein": 3.7,
+        "fat": 15.0,
+        "carbohydrates": 20.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0078",
+      "name": "Малина",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 335.04,
+      "total_price": 670.08,
+      "kbju": {
+        "calories": 42,
+        "protein": 0.8,
+        "fat": 0.5,
+        "carbohydrates": 8.6
+      }
+    }
+  ],
+  "total_amount": 2204.93,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-19T16:50:56.720590Z"
+}

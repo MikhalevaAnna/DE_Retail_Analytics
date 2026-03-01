@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00267",
+  "customer": {
+    "customer_id": "cus-102072",
+    "first_name": "Денис",
+    "last_name": "Панова",
+    "email": "denis.panova@yandex.ru",
+    "phone": "+7 (431) 505-36-85",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-CD9D6612E"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на ул. Евгенияа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Евгенияа",
+      "house": "1",
+      "postal_code": "271882"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0002",
+      "name": "Хлеб пшеничный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 35.14,
+      "total_price": 105.42,
+      "kbju": {
+        "calories": 260,
+        "protein": 8.1,
+        "fat": 1.2,
+        "carbohydrates": 48.8
+      }
+    }
+  ],
+  "total_amount": 105.42,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-02-26T16:50:56.820952Z"
+}

@@ -1,0 +1,117 @@
+{
+  "purchase_id": "ord-00153",
+  "customer": {
+    "customer_id": "cus-102064",
+    "first_name": "Конон",
+    "last_name": "Никитина",
+    "email": "konon.nikitina@rambler.ru",
+    "phone": "88155432072",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-11571A106"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на ул. Эраста",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Иркутск",
+      "street": "ул. Эраста",
+      "house": "13",
+      "postal_code": "983181"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0022",
+      "name": "Кускус",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 140.1,
+      "total_price": 140.1,
+      "kbju": {
+        "calories": 376,
+        "protein": 12.8,
+        "fat": 0.6,
+        "carbohydrates": 77.4
+      }
+    },
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 119.59,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 583.29,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    },
+    {
+      "product_id": "prd-0038",
+      "name": "Горох",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 65.34,
+      "total_price": 196.02,
+      "kbju": {
+        "calories": 298,
+        "protein": 20.5,
+        "fat": 2.0,
+        "carbohydrates": 53.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0065",
+      "name": "Айран",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 87.77,
+      "total_price": 175.54,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.8,
+        "fat": 1.5,
+        "carbohydrates": 3.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 1214.54,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-02T16:50:56.759155Z"
+}

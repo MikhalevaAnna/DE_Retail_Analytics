@@ -1,0 +1,108 @@
+{
+  "purchase_id": "ord-00176",
+  "customer": {
+    "customer_id": "cus-102008",
+    "first_name": "Иосиф",
+    "last_name": "Зуев",
+    "email": "iosif.zuev@gmail.com",
+    "phone": "+7 766 757 96 34",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-DB9B3B1A5"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на ул. Кирилловаа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Кирилловаа",
+      "house": "28",
+      "postal_code": "404165"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0059",
+      "name": "Мороженое пломбир",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 93.14,
+      "total_price": 279.42,
+      "kbju": {
+        "calories": 232,
+        "protein": 3.7,
+        "fat": 15.0,
+        "carbohydrates": 20.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0090",
+      "name": "Арбуз",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 66.85,
+      "total_price": 133.7,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 217.96,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0047",
+      "name": "Сельдь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 193.4,
+      "total_price": 580.2,
+      "kbju": {
+        "calories": 161,
+        "protein": 17.0,
+        "fat": 10.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 1211.28,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-31T16:50:56.771715Z"
+}

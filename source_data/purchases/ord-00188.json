@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00188",
+  "customer": {
+    "customer_id": "cus-102006",
+    "first_name": "Евлампий",
+    "last_name": "Щербаков",
+    "email": "evlampii.shcherbakov@mail.ru",
+    "phone": "8 526 266 8999",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AE253DB99"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Дьячкова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "ул. Дьячкова",
+      "house": "39",
+      "postal_code": "826126"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0028",
+      "name": "Фарш говяжий",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 359.9,
+      "total_price": 359.9,
+      "kbju": {
+        "calories": 190,
+        "protein": 17.0,
+        "fat": 14.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    }
+  ],
+  "total_amount": 359.9,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "ул. Народная",
+    "house": "37",
+    "apartment": "110",
+    "postal_code": "494529"
+  },
+  "purchase_datetime": "2025-08-08T16:50:56.777715Z"
+}

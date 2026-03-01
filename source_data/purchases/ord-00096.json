@@ -1,0 +1,72 @@
+{
+  "purchase_id": "ord-00096",
+  "customer": {
+    "customer_id": "cus-102029",
+    "first_name": "Полина",
+    "last_name": "Голубева",
+    "email": "polina.golubeva@yahoo.com",
+    "phone": "8 831 748 89 75",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-6FCF1D93E"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на пр. Агата",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "пр. Агата",
+      "house": "32",
+      "postal_code": "460702"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0065",
+      "name": "Айран",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 87.77,
+      "total_price": 87.77,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.8,
+        "fat": 1.5,
+        "carbohydrates": 3.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0064",
+      "name": "Кумыс",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 115.47,
+      "total_price": 346.41,
+      "kbju": {
+        "calories": 50,
+        "protein": 2.5,
+        "fat": 2.0,
+        "carbohydrates": 5.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 434.18,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-13T16:50:56.728590Z"
+}

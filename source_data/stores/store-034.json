@@ -1,0 +1,39 @@
+{
+  "store_id": "store-034",
+  "store_name": "Маленькая Пикча — Магазин на ул. Лучезара",
+  "store_network": "Маленькая Пикча",
+  "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Горбунов Модест Борисович",
+    "phone": "+7 343 061 29 24",
+    "email": "amvrosigolubev@example.net"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "ул. Лучезара",
+    "house": "3",
+    "postal_code": "300397",
+    "coordinates": {
+      "latitude": 19.5410605,
+      "longitude": -174.46012
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "08:00-22:00",
+    "sat": "09:00-21:00",
+    "sun": "09:00-20:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": true,
+  "last_inventory_date": "2026-02-07"
+}

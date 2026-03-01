@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00002",
+  "customer": {
+    "customer_id": "cus-102088",
+    "first_name": "Рюрик",
+    "last_name": "Голубева",
+    "email": "riurik.golubeva@yahoo.com",
+    "phone": "8 249 687 93 51",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-23F131F64"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ул. Емельяноваа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "ул. Емельяноваа",
+      "house": "6",
+      "postal_code": "482671"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0066",
+      "name": "Сыр Адыгейский",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 251.23,
+      "total_price": 502.46,
+      "kbju": {
+        "calories": 220,
+        "protein": 18.0,
+        "fat": 16.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0024",
+      "name": "Мюсли",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 151.36,
+      "total_price": 302.72,
+      "kbju": {
+        "calories": 380,
+        "protein": 10.0,
+        "fat": 8.0,
+        "carbohydrates": 65.0
+      }
+    },
+    {
+      "product_id": "prd-0109",
+      "name": "Редис",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 88.97,
+      "total_price": 266.91,
+      "kbju": {
+        "calories": 16,
+        "protein": 0.7,
+        "fat": 0.1,
+        "carbohydrates": 3.4
+      }
+    }
+  ],
+  "total_amount": 1072.09,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-24T16:50:56.680590Z"
+}

@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00403",
+  "customer": {
+    "customer_id": "cus-102070",
+    "first_name": "Боян",
+    "last_name": "Воронова",
+    "email": "boian.voronova@yandex.ru",
+    "phone": "+7 996 362 2359",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-F28A29B7A"
+  },
+  "store": {
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на пр. Сорочинск",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Саратов",
+      "street": "пр. Сорочинск",
+      "house": "38",
+      "postal_code": "747986"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0050",
+      "name": "Творог 5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 131.29,
+      "total_price": 393.87,
+      "kbju": {
+        "calories": 121,
+        "protein": 16.5,
+        "fat": 5.0,
+        "carbohydrates": 3.3
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0024",
+      "name": "Мюсли",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 151.36,
+      "total_price": 151.36,
+      "kbju": {
+        "calories": 380,
+        "protein": 10.0,
+        "fat": 8.0,
+        "carbohydrates": 65.0
+      }
+    },
+    {
+      "product_id": "prd-0014",
+      "name": "Кукурузные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 121.93,
+      "total_price": 243.86,
+      "kbju": {
+        "calories": 363,
+        "protein": 7.7,
+        "fat": 1.2,
+        "carbohydrates": 84.0
+      }
+    },
+    {
+      "product_id": "prd-0106",
+      "name": "Кабачки",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 66.58,
+      "total_price": 133.16,
+      "kbju": {
+        "calories": 24,
+        "protein": 0.6,
+        "fat": 0.3,
+        "carbohydrates": 4.6
+      }
+    }
+  ],
+  "total_amount": 922.25,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-05T16:50:56.895051Z"
+}

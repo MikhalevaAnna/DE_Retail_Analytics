@@ -1,0 +1,137 @@
+{
+  "purchase_id": "ord-00319",
+  "customer": {
+    "customer_id": "cus-102067",
+    "first_name": "Тихон",
+    "last_name": "Соболева",
+    "email": "tikhon.soboleva@rambler.ru",
+    "phone": "8 996 033 3307",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-DDCEA0C8C"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ул. Фадеева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "ул. Фадеева",
+      "house": "8",
+      "postal_code": "646736"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0069",
+      "name": "Сыр козий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 664.85,
+      "total_price": 664.85,
+      "kbju": {
+        "calories": 290,
+        "protein": 18.0,
+        "fat": 23.0,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 1160.2,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0063",
+      "name": "Творог зерненый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 105.17,
+      "total_price": 105.17,
+      "kbju": {
+        "calories": 110,
+        "protein": 12.0,
+        "fat": 5.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 163.26,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    },
+    {
+      "product_id": "prd-0060",
+      "name": "Сгущенное молоко",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 136.57,
+      "total_price": 409.71,
+      "kbju": {
+        "calories": 328,
+        "protein": 7.2,
+        "fat": 8.5,
+        "carbohydrates": 55.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 2503.19,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "пер. Садовый",
+    "house": "2",
+    "apartment": "81",
+    "postal_code": "362694"
+  },
+  "purchase_datetime": "2025-03-10T16:50:56.850956Z"
+}

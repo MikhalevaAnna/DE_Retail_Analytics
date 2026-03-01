@@ -1,0 +1,87 @@
+{
+  "purchase_id": "ord-00255",
+  "customer": {
+    "customer_id": "cus-102063",
+    "first_name": "Валентина",
+    "last_name": "Воронов",
+    "email": "valentina.voronov@yandex.ru",
+    "phone": "+72150063044",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-27CD4793A"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на бул. Макаренко",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "бул. Макаренко",
+      "house": "4",
+      "postal_code": "911255"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0090",
+      "name": "Арбуз",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 66.85,
+      "total_price": 200.55,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0044",
+      "name": "Пельмени",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 235.45,
+      "total_price": 235.45,
+      "kbju": {
+        "calories": 280,
+        "protein": 12.0,
+        "fat": 14.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0058",
+      "name": "Сыр плавленый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 66.59,
+      "total_price": 133.18,
+      "kbju": {
+        "calories": 240,
+        "protein": 12.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 569.18,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-01T16:50:56.814909Z"
+}

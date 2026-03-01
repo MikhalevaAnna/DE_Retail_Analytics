@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00446",
+  "customer": {
+    "customer_id": "cus-102075",
+    "first_name": "Мирон",
+    "last_name": "Фадеев",
+    "email": "miron.fadeev@yandex.ru",
+    "phone": "8 (247) 493-54-19",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-284FC0E93"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0088",
+      "name": "Смородина черная",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 252.0,
+      "total_price": 252.0,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.0,
+        "fat": 0.4,
+        "carbohydrates": 7.3
+      }
+    }
+  ],
+  "total_amount": 252.0,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-19T16:50:56.916083Z"
+}

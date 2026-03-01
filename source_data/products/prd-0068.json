@@ -1,0 +1,24 @@
+{
+  "id": "prd-0068",
+  "name": "Биойогурт",
+  "group": "🥛 Молочные продукты",
+  "description": "Биойогурт.",
+  "kbju": {
+    "calories": 90,
+    "protein": 3.5,
+    "fat": 3.0,
+    "carbohydrates": 11.0
+  },
+  "price": 80.21,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 20,
+  "is_organic": false,
+  "barcode": "1900935505337",
+  "manufacturer": {
+    "name": "ЗАО Простоквашино",
+    "country": "Россия",
+    "website": "https://prostokvashino.ru",
+    "inn": "7734567892"
+  }
+}

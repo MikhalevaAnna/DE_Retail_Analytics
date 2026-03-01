@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00097",
+  "customer": {
+    "customer_id": "cus-102057",
+    "first_name": "Гаврила",
+    "last_name": "Куликов",
+    "email": "gavrila.kulikov@yahoo.com",
+    "phone": "+7 077 653 8580",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B3C39FFBE"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на ул. Ждановаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Ждановаа",
+      "house": "40",
+      "postal_code": "314679"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0024",
+      "name": "Мюсли",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 151.36,
+      "total_price": 302.72,
+      "kbju": {
+        "calories": 380,
+        "protein": 10.0,
+        "fat": 8.0,
+        "carbohydrates": 65.0
+      }
+    }
+  ],
+  "total_amount": 302.72,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "пр. Папанина",
+    "house": "31",
+    "apartment": "30",
+    "postal_code": "492925"
+  },
+  "purchase_datetime": "2025-03-20T16:50:56.729591Z"
+}

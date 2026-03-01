@@ -1,0 +1,125 @@
+{
+  "purchase_id": "ord-00205",
+  "customer": {
+    "customer_id": "cus-102078",
+    "first_name": "Фаина",
+    "last_name": "Егорова",
+    "email": "faina.egorova@rambler.ru",
+    "phone": "87922361076",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0CFA04E04"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на ул. Ждановаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Ждановаа",
+      "house": "40",
+      "postal_code": "314679"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 194.43,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    },
+    {
+      "product_id": "prd-0046",
+      "name": "Скумбрия",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 311.2,
+      "total_price": 311.2,
+      "kbju": {
+        "calories": 191,
+        "protein": 18.0,
+        "fat": 13.2,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0005",
+      "name": "Булочка с маком",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 44.28,
+      "total_price": 88.56,
+      "kbju": {
+        "calories": 310,
+        "protein": 8.0,
+        "fat": 5.0,
+        "carbohydrates": 55.0
+      }
+    },
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 1160.2,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0020",
+      "name": "Кекс",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 117.3,
+      "total_price": 234.6,
+      "kbju": {
+        "calories": 340,
+        "protein": 6.0,
+        "fat": 15.0,
+        "carbohydrates": 45.0
+      }
+    }
+  ],
+  "total_amount": 1988.99,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "алл. Буденного",
+    "house": "42",
+    "apartment": "38",
+    "postal_code": "045905"
+  },
+  "purchase_datetime": "2025-07-20T16:50:56.786714Z"
+}

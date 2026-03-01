@@ -1,0 +1,108 @@
+{
+  "purchase_id": "ord-00146",
+  "customer": {
+    "customer_id": "cus-102066",
+    "first_name": "Никандр",
+    "last_name": "Гаврилова",
+    "email": "nikandr.gavrilova@hotmail.com",
+    "phone": "+72376033008",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C3AB73F91"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на пр. Нефтекамск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "пр. Нефтекамск",
+      "house": "8",
+      "postal_code": "016782"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0064",
+      "name": "Кумыс",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 115.47,
+      "total_price": 115.47,
+      "kbju": {
+        "calories": 50,
+        "protein": 2.5,
+        "fat": 2.0,
+        "carbohydrates": 5.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0115",
+      "name": "Имбирь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 170.21,
+      "total_price": 340.42,
+      "kbju": {
+        "calories": 80,
+        "protein": 1.8,
+        "fat": 0.8,
+        "carbohydrates": 17.8
+      }
+    },
+    {
+      "product_id": "prd-0059",
+      "name": "Мороженое пломбир",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 93.14,
+      "total_price": 279.42,
+      "kbju": {
+        "calories": 232,
+        "protein": 3.7,
+        "fat": 15.0,
+        "carbohydrates": 20.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0051",
+      "name": "Сметана 20%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 99.27,
+      "total_price": 198.54,
+      "kbju": {
+        "calories": 206,
+        "protein": 2.5,
+        "fat": 20.0,
+        "carbohydrates": 3.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 933.85,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-02T16:50:56.755591Z"
+}

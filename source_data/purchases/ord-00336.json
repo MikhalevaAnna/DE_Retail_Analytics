@@ -1,0 +1,104 @@
+{
+  "purchase_id": "ord-00336",
+  "customer": {
+    "customer_id": "cus-102043",
+    "first_name": "Чеслав",
+    "last_name": "Савин",
+    "email": "cheslav.savin@rambler.ru",
+    "phone": "+7 (426) 144-7585",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D4EA6A111"
+  },
+  "store": {
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ишим",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "пр. Ишим",
+      "house": "20",
+      "postal_code": "539395"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 1160.2,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 326.52,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    },
+    {
+      "product_id": "prd-0073",
+      "name": "Лимоны",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 108.99,
+      "total_price": 217.98,
+      "kbju": {
+        "calories": 34,
+        "protein": 0.8,
+        "fat": 0.2,
+        "carbohydrates": 5.4
+      }
+    },
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 61.08,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    }
+  ],
+  "total_amount": 1765.78,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "ул. Кузнецова",
+    "house": "50",
+    "apartment": "16",
+    "postal_code": "286977"
+  },
+  "purchase_datetime": "2025-03-27T16:50:56.859559Z"
+}

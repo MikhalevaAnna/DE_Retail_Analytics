@@ -1,0 +1,90 @@
+{
+  "purchase_id": "ord-00490",
+  "customer": {
+    "customer_id": "cus-102035",
+    "first_name": "Станимир",
+    "last_name": "Ситников",
+    "email": "stanimir.sitnikov@rambler.ru",
+    "phone": "8 055 394 9387",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8AB3D82AA"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Сосновый Бор",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Иркутск",
+      "street": "пр. Сосновый Бор",
+      "house": "19",
+      "postal_code": "844167"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0081",
+      "name": "Нектарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 157.4,
+      "total_price": 157.4,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 10.6
+      }
+    },
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 122.16,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    },
+    {
+      "product_id": "prd-0090",
+      "name": "Арбуз",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 66.85,
+      "total_price": 200.55,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0115",
+      "name": "Имбирь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 170.21,
+      "total_price": 340.42,
+      "kbju": {
+        "calories": 80,
+        "protein": 1.8,
+        "fat": 0.8,
+        "carbohydrates": 17.8
+      }
+    }
+  ],
+  "total_amount": 820.53,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-07T16:50:56.939082Z"
+}

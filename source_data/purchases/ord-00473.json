@@ -1,0 +1,93 @@
+{
+  "purchase_id": "ord-00473",
+  "customer": {
+    "customer_id": "cus-102083",
+    "first_name": "Леонтий",
+    "last_name": "Ковалева",
+    "email": "leontii.kovaleva@rambler.ru",
+    "phone": "8 (190) 244-82-53",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D24398828"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на бул. Свердлова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "бул. Свердлова",
+      "house": "32",
+      "postal_code": "152628"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0044",
+      "name": "Пельмени",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 235.45,
+      "total_price": 470.9,
+      "kbju": {
+        "calories": 280,
+        "protein": 12.0,
+        "fat": 14.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0066",
+      "name": "Сыр Адыгейский",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 251.23,
+      "total_price": 251.23,
+      "kbju": {
+        "calories": 220,
+        "protein": 18.0,
+        "fat": 16.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0063",
+      "name": "Творог зерненый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 105.17,
+      "total_price": 105.17,
+      "kbju": {
+        "calories": 110,
+        "protein": 12.0,
+        "fat": 5.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 827.3,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-07T16:50:56.930082Z"
+}

@@ -1,0 +1,95 @@
+{
+  "purchase_id": "ord-00236",
+  "customer": {
+    "customer_id": "cus-102011",
+    "first_name": "Семен",
+    "last_name": "Исакова",
+    "email": "semen.isakova@rambler.ru",
+    "phone": "+7 203 364 47 46",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9F20D822A"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ул. Лучезара",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Лучезара",
+      "house": "3",
+      "postal_code": "300397"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0037",
+      "name": "Фасоль красная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 82.12,
+      "total_price": 246.36,
+      "kbju": {
+        "calories": 337,
+        "protein": 22.5,
+        "fat": 1.5,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0091",
+      "name": "Дыня",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 89.77,
+      "total_price": 269.31,
+      "kbju": {
+        "calories": 35,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 8.0
+      }
+    },
+    {
+      "product_id": "prd-0048",
+      "name": "Молоко 3.2%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 97.36,
+      "total_price": 292.08,
+      "kbju": {
+        "calories": 60,
+        "protein": 2.9,
+        "fat": 3.2,
+        "carbohydrates": 4.7
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    }
+  ],
+  "total_amount": 807.75,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "наб. Элеваторная",
+    "house": "37",
+    "apartment": "112",
+    "postal_code": "969603"
+  },
+  "purchase_datetime": "2025-09-24T16:50:56.803798Z"
+}

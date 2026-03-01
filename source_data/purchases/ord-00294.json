@@ -1,0 +1,75 @@
+{
+  "purchase_id": "ord-00294",
+  "customer": {
+    "customer_id": "cus-102033",
+    "first_name": "Гедеон",
+    "last_name": "Харитонов",
+    "email": "gedeon.kharitonov@gmail.com",
+    "phone": "89342475584",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-82830ECCA"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на ул. Эраста",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Иркутск",
+      "street": "ул. Эраста",
+      "house": "13",
+      "postal_code": "983181"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0010",
+      "name": "Пшено",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 63.48,
+      "total_price": 126.96,
+      "kbju": {
+        "calories": 342,
+        "protein": 11.5,
+        "fat": 3.3,
+        "carbohydrates": 66.5
+      }
+    },
+    {
+      "product_id": "prd-0098",
+      "name": "Помидоры",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 159.68,
+      "total_price": 159.68,
+      "kbju": {
+        "calories": 20,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carbohydrates": 4.0
+      }
+    },
+    {
+      "product_id": "prd-0110",
+      "name": "Укроп",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 77.26,
+      "total_price": 231.78,
+      "kbju": {
+        "calories": 43,
+        "protein": 3.5,
+        "fat": 1.1,
+        "carbohydrates": 7.0
+      }
+    }
+  ],
+  "total_amount": 518.42,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2026-02-20T16:50:56.836955Z"
+}

@@ -1,0 +1,129 @@
+{
+  "purchase_id": "ord-00398",
+  "customer": {
+    "customer_id": "cus-102019",
+    "first_name": "Казимир",
+    "last_name": "Семенова",
+    "email": "kazimir.semenova@yandex.ru",
+    "phone": "+7 (846) 806-2423",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-A5126FF8E"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Воронеж",
+      "street": "ул. Назароваа",
+      "house": "34",
+      "postal_code": "502070"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0102",
+      "name": "Цветная капуста",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 167.2,
+      "total_price": 167.2,
+      "kbju": {
+        "calories": 30,
+        "protein": 2.5,
+        "fat": 0.3,
+        "carbohydrates": 5.4
+      }
+    },
+    {
+      "product_id": "prd-0062",
+      "name": "Сыр Пармезан",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 845.19,
+      "total_price": 2535.57,
+      "kbju": {
+        "calories": 392,
+        "protein": 35.0,
+        "fat": 26.0,
+        "carbohydrates": 0.1
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0034",
+      "name": "Форель",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 725.0,
+      "total_price": 2175.0,
+      "kbju": {
+        "calories": 150,
+        "protein": 20.0,
+        "fat": 7.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0042",
+      "name": "Ветчина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 448.75,
+      "total_price": 1346.25,
+      "kbju": {
+        "calories": 270,
+        "protein": 15.0,
+        "fat": 22.0,
+        "carbohydrates": 1.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0032",
+      "name": "Семга слабосоленая",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 922.74,
+      "total_price": 1845.48,
+      "kbju": {
+        "calories": 203,
+        "protein": 22.5,
+        "fat": 12.5,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 8069.5,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-13T16:50:56.892050Z"
+}

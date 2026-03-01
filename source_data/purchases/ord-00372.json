@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00372",
+  "customer": {
+    "customer_id": "cus-102086",
+    "first_name": "Любим",
+    "last_name": "Соловьев",
+    "email": "liubim.solovev@yahoo.com",
+    "phone": "+7 643 923 1884",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-5852B1865"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ул. Емельяноваа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "ул. Емельяноваа",
+      "house": "6",
+      "postal_code": "482671"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0105",
+      "name": "Свекла",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 43.49,
+      "total_price": 43.49,
+      "kbju": {
+        "calories": 43,
+        "protein": 1.6,
+        "fat": 0.2,
+        "carbohydrates": 8.8
+      }
+    },
+    {
+      "product_id": "prd-0022",
+      "name": "Кускус",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 140.1,
+      "total_price": 280.2,
+      "kbju": {
+        "calories": 376,
+        "protein": 12.8,
+        "fat": 0.6,
+        "carbohydrates": 77.4
+      }
+    }
+  ],
+  "total_amount": 323.69,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-21T16:50:56.879392Z"
+}

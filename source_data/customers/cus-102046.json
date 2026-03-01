@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102046",
+  "first_name": "Аполлон",
+  "last_name": "Полякова",
+  "email": "apollon.poliakova@rambler.ru",
+  "phone": "+7 (825) 434-52-58",
+  "birth_date": "1984-01-09",
+  "gender": "female",
+  "registration_date": "2024-03-19T16:50:56.656591Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-98AFA4E32",
+  "purchase_location": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на ул. Хвойная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Краснодар",
+    "street": "ул. Хвойная",
+    "house": "39",
+    "postal_code": "049448"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Краснодар",
+    "street": "ул. Профсоюзная",
+    "house": "45",
+    "apartment": "31",
+    "postal_code": "893965"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

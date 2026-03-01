@@ -1,0 +1,24 @@
+{
+  "id": "prd-0040",
+  "name": "Нут",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Нут.",
+  "kbju": {
+    "calories": 364,
+    "protein": 19.0,
+    "fat": 6.0,
+    "carbohydrates": 61.0
+  },
+  "price": 137.86,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 534,
+  "is_organic": true,
+  "barcode": "0573097712595",
+  "manufacturer": {
+    "name": "АПК Черкизово",
+    "country": "Россия",
+    "website": "https://cherkizovo.ru",
+    "inn": "7756789013"
+  }
+}

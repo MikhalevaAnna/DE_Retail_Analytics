@@ -1,0 +1,39 @@
+{
+  "store_id": "store-005",
+  "store_name": "Большая Пикча — Магазин на ул. Ждановаа",
+  "store_network": "Большая Пикча",
+  "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Зимин Трифон Дорофеевич",
+    "phone": "+77502948642",
+    "email": "wavdeeva@example.com"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "ул. Ждановаа",
+    "house": "40",
+    "postal_code": "314679",
+    "coordinates": {
+      "latitude": 5.1362765,
+      "longitude": 171.345727
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "09:00-21:00",
+    "sat": "10:00-20:00",
+    "sun": "10:00-18:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": true,
+  "last_inventory_date": "2026-02-09"
+}

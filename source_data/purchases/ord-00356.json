@@ -1,0 +1,68 @@
+{
+  "purchase_id": "ord-00356",
+  "customer": {
+    "customer_id": "cus-102060",
+    "first_name": "Элеонора",
+    "last_name": "Лыткин",
+    "email": "eleonora.lytkin@gmail.com",
+    "phone": "+7 (891) 553-1829",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D289F03B0"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "пр. Мостовской",
+      "house": "24",
+      "postal_code": "193220"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0106",
+      "name": "Кабачки",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 66.58,
+      "total_price": 66.58,
+      "kbju": {
+        "calories": 24,
+        "protein": 0.6,
+        "fat": 0.3,
+        "carbohydrates": 4.6
+      }
+    },
+    {
+      "product_id": "prd-0100",
+      "name": "Перец болгарский",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 196.78,
+      "total_price": 196.78,
+      "kbju": {
+        "calories": 27,
+        "protein": 1.3,
+        "fat": 0.2,
+        "carbohydrates": 5.3
+      }
+    }
+  ],
+  "total_amount": 263.36,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "ш. Медицинское",
+    "house": "9",
+    "apartment": "142",
+    "postal_code": "843347"
+  },
+  "purchase_datetime": "2025-06-19T16:50:56.870558Z"
+}

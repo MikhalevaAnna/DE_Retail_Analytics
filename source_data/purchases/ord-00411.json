@@ -1,0 +1,104 @@
+{
+  "purchase_id": "ord-00411",
+  "customer": {
+    "customer_id": "cus-102052",
+    "first_name": "Клавдий",
+    "last_name": "Терентьева",
+    "email": "klavdii.terenteva@yahoo.com",
+    "phone": "89995639956",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B6E31602D"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Дьячкова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "ул. Дьячкова",
+      "house": "39",
+      "postal_code": "826126"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0105",
+      "name": "Свекла",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 43.49,
+      "total_price": 86.98,
+      "kbju": {
+        "calories": 43,
+        "protein": 1.6,
+        "fat": 0.2,
+        "carbohydrates": 8.8
+      }
+    },
+    {
+      "product_id": "prd-0021",
+      "name": "Ржаные хлебцы",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 84.23,
+      "total_price": 168.46,
+      "kbju": {
+        "calories": 300,
+        "protein": 8.0,
+        "fat": 2.0,
+        "carbohydrates": 60.0
+      }
+    },
+    {
+      "product_id": "prd-0072",
+      "name": "Апельсины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 140.57,
+      "total_price": 281.14,
+      "kbju": {
+        "calories": 43,
+        "protein": 0.9,
+        "fat": 0.2,
+        "carbohydrates": 9.0
+      }
+    },
+    {
+      "product_id": "prd-0049",
+      "name": "Кефир 2.5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 85.31,
+      "total_price": 255.93,
+      "kbju": {
+        "calories": 50,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    }
+  ],
+  "total_amount": 792.51,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "наб. Кооперативная",
+    "house": "5",
+    "apartment": "95",
+    "postal_code": "197380"
+  },
+  "purchase_datetime": "2025-06-01T16:50:56.899083Z"
+}

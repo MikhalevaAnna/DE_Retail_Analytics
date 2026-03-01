@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00140",
+  "customer": {
+    "customer_id": "cus-102078",
+    "first_name": "Фаина",
+    "last_name": "Егорова",
+    "email": "faina.egorova@rambler.ru",
+    "phone": "87922361076",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0CFA04E04"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на ул. Кирилловаа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Кирилловаа",
+      "house": "28",
+      "postal_code": "404165"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0077",
+      "name": "Клубника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 260.82,
+      "total_price": 521.64,
+      "kbju": {
+        "calories": 32,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 7.5
+      }
+    },
+    {
+      "product_id": "prd-0012",
+      "name": "Перловка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 48.42,
+      "total_price": 145.26,
+      "kbju": {
+        "calories": 315,
+        "protein": 9.3,
+        "fat": 1.1,
+        "carbohydrates": 66.9
+      }
+    },
+    {
+      "product_id": "prd-0044",
+      "name": "Пельмени",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 235.45,
+      "total_price": 235.45,
+      "kbju": {
+        "calories": 280,
+        "protein": 12.0,
+        "fat": 14.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 477.54,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    }
+  ],
+  "total_amount": 1379.89,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-22T16:50:56.751591Z"
+}

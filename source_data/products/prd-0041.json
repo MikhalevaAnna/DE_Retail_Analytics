@@ -1,0 +1,24 @@
+{
+  "id": "prd-0041",
+  "name": "Сосиски",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Сосиски.",
+  "kbju": {
+    "calories": 300,
+    "protein": 11.0,
+    "fat": 28.0,
+    "carbohydrates": 1.5
+  },
+  "price": 267.77,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 19,
+  "is_organic": false,
+  "barcode": "8431666400811",
+  "manufacturer": {
+    "name": "ООО Птицефабрика",
+    "country": "Россия",
+    "website": "https://ptica.ru",
+    "inn": "7723456790"
+  }
+}

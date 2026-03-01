@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102015",
+  "first_name": "Валерия",
+  "last_name": "Громова",
+  "email": "valeriia.gromova@yandex.ru",
+  "phone": "8 (245) 000-33-25",
+  "birth_date": "2000-12-10",
+  "gender": "female",
+  "registration_date": "2024-04-22T16:50:56.641062Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-4489EA5D7",
+  "purchase_location": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ул. Аксеноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Челябинск",
+    "street": "ул. Аксеноваа",
+    "house": "29",
+    "postal_code": "749962"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Челябинск",
+    "street": "пер. Крымский",
+    "house": "17",
+    "apartment": "147",
+    "postal_code": "354761"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

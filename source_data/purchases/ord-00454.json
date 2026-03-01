@@ -1,0 +1,104 @@
+{
+  "purchase_id": "ord-00454",
+  "customer": {
+    "customer_id": "cus-102008",
+    "first_name": "Иосиф",
+    "last_name": "Зуев",
+    "email": "iosif.zuev@gmail.com",
+    "phone": "+7 766 757 96 34",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-DB9B3B1A5"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0082",
+      "name": "Гранат",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 188.02,
+      "total_price": 564.06,
+      "kbju": {
+        "calories": 72,
+        "protein": 0.9,
+        "fat": 0.3,
+        "carbohydrates": 14.5
+      }
+    },
+    {
+      "product_id": "prd-0098",
+      "name": "Помидоры",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 159.68,
+      "total_price": 159.68,
+      "kbju": {
+        "calories": 20,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carbohydrates": 4.0
+      }
+    },
+    {
+      "product_id": "prd-0044",
+      "name": "Пельмени",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 235.45,
+      "total_price": 470.9,
+      "kbju": {
+        "calories": 280,
+        "protein": 12.0,
+        "fat": 14.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0093",
+      "name": "Лайм",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 144.76,
+      "total_price": 144.76,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 10.5
+      }
+    }
+  ],
+  "total_amount": 1339.4,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "ул. Базарная",
+    "house": "38",
+    "apartment": "11",
+    "postal_code": "018921"
+  },
+  "purchase_datetime": "2025-04-14T16:50:56.921083Z"
+}

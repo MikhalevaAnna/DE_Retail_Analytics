@@ -1,0 +1,24 @@
+{
+  "id": "prd-0022",
+  "name": "Кускус",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Кускус.",
+  "kbju": {
+    "calories": 376,
+    "protein": 12.8,
+    "fat": 0.6,
+    "carbohydrates": 77.4
+  },
+  "price": 140.1,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 522,
+  "is_organic": false,
+  "barcode": "6665330419461",
+  "manufacturer": {
+    "name": "ООО Каравай",
+    "country": "Россия",
+    "website": "https://karavay.ru",
+    "inn": "7723456789"
+  }
+}

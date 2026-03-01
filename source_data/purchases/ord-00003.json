@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00003",
+  "customer": {
+    "customer_id": "cus-102087",
+    "first_name": "Виктория",
+    "last_name": "Муравьев",
+    "email": "viktoriia.muravev@rambler.ru",
+    "phone": "+7 707 730 06 35",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-444B6DCDB"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на пр. Находка",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "пр. Находка",
+      "house": "24",
+      "postal_code": "799974"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0048",
+      "name": "Молоко 3.2%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 97.36,
+      "total_price": 194.72,
+      "kbju": {
+        "calories": 60,
+        "protein": 2.9,
+        "fat": 3.2,
+        "carbohydrates": 4.7
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    }
+  ],
+  "total_amount": 194.72,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-02T16:50:56.680590Z"
+}

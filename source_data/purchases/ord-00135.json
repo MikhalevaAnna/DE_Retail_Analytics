@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00135",
+  "customer": {
+    "customer_id": "cus-102047",
+    "first_name": "Нинель",
+    "last_name": "Рогова",
+    "email": "ninel.rogova@mail.ru",
+    "phone": "+7 (783) 851-21-53",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8306AEDC7"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на ул. Евгенияа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Евгенияа",
+      "house": "1",
+      "postal_code": "271882"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0079",
+      "name": "Киви",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 104.37,
+      "total_price": 208.74,
+      "kbju": {
+        "calories": 47,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 8.1
+      }
+    },
+    {
+      "product_id": "prd-0061",
+      "name": "Сыр Моцарелла",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 441.75,
+      "total_price": 883.5,
+      "kbju": {
+        "calories": 280,
+        "protein": 22.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 1092.24,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-10-17T16:50:56.749590Z"
+}

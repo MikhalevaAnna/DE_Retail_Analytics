@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00207",
+  "customer": {
+    "customer_id": "cus-102053",
+    "first_name": "Варвара",
+    "last_name": "Воронов",
+    "email": "varvara.voronov@yandex.ru",
+    "phone": "8 519 030 01 45",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1B51C0597"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Дьячкова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "ул. Дьячкова",
+      "house": "39",
+      "postal_code": "826126"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0116",
+      "name": "Хрен",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 172.92,
+      "total_price": 172.92,
+      "kbju": {
+        "calories": 48,
+        "protein": 1.4,
+        "fat": 0.4,
+        "carbohydrates": 10.5
+      }
+    },
+    {
+      "product_id": "prd-0064",
+      "name": "Кумыс",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 115.47,
+      "total_price": 115.47,
+      "kbju": {
+        "calories": 50,
+        "protein": 2.5,
+        "fat": 2.0,
+        "carbohydrates": 5.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 288.39,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-19T16:50:56.788715Z"
+}

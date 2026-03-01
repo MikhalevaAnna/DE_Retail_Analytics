@@ -1,0 +1,108 @@
+{
+  "purchase_id": "ord-00025",
+  "customer": {
+    "customer_id": "cus-102043",
+    "first_name": "Чеслав",
+    "last_name": "Савин",
+    "email": "cheslav.savin@rambler.ru",
+    "phone": "+7 (426) 144-7585",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D4EA6A111"
+  },
+  "store": {
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ишим",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "пр. Ишим",
+      "house": "20",
+      "postal_code": "539395"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0004",
+      "name": "Лаваш армянский",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 68.88,
+      "total_price": 206.64,
+      "kbju": {
+        "calories": 236,
+        "protein": 7.0,
+        "fat": 1.0,
+        "carbohydrates": 48.0
+      }
+    },
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 1740.3,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0053",
+      "name": "Сыр Российский",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 658.87,
+      "total_price": 1317.74,
+      "kbju": {
+        "calories": 360,
+        "protein": 24.0,
+        "fat": 29.0,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    },
+    {
+      "product_id": "prd-0054",
+      "name": "Йогурт питьевой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 64.14,
+      "total_price": 128.28,
+      "kbju": {
+        "calories": 80,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 3392.96,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-07T16:50:56.692591Z"
+}

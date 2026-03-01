@@ -1,0 +1,89 @@
+{
+  "purchase_id": "ord-00380",
+  "customer": {
+    "customer_id": "cus-102018",
+    "first_name": "Будимир",
+    "last_name": "Турова",
+    "email": "budimir.turova@hotmail.com",
+    "phone": "+7 (231) 414-45-44",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EE34F81C0"
+  },
+  "store": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пер. Серова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Красноярск",
+      "street": "пер. Серова",
+      "house": "11",
+      "postal_code": "998228"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 119.59,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0054",
+      "name": "Йогурт питьевой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 64.14,
+      "total_price": 192.42,
+      "kbju": {
+        "calories": 80,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0006",
+      "name": "Крупа гречневая",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 112.67,
+      "total_price": 225.34,
+      "kbju": {
+        "calories": 308,
+        "protein": 12.6,
+        "fat": 3.3,
+        "carbohydrates": 57.1
+      }
+    }
+  ],
+  "total_amount": 537.35,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Красноярск",
+    "street": "пр. Троицкий",
+    "house": "33",
+    "apartment": "40",
+    "postal_code": "872990"
+  },
+  "purchase_datetime": "2025-05-24T16:50:56.883010Z"
+}

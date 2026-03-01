@@ -1,0 +1,24 @@
+{
+  "id": "prd-0036",
+  "name": "Кальмары",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Кальмары.",
+  "kbju": {
+    "calories": 92,
+    "protein": 18.0,
+    "fat": 1.2,
+    "carbohydrates": 2.0
+  },
+  "price": 392.03,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 7,
+  "is_organic": true,
+  "barcode": "7493868257472",
+  "manufacturer": {
+    "name": "ООО Птицефабрика",
+    "country": "Россия",
+    "website": "https://ptica.ru",
+    "inn": "7723456790"
+  }
+}

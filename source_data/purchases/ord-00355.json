@@ -1,0 +1,68 @@
+{
+  "purchase_id": "ord-00355",
+  "customer": {
+    "customer_id": "cus-102066",
+    "first_name": "Никандр",
+    "last_name": "Гаврилова",
+    "email": "nikandr.gavrilova@hotmail.com",
+    "phone": "+72376033008",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C3AB73F91"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ул. Фадеева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "ул. Фадеева",
+      "house": "8",
+      "postal_code": "646736"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 358.77,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0011",
+      "name": "Манка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 44.49,
+      "total_price": 44.49,
+      "kbju": {
+        "calories": 328,
+        "protein": 10.3,
+        "fat": 1.0,
+        "carbohydrates": 70.6
+      }
+    }
+  ],
+  "total_amount": 403.26,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "алл. Западная",
+    "house": "46",
+    "apartment": "39",
+    "postal_code": "431100"
+  },
+  "purchase_datetime": "2025-03-27T16:50:56.870558Z"
+}

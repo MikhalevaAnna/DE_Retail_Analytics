@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00226",
+  "customer": {
+    "customer_id": "cus-102047",
+    "first_name": "Нинель",
+    "last_name": "Рогова",
+    "email": "ninel.rogova@mail.ru",
+    "phone": "+7 (783) 851-21-53",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8306AEDC7"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на ул. Евгенияа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Евгенияа",
+      "house": "1",
+      "postal_code": "271882"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 159.18,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    },
+    {
+      "product_id": "prd-0038",
+      "name": "Горох",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 65.34,
+      "total_price": 65.34,
+      "kbju": {
+        "calories": 298,
+        "protein": 20.5,
+        "fat": 2.0,
+        "carbohydrates": 53.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0081",
+      "name": "Нектарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 157.4,
+      "total_price": 157.4,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 10.6
+      }
+    }
+  ],
+  "total_amount": 381.92,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-09-24T16:50:56.798756Z"
+}

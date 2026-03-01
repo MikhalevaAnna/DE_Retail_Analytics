@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00246",
+  "customer": {
+    "customer_id": "cus-102045",
+    "first_name": "Раиса",
+    "last_name": "Ковалева",
+    "email": "raisa.kovaleva@gmail.com",
+    "phone": "+7 261 941 0639",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EE2BA17CC"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на пр. Апшеронск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Казань",
+      "street": "пр. Апшеронск",
+      "house": "6",
+      "postal_code": "973734"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0075",
+      "name": "Виноград",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 168.65,
+      "total_price": 168.65,
+      "kbju": {
+        "calories": 69,
+        "protein": 0.6,
+        "fat": 0.3,
+        "carbohydrates": 16.0
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 326.52,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    }
+  ],
+  "total_amount": 495.17,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-28T16:50:56.809856Z"
+}

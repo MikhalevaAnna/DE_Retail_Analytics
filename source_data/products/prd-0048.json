@@ -1,0 +1,24 @@
+{
+  "id": "prd-0048",
+  "name": "Молоко 3.2%",
+  "group": "🥛 Молочные продукты",
+  "description": "Молоко 3.2%.",
+  "kbju": {
+    "calories": 60,
+    "protein": 2.9,
+    "fat": 3.2,
+    "carbohydrates": 4.7
+  },
+  "price": 97.36,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 8,
+  "is_organic": true,
+  "barcode": "3845922709771",
+  "manufacturer": {
+    "name": "АО Молочный Комбинат",
+    "country": "Россия",
+    "website": "https://moloko.ru",
+    "inn": "7712345680"
+  }
+}

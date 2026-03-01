@@ -1,0 +1,24 @@
+{
+  "id": "prd-0109",
+  "name": "Редис",
+  "group": "🥦 Овощи и зелень",
+  "description": "Редис.",
+  "kbju": {
+    "calories": 16,
+    "protein": 0.7,
+    "fat": 0.1,
+    "carbohydrates": 3.4
+  },
+  "price": 88.97,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 5,
+  "is_organic": false,
+  "barcode": "2306791024569",
+  "manufacturer": {
+    "name": "ЗАО Зеленая грядка",
+    "country": "Россия",
+    "website": "https://greenbed.ru",
+    "inn": "7734567894"
+  }
+}

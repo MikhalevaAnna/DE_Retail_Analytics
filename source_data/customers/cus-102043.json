@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102043",
+  "first_name": "Чеслав",
+  "last_name": "Савин",
+  "email": "cheslav.savin@rambler.ru",
+  "phone": "+7 (426) 144-7585",
+  "birth_date": "2003-06-15",
+  "gender": "male",
+  "registration_date": "2024-12-23T16:50:56.655590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-D4EA6A111",
+  "purchase_location": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на наб. Озерная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "наб. Озерная",
+    "house": "6",
+    "postal_code": "143031"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "ул. Кузнецова",
+    "house": "50",
+    "apartment": "16",
+    "postal_code": "286977"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "online",
+    "receive_promotions": true
+  }
+}

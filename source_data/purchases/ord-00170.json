@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00170",
+  "customer": {
+    "customer_id": "cus-102064",
+    "first_name": "Конон",
+    "last_name": "Никитина",
+    "email": "konon.nikitina@rambler.ru",
+    "phone": "88155432072",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-11571A106"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на ул. Эраста",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Иркутск",
+      "street": "ул. Эраста",
+      "house": "13",
+      "postal_code": "983181"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0091",
+      "name": "Дыня",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 89.77,
+      "total_price": 269.31,
+      "kbju": {
+        "calories": 35,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 8.0
+      }
+    }
+  ],
+  "total_amount": 269.31,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-13T16:50:56.768716Z"
+}

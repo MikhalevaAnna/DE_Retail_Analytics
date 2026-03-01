@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00476",
+  "customer": {
+    "customer_id": "cus-102040",
+    "first_name": "Наина",
+    "last_name": "Лихачев",
+    "email": "naina.likhachev@mail.ru",
+    "phone": "+7 (552) 041-3116",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AAA63D80E"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на бул. Свердлова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "бул. Свердлова",
+      "house": "32",
+      "postal_code": "152628"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 194.43,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    }
+  ],
+  "total_amount": 194.43,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-15T16:50:56.932083Z"
+}

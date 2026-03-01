@@ -1,0 +1,24 @@
+{
+  "id": "prd-0021",
+  "name": "Ржаные хлебцы",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Ржаные хлебцы.",
+  "kbju": {
+    "calories": 300,
+    "protein": 8.0,
+    "fat": 2.0,
+    "carbohydrates": 60.0
+  },
+  "price": 84.23,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 188,
+  "is_organic": true,
+  "barcode": "8729908313808",
+  "manufacturer": {
+    "name": "ООО Каравай",
+    "country": "Россия",
+    "website": "https://karavay.ru",
+    "inn": "7723456789"
+  }
+}

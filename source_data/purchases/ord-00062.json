@@ -1,0 +1,102 @@
+{
+  "purchase_id": "ord-00062",
+  "customer": {
+    "customer_id": "cus-102052",
+    "first_name": "Клавдий",
+    "last_name": "Терентьева",
+    "email": "klavdii.terenteva@yahoo.com",
+    "phone": "89995639956",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B6E31602D"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Дьячкова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "ул. Дьячкова",
+      "house": "39",
+      "postal_code": "826126"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0062",
+      "name": "Сыр Пармезан",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 845.19,
+      "total_price": 2535.57,
+      "kbju": {
+        "calories": 392,
+        "protein": 35.0,
+        "fat": 26.0,
+        "carbohydrates": 0.1
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0042",
+      "name": "Ветчина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 448.75,
+      "total_price": 897.5,
+      "kbju": {
+        "calories": 270,
+        "protein": 15.0,
+        "fat": 22.0,
+        "carbohydrates": 1.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0089",
+      "name": "Клюква",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 320.56,
+      "total_price": 641.12,
+      "kbju": {
+        "calories": 28,
+        "protein": 0.5,
+        "fat": 0.2,
+        "carbohydrates": 6.0
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 326.52,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    }
+  ],
+  "total_amount": 4400.71,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-06T16:50:56.711590Z"
+}

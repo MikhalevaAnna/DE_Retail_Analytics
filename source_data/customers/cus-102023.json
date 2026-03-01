@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102023",
+  "first_name": "Родион",
+  "last_name": "Гурьев",
+  "email": "rodion.gurev@mail.ru",
+  "phone": "8 730 509 76 10",
+  "birth_date": "2000-03-06",
+  "gender": "male",
+  "registration_date": "2025-11-03T16:50:56.645062Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-96E99A126",
+  "purchase_location": {
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на наб. Воронежская",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Саратов",
+    "street": "наб. Воронежская",
+    "house": "25",
+    "postal_code": "889871"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Саратов",
+    "street": "пер. 1 Мая",
+    "house": "32",
+    "apartment": "62",
+    "postal_code": "716164"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

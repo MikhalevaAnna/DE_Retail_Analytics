@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00457",
+  "customer": {
+    "customer_id": "cus-102060",
+    "first_name": "Элеонора",
+    "last_name": "Лыткин",
+    "email": "eleonora.lytkin@gmail.com",
+    "phone": "+7 (891) 553-1829",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D289F03B0"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ул. Лучезара",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Лучезара",
+      "house": "3",
+      "postal_code": "300397"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0071",
+      "name": "Бананы",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 96.92,
+      "total_price": 290.76,
+      "kbju": {
+        "calories": 96,
+        "protein": 1.5,
+        "fat": 0.5,
+        "carbohydrates": 21.0
+      }
+    }
+  ],
+  "total_amount": 290.76,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "ш. Медицинское",
+    "house": "9",
+    "apartment": "142",
+    "postal_code": "843347"
+  },
+  "purchase_datetime": "2025-12-19T16:50:56.922083Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0078",
+  "name": "Малина",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Малина.",
+  "kbju": {
+    "calories": 42,
+    "protein": 0.8,
+    "fat": 0.5,
+    "carbohydrates": 8.6
+  },
+  "price": 335.04,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 2,
+  "is_organic": false,
+  "barcode": "7311090687105",
+  "manufacturer": {
+    "name": "ООО Мир ягод",
+    "country": "Россия",
+    "website": "https://yagoda.ru",
+    "inn": "7745678904"
+  }
+}

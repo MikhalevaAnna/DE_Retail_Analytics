@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00340",
+  "customer": {
+    "customer_id": "cus-102075",
+    "first_name": "Мирон",
+    "last_name": "Фадеев",
+    "email": "miron.fadeev@yandex.ru",
+    "phone": "8 (247) 493-54-19",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-284FC0E93"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0029",
+      "name": "Котлеты",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 316.3,
+      "total_price": 948.9,
+      "kbju": {
+        "calories": 240,
+        "protein": 14.0,
+        "fat": 20.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0113",
+      "name": "Руккола",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 189.46,
+      "total_price": 568.38,
+      "kbju": {
+        "calories": 25,
+        "protein": 2.6,
+        "fat": 0.7,
+        "carbohydrates": 2.0
+      }
+    }
+  ],
+  "total_amount": 1517.28,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "пр. Победа",
+    "house": "27",
+    "apartment": "19",
+    "postal_code": "583730"
+  },
+  "purchase_datetime": "2025-03-31T16:50:56.862558Z"
+}

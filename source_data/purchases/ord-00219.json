@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00219",
+  "customer": {
+    "customer_id": "cus-102054",
+    "first_name": "Глеб",
+    "last_name": "Ефимов",
+    "email": "gleb.efimov@yandex.ru",
+    "phone": "+7 (653) 618-0726",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B554A06BD"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на пр. Жданова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тюмень",
+      "street": "пр. Жданова",
+      "house": "14",
+      "postal_code": "752365"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0116",
+      "name": "Хрен",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 172.92,
+      "total_price": 518.76,
+      "kbju": {
+        "calories": 48,
+        "protein": 1.4,
+        "fat": 0.4,
+        "carbohydrates": 10.5
+      }
+    }
+  ],
+  "total_amount": 518.76,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "ш. Горького",
+    "house": "7",
+    "apartment": "81",
+    "postal_code": "052145"
+  },
+  "purchase_datetime": "2025-09-14T16:50:56.794715Z"
+}

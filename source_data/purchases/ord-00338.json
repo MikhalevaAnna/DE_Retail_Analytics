@@ -1,0 +1,114 @@
+{
+  "purchase_id": "ord-00338",
+  "customer": {
+    "customer_id": "cus-102014",
+    "first_name": "Твердислав",
+    "last_name": "Королева",
+    "email": "tverdislav.koroleva@gmail.com",
+    "phone": "8 767 850 20 33",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9E5FE8A02"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ул. Аксеноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Челябинск",
+      "street": "ул. Аксеноваа",
+      "house": "29",
+      "postal_code": "749962"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0054",
+      "name": "Йогурт питьевой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 64.14,
+      "total_price": 64.14,
+      "kbju": {
+        "calories": 80,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0061",
+      "name": "Сыр Моцарелла",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 441.75,
+      "total_price": 441.75,
+      "kbju": {
+        "calories": 280,
+        "protein": 22.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0058",
+      "name": "Сыр плавленый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 66.59,
+      "total_price": 66.59,
+      "kbju": {
+        "calories": 240,
+        "protein": 12.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0069",
+      "name": "Сыр козий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 664.85,
+      "total_price": 664.85,
+      "kbju": {
+        "calories": 290,
+        "protein": 18.0,
+        "fat": 23.0,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 1237.33,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-22T16:50:56.861559Z"
+}

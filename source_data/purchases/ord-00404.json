@@ -1,0 +1,75 @@
+{
+  "purchase_id": "ord-00404",
+  "customer": {
+    "customer_id": "cus-102043",
+    "first_name": "Чеслав",
+    "last_name": "Савин",
+    "email": "cheslav.savin@rambler.ru",
+    "phone": "+7 (426) 144-7585",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D4EA6A111"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на наб. Озерная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "наб. Озерная",
+      "house": "6",
+      "postal_code": "143031"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0105",
+      "name": "Свекла",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 43.49,
+      "total_price": 130.47,
+      "kbju": {
+        "calories": 43,
+        "protein": 1.6,
+        "fat": 0.2,
+        "carbohydrates": 8.8
+      }
+    },
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 194.43,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    },
+    {
+      "product_id": "prd-0099",
+      "name": "Огурцы",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 96.43,
+      "total_price": 96.43,
+      "kbju": {
+        "calories": 15,
+        "protein": 0.8,
+        "fat": 0.1,
+        "carbohydrates": 3.0
+      }
+    }
+  ],
+  "total_amount": 421.33,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-05T16:50:56.895051Z"
+}

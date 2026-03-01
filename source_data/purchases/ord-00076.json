@@ -1,0 +1,123 @@
+{
+  "purchase_id": "ord-00076",
+  "customer": {
+    "customer_id": "cus-102079",
+    "first_name": "Мартын",
+    "last_name": "Гусев",
+    "email": "martyn.gusev@gmail.com",
+    "phone": "+7 587 191 28 11",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-87BA1671D"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0063",
+      "name": "Творог зерненый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 105.17,
+      "total_price": 315.51,
+      "kbju": {
+        "calories": 110,
+        "protein": 12.0,
+        "fat": 5.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0005",
+      "name": "Булочка с маком",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 44.28,
+      "total_price": 88.56,
+      "kbju": {
+        "calories": 310,
+        "protein": 8.0,
+        "fat": 5.0,
+        "carbohydrates": 55.0
+      }
+    },
+    {
+      "product_id": "prd-0047",
+      "name": "Сельдь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 193.4,
+      "total_price": 386.8,
+      "kbju": {
+        "calories": 161,
+        "protein": 17.0,
+        "fat": 10.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0021",
+      "name": "Ржаные хлебцы",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 84.23,
+      "total_price": 84.23,
+      "kbju": {
+        "calories": 300,
+        "protein": 8.0,
+        "fat": 2.0,
+        "carbohydrates": 60.0
+      }
+    },
+    {
+      "product_id": "prd-0042",
+      "name": "Ветчина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 448.75,
+      "total_price": 897.5,
+      "kbju": {
+        "calories": 270,
+        "protein": 15.0,
+        "fat": 22.0,
+        "carbohydrates": 1.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 1772.6,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-18T16:50:56.718590Z"
+}

@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00191",
+  "customer": {
+    "customer_id": "cus-102012",
+    "first_name": "Галактион",
+    "last_name": "Кулагина",
+    "email": "galaktion.kulagina@gmail.com",
+    "phone": "8 (261) 721-2266",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-03A4C258F"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на ул. Трифона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Трифона",
+      "house": "15",
+      "postal_code": "777632"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0007",
+      "name": "Рис круглозерный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 97.72,
+      "total_price": 97.72,
+      "kbju": {
+        "calories": 330,
+        "protein": 6.7,
+        "fat": 0.7,
+        "carbohydrates": 78.9
+      }
+    }
+  ],
+  "total_amount": 97.72,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-24T16:50:56.779715Z"
+}

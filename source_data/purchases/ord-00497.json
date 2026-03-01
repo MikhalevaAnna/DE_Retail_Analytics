@@ -1,0 +1,125 @@
+{
+  "purchase_id": "ord-00497",
+  "customer": {
+    "customer_id": "cus-102001",
+    "first_name": "Мефодий",
+    "last_name": "Киселева",
+    "email": "mefodii.kiseleva@yandex.ru",
+    "phone": "87271425630",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-5980C86E2"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0028",
+      "name": "Фарш говяжий",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 359.9,
+      "total_price": 359.9,
+      "kbju": {
+        "calories": 190,
+        "protein": 17.0,
+        "fat": 14.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 583.29,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    },
+    {
+      "product_id": "prd-0112",
+      "name": "Зеленый лук",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 77.86,
+      "total_price": 233.58,
+      "kbju": {
+        "calories": 32,
+        "protein": 1.3,
+        "fat": 0.1,
+        "carbohydrates": 5.7
+      }
+    },
+    {
+      "product_id": "prd-0050",
+      "name": "Творог 5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 131.29,
+      "total_price": 131.29,
+      "kbju": {
+        "calories": 121,
+        "protein": 16.5,
+        "fat": 5.0,
+        "carbohydrates": 3.3
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0083",
+      "name": "Хурма",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 165.51,
+      "total_price": 331.02,
+      "kbju": {
+        "calories": 67,
+        "protein": 0.5,
+        "fat": 0.4,
+        "carbohydrates": 16.0
+      }
+    }
+  ],
+  "total_amount": 1639.08,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "бул. Короленко",
+    "house": "22",
+    "apartment": "68",
+    "postal_code": "502320"
+  },
+  "purchase_datetime": "2025-05-21T16:50:56.942083Z"
+}

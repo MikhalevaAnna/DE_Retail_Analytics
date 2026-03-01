@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00445",
+  "customer": {
+    "customer_id": "cus-102081",
+    "first_name": "Фадей",
+    "last_name": "Агафонов",
+    "email": "fadei.agafonov@hotmail.com",
+    "phone": "+7 (950) 708-65-72",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B32BC6967"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0080",
+      "name": "Персики",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 193.6,
+      "total_price": 193.6,
+      "kbju": {
+        "calories": 45,
+        "protein": 0.9,
+        "fat": 0.1,
+        "carbohydrates": 9.5
+      }
+    },
+    {
+      "product_id": "prd-0027",
+      "name": "Свинина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 392.61,
+      "total_price": 785.22,
+      "kbju": {
+        "calories": 259,
+        "protein": 16.0,
+        "fat": 21.7,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 978.82,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-06T16:50:56.916083Z"
+}

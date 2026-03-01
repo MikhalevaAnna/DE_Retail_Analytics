@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00424",
+  "customer": {
+    "customer_id": "cus-102067",
+    "first_name": "Тихон",
+    "last_name": "Соболева",
+    "email": "tikhon.soboleva@rambler.ru",
+    "phone": "8 996 033 3307",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-DDCEA0C8C"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на пр. Нефтекамск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "пр. Нефтекамск",
+      "house": "8",
+      "postal_code": "016782"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0033",
+      "name": "Минтай",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 247.87,
+      "total_price": 743.61,
+      "kbju": {
+        "calories": 72,
+        "protein": 15.9,
+        "fat": 0.9,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0103",
+      "name": "Шпинат",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 117.06,
+      "total_price": 117.06,
+      "kbju": {
+        "calories": 23,
+        "protein": 2.9,
+        "fat": 0.4,
+        "carbohydrates": 3.6
+      }
+    }
+  ],
+  "total_amount": 860.67,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-21T16:50:56.905083Z"
+}

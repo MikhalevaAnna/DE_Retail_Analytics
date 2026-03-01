@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00299",
+  "customer": {
+    "customer_id": "cus-102006",
+    "first_name": "Евлампий",
+    "last_name": "Щербаков",
+    "email": "evlampii.shcherbakov@mail.ru",
+    "phone": "8 526 266 8999",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AE253DB99"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пр. Охотск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "пр. Охотск",
+      "house": "33",
+      "postal_code": "898849"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 61.08,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    },
+    {
+      "product_id": "prd-0062",
+      "name": "Сыр Пармезан",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 845.19,
+      "total_price": 2535.57,
+      "kbju": {
+        "calories": 392,
+        "protein": 35.0,
+        "fat": 26.0,
+        "carbohydrates": 0.1
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    }
+  ],
+  "total_amount": 2596.65,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "ул. Народная",
+    "house": "37",
+    "apartment": "110",
+    "postal_code": "494529"
+  },
+  "purchase_datetime": "2025-07-02T16:50:56.839956Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0059",
+  "name": "Мороженое пломбир",
+  "group": "🥛 Молочные продукты",
+  "description": "Мороженое пломбир.",
+  "kbju": {
+    "calories": 232,
+    "protein": 3.7,
+    "fat": 15.0,
+    "carbohydrates": 20.4
+  },
+  "price": 93.14,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 216,
+  "is_organic": false,
+  "barcode": "3673367494354",
+  "manufacturer": {
+    "name": "ООО Домик в деревне",
+    "country": "Россия",
+    "website": "https://domik.ru",
+    "inn": "7745678903"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00442",
+  "customer": {
+    "customer_id": "cus-102071",
+    "first_name": "Мокей",
+    "last_name": "Мамонтов",
+    "email": "mokei.mamontov@yandex.ru",
+    "phone": "8 (147) 550-9453",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-99AB8D2B5"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на ул. Евгенияа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Евгенияа",
+      "house": "1",
+      "postal_code": "271882"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0029",
+      "name": "Котлеты",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 316.3,
+      "total_price": 316.3,
+      "kbju": {
+        "calories": 240,
+        "protein": 14.0,
+        "fat": 20.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0091",
+      "name": "Дыня",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 89.77,
+      "total_price": 179.54,
+      "kbju": {
+        "calories": 35,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 8.0
+      }
+    }
+  ],
+  "total_amount": 495.84,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Санкт-Петербург",
+    "street": "бул. Пожарского",
+    "house": "7",
+    "apartment": "12",
+    "postal_code": "187086"
+  },
+  "purchase_datetime": "2026-01-23T16:50:56.915083Z"
+}

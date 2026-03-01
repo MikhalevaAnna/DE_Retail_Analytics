@@ -1,0 +1,123 @@
+{
+  "purchase_id": "ord-00262",
+  "customer": {
+    "customer_id": "cus-102015",
+    "first_name": "Валерия",
+    "last_name": "Громова",
+    "email": "valeriia.gromova@yandex.ru",
+    "phone": "8 (245) 000-33-25",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4489EA5D7"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ул. Аксеноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Челябинск",
+      "street": "ул. Аксеноваа",
+      "house": "29",
+      "postal_code": "749962"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0026",
+      "name": "Говядина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 495.77,
+      "total_price": 991.54,
+      "kbju": {
+        "calories": 187,
+        "protein": 18.9,
+        "fat": 12.4,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0002",
+      "name": "Хлеб пшеничный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 35.14,
+      "total_price": 105.42,
+      "kbju": {
+        "calories": 260,
+        "protein": 8.1,
+        "fat": 1.2,
+        "carbohydrates": 48.8
+      }
+    },
+    {
+      "product_id": "prd-0033",
+      "name": "Минтай",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 247.87,
+      "total_price": 247.87,
+      "kbju": {
+        "calories": 72,
+        "protein": 15.9,
+        "fat": 0.9,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0101",
+      "name": "Брокколи",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 178.19,
+      "total_price": 178.19,
+      "kbju": {
+        "calories": 34,
+        "protein": 2.8,
+        "fat": 0.4,
+        "carbohydrates": 6.6
+      }
+    },
+    {
+      "product_id": "prd-0047",
+      "name": "Сельдь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 193.4,
+      "total_price": 193.4,
+      "kbju": {
+        "calories": 161,
+        "protein": 17.0,
+        "fat": 10.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 1716.42,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-28T16:50:56.817954Z"
+}

@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00374",
+  "customer": {
+    "customer_id": "cus-102006",
+    "first_name": "Евлампий",
+    "last_name": "Щербаков",
+    "email": "evlampii.shcherbakov@mail.ru",
+    "phone": "8 526 266 8999",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AE253DB99"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пр. Охотск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "пр. Охотск",
+      "house": "33",
+      "postal_code": "898849"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0030",
+      "name": "Яйцо куриное С1",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 95.19,
+      "total_price": 95.19,
+      "kbju": {
+        "calories": 155,
+        "protein": 12.7,
+        "fat": 10.9,
+        "carbohydrates": 0.7
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0073",
+      "name": "Лимоны",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 108.99,
+      "total_price": 108.99,
+      "kbju": {
+        "calories": 34,
+        "protein": 0.8,
+        "fat": 0.2,
+        "carbohydrates": 5.4
+      }
+    },
+    {
+      "product_id": "prd-0097",
+      "name": "Капуста белокочанная",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 50.53,
+      "total_price": 151.59,
+      "kbju": {
+        "calories": 28,
+        "protein": 1.8,
+        "fat": 0.1,
+        "carbohydrates": 4.7
+      }
+    }
+  ],
+  "total_amount": 355.77,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-07T16:50:56.880434Z"
+}

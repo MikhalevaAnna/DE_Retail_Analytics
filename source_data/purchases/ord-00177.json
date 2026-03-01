@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00177",
+  "customer": {
+    "customer_id": "cus-102073",
+    "first_name": "Натан",
+    "last_name": "Кошелев",
+    "email": "natan.koshelev@rambler.ru",
+    "phone": "89833534675",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-F9D05BCD8"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на ул. Евгенияа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Евгенияа",
+      "house": "1",
+      "postal_code": "271882"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0067",
+      "name": "Йогурт густой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 62.09,
+      "total_price": 124.18,
+      "kbju": {
+        "calories": 100,
+        "protein": 4.0,
+        "fat": 3.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    }
+  ],
+  "total_amount": 124.18,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Санкт-Петербург",
+    "street": "бул. Братский",
+    "house": "40",
+    "apartment": "54",
+    "postal_code": "589058"
+  },
+  "purchase_datetime": "2025-08-12T16:50:56.772716Z"
+}

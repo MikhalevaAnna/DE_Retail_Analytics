@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00360",
+  "customer": {
+    "customer_id": "cus-102049",
+    "first_name": "Карл",
+    "last_name": "Гусев",
+    "email": "karl.gusev@mail.ru",
+    "phone": "8 (333) 500-9013",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-765EF4E22"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на ул. Блохинаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "ул. Блохинаа",
+      "house": "10",
+      "postal_code": "842894"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0099",
+      "name": "Огурцы",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 96.43,
+      "total_price": 192.86,
+      "kbju": {
+        "calories": 15,
+        "protein": 0.8,
+        "fat": 0.1,
+        "carbohydrates": 3.0
+      }
+    }
+  ],
+  "total_amount": 192.86,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "пр. Трудовой",
+    "house": "41",
+    "apartment": "84",
+    "postal_code": "941246"
+  },
+  "purchase_datetime": "2026-01-04T16:50:56.873037Z"
+}

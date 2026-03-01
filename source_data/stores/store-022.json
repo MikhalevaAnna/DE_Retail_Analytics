@@ -1,0 +1,39 @@
+{
+  "store_id": "store-022",
+  "store_name": "Большая Пикча — Магазин на пр. Апшеронск",
+  "store_network": "Большая Пикча",
+  "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Ерофей Адамович Филатов",
+    "phone": "+7 (061) 468-78-64",
+    "email": "anisim_52@example.org"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Казань",
+    "street": "пр. Апшеронск",
+    "house": "6",
+    "postal_code": "973734",
+    "coordinates": {
+      "latitude": -74.188591,
+      "longitude": -36.24422
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "09:00-21:00",
+    "sat": "10:00-20:00",
+    "sun": "10:00-18:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": false,
+  "last_inventory_date": "2026-02-06"
+}

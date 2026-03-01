@@ -1,0 +1,98 @@
+{
+  "purchase_id": "ord-00075",
+  "customer": {
+    "customer_id": "cus-102085",
+    "first_name": "Марина",
+    "last_name": "Кулаков",
+    "email": "marina.kulakov@gmail.com",
+    "phone": "+76309783580",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-FDAE6BA6B"
+  },
+  "store": {
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ишим",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "пр. Ишим",
+      "house": "20",
+      "postal_code": "539395"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0096",
+      "name": "Лук репчатый",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 30.2,
+      "total_price": 60.4,
+      "kbju": {
+        "calories": 40,
+        "protein": 1.4,
+        "fat": 0.2,
+        "carbohydrates": 8.2
+      }
+    },
+    {
+      "product_id": "prd-0097",
+      "name": "Капуста белокочанная",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 50.53,
+      "total_price": 151.59,
+      "kbju": {
+        "calories": 28,
+        "protein": 1.8,
+        "fat": 0.1,
+        "carbohydrates": 4.7
+      }
+    },
+    {
+      "product_id": "prd-0090",
+      "name": "Арбуз",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 66.85,
+      "total_price": 133.7,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0001",
+      "name": "Хлеб ржаной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 57.42,
+      "total_price": 57.42,
+      "kbju": {
+        "calories": 165,
+        "protein": 6.6,
+        "fat": 1.2,
+        "carbohydrates": 33.4
+      }
+    }
+  ],
+  "total_amount": 403.11,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "наб. Комарова",
+    "house": "17",
+    "apartment": "123",
+    "postal_code": "951213"
+  },
+  "purchase_datetime": "2025-03-05T16:50:56.717590Z"
+}

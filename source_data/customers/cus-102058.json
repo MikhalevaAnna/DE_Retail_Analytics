@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102058",
+  "first_name": "Ксения",
+  "last_name": "Сысоева",
+  "email": "kseniia.sysoeva@mail.ru",
+  "phone": "8 065 801 6708",
+  "birth_date": "1978-04-22",
+  "gender": "female",
+  "registration_date": "2026-02-02T16:50:56.663590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-A0D86168D",
+  "purchase_location": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "пр. Асбест",
+    "house": "35",
+    "postal_code": "639666"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "ул. Безымянная",
+    "house": "23",
+    "apartment": "16",
+    "postal_code": "006911"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

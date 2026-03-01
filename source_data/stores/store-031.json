@@ -1,0 +1,39 @@
+{
+  "store_id": "store-031",
+  "store_name": "Маленькая Пикча — Магазин на бул. Макаренко",
+  "store_network": "Маленькая Пикча",
+  "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Савватий Адрианович Сидоров",
+    "phone": "+7 575 181 96 27",
+    "email": "amos_2023@example.net"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Пермь",
+    "street": "бул. Макаренко",
+    "house": "4",
+    "postal_code": "911255",
+    "coordinates": {
+      "latitude": -38.6840055,
+      "longitude": -71.312594
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "08:00-22:00",
+    "sat": "09:00-21:00",
+    "sun": "09:00-20:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": false,
+  "warehouse_connected": false,
+  "last_inventory_date": "2026-01-26"
+}

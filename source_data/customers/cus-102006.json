@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102006",
+  "first_name": "Евлампий",
+  "last_name": "Щербаков",
+  "email": "evlampii.shcherbakov@mail.ru",
+  "phone": "8 526 266 8999",
+  "birth_date": "2006-04-25",
+  "gender": "female",
+  "registration_date": "2025-07-14T16:50:56.636063Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-AE253DB99",
+  "purchase_location": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Дьячкова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "ул. Дьячкова",
+    "house": "39",
+    "postal_code": "826126"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "ул. Народная",
+    "house": "37",
+    "apartment": "110",
+    "postal_code": "494529"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "online",
+    "receive_promotions": true
+  }
+}

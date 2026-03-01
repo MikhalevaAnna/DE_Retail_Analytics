@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102064",
+  "first_name": "Конон",
+  "last_name": "Никитина",
+  "email": "konon.nikitina@rambler.ru",
+  "phone": "88155432072",
+  "birth_date": "1995-11-13",
+  "gender": "male",
+  "registration_date": "2025-03-31T16:50:56.666590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-11571A106",
+  "purchase_location": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на ул. Эраста",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Иркутск",
+    "street": "ул. Эраста",
+    "house": "13",
+    "postal_code": "983181"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Иркутск",
+    "street": "бул. Крымский",
+    "house": "3",
+    "apartment": "12",
+    "postal_code": "188425"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

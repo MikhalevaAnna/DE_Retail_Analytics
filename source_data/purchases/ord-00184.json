@@ -1,0 +1,117 @@
+{
+  "purchase_id": "ord-00184",
+  "customer": {
+    "customer_id": "cus-102042",
+    "first_name": "Артемий",
+    "last_name": "Соловьев",
+    "email": "artemii.solovev@yandex.ru",
+    "phone": "8 839 324 1633",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2039E9B14"
+  },
+  "store": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на пр. Коломна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тольятти",
+      "street": "пр. Коломна",
+      "house": "29",
+      "postal_code": "595083"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0099",
+      "name": "Огурцы",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 96.43,
+      "total_price": 96.43,
+      "kbju": {
+        "calories": 15,
+        "protein": 0.8,
+        "fat": 0.1,
+        "carbohydrates": 3.0
+      }
+    },
+    {
+      "product_id": "prd-0013",
+      "name": "Ячневая крупа",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 36.9,
+      "total_price": 36.9,
+      "kbju": {
+        "calories": 313,
+        "protein": 10.4,
+        "fat": 1.1,
+        "carbohydrates": 65.4
+      }
+    },
+    {
+      "product_id": "prd-0039",
+      "name": "Чечевица",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 125.07,
+      "total_price": 125.07,
+      "kbju": {
+        "calories": 295,
+        "protein": 24.0,
+        "fat": 1.5,
+        "carbohydrates": 46.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0108",
+      "name": "Тыква",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 52.67,
+      "total_price": 158.01,
+      "kbju": {
+        "calories": 26,
+        "protein": 1.0,
+        "fat": 0.1,
+        "carbohydrates": 6.5
+      }
+    },
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 108.98,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 525.39,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-07T16:50:56.775715Z"
+}

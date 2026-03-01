@@ -1,0 +1,104 @@
+{
+  "purchase_id": "ord-00196",
+  "customer": {
+    "customer_id": "cus-102013",
+    "first_name": "Моисей",
+    "last_name": "Блинова",
+    "email": "moisei.blinova@yahoo.com",
+    "phone": "+7 742 569 5571",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C0192FCB6"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на ул. Трифона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Трифона",
+      "house": "15",
+      "postal_code": "777632"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0089",
+      "name": "Клюква",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 320.56,
+      "total_price": 320.56,
+      "kbju": {
+        "calories": 28,
+        "protein": 0.5,
+        "fat": 0.2,
+        "carbohydrates": 6.0
+      }
+    },
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 122.16,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    },
+    {
+      "product_id": "prd-0059",
+      "name": "Мороженое пломбир",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 93.14,
+      "total_price": 279.42,
+      "kbju": {
+        "calories": 232,
+        "protein": 3.7,
+        "fat": 15.0,
+        "carbohydrates": 20.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0007",
+      "name": "Рис круглозерный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 97.72,
+      "total_price": 195.44,
+      "kbju": {
+        "calories": 330,
+        "protein": 6.7,
+        "fat": 0.7,
+        "carbohydrates": 78.9
+      }
+    }
+  ],
+  "total_amount": 917.58,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "ул. Дальняя",
+    "house": "34",
+    "apartment": "51",
+    "postal_code": "172356"
+  },
+  "purchase_datetime": "2026-01-03T16:50:56.782715Z"
+}

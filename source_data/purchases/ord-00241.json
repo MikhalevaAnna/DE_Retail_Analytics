@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00241",
+  "customer": {
+    "customer_id": "cus-102034",
+    "first_name": "Твердислав",
+    "last_name": "Лобанов",
+    "email": "tverdislav.lobanov@yahoo.com",
+    "phone": "+7 (289) 258-24-79",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-551E6F87A"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Сосновый Бор",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Иркутск",
+      "street": "пр. Сосновый Бор",
+      "house": "19",
+      "postal_code": "844167"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0038",
+      "name": "Горох",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 65.34,
+      "total_price": 130.68,
+      "kbju": {
+        "calories": 298,
+        "protein": 20.5,
+        "fat": 2.0,
+        "carbohydrates": 53.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 130.68,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Иркутск",
+    "street": "пр. Виноградный",
+    "house": "39",
+    "apartment": "132",
+    "postal_code": "274420"
+  },
+  "purchase_datetime": "2025-12-29T16:50:56.806856Z"
+}

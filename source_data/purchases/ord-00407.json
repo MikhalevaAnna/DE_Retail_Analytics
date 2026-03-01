@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00407",
+  "customer": {
+    "customer_id": "cus-102043",
+    "first_name": "Чеслав",
+    "last_name": "Савин",
+    "email": "cheslav.savin@rambler.ru",
+    "phone": "+7 (426) 144-7585",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D4EA6A111"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на наб. Озерная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "наб. Озерная",
+      "house": "6",
+      "postal_code": "143031"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0098",
+      "name": "Помидоры",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 159.68,
+      "total_price": 479.04,
+      "kbju": {
+        "calories": 20,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carbohydrates": 4.0
+      }
+    },
+    {
+      "product_id": "prd-0050",
+      "name": "Творог 5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 131.29,
+      "total_price": 262.58,
+      "kbju": {
+        "calories": 121,
+        "protein": 16.5,
+        "fat": 5.0,
+        "carbohydrates": 3.3
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 741.62,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "ул. Кузнецова",
+    "house": "50",
+    "apartment": "16",
+    "postal_code": "286977"
+  },
+  "purchase_datetime": "2025-05-25T16:50:56.897082Z"
+}

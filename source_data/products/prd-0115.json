@@ -1,0 +1,24 @@
+{
+  "id": "prd-0115",
+  "name": "Имбирь",
+  "group": "🥦 Овощи и зелень",
+  "description": "Имбирь.",
+  "kbju": {
+    "calories": 80,
+    "protein": 1.8,
+    "fat": 0.8,
+    "carbohydrates": 17.8
+  },
+  "price": 170.21,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 26,
+  "is_organic": true,
+  "barcode": "6085815169986",
+  "manufacturer": {
+    "name": "АПК Агрокультура",
+    "country": "Россия",
+    "website": "https://agro.ru",
+    "inn": "7756789016"
+  }
+}

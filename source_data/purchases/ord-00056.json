@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00056",
+  "customer": {
+    "customer_id": "cus-102020",
+    "first_name": "Всемил",
+    "last_name": "Шубина",
+    "email": "vsemil.shubina@hotmail.com",
+    "phone": "8 885 330 7515",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AE798FD74"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Воронеж",
+      "street": "ул. Назароваа",
+      "house": "34",
+      "postal_code": "502070"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0036",
+      "name": "Кальмары",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 392.03,
+      "total_price": 784.06,
+      "kbju": {
+        "calories": 92,
+        "protein": 18.0,
+        "fat": 1.2,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0006",
+      "name": "Крупа гречневая",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 112.67,
+      "total_price": 112.67,
+      "kbju": {
+        "calories": 308,
+        "protein": 12.6,
+        "fat": 3.3,
+        "carbohydrates": 57.1
+      }
+    },
+    {
+      "product_id": "prd-0103",
+      "name": "Шпинат",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 117.06,
+      "total_price": 234.12,
+      "kbju": {
+        "calories": 23,
+        "protein": 2.9,
+        "fat": 0.4,
+        "carbohydrates": 3.6
+      }
+    }
+  ],
+  "total_amount": 1130.85,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-17T16:50:56.708590Z"
+}

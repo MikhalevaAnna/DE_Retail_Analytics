@@ -1,0 +1,108 @@
+{
+  "purchase_id": "ord-00259",
+  "customer": {
+    "customer_id": "cus-102009",
+    "first_name": "Тихон",
+    "last_name": "Потапова",
+    "email": "tikhon.potapova@rambler.ru",
+    "phone": "+7 655 577 2836",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B412CAC75"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0052",
+      "name": "Масло сливочное",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 202.67,
+      "total_price": 405.34,
+      "kbju": {
+        "calories": 748,
+        "protein": 0.5,
+        "fat": 82.5,
+        "carbohydrates": 0.8
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0049",
+      "name": "Кефир 2.5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 85.31,
+      "total_price": 255.93,
+      "kbju": {
+        "calories": 50,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0021",
+      "name": "Ржаные хлебцы",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 84.23,
+      "total_price": 168.46,
+      "kbju": {
+        "calories": 300,
+        "protein": 8.0,
+        "fat": 2.0,
+        "carbohydrates": 60.0
+      }
+    },
+    {
+      "product_id": "prd-0025",
+      "name": "Куриное филе",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 265.39,
+      "total_price": 530.78,
+      "kbju": {
+        "calories": 110,
+        "protein": 23.0,
+        "fat": 1.2,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 1360.51,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-15T16:50:56.816953Z"
+}

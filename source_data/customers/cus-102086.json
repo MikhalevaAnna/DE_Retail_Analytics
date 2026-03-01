@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102086",
+  "first_name": "Любим",
+  "last_name": "Соловьев",
+  "email": "liubim.solovev@yahoo.com",
+  "phone": "+7 643 923 1884",
+  "birth_date": "1999-06-19",
+  "gender": "female",
+  "registration_date": "2024-12-18T16:50:56.678590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-5852B1865",
+  "purchase_location": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ул. Емельяноваа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Ижевск",
+    "street": "ул. Емельяноваа",
+    "house": "6",
+    "postal_code": "482671"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ижевск",
+    "street": "пр. Олега Кошевого",
+    "house": "26",
+    "apartment": "133",
+    "postal_code": "357769"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0107",
+  "name": "Баклажаны",
+  "group": "🥦 Овощи и зелень",
+  "description": "Баклажаны.",
+  "kbju": {
+    "calories": 24,
+    "protein": 1.0,
+    "fat": 0.2,
+    "carbohydrates": 5.5
+  },
+  "price": 108.62,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 9,
+  "is_organic": false,
+  "barcode": "2022415661292",
+  "manufacturer": {
+    "name": "АПК Агрокультура",
+    "country": "Россия",
+    "website": "https://agro.ru",
+    "inn": "7756789016"
+  }
+}

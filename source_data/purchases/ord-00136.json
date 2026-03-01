@@ -1,0 +1,104 @@
+{
+  "purchase_id": "ord-00136",
+  "customer": {
+    "customer_id": "cus-102082",
+    "first_name": "Радим",
+    "last_name": "Елисеева",
+    "email": "radim.eliseeva@yahoo.com",
+    "phone": "+7 (633) 145-8778",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C47BC7587"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0108",
+      "name": "Тыква",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 52.67,
+      "total_price": 105.34,
+      "kbju": {
+        "calories": 26,
+        "protein": 1.0,
+        "fat": 0.1,
+        "carbohydrates": 6.5
+      }
+    },
+    {
+      "product_id": "prd-0075",
+      "name": "Виноград",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 168.65,
+      "total_price": 505.95,
+      "kbju": {
+        "calories": 69,
+        "protein": 0.6,
+        "fat": 0.3,
+        "carbohydrates": 16.0
+      }
+    },
+    {
+      "product_id": "prd-0025",
+      "name": "Куриное филе",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 265.39,
+      "total_price": 796.17,
+      "kbju": {
+        "calories": 110,
+        "protein": 23.0,
+        "fat": 1.2,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0020",
+      "name": "Кекс",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 117.3,
+      "total_price": 234.6,
+      "kbju": {
+        "calories": 340,
+        "protein": 6.0,
+        "fat": 15.0,
+        "carbohydrates": 45.0
+      }
+    }
+  ],
+  "total_amount": 1642.06,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Самара",
+    "street": "алл. Придорожная",
+    "house": "30",
+    "apartment": "10",
+    "postal_code": "333201"
+  },
+  "purchase_datetime": "2025-07-30T16:50:56.750591Z"
+}

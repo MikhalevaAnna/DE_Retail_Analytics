@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00341",
+  "customer": {
+    "customer_id": "cus-102062",
+    "first_name": "Вадим",
+    "last_name": "Шилов",
+    "email": "vadim.shilov@hotmail.com",
+    "phone": "+74092481952",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7E0C93764"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на бул. Макаренко",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "бул. Макаренко",
+      "house": "4",
+      "postal_code": "911255"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0025",
+      "name": "Куриное филе",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 265.39,
+      "total_price": 265.39,
+      "kbju": {
+        "calories": 110,
+        "protein": 23.0,
+        "fat": 1.2,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 265.39,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-18T16:50:56.862558Z"
+}

@@ -1,0 +1,117 @@
+{
+  "purchase_id": "ord-00410",
+  "customer": {
+    "customer_id": "cus-102002",
+    "first_name": "Аггей",
+    "last_name": "Селезнева",
+    "email": "aggei.selezneva@hotmail.com",
+    "phone": "+7 768 564 99 31",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7D18A718B"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0046",
+      "name": "Скумбрия",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 311.2,
+      "total_price": 622.4,
+      "kbju": {
+        "calories": 191,
+        "protein": 18.0,
+        "fat": 13.2,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0087",
+      "name": "Черника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 418.4,
+      "total_price": 418.4,
+      "kbju": {
+        "calories": 44,
+        "protein": 0.9,
+        "fat": 0.4,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0021",
+      "name": "Ржаные хлебцы",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 84.23,
+      "total_price": 252.69,
+      "kbju": {
+        "calories": 300,
+        "protein": 8.0,
+        "fat": 2.0,
+        "carbohydrates": 60.0
+      }
+    },
+    {
+      "product_id": "prd-0061",
+      "name": "Сыр Моцарелла",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 441.75,
+      "total_price": 1325.25,
+      "kbju": {
+        "calories": 280,
+        "protein": 22.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 163.26,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    }
+  ],
+  "total_amount": 2782.0,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-30T16:50:56.898082Z"
+}

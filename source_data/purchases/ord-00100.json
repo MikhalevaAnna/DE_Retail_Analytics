@@ -1,0 +1,89 @@
+{
+  "purchase_id": "ord-00100",
+  "customer": {
+    "customer_id": "cus-102049",
+    "first_name": "Карл",
+    "last_name": "Гусев",
+    "email": "karl.gusev@mail.ru",
+    "phone": "8 (333) 500-9013",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-765EF4E22"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на ул. Блохинаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "ул. Блохинаа",
+      "house": "10",
+      "postal_code": "842894"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0093",
+      "name": "Лайм",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 144.76,
+      "total_price": 434.28,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 10.5
+      }
+    },
+    {
+      "product_id": "prd-0003",
+      "name": "Батон нарезной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 59.33,
+      "total_price": 59.33,
+      "kbju": {
+        "calories": 262,
+        "protein": 7.5,
+        "fat": 2.9,
+        "carbohydrates": 51.4
+      }
+    },
+    {
+      "product_id": "prd-0034",
+      "name": "Форель",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 725.0,
+      "total_price": 1450.0,
+      "kbju": {
+        "calories": 150,
+        "protein": 20.0,
+        "fat": 7.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    }
+  ],
+  "total_amount": 1943.61,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "пр. Трудовой",
+    "house": "41",
+    "apartment": "84",
+    "postal_code": "941246"
+  },
+  "purchase_datetime": "2025-10-29T16:50:56.730590Z"
+}

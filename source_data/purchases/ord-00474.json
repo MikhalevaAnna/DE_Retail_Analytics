@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00474",
+  "customer": {
+    "customer_id": "cus-102075",
+    "first_name": "Мирон",
+    "last_name": "Фадеев",
+    "email": "miron.fadeev@yandex.ru",
+    "phone": "8 (247) 493-54-19",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-284FC0E93"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0036",
+      "name": "Кальмары",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 392.03,
+      "total_price": 1176.09,
+      "kbju": {
+        "calories": 92,
+        "protein": 18.0,
+        "fat": 1.2,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0012",
+      "name": "Перловка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 48.42,
+      "total_price": 96.84,
+      "kbju": {
+        "calories": 315,
+        "protein": 9.3,
+        "fat": 1.1,
+        "carbohydrates": 66.9
+      }
+    }
+  ],
+  "total_amount": 1272.93,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-14T16:50:56.931083Z"
+}

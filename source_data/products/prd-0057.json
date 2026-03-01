@@ -1,0 +1,24 @@
+{
+  "id": "prd-0057",
+  "name": "Творожная масса",
+  "group": "🥛 Молочные продукты",
+  "description": "Творожная масса.",
+  "kbju": {
+    "calories": 232,
+    "protein": 7.5,
+    "fat": 12.0,
+    "carbohydrates": 25.0
+  },
+  "price": 114.23,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 11,
+  "is_organic": true,
+  "barcode": "6000706371545",
+  "manufacturer": {
+    "name": "ОАО Маслозавод",
+    "country": "Россия",
+    "website": "https://maslo.ru",
+    "inn": "7756789014"
+  }
+}

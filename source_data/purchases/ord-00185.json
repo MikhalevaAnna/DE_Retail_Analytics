@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00185",
+  "customer": {
+    "customer_id": "cus-102053",
+    "first_name": "Варвара",
+    "last_name": "Воронов",
+    "email": "varvara.voronov@yandex.ru",
+    "phone": "8 519 030 01 45",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1B51C0597"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Дьячкова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "ул. Дьячкова",
+      "house": "39",
+      "postal_code": "826126"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0032",
+      "name": "Семга слабосоленая",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 922.74,
+      "total_price": 2768.22,
+      "kbju": {
+        "calories": 203,
+        "protein": 22.5,
+        "fat": 12.5,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0001",
+      "name": "Хлеб ржаной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 57.42,
+      "total_price": 57.42,
+      "kbju": {
+        "calories": 165,
+        "protein": 6.6,
+        "fat": 1.2,
+        "carbohydrates": 33.4
+      }
+    }
+  ],
+  "total_amount": 2825.64,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "алл. Полевая",
+    "house": "7",
+    "apartment": "30",
+    "postal_code": "538721"
+  },
+  "purchase_datetime": "2025-12-14T16:50:56.776715Z"
+}

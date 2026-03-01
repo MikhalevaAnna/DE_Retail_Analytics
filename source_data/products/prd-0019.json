@@ -1,0 +1,24 @@
+{
+  "id": "prd-0019",
+  "name": "Вафли",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Вафли.",
+  "kbju": {
+    "calories": 530,
+    "protein": 6.0,
+    "fat": 30.0,
+    "carbohydrates": 58.0
+  },
+  "price": 125.0,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 111,
+  "is_organic": false,
+  "barcode": "6043260031159",
+  "manufacturer": {
+    "name": "АО Хлебный Дом",
+    "country": "Россия",
+    "website": "https://hlebnydom.ru",
+    "inn": "7712345678"
+  }
+}

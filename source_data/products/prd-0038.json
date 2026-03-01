@@ -1,0 +1,24 @@
+{
+  "id": "prd-0038",
+  "name": "Горох",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Горох.",
+  "kbju": {
+    "calories": 298,
+    "protein": 20.5,
+    "fat": 2.0,
+    "carbohydrates": 53.3
+  },
+  "price": 65.34,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 399,
+  "is_organic": false,
+  "barcode": "3878614575170",
+  "manufacturer": {
+    "name": "АПК Черкизово",
+    "country": "Россия",
+    "website": "https://cherkizovo.ru",
+    "inn": "7756789013"
+  }
+}

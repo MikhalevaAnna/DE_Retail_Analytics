@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102005",
+  "first_name": "Ермил",
+  "last_name": "Зайцева",
+  "email": "ermil.zaitseva@yahoo.com",
+  "phone": "8 826 311 57 12",
+  "birth_date": "1976-07-28",
+  "gender": "female",
+  "registration_date": "2025-01-03T16:50:56.635063Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-792DD2879",
+  "purchase_location": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на пр. Новочеркасск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Омск",
+    "street": "пр. Новочеркасск",
+    "house": "11",
+    "postal_code": "724485"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "ш. 30 лет Победы",
+    "house": "42",
+    "apartment": "31",
+    "postal_code": "530964"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

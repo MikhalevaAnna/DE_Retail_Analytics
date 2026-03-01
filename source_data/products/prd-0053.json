@@ -1,0 +1,24 @@
+{
+  "id": "prd-0053",
+  "name": "Сыр Российский",
+  "group": "🥛 Молочные продукты",
+  "description": "Сыр Российский.",
+  "kbju": {
+    "calories": 360,
+    "protein": 24.0,
+    "fat": 29.0,
+    "carbohydrates": 0.5
+  },
+  "price": 658.87,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 87,
+  "is_organic": true,
+  "barcode": "0560636534954",
+  "manufacturer": {
+    "name": "ОАО Маслозавод",
+    "country": "Россия",
+    "website": "https://maslo.ru",
+    "inn": "7756789014"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00210",
+  "customer": {
+    "customer_id": "cus-102009",
+    "first_name": "Тихон",
+    "last_name": "Потапова",
+    "email": "tikhon.potapova@rambler.ru",
+    "phone": "+7 655 577 2836",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B412CAC75"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 583.29,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    },
+    {
+      "product_id": "prd-0116",
+      "name": "Хрен",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 172.92,
+      "total_price": 518.76,
+      "kbju": {
+        "calories": 48,
+        "protein": 1.4,
+        "fat": 0.4,
+        "carbohydrates": 10.5
+      }
+    },
+    {
+      "product_id": "prd-0069",
+      "name": "Сыр козий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 664.85,
+      "total_price": 1994.55,
+      "kbju": {
+        "calories": 290,
+        "protein": 18.0,
+        "fat": 23.0,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 3096.6,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-30T16:50:56.789716Z"
+}

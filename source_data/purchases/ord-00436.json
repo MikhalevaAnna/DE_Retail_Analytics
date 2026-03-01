@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00436",
+  "customer": {
+    "customer_id": "cus-102050",
+    "first_name": "Гурий",
+    "last_name": "Кудряшов",
+    "email": "gurii.kudriashov@mail.ru",
+    "phone": "8 (991) 021-79-78",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1F5CC9CD2"
+  },
+  "store": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на пр. Новочеркасск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "пр. Новочеркасск",
+      "house": "11",
+      "postal_code": "724485"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0026",
+      "name": "Говядина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 495.77,
+      "total_price": 495.77,
+      "kbju": {
+        "calories": 187,
+        "protein": 18.9,
+        "fat": 12.4,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0076",
+      "name": "Мандарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 161.49,
+      "total_price": 322.98,
+      "kbju": {
+        "calories": 38,
+        "protein": 0.8,
+        "fat": 0.3,
+        "carbohydrates": 8.1
+      }
+    }
+  ],
+  "total_amount": 818.75,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "бул. Клубный",
+    "house": "47",
+    "apartment": "18",
+    "postal_code": "066543"
+  },
+  "purchase_datetime": "2025-04-07T16:50:56.911082Z"
+}

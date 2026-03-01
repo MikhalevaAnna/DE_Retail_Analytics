@@ -1,0 +1,87 @@
+{
+  "purchase_id": "ord-00450",
+  "customer": {
+    "customer_id": "cus-102058",
+    "first_name": "Ксения",
+    "last_name": "Сысоева",
+    "email": "kseniia.sysoeva@mail.ru",
+    "phone": "8 065 801 6708",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-A0D86168D"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на ул. Ждановаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Ждановаа",
+      "house": "40",
+      "postal_code": "314679"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0060",
+      "name": "Сгущенное молоко",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 136.57,
+      "total_price": 409.71,
+      "kbju": {
+        "calories": 328,
+        "protein": 7.2,
+        "fat": 8.5,
+        "carbohydrates": 55.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0113",
+      "name": "Руккола",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 189.46,
+      "total_price": 568.38,
+      "kbju": {
+        "calories": 25,
+        "protein": 2.6,
+        "fat": 0.7,
+        "carbohydrates": 2.0
+      }
+    },
+    {
+      "product_id": "prd-0061",
+      "name": "Сыр Моцарелла",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 441.75,
+      "total_price": 1325.25,
+      "kbju": {
+        "calories": 280,
+        "protein": 22.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 2303.34,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-11T16:50:56.919083Z"
+}

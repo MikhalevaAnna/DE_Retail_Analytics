@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00121",
+  "customer": {
+    "customer_id": "cus-102027",
+    "first_name": "Милан",
+    "last_name": "Рябова",
+    "email": "milan.riabova@yandex.ru",
+    "phone": "89105899882",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E59A28501"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на бул. Макаренко",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "бул. Макаренко",
+      "house": "4",
+      "postal_code": "911255"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0100",
+      "name": "Перец болгарский",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 196.78,
+      "total_price": 196.78,
+      "kbju": {
+        "calories": 27,
+        "protein": 1.3,
+        "fat": 0.2,
+        "carbohydrates": 5.3
+      }
+    },
+    {
+      "product_id": "prd-0098",
+      "name": "Помидоры",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 159.68,
+      "total_price": 319.36,
+      "kbju": {
+        "calories": 20,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carbohydrates": 4.0
+      }
+    }
+  ],
+  "total_amount": 516.14,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-09T16:50:56.741590Z"
+}

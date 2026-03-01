@@ -1,0 +1,117 @@
+{
+  "purchase_id": "ord-00039",
+  "customer": {
+    "customer_id": "cus-102082",
+    "first_name": "Радим",
+    "last_name": "Елисеева",
+    "email": "radim.eliseeva@yahoo.com",
+    "phone": "+7 (633) 145-8778",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C47BC7587"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на бул. Свердлова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "бул. Свердлова",
+      "house": "32",
+      "postal_code": "152628"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0060",
+      "name": "Сгущенное молоко",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 136.57,
+      "total_price": 409.71,
+      "kbju": {
+        "calories": 328,
+        "protein": 7.2,
+        "fat": 8.5,
+        "carbohydrates": 55.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0058",
+      "name": "Сыр плавленый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 66.59,
+      "total_price": 133.18,
+      "kbju": {
+        "calories": 240,
+        "protein": 12.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0084",
+      "name": "Ананас",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 276.95,
+      "total_price": 830.85,
+      "kbju": {
+        "calories": 52,
+        "protein": 0.4,
+        "fat": 0.1,
+        "carbohydrates": 11.0
+      }
+    },
+    {
+      "product_id": "prd-0073",
+      "name": "Лимоны",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 108.99,
+      "total_price": 217.98,
+      "kbju": {
+        "calories": 34,
+        "protein": 0.8,
+        "fat": 0.2,
+        "carbohydrates": 5.4
+      }
+    },
+    {
+      "product_id": "prd-0005",
+      "name": "Булочка с маком",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 44.28,
+      "total_price": 44.28,
+      "kbju": {
+        "calories": 310,
+        "protein": 8.0,
+        "fat": 5.0,
+        "carbohydrates": 55.0
+      }
+    }
+  ],
+  "total_amount": 1636.0,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-07T16:50:56.699590Z"
+}

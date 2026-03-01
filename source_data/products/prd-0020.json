@@ -1,0 +1,24 @@
+{
+  "id": "prd-0020",
+  "name": "Кекс",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Кекс.",
+  "kbju": {
+    "calories": 340,
+    "protein": 6.0,
+    "fat": 15.0,
+    "carbohydrates": 45.0
+  },
+  "price": 117.3,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 19,
+  "is_organic": false,
+  "barcode": "2960232968777",
+  "manufacturer": {
+    "name": "ООО Каравай",
+    "country": "Россия",
+    "website": "https://karavay.ru",
+    "inn": "7723456789"
+  }
+}

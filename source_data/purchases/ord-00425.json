@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00425",
+  "customer": {
+    "customer_id": "cus-102075",
+    "first_name": "Мирон",
+    "last_name": "Фадеев",
+    "email": "miron.fadeev@yandex.ru",
+    "phone": "8 (247) 493-54-19",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-284FC0E93"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на пр. Агата",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "пр. Агата",
+      "house": "32",
+      "postal_code": "460702"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0093",
+      "name": "Лайм",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 144.76,
+      "total_price": 144.76,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 10.5
+      }
+    }
+  ],
+  "total_amount": 144.76,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "пр. Победа",
+    "house": "27",
+    "apartment": "19",
+    "postal_code": "583730"
+  },
+  "purchase_datetime": "2025-03-30T16:50:56.906083Z"
+}

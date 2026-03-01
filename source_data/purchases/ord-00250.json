@@ -1,0 +1,95 @@
+{
+  "purchase_id": "ord-00250",
+  "customer": {
+    "customer_id": "cus-102068",
+    "first_name": "Никанор",
+    "last_name": "Калинина",
+    "email": "nikanor.kalinina@yahoo.com",
+    "phone": "+7 (756) 213-99-14",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D9763F079"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на пр. Нефтекамск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "пр. Нефтекамск",
+      "house": "8",
+      "postal_code": "016782"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 477.54,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    },
+    {
+      "product_id": "prd-0029",
+      "name": "Котлеты",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 316.3,
+      "total_price": 948.9,
+      "kbju": {
+        "calories": 240,
+        "protein": 14.0,
+        "fat": 20.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0051",
+      "name": "Сметана 20%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 99.27,
+      "total_price": 99.27,
+      "kbju": {
+        "calories": 206,
+        "protein": 2.5,
+        "fat": 20.0,
+        "carbohydrates": 3.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 1525.71,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "ул. Промышленная",
+    "house": "6",
+    "apartment": "40",
+    "postal_code": "230545"
+  },
+  "purchase_datetime": "2025-08-16T16:50:56.811909Z"
+}

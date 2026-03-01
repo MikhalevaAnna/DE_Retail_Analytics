@@ -1,0 +1,83 @@
+{
+  "purchase_id": "ord-00154",
+  "customer": {
+    "customer_id": "cus-102029",
+    "first_name": "Полина",
+    "last_name": "Голубева",
+    "email": "polina.golubeva@yahoo.com",
+    "phone": "8 831 748 89 75",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-6FCF1D93E"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на пр. Агата",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "пр. Агата",
+      "house": "32",
+      "postal_code": "460702"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0010",
+      "name": "Пшено",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 63.48,
+      "total_price": 126.96,
+      "kbju": {
+        "calories": 342,
+        "protein": 11.5,
+        "fat": 3.3,
+        "carbohydrates": 66.5
+      }
+    },
+    {
+      "product_id": "prd-0108",
+      "name": "Тыква",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 52.67,
+      "total_price": 158.01,
+      "kbju": {
+        "calories": 26,
+        "protein": 1.0,
+        "fat": 0.1,
+        "carbohydrates": 6.5
+      }
+    },
+    {
+      "product_id": "prd-0103",
+      "name": "Шпинат",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 117.06,
+      "total_price": 351.18,
+      "kbju": {
+        "calories": 23,
+        "protein": 2.9,
+        "fat": 0.4,
+        "carbohydrates": 3.6
+      }
+    }
+  ],
+  "total_amount": 636.15,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "бул. Челюскинцев",
+    "house": "10",
+    "apartment": "36",
+    "postal_code": "478001"
+  },
+  "purchase_datetime": "2025-08-26T16:50:56.760155Z"
+}

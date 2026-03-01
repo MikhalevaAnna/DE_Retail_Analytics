@@ -1,0 +1,108 @@
+{
+  "purchase_id": "ord-00027",
+  "customer": {
+    "customer_id": "cus-102042",
+    "first_name": "Артемий",
+    "last_name": "Соловьев",
+    "email": "artemii.solovev@yandex.ru",
+    "phone": "8 839 324 1633",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2039E9B14"
+  },
+  "store": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на пр. Коломна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тольятти",
+      "street": "пр. Коломна",
+      "house": "29",
+      "postal_code": "595083"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0063",
+      "name": "Творог зерненый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 105.17,
+      "total_price": 210.34,
+      "kbju": {
+        "calories": 110,
+        "protein": 12.0,
+        "fat": 5.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0047",
+      "name": "Сельдь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 193.4,
+      "total_price": 386.8,
+      "kbju": {
+        "calories": 161,
+        "protein": 17.0,
+        "fat": 10.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0039",
+      "name": "Чечевица",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 125.07,
+      "total_price": 125.07,
+      "kbju": {
+        "calories": 295,
+        "protein": 24.0,
+        "fat": 1.5,
+        "carbohydrates": 46.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0072",
+      "name": "Апельсины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 140.57,
+      "total_price": 140.57,
+      "kbju": {
+        "calories": 43,
+        "protein": 0.9,
+        "fat": 0.2,
+        "carbohydrates": 9.0
+      }
+    }
+  ],
+  "total_amount": 862.78,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-02-26T16:50:56.693590Z"
+}

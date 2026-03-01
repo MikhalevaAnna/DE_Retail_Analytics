@@ -1,0 +1,68 @@
+{
+  "purchase_id": "ord-00326",
+  "customer": {
+    "customer_id": "cus-102004",
+    "first_name": "Елена",
+    "last_name": "Михеева",
+    "email": "elena.mikheeva@mail.ru",
+    "phone": "8 (483) 860-52-68",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2AE23D145"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на ул. Мирона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "ул. Мирона",
+      "house": "27",
+      "postal_code": "717225"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 122.16,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    },
+    {
+      "product_id": "prd-0020",
+      "name": "Кекс",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 117.3,
+      "total_price": 117.3,
+      "kbju": {
+        "calories": 340,
+        "protein": 6.0,
+        "fat": 15.0,
+        "carbohydrates": 45.0
+      }
+    }
+  ],
+  "total_amount": 239.46,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "пр. Серова",
+    "house": "25",
+    "apartment": "103",
+    "postal_code": "247582"
+  },
+  "purchase_datetime": "2025-06-21T16:50:56.854559Z"
+}

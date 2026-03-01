@@ -1,0 +1,95 @@
+{
+  "purchase_id": "ord-00375",
+  "customer": {
+    "customer_id": "cus-102062",
+    "first_name": "Вадим",
+    "last_name": "Шилов",
+    "email": "vadim.shilov@hotmail.com",
+    "phone": "+74092481952",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7E0C93764"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на ул. Дорофееваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "ул. Дорофееваа",
+      "house": "4",
+      "postal_code": "022531"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0061",
+      "name": "Сыр Моцарелла",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 441.75,
+      "total_price": 441.75,
+      "kbju": {
+        "calories": 280,
+        "protein": 22.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0047",
+      "name": "Сельдь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 193.4,
+      "total_price": 193.4,
+      "kbju": {
+        "calories": 161,
+        "protein": 17.0,
+        "fat": 10.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0007",
+      "name": "Рис круглозерный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 97.72,
+      "total_price": 195.44,
+      "kbju": {
+        "calories": 330,
+        "protein": 6.7,
+        "fat": 0.7,
+        "carbohydrates": 78.9
+      }
+    }
+  ],
+  "total_amount": 830.59,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Пермь",
+    "street": "пер. Кольцова",
+    "house": "24",
+    "apartment": "125",
+    "postal_code": "162430"
+  },
+  "purchase_datetime": "2025-09-05T16:50:56.880952Z"
+}

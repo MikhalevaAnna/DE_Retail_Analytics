@@ -1,0 +1,101 @@
+{
+  "purchase_id": "ord-00144",
+  "customer": {
+    "customer_id": "cus-102010",
+    "first_name": "Аверкий",
+    "last_name": "Суханов",
+    "email": "averkii.sukhanov@gmail.com",
+    "phone": "8 (434) 753-6798",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-73AD12CDF"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0052",
+      "name": "Масло сливочное",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 202.67,
+      "total_price": 202.67,
+      "kbju": {
+        "calories": 748,
+        "protein": 0.5,
+        "fat": 82.5,
+        "carbohydrates": 0.8
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0033",
+      "name": "Минтай",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 247.87,
+      "total_price": 495.74,
+      "kbju": {
+        "calories": 72,
+        "protein": 15.9,
+        "fat": 0.9,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0066",
+      "name": "Сыр Адыгейский",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 251.23,
+      "total_price": 753.69,
+      "kbju": {
+        "calories": 220,
+        "protein": 18.0,
+        "fat": 16.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    }
+  ],
+  "total_amount": 1452.1,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "пер. Южный",
+    "house": "34",
+    "apartment": "139",
+    "postal_code": "590963"
+  },
+  "purchase_datetime": "2026-02-18T16:50:56.754592Z"
+}

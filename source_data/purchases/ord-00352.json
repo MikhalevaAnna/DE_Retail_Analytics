@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00352",
+  "customer": {
+    "customer_id": "cus-102065",
+    "first_name": "Ананий",
+    "last_name": "Романова",
+    "email": "ananii.romanova@gmail.com",
+    "phone": "+71807948958",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-BF337219D"
+  },
+  "store": {
+    "store_id": "store-032",
+    "store_name": "Маленькая Пикча — Магазин на ул. Эраста",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Иркутск",
+      "street": "ул. Эраста",
+      "house": "13",
+      "postal_code": "983181"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0038",
+      "name": "Горох",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 65.34,
+      "total_price": 130.68,
+      "kbju": {
+        "calories": 298,
+        "protein": 20.5,
+        "fat": 2.0,
+        "carbohydrates": 53.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0099",
+      "name": "Огурцы",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 96.43,
+      "total_price": 96.43,
+      "kbju": {
+        "calories": 15,
+        "protein": 0.8,
+        "fat": 0.1,
+        "carbohydrates": 3.0
+      }
+    },
+    {
+      "product_id": "prd-0108",
+      "name": "Тыква",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 52.67,
+      "total_price": 105.34,
+      "kbju": {
+        "calories": 26,
+        "protein": 1.0,
+        "fat": 0.1,
+        "carbohydrates": 6.5
+      }
+    }
+  ],
+  "total_amount": 332.45,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-22T16:50:56.868558Z"
+}

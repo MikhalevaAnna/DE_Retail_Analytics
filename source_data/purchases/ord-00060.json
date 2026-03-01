@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00060",
+  "customer": {
+    "customer_id": "cus-102053",
+    "first_name": "Варвара",
+    "last_name": "Воронов",
+    "email": "varvara.voronov@yandex.ru",
+    "phone": "8 519 030 01 45",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1B51C0597"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пр. Охотск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "пр. Охотск",
+      "house": "33",
+      "postal_code": "898849"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0015",
+      "name": "Сухари панировочные",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 52.48,
+      "total_price": 157.44,
+      "kbju": {
+        "calories": 350,
+        "protein": 11.2,
+        "fat": 1.4,
+        "carbohydrates": 72.4
+      }
+    },
+    {
+      "product_id": "prd-0108",
+      "name": "Тыква",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 52.67,
+      "total_price": 52.67,
+      "kbju": {
+        "calories": 26,
+        "protein": 1.0,
+        "fat": 0.1,
+        "carbohydrates": 6.5
+      }
+    }
+  ],
+  "total_amount": 210.11,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-09T16:50:56.710590Z"
+}

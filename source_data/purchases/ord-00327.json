@@ -1,0 +1,95 @@
+{
+  "purchase_id": "ord-00327",
+  "customer": {
+    "customer_id": "cus-102003",
+    "first_name": "Лора",
+    "last_name": "Яковлева",
+    "email": "lora.iakovleva@mail.ru",
+    "phone": "8 003 887 9789",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1F7663007"
+  },
+  "store": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на пр. Новочеркасск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "пр. Новочеркасск",
+      "house": "11",
+      "postal_code": "724485"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0059",
+      "name": "Мороженое пломбир",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 93.14,
+      "total_price": 279.42,
+      "kbju": {
+        "calories": 232,
+        "protein": 3.7,
+        "fat": 15.0,
+        "carbohydrates": 20.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0114",
+      "name": "Сельдерей",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 130.13,
+      "total_price": 260.26,
+      "kbju": {
+        "calories": 16,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 3.0
+      }
+    },
+    {
+      "product_id": "prd-0062",
+      "name": "Сыр Пармезан",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 845.19,
+      "total_price": 2535.57,
+      "kbju": {
+        "calories": 392,
+        "protein": 35.0,
+        "fat": 26.0,
+        "carbohydrates": 0.1
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    }
+  ],
+  "total_amount": 3075.25,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "пер. Кирпичный",
+    "house": "29",
+    "apartment": "112",
+    "postal_code": "575021"
+  },
+  "purchase_datetime": "2025-09-25T16:50:56.855559Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0092",
+  "name": "Лимон",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Лимон.",
+  "kbju": {
+    "calories": 29,
+    "protein": 1.1,
+    "fat": 0.3,
+    "carbohydrates": 9.3
+  },
+  "price": 119.59,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 28,
+  "is_organic": false,
+  "barcode": "5091590140875",
+  "manufacturer": {
+    "name": "АО Южные плоды",
+    "country": "Россия",
+    "website": "https://yugfruit.ru",
+    "inn": "7734567893"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "purchase_id": "ord-00150",
+  "customer": {
+    "customer_id": "cus-102049",
+    "first_name": "Карл",
+    "last_name": "Гусев",
+    "email": "karl.gusev@mail.ru",
+    "phone": "8 (333) 500-9013",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-765EF4E22"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0086",
+      "name": "Авокадо",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 185.15,
+      "total_price": 555.45,
+      "kbju": {
+        "calories": 160,
+        "protein": 2.0,
+        "fat": 14.7,
+        "carbohydrates": 8.5
+      }
+    },
+    {
+      "product_id": "prd-0070",
+      "name": "Яблоки Голден",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 144.1,
+      "total_price": 288.2,
+      "kbju": {
+        "calories": 52,
+        "protein": 0.3,
+        "fat": 0.2,
+        "carbohydrates": 14.0
+      }
+    },
+    {
+      "product_id": "prd-0001",
+      "name": "Хлеб ржаной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 57.42,
+      "total_price": 57.42,
+      "kbju": {
+        "calories": 165,
+        "protein": 6.6,
+        "fat": 1.2,
+        "carbohydrates": 33.4
+      }
+    }
+  ],
+  "total_amount": 901.07,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-10-17T16:50:56.758154Z"
+}

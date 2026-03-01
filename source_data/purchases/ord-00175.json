@@ -1,0 +1,102 @@
+{
+  "purchase_id": "ord-00175",
+  "customer": {
+    "customer_id": "cus-102040",
+    "first_name": "Наина",
+    "last_name": "Лихачев",
+    "email": "naina.likhachev@mail.ru",
+    "phone": "+7 (552) 041-3116",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AAA63D80E"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на бул. Свердлова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "бул. Свердлова",
+      "house": "32",
+      "postal_code": "152628"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 1740.3,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0077",
+      "name": "Клубника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 260.82,
+      "total_price": 521.64,
+      "kbju": {
+        "calories": 32,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 7.5
+      }
+    },
+    {
+      "product_id": "prd-0034",
+      "name": "Форель",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 725.0,
+      "total_price": 2175.0,
+      "kbju": {
+        "calories": 150,
+        "protein": 20.0,
+        "fat": 7.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0079",
+      "name": "Киви",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 104.37,
+      "total_price": 313.11,
+      "kbju": {
+        "calories": 47,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 8.1
+      }
+    }
+  ],
+  "total_amount": 4750.05,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-09-26T16:50:56.770716Z"
+}

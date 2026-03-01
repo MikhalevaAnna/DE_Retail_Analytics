@@ -1,0 +1,117 @@
+{
+  "purchase_id": "ord-00222",
+  "customer": {
+    "customer_id": "cus-102004",
+    "first_name": "Елена",
+    "last_name": "Михеева",
+    "email": "elena.mikheeva@mail.ru",
+    "phone": "8 (483) 860-52-68",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2AE23D145"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на бул. Новостройка",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "бул. Новостройка",
+      "house": "38",
+      "postal_code": "627392"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0037",
+      "name": "Фасоль красная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 82.12,
+      "total_price": 82.12,
+      "kbju": {
+        "calories": 337,
+        "protein": 22.5,
+        "fat": 1.5,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 358.77,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0084",
+      "name": "Ананас",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 276.95,
+      "total_price": 276.95,
+      "kbju": {
+        "calories": 52,
+        "protein": 0.4,
+        "fat": 0.1,
+        "carbohydrates": 11.0
+      }
+    },
+    {
+      "product_id": "prd-0061",
+      "name": "Сыр Моцарелла",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 441.75,
+      "total_price": 441.75,
+      "kbju": {
+        "calories": 280,
+        "protein": 22.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0086",
+      "name": "Авокадо",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 185.15,
+      "total_price": 370.3,
+      "kbju": {
+        "calories": 160,
+        "protein": 2.0,
+        "fat": 14.7,
+        "carbohydrates": 8.5
+      }
+    }
+  ],
+  "total_amount": 1529.89,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-05T16:50:56.796756Z"
+}

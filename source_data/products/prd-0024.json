@@ -1,0 +1,24 @@
+{
+  "id": "prd-0024",
+  "name": "Мюсли",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Мюсли.",
+  "kbju": {
+    "calories": 380,
+    "protein": 10.0,
+    "fat": 8.0,
+    "carbohydrates": 65.0
+  },
+  "price": 151.36,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 250,
+  "is_organic": false,
+  "barcode": "3840978716285",
+  "manufacturer": {
+    "name": "ОАО Колос",
+    "country": "Россия",
+    "website": "https://kolos.ru",
+    "inn": "7745678901"
+  }
+}

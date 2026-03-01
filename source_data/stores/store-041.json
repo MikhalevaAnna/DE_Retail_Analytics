@@ -1,0 +1,39 @@
+{
+  "store_id": "store-041",
+  "store_name": "Маленькая Пикча — Магазин на ул. Волковаа",
+  "store_network": "Маленькая Пикча",
+  "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Милован Авдеевич Самойлов",
+    "phone": "+7 (882) 006-10-54",
+    "email": "ignati30@example.net"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Москва",
+    "street": "ул. Волковаа",
+    "house": "28",
+    "postal_code": "948531",
+    "coordinates": {
+      "latitude": -71.5865815,
+      "longitude": -73.083312
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "08:00-22:00",
+    "sat": "09:00-21:00",
+    "sun": "09:00-20:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": false,
+  "last_inventory_date": "2026-01-29"
+}

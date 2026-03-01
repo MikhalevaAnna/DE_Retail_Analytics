@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00288",
+  "customer": {
+    "customer_id": "cus-102031",
+    "first_name": "Самуил",
+    "last_name": "Ильин",
+    "email": "samuil.ilin@gmail.com",
+    "phone": "+7 (809) 033-68-43",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-43CA76750"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ул. Фадеева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "ул. Фадеева",
+      "house": "8",
+      "postal_code": "646736"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0085",
+      "name": "Манго",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 224.25,
+      "total_price": 448.5,
+      "kbju": {
+        "calories": 60,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 15.0
+      }
+    },
+    {
+      "product_id": "prd-0045",
+      "name": "Баранина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 559.68,
+      "total_price": 559.68,
+      "kbju": {
+        "calories": 209,
+        "protein": 15.6,
+        "fat": 16.3,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 1008.18,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "ул. Тельмана",
+    "house": "47",
+    "apartment": "81",
+    "postal_code": "596955"
+  },
+  "purchase_datetime": "2025-08-27T16:50:56.832954Z"
+}

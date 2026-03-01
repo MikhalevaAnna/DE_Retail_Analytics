@@ -1,0 +1,24 @@
+{
+  "id": "prd-0001",
+  "name": "Хлеб ржаной",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Хлеб ржаной.",
+  "kbju": {
+    "calories": 165,
+    "protein": 6.6,
+    "fat": 1.2,
+    "carbohydrates": 33.4
+  },
+  "price": 57.42,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 5,
+  "is_organic": true,
+  "barcode": "3096448159995",
+  "manufacturer": {
+    "name": "ЗАО Русский Хлеб",
+    "country": "Россия",
+    "website": "https://russianbread.ru",
+    "inn": "7734567890"
+  }
+}

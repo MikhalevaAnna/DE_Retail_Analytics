@@ -1,0 +1,24 @@
+{
+  "id": "prd-0008",
+  "name": "Макароны",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Макароны.",
+  "kbju": {
+    "calories": 340,
+    "protein": 11.0,
+    "fat": 1.3,
+    "carbohydrates": 70.0
+  },
+  "price": 96.25,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 635,
+  "is_organic": false,
+  "barcode": "6915341417186",
+  "manufacturer": {
+    "name": "ООО Каравай",
+    "country": "Россия",
+    "website": "https://karavay.ru",
+    "inn": "7723456789"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00128",
+  "customer": {
+    "customer_id": "cus-102030",
+    "first_name": "Максимильян",
+    "last_name": "Быков",
+    "email": "maksimilian.bykov@yandex.ru",
+    "phone": "8 (535) 375-4965",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7793A78A8"
+  },
+  "store": {
+    "store_id": "store-038",
+    "store_name": "Маленькая Пикча — Магазин на пр. Агата",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "пр. Агата",
+      "house": "32",
+      "postal_code": "460702"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0048",
+      "name": "Молоко 3.2%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 97.36,
+      "total_price": 194.72,
+      "kbju": {
+        "calories": 60,
+        "protein": 2.9,
+        "fat": 3.2,
+        "carbohydrates": 4.7
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0106",
+      "name": "Кабачки",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 66.58,
+      "total_price": 66.58,
+      "kbju": {
+        "calories": 24,
+        "protein": 0.6,
+        "fat": 0.3,
+        "carbohydrates": 4.6
+      }
+    },
+    {
+      "product_id": "prd-0081",
+      "name": "Нектарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 157.4,
+      "total_price": 314.8,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 10.6
+      }
+    }
+  ],
+  "total_amount": 576.1,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-05T16:50:56.745592Z"
+}

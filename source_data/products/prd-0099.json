@@ -1,0 +1,24 @@
+{
+  "id": "prd-0099",
+  "name": "Огурцы",
+  "group": "🥦 Овощи и зелень",
+  "description": "Огурцы.",
+  "kbju": {
+    "calories": 15,
+    "protein": 0.8,
+    "fat": 0.1,
+    "carbohydrates": 3.0
+  },
+  "price": 96.43,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 9,
+  "is_organic": true,
+  "barcode": "1679529660249",
+  "manufacturer": {
+    "name": "АО Тепличный",
+    "country": "Россия",
+    "website": "https://teplica.ru",
+    "inn": "7712345682"
+  }
+}

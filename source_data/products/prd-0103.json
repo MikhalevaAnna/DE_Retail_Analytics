@@ -1,0 +1,24 @@
+{
+  "id": "prd-0103",
+  "name": "Шпинат",
+  "group": "🥦 Овощи и зелень",
+  "description": "Шпинат.",
+  "kbju": {
+    "calories": 23,
+    "protein": 2.9,
+    "fat": 0.4,
+    "carbohydrates": 3.6
+  },
+  "price": 117.06,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 4,
+  "is_organic": false,
+  "barcode": "0437871383473",
+  "manufacturer": {
+    "name": "АО Тепличный",
+    "country": "Россия",
+    "website": "https://teplica.ru",
+    "inn": "7712345682"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "purchase_id": "ord-00362",
+  "customer": {
+    "customer_id": "cus-102039",
+    "first_name": "Олег",
+    "last_name": "Яковлев",
+    "email": "oleg.iakovlev@mail.ru",
+    "phone": "+73210570782",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E03293973"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0052",
+      "name": "Масло сливочное",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 202.67,
+      "total_price": 608.01,
+      "kbju": {
+        "calories": 748,
+        "protein": 0.5,
+        "fat": 82.5,
+        "carbohydrates": 0.8
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 1160.2,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0022",
+      "name": "Кускус",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 140.1,
+      "total_price": 280.2,
+      "kbju": {
+        "calories": 376,
+        "protein": 12.8,
+        "fat": 0.6,
+        "carbohydrates": 77.4
+      }
+    },
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 194.43,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    },
+    {
+      "product_id": "prd-0097",
+      "name": "Капуста белокочанная",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 50.53,
+      "total_price": 50.53,
+      "kbju": {
+        "calories": 28,
+        "protein": 1.8,
+        "fat": 0.1,
+        "carbohydrates": 4.7
+      }
+    }
+  ],
+  "total_amount": 2293.37,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Самара",
+    "street": "алл. Юбилейная",
+    "house": "17",
+    "apartment": "92",
+    "postal_code": "109162"
+  },
+  "purchase_datetime": "2026-01-16T16:50:56.874089Z"
+}

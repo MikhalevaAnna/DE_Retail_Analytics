@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00193",
+  "customer": {
+    "customer_id": "cus-102000",
+    "first_name": "Епифан",
+    "last_name": "Фадеева",
+    "email": "epifan.fadeeva@yahoo.com",
+    "phone": "+7 (377) 932-4620",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-896441DFF"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0024",
+      "name": "Мюсли",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 151.36,
+      "total_price": 151.36,
+      "kbju": {
+        "calories": 380,
+        "protein": 10.0,
+        "fat": 8.0,
+        "carbohydrates": 65.0
+      }
+    },
+    {
+      "product_id": "prd-0043",
+      "name": "Колбаса вареная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 493.21,
+      "total_price": 493.21,
+      "kbju": {
+        "calories": 250,
+        "protein": 12.0,
+        "fat": 22.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    }
+  ],
+  "total_amount": 644.57,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "наб. Юности",
+    "house": "48",
+    "apartment": "98",
+    "postal_code": "059391"
+  },
+  "purchase_datetime": "2025-06-12T16:50:56.780715Z"
+}

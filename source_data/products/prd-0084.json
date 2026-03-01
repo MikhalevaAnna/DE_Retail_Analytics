@@ -1,0 +1,24 @@
+{
+  "id": "prd-0084",
+  "name": "Ананас",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Ананас.",
+  "kbju": {
+    "calories": 52,
+    "protein": 0.4,
+    "fat": 0.1,
+    "carbohydrates": 11.0
+  },
+  "price": 276.95,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 11,
+  "is_organic": false,
+  "barcode": "4739726377955",
+  "manufacturer": {
+    "name": "ИП Фрукт-Импорт",
+    "country": "Россия",
+    "website": "https://fruitimport.ru",
+    "inn": "7756789015"
+  }
+}

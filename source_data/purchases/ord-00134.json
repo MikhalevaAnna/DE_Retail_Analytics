@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00134",
+  "customer": {
+    "customer_id": "cus-102085",
+    "first_name": "Марина",
+    "last_name": "Кулаков",
+    "email": "marina.kulakov@gmail.com",
+    "phone": "+76309783580",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-FDAE6BA6B"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на наб. Озерная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "наб. Озерная",
+      "house": "6",
+      "postal_code": "143031"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0082",
+      "name": "Гранат",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 188.02,
+      "total_price": 188.02,
+      "kbju": {
+        "calories": 72,
+        "protein": 0.9,
+        "fat": 0.3,
+        "carbohydrates": 14.5
+      }
+    },
+    {
+      "product_id": "prd-0022",
+      "name": "Кускус",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 140.1,
+      "total_price": 280.2,
+      "kbju": {
+        "calories": 376,
+        "protein": 12.8,
+        "fat": 0.6,
+        "carbohydrates": 77.4
+      }
+    }
+  ],
+  "total_amount": 468.22,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-10T16:50:56.749590Z"
+}

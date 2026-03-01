@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00479",
+  "customer": {
+    "customer_id": "cus-102032",
+    "first_name": "Зинаида",
+    "last_name": "Дроздов",
+    "email": "zinaida.drozdov@gmail.com",
+    "phone": "8 389 736 5874",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-96F5104F0"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на пр. Нефтекамск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "пр. Нефтекамск",
+      "house": "8",
+      "postal_code": "016782"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0029",
+      "name": "Котлеты",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 316.3,
+      "total_price": 948.9,
+      "kbju": {
+        "calories": 240,
+        "protein": 14.0,
+        "fat": 20.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0072",
+      "name": "Апельсины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 140.57,
+      "total_price": 421.71,
+      "kbju": {
+        "calories": 43,
+        "protein": 0.9,
+        "fat": 0.2,
+        "carbohydrates": 9.0
+      }
+    }
+  ],
+  "total_amount": 1370.61,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "пер. Покровский",
+    "house": "31",
+    "apartment": "40",
+    "postal_code": "180853"
+  },
+  "purchase_datetime": "2025-05-13T16:50:56.933083Z"
+}

@@ -1,0 +1,110 @@
+{
+  "purchase_id": "ord-00447",
+  "customer": {
+    "customer_id": "cus-102016",
+    "first_name": "Януарий",
+    "last_name": "Молчанов",
+    "email": "ianuarii.molchanov@mail.ru",
+    "phone": "+73883260072",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-51A2EFDFA"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на пр. Алексин",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Хабаровск",
+      "street": "пр. Алексин",
+      "house": "8",
+      "postal_code": "969218"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0037",
+      "name": "Фасоль красная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 82.12,
+      "total_price": 82.12,
+      "kbju": {
+        "calories": 337,
+        "protein": 22.5,
+        "fat": 1.5,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0068",
+      "name": "Биойогурт",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 80.21,
+      "total_price": 160.42,
+      "kbju": {
+        "calories": 90,
+        "protein": 3.5,
+        "fat": 3.0,
+        "carbohydrates": 11.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0077",
+      "name": "Клубника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 260.82,
+      "total_price": 260.82,
+      "kbju": {
+        "calories": 32,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 7.5
+      }
+    },
+    {
+      "product_id": "prd-0016",
+      "name": "Сушки",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 118.3,
+      "total_price": 236.6,
+      "kbju": {
+        "calories": 341,
+        "protein": 11.0,
+        "fat": 1.3,
+        "carbohydrates": 70.0
+      }
+    }
+  ],
+  "total_amount": 739.96,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Хабаровск",
+    "street": "алл. Парковая",
+    "house": "27",
+    "apartment": "123",
+    "postal_code": "528664"
+  },
+  "purchase_datetime": "2025-03-25T16:50:56.917083Z"
+}

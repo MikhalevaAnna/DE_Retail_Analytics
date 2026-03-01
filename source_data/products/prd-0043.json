@@ -1,0 +1,24 @@
+{
+  "id": "prd-0043",
+  "name": "Колбаса вареная",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Колбаса вареная.",
+  "kbju": {
+    "calories": 250,
+    "protein": 12.0,
+    "fat": 22.0,
+    "carbohydrates": 1.5
+  },
+  "price": 493.21,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 27,
+  "is_organic": false,
+  "barcode": "1131393636497",
+  "manufacturer": {
+    "name": "ООО Птицефабрика",
+    "country": "Россия",
+    "website": "https://ptica.ru",
+    "inn": "7723456790"
+  }
+}

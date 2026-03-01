@@ -1,0 +1,75 @@
+{
+  "purchase_id": "ord-00073",
+  "customer": {
+    "customer_id": "cus-102085",
+    "first_name": "Марина",
+    "last_name": "Кулаков",
+    "email": "marina.kulakov@gmail.com",
+    "phone": "+76309783580",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-FDAE6BA6B"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на наб. Озерная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "наб. Озерная",
+      "house": "6",
+      "postal_code": "143031"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0100",
+      "name": "Перец болгарский",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 196.78,
+      "total_price": 393.56,
+      "kbju": {
+        "calories": 27,
+        "protein": 1.3,
+        "fat": 0.2,
+        "carbohydrates": 5.3
+      }
+    },
+    {
+      "product_id": "prd-0016",
+      "name": "Сушки",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 118.3,
+      "total_price": 118.3,
+      "kbju": {
+        "calories": 341,
+        "protein": 11.0,
+        "fat": 1.3,
+        "carbohydrates": 70.0
+      }
+    },
+    {
+      "product_id": "prd-0024",
+      "name": "Мюсли",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 151.36,
+      "total_price": 151.36,
+      "kbju": {
+        "calories": 380,
+        "protein": 10.0,
+        "fat": 8.0,
+        "carbohydrates": 65.0
+      }
+    }
+  ],
+  "total_amount": 663.22,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-10-08T16:50:56.716591Z"
+}

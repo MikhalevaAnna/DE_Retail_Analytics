@@ -1,0 +1,24 @@
+{
+  "id": "prd-0023",
+  "name": "Булгур",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Булгур.",
+  "kbju": {
+    "calories": 342,
+    "protein": 12.3,
+    "fat": 1.3,
+    "carbohydrates": 75.9
+  },
+  "price": 132.33,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 466,
+  "is_organic": false,
+  "barcode": "8689105418730",
+  "manufacturer": {
+    "name": "АО Хлебный Дом",
+    "country": "Россия",
+    "website": "https://hlebnydom.ru",
+    "inn": "7712345678"
+  }
+}

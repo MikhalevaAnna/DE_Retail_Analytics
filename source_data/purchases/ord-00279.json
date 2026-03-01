@@ -1,0 +1,111 @@
+{
+  "purchase_id": "ord-00279",
+  "customer": {
+    "customer_id": "cus-102021",
+    "first_name": "Амос",
+    "last_name": "Жданов",
+    "email": "amos.zhdanov@yahoo.com",
+    "phone": "8 686 624 0712",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8F70C3ED9"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Воронеж",
+      "street": "ул. Назароваа",
+      "house": "34",
+      "postal_code": "502070"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0113",
+      "name": "Руккола",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 189.46,
+      "total_price": 189.46,
+      "kbju": {
+        "calories": 25,
+        "protein": 2.6,
+        "fat": 0.7,
+        "carbohydrates": 2.0
+      }
+    },
+    {
+      "product_id": "prd-0024",
+      "name": "Мюсли",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 151.36,
+      "total_price": 302.72,
+      "kbju": {
+        "calories": 380,
+        "protein": 10.0,
+        "fat": 8.0,
+        "carbohydrates": 65.0
+      }
+    },
+    {
+      "product_id": "prd-0022",
+      "name": "Кускус",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 140.1,
+      "total_price": 420.3,
+      "kbju": {
+        "calories": 376,
+        "protein": 12.8,
+        "fat": 0.6,
+        "carbohydrates": 77.4
+      }
+    },
+    {
+      "product_id": "prd-0048",
+      "name": "Молоко 3.2%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 97.36,
+      "total_price": 194.72,
+      "kbju": {
+        "calories": 60,
+        "protein": 2.9,
+        "fat": 3.2,
+        "carbohydrates": 4.7
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0079",
+      "name": "Киви",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 104.37,
+      "total_price": 104.37,
+      "kbju": {
+        "calories": 47,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 8.1
+      }
+    }
+  ],
+  "total_amount": 1211.57,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-23T16:50:56.827954Z"
+}

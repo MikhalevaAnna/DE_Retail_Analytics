@@ -1,0 +1,116 @@
+{
+  "purchase_id": "ord-00370",
+  "customer": {
+    "customer_id": "cus-102020",
+    "first_name": "Всемил",
+    "last_name": "Шубина",
+    "email": "vsemil.shubina@hotmail.com",
+    "phone": "8 885 330 7515",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AE798FD74"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Воронеж",
+      "street": "ул. Назароваа",
+      "house": "34",
+      "postal_code": "502070"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0034",
+      "name": "Форель",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 725.0,
+      "total_price": 1450.0,
+      "kbju": {
+        "calories": 150,
+        "protein": 20.0,
+        "fat": 7.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0065",
+      "name": "Айран",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 87.77,
+      "total_price": 263.31,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.8,
+        "fat": 1.5,
+        "carbohydrates": 3.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0050",
+      "name": "Творог 5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 131.29,
+      "total_price": 393.87,
+      "kbju": {
+        "calories": 121,
+        "protein": 16.5,
+        "fat": 5.0,
+        "carbohydrates": 3.3
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0084",
+      "name": "Ананас",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 276.95,
+      "total_price": 553.9,
+      "kbju": {
+        "calories": 52,
+        "protein": 0.4,
+        "fat": 0.1,
+        "carbohydrates": 11.0
+      }
+    }
+  ],
+  "total_amount": 2661.08,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Воронеж",
+    "street": "бул. Кубанский",
+    "house": "3",
+    "apartment": "37",
+    "postal_code": "730875"
+  },
+  "purchase_datetime": "2025-11-02T16:50:56.878353Z"
+}

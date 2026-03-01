@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102042",
+  "first_name": "Артемий",
+  "last_name": "Соловьев",
+  "email": "artemii.solovev@yandex.ru",
+  "phone": "8 839 324 1633",
+  "birth_date": "2000-01-30",
+  "gender": "female",
+  "registration_date": "2024-10-15T16:50:56.654591Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-2039E9B14",
+  "purchase_location": {
+    "store_id": "store-020",
+    "store_name": "Большая Пикча — Магазин на пр. Коломна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Тольятти",
+    "street": "пр. Коломна",
+    "house": "29",
+    "postal_code": "595083"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Тольятти",
+    "street": "алл. Мостовая",
+    "house": "48",
+    "apartment": "60",
+    "postal_code": "890428"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "online",
+    "receive_promotions": true
+  }
+}

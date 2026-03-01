@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00488",
+  "customer": {
+    "customer_id": "cus-102078",
+    "first_name": "Фаина",
+    "last_name": "Егорова",
+    "email": "faina.egorova@rambler.ru",
+    "phone": "87922361076",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0CFA04E04"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0030",
+      "name": "Яйцо куриное С1",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 95.19,
+      "total_price": 95.19,
+      "kbju": {
+        "calories": 155,
+        "protein": 12.7,
+        "fat": 10.9,
+        "carbohydrates": 0.7
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 95.19,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "алл. Буденного",
+    "house": "42",
+    "apartment": "38",
+    "postal_code": "045905"
+  },
+  "purchase_datetime": "2025-11-02T16:50:56.938083Z"
+}

@@ -1,0 +1,95 @@
+{
+  "purchase_id": "ord-00486",
+  "customer": {
+    "customer_id": "cus-102085",
+    "first_name": "Марина",
+    "last_name": "Кулаков",
+    "email": "marina.kulakov@gmail.com",
+    "phone": "+76309783580",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-FDAE6BA6B"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на наб. Озерная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "наб. Озерная",
+      "house": "6",
+      "postal_code": "143031"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0022",
+      "name": "Кускус",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 140.1,
+      "total_price": 280.2,
+      "kbju": {
+        "calories": 376,
+        "protein": 12.8,
+        "fat": 0.6,
+        "carbohydrates": 77.4
+      }
+    },
+    {
+      "product_id": "prd-0057",
+      "name": "Творожная масса",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 114.23,
+      "total_price": 114.23,
+      "kbju": {
+        "calories": 232,
+        "protein": 7.5,
+        "fat": 12.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    },
+    {
+      "product_id": "prd-0025",
+      "name": "Куриное филе",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 265.39,
+      "total_price": 796.17,
+      "kbju": {
+        "calories": 110,
+        "protein": 23.0,
+        "fat": 1.2,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 1190.6,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "наб. Комарова",
+    "house": "17",
+    "apartment": "123",
+    "postal_code": "951213"
+  },
+  "purchase_datetime": "2025-03-14T16:50:56.937083Z"
+}

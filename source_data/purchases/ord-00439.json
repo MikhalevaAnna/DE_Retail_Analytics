@@ -1,0 +1,110 @@
+{
+  "purchase_id": "ord-00439",
+  "customer": {
+    "customer_id": "cus-102002",
+    "first_name": "Аггей",
+    "last_name": "Селезнева",
+    "email": "aggei.selezneva@hotmail.com",
+    "phone": "+7 768 564 99 31",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7D18A718B"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0036",
+      "name": "Кальмары",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 392.03,
+      "total_price": 392.03,
+      "kbju": {
+        "calories": 92,
+        "protein": 18.0,
+        "fat": 1.2,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0053",
+      "name": "Сыр Российский",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 658.87,
+      "total_price": 1317.74,
+      "kbju": {
+        "calories": 360,
+        "protein": 24.0,
+        "fat": 29.0,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    },
+    {
+      "product_id": "prd-0091",
+      "name": "Дыня",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 89.77,
+      "total_price": 269.31,
+      "kbju": {
+        "calories": 35,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 8.0
+      }
+    },
+    {
+      "product_id": "prd-0071",
+      "name": "Бананы",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 96.92,
+      "total_price": 290.76,
+      "kbju": {
+        "calories": 96,
+        "protein": 1.5,
+        "fat": 0.5,
+        "carbohydrates": 21.0
+      }
+    }
+  ],
+  "total_amount": 2269.84,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "алл. Ивановская",
+    "house": "13",
+    "apartment": "15",
+    "postal_code": "379874"
+  },
+  "purchase_datetime": "2025-10-11T16:50:56.913083Z"
+}

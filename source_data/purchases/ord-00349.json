@@ -1,0 +1,125 @@
+{
+  "purchase_id": "ord-00349",
+  "customer": {
+    "customer_id": "cus-102004",
+    "first_name": "Елена",
+    "last_name": "Михеева",
+    "email": "elena.mikheeva@mail.ru",
+    "phone": "8 (483) 860-52-68",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2AE23D145"
+  },
+  "store": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на пр. Новочеркасск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "пр. Новочеркасск",
+      "house": "11",
+      "postal_code": "724485"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0087",
+      "name": "Черника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 418.4,
+      "total_price": 418.4,
+      "kbju": {
+        "calories": 44,
+        "protein": 0.9,
+        "fat": 0.4,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0032",
+      "name": "Семга слабосоленая",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 922.74,
+      "total_price": 2768.22,
+      "kbju": {
+        "calories": 203,
+        "protein": 22.5,
+        "fat": 12.5,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 108.98,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0077",
+      "name": "Клубника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 260.82,
+      "total_price": 782.46,
+      "kbju": {
+        "calories": 32,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 7.5
+      }
+    },
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 477.54,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    }
+  ],
+  "total_amount": 4555.6,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "пр. Серова",
+    "house": "25",
+    "apartment": "103",
+    "postal_code": "247582"
+  },
+  "purchase_datetime": "2025-12-19T16:50:56.866558Z"
+}

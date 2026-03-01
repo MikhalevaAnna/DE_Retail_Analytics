@@ -1,0 +1,24 @@
+{
+  "id": "prd-0062",
+  "name": "Сыр Пармезан",
+  "group": "🥛 Молочные продукты",
+  "description": "Сыр Пармезан.",
+  "kbju": {
+    "calories": 392,
+    "protein": 35.0,
+    "fat": 26.0,
+    "carbohydrates": 0.1
+  },
+  "price": 845.19,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 186,
+  "is_organic": true,
+  "barcode": "8095395357794",
+  "manufacturer": {
+    "name": "АО Молочный Комбинат",
+    "country": "Россия",
+    "website": "https://moloko.ru",
+    "inn": "7712345680"
+  }
+}

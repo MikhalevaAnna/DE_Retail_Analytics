@@ -1,0 +1,116 @@
+{
+  "purchase_id": "ord-00451",
+  "customer": {
+    "customer_id": "cus-102066",
+    "first_name": "Никандр",
+    "last_name": "Гаврилова",
+    "email": "nikandr.gavrilova@hotmail.com",
+    "phone": "+72376033008",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C3AB73F91"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на пр. Нефтекамск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "пр. Нефтекамск",
+      "house": "8",
+      "postal_code": "016782"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0052",
+      "name": "Масло сливочное",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 202.67,
+      "total_price": 608.01,
+      "kbju": {
+        "calories": 748,
+        "protein": 0.5,
+        "fat": 82.5,
+        "carbohydrates": 0.8
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0042",
+      "name": "Ветчина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 448.75,
+      "total_price": 897.5,
+      "kbju": {
+        "calories": 270,
+        "protein": 15.0,
+        "fat": 22.0,
+        "carbohydrates": 1.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0054",
+      "name": "Йогурт питьевой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 64.14,
+      "total_price": 128.28,
+      "kbju": {
+        "calories": 80,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0111",
+      "name": "Петрушка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 59.47,
+      "total_price": 178.41,
+      "kbju": {
+        "calories": 47,
+        "protein": 3.7,
+        "fat": 0.8,
+        "carbohydrates": 7.6
+      }
+    }
+  ],
+  "total_amount": 1812.2,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "алл. Западная",
+    "house": "46",
+    "apartment": "39",
+    "postal_code": "431100"
+  },
+  "purchase_datetime": "2025-09-26T16:50:56.919083Z"
+}

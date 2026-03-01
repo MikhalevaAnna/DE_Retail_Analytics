@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102018",
+  "first_name": "Будимир",
+  "last_name": "Турова",
+  "email": "budimir.turova@hotmail.com",
+  "phone": "+7 (231) 414-45-44",
+  "birth_date": "1975-06-04",
+  "gender": "male",
+  "registration_date": "2024-06-04T16:50:56.642063Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-EE34F81C0",
+  "purchase_location": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пер. Серова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Красноярск",
+    "street": "пер. Серова",
+    "house": "11",
+    "postal_code": "998228"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Красноярск",
+    "street": "пр. Троицкий",
+    "house": "33",
+    "apartment": "40",
+    "postal_code": "872990"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

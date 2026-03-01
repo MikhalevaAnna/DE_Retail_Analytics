@@ -1,0 +1,72 @@
+{
+  "purchase_id": "ord-00265",
+  "customer": {
+    "customer_id": "cus-102038",
+    "first_name": "Всеслав",
+    "last_name": "Макаров",
+    "email": "vseslav.makarov@yahoo.com",
+    "phone": "+7 (830) 569-4934",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2D8CC6BF5"
+  },
+  "store": {
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на ул. Волковаа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Москва",
+      "street": "ул. Волковаа",
+      "house": "28",
+      "postal_code": "948531"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0048",
+      "name": "Молоко 3.2%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 97.36,
+      "total_price": 97.36,
+      "kbju": {
+        "calories": 60,
+        "protein": 2.9,
+        "fat": 3.2,
+        "carbohydrates": 4.7
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0054",
+      "name": "Йогурт питьевой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 64.14,
+      "total_price": 128.28,
+      "kbju": {
+        "calories": 80,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 225.64,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-10T16:50:56.819953Z"
+}

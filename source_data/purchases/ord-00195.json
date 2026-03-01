@@ -1,0 +1,72 @@
+{
+  "purchase_id": "ord-00195",
+  "customer": {
+    "customer_id": "cus-102055",
+    "first_name": "Фотий",
+    "last_name": "Никифорова",
+    "email": "fotii.nikiforova@rambler.ru",
+    "phone": "8 (925) 757-20-72",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1FCE809B2"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на пр. Жданова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тюмень",
+      "street": "пр. Жданова",
+      "house": "14",
+      "postal_code": "752365"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0028",
+      "name": "Фарш говяжий",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 359.9,
+      "total_price": 719.8,
+      "kbju": {
+        "calories": 190,
+        "protein": 17.0,
+        "fat": 14.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0044",
+      "name": "Пельмени",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 235.45,
+      "total_price": 706.35,
+      "kbju": {
+        "calories": 280,
+        "protein": 12.0,
+        "fat": 14.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 1426.15,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-17T16:50:56.781714Z"
+}

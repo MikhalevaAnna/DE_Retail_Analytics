@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00214",
+  "customer": {
+    "customer_id": "cus-102019",
+    "first_name": "Казимир",
+    "last_name": "Семенова",
+    "email": "kazimir.semenova@yandex.ru",
+    "phone": "+7 (846) 806-2423",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-A5126FF8E"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Воронеж",
+      "street": "ул. Назароваа",
+      "house": "34",
+      "postal_code": "502070"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0074",
+      "name": "Груши",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 158.17,
+      "total_price": 316.34,
+      "kbju": {
+        "calories": 57,
+        "protein": 0.4,
+        "fat": 0.3,
+        "carbohydrates": 15.0
+      }
+    },
+    {
+      "product_id": "prd-0039",
+      "name": "Чечевица",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 125.07,
+      "total_price": 250.14,
+      "kbju": {
+        "calories": 295,
+        "protein": 24.0,
+        "fat": 1.5,
+        "carbohydrates": 46.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 566.48,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-25T16:50:56.792715Z"
+}

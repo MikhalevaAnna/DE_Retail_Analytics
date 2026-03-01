@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00322",
+  "customer": {
+    "customer_id": "cus-102059",
+    "first_name": "Ефим",
+    "last_name": "Сафонов",
+    "email": "efim.safonov@rambler.ru",
+    "phone": "+7 (809) 366-73-43",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-38CBF130C"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "пр. Мостовской",
+      "house": "24",
+      "postal_code": "193220"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0061",
+      "name": "Сыр Моцарелла",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 441.75,
+      "total_price": 1325.25,
+      "kbju": {
+        "calories": 280,
+        "protein": 22.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 1325.25,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "бул. Харьковский",
+    "house": "12",
+    "apartment": "50",
+    "postal_code": "651865"
+  },
+  "purchase_datetime": "2025-07-03T16:50:56.852956Z"
+}

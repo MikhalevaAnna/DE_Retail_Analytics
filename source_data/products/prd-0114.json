@@ -1,0 +1,24 @@
+{
+  "id": "prd-0114",
+  "name": "Сельдерей",
+  "group": "🥦 Овощи и зелень",
+  "description": "Сельдерей.",
+  "kbju": {
+    "calories": 16,
+    "protein": 0.7,
+    "fat": 0.2,
+    "carbohydrates": 3.0
+  },
+  "price": 130.13,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 12,
+  "is_organic": false,
+  "barcode": "5018171659113",
+  "manufacturer": {
+    "name": "ООО Овощебаза",
+    "country": "Россия",
+    "website": "https://ovoshi.ru",
+    "inn": "7723456793"
+  }
+}

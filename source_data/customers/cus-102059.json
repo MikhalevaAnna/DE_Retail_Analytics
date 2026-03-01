@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102059",
+  "first_name": "Ефим",
+  "last_name": "Сафонов",
+  "email": "efim.safonov@rambler.ru",
+  "phone": "+7 (809) 366-73-43",
+  "birth_date": "1981-01-16",
+  "gender": "female",
+  "registration_date": "2025-02-02T16:50:56.663590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-38CBF130C",
+  "purchase_location": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на ул. Трифона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "ул. Трифона",
+    "house": "15",
+    "postal_code": "777632"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "бул. Харьковский",
+    "house": "12",
+    "apartment": "50",
+    "postal_code": "651865"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "online",
+    "receive_promotions": false
+  }
+}

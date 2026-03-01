@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00475",
+  "customer": {
+    "customer_id": "cus-102002",
+    "first_name": "Аггей",
+    "last_name": "Селезнева",
+    "email": "aggei.selezneva@hotmail.com",
+    "phone": "+7 768 564 99 31",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7D18A718B"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на ул. Блохинаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "ул. Блохинаа",
+      "house": "10",
+      "postal_code": "842894"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0108",
+      "name": "Тыква",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 52.67,
+      "total_price": 52.67,
+      "kbju": {
+        "calories": 26,
+        "protein": 1.0,
+        "fat": 0.1,
+        "carbohydrates": 6.5
+      }
+    }
+  ],
+  "total_amount": 52.67,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "алл. Ивановская",
+    "house": "13",
+    "apartment": "15",
+    "postal_code": "379874"
+  },
+  "purchase_datetime": "2026-01-24T16:50:56.931083Z"
+}

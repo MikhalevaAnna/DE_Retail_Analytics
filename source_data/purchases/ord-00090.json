@@ -1,0 +1,95 @@
+{
+  "purchase_id": "ord-00090",
+  "customer": {
+    "customer_id": "cus-102063",
+    "first_name": "Валентина",
+    "last_name": "Воронов",
+    "email": "valentina.voronov@yandex.ru",
+    "phone": "+72150063044",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-27CD4793A"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на ул. Дорофееваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "ул. Дорофееваа",
+      "house": "4",
+      "postal_code": "022531"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0032",
+      "name": "Семга слабосоленая",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 922.74,
+      "total_price": 922.74,
+      "kbju": {
+        "calories": 203,
+        "protein": 22.5,
+        "fat": 12.5,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0051",
+      "name": "Сметана 20%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 99.27,
+      "total_price": 99.27,
+      "kbju": {
+        "calories": 206,
+        "protein": 2.5,
+        "fat": 20.0,
+        "carbohydrates": 3.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 318.36,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    }
+  ],
+  "total_amount": 1340.37,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Пермь",
+    "street": "ш. Черемуховое",
+    "house": "31",
+    "apartment": "89",
+    "postal_code": "910539"
+  },
+  "purchase_datetime": "2025-12-08T16:50:56.725590Z"
+}

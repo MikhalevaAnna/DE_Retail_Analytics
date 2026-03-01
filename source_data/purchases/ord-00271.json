@@ -1,0 +1,95 @@
+{
+  "purchase_id": "ord-00271",
+  "customer": {
+    "customer_id": "cus-102079",
+    "first_name": "Мартын",
+    "last_name": "Гусев",
+    "email": "martyn.gusev@gmail.com",
+    "phone": "+7 587 191 28 11",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-87BA1671D"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на ул. Ждановаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Ждановаа",
+      "house": "40",
+      "postal_code": "314679"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0041",
+      "name": "Сосиски",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 267.77,
+      "total_price": 535.54,
+      "kbju": {
+        "calories": 300,
+        "protein": 11.0,
+        "fat": 28.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0113",
+      "name": "Руккола",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 189.46,
+      "total_price": 568.38,
+      "kbju": {
+        "calories": 25,
+        "protein": 2.6,
+        "fat": 0.7,
+        "carbohydrates": 2.0
+      }
+    },
+    {
+      "product_id": "prd-0026",
+      "name": "Говядина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 495.77,
+      "total_price": 1487.31,
+      "kbju": {
+        "calories": 187,
+        "protein": 18.9,
+        "fat": 12.4,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    }
+  ],
+  "total_amount": 2591.23,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "пер. Кубанский",
+    "house": "20",
+    "apartment": "6",
+    "postal_code": "393408"
+  },
+  "purchase_datetime": "2025-03-26T16:50:56.822953Z"
+}

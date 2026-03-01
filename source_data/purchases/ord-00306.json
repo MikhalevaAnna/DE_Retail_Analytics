@@ -1,0 +1,72 @@
+{
+  "purchase_id": "ord-00306",
+  "customer": {
+    "customer_id": "cus-102087",
+    "first_name": "Виктория",
+    "last_name": "Муравьев",
+    "email": "viktoriia.muravev@rambler.ru",
+    "phone": "+7 707 730 06 35",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-444B6DCDB"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ул. Емельяноваа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "ул. Емельяноваа",
+      "house": "6",
+      "postal_code": "482671"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0068",
+      "name": "Биойогурт",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 80.21,
+      "total_price": 240.63,
+      "kbju": {
+        "calories": 90,
+        "protein": 3.5,
+        "fat": 3.0,
+        "carbohydrates": 11.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0031",
+      "name": "Филе индейки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 417.98,
+      "total_price": 1253.94,
+      "kbju": {
+        "calories": 112,
+        "protein": 22.6,
+        "fat": 1.8,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Рыбный мир",
+        "country": "Россия",
+        "website": "https://riba.ru",
+        "inn": "7734567891"
+      }
+    }
+  ],
+  "total_amount": 1494.57,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-09-21T16:50:56.843957Z"
+}

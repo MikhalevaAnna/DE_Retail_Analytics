@@ -1,0 +1,24 @@
+{
+  "id": "prd-0071",
+  "name": "Бананы",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Бананы.",
+  "kbju": {
+    "calories": 96,
+    "protein": 1.5,
+    "fat": 0.5,
+    "carbohydrates": 21.0
+  },
+  "price": 96.92,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 7,
+  "is_organic": false,
+  "barcode": "4484576381590",
+  "manufacturer": {
+    "name": "АО Южные плоды",
+    "country": "Россия",
+    "website": "https://yugfruit.ru",
+    "inn": "7734567893"
+  }
+}

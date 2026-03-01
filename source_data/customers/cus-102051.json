@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102051",
+  "first_name": "Кира",
+  "last_name": "Ситникова",
+  "email": "kira.sitnikova@gmail.com",
+  "phone": "+7 942 309 5361",
+  "birth_date": "1983-03-27",
+  "gender": "female",
+  "registration_date": "2025-02-17T16:50:56.659591Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-85E980FD3",
+  "purchase_location": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на ул. Мирона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Омск",
+    "street": "ул. Мирона",
+    "house": "27",
+    "postal_code": "717225"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "алл. 60 лет Октября",
+    "house": "14",
+    "apartment": "134",
+    "postal_code": "801689"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0009",
+  "name": "Овсяные хлопья",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Овсяные хлопья.",
+  "kbju": {
+    "calories": 366,
+    "protein": 11.9,
+    "fat": 6.1,
+    "carbohydrates": 62.0
+  },
+  "price": 61.08,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 231,
+  "is_organic": false,
+  "barcode": "6568966445135",
+  "manufacturer": {
+    "name": "ЗАО Русский Хлеб",
+    "country": "Россия",
+    "website": "https://russianbread.ru",
+    "inn": "7734567890"
+  }
+}

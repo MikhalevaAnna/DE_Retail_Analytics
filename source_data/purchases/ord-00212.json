@@ -1,0 +1,110 @@
+{
+  "purchase_id": "ord-00212",
+  "customer": {
+    "customer_id": "cus-102012",
+    "first_name": "Галактион",
+    "last_name": "Кулагина",
+    "email": "galaktion.kulagina@gmail.com",
+    "phone": "8 (261) 721-2266",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-03A4C258F"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "пр. Мостовской",
+      "house": "24",
+      "postal_code": "193220"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0055",
+      "name": "Ряженка",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 61.56,
+      "total_price": 123.12,
+      "kbju": {
+        "calories": 54,
+        "protein": 2.8,
+        "fat": 2.5,
+        "carbohydrates": 4.2
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0061",
+      "name": "Сыр Моцарелла",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 441.75,
+      "total_price": 883.5,
+      "kbju": {
+        "calories": 280,
+        "protein": 22.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0080",
+      "name": "Персики",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 193.6,
+      "total_price": 387.2,
+      "kbju": {
+        "calories": 45,
+        "protein": 0.9,
+        "fat": 0.1,
+        "carbohydrates": 9.5
+      }
+    },
+    {
+      "product_id": "prd-0072",
+      "name": "Апельсины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 140.57,
+      "total_price": 140.57,
+      "kbju": {
+        "calories": 43,
+        "protein": 0.9,
+        "fat": 0.2,
+        "carbohydrates": 9.0
+      }
+    }
+  ],
+  "total_amount": 1534.39,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "пер. Набережный",
+    "house": "7",
+    "apartment": "136",
+    "postal_code": "040455"
+  },
+  "purchase_datetime": "2025-07-11T16:50:56.790714Z"
+}

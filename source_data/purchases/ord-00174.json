@@ -1,0 +1,87 @@
+{
+  "purchase_id": "ord-00174",
+  "customer": {
+    "customer_id": "cus-102015",
+    "first_name": "Валерия",
+    "last_name": "Громова",
+    "email": "valeriia.gromova@yandex.ru",
+    "phone": "8 (245) 000-33-25",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4489EA5D7"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ул. Аксеноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Челябинск",
+      "street": "ул. Аксеноваа",
+      "house": "29",
+      "postal_code": "749962"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0053",
+      "name": "Сыр Российский",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 658.87,
+      "total_price": 1976.61,
+      "kbju": {
+        "calories": 360,
+        "protein": 24.0,
+        "fat": 29.0,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    },
+    {
+      "product_id": "prd-0065",
+      "name": "Айран",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 87.77,
+      "total_price": 87.77,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.8,
+        "fat": 1.5,
+        "carbohydrates": 3.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0022",
+      "name": "Кускус",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 140.1,
+      "total_price": 420.3,
+      "kbju": {
+        "calories": 376,
+        "protein": 12.8,
+        "fat": 0.6,
+        "carbohydrates": 77.4
+      }
+    }
+  ],
+  "total_amount": 2484.68,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-09-14T16:50:56.770716Z"
+}

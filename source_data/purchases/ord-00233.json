@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00233",
+  "customer": {
+    "customer_id": "cus-102028",
+    "first_name": "Еремей",
+    "last_name": "Афанасьева",
+    "email": "eremei.afanaseva@yahoo.com",
+    "phone": "8 790 433 6527",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-064806562"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 239.18,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 163.26,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    },
+    {
+      "product_id": "prd-0045",
+      "name": "Баранина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 559.68,
+      "total_price": 559.68,
+      "kbju": {
+        "calories": 209,
+        "protein": 15.6,
+        "fat": 16.3,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0085",
+      "name": "Манго",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 224.25,
+      "total_price": 672.75,
+      "kbju": {
+        "calories": 60,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 15.0
+      }
+    }
+  ],
+  "total_amount": 1634.87,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-05T16:50:56.802798Z"
+}

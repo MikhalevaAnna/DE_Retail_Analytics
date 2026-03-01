@@ -1,0 +1,114 @@
+{
+  "purchase_id": "ord-00217",
+  "customer": {
+    "customer_id": "cus-102018",
+    "first_name": "Будимир",
+    "last_name": "Турова",
+    "email": "budimir.turova@hotmail.com",
+    "phone": "+7 (231) 414-45-44",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EE34F81C0"
+  },
+  "store": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пер. Серова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Красноярск",
+      "street": "пер. Серова",
+      "house": "11",
+      "postal_code": "998228"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0042",
+      "name": "Ветчина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 448.75,
+      "total_price": 448.75,
+      "kbju": {
+        "calories": 270,
+        "protein": 15.0,
+        "fat": 22.0,
+        "carbohydrates": 1.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0050",
+      "name": "Творог 5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 131.29,
+      "total_price": 393.87,
+      "kbju": {
+        "calories": 121,
+        "protein": 16.5,
+        "fat": 5.0,
+        "carbohydrates": 3.3
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0066",
+      "name": "Сыр Адыгейский",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 251.23,
+      "total_price": 753.69,
+      "kbju": {
+        "calories": 220,
+        "protein": 18.0,
+        "fat": 16.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0037",
+      "name": "Фасоль красная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 82.12,
+      "total_price": 82.12,
+      "kbju": {
+        "calories": 337,
+        "protein": 22.5,
+        "fat": 1.5,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 1678.43,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-24T16:50:56.793715Z"
+}

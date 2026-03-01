@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00480",
+  "customer": {
+    "customer_id": "cus-102060",
+    "first_name": "Элеонора",
+    "last_name": "Лыткин",
+    "email": "eleonora.lytkin@gmail.com",
+    "phone": "+7 (891) 553-1829",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D289F03B0"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "пр. Мостовской",
+      "house": "24",
+      "postal_code": "193220"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0027",
+      "name": "Свинина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 392.61,
+      "total_price": 392.61,
+      "kbju": {
+        "calories": 259,
+        "protein": 16.0,
+        "fat": 21.7,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0008",
+      "name": "Макароны",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 96.25,
+      "total_price": 192.5,
+      "kbju": {
+        "calories": 340,
+        "protein": 11.0,
+        "fat": 1.3,
+        "carbohydrates": 70.0
+      }
+    }
+  ],
+  "total_amount": 585.11,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "ш. Медицинское",
+    "house": "9",
+    "apartment": "142",
+    "postal_code": "843347"
+  },
+  "purchase_datetime": "2025-03-01T16:50:56.934082Z"
+}

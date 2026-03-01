@@ -1,0 +1,104 @@
+{
+  "purchase_id": "ord-00194",
+  "customer": {
+    "customer_id": "cus-102029",
+    "first_name": "Полина",
+    "last_name": "Голубева",
+    "email": "polina.golubeva@yahoo.com",
+    "phone": "8 831 748 89 75",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-6FCF1D93E"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 239.18,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0031",
+      "name": "Филе индейки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 417.98,
+      "total_price": 417.98,
+      "kbju": {
+        "calories": 112,
+        "protein": 22.6,
+        "fat": 1.8,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Рыбный мир",
+        "country": "Россия",
+        "website": "https://riba.ru",
+        "inn": "7734567891"
+      }
+    },
+    {
+      "product_id": "prd-0007",
+      "name": "Рис круглозерный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 97.72,
+      "total_price": 293.16,
+      "kbju": {
+        "calories": 330,
+        "protein": 6.7,
+        "fat": 0.7,
+        "carbohydrates": 78.9
+      }
+    },
+    {
+      "product_id": "prd-0020",
+      "name": "Кекс",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 117.3,
+      "total_price": 234.6,
+      "kbju": {
+        "calories": 340,
+        "protein": 6.0,
+        "fat": 15.0,
+        "carbohydrates": 45.0
+      }
+    }
+  ],
+  "total_amount": 1184.92,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "бул. Челюскинцев",
+    "house": "10",
+    "apartment": "36",
+    "postal_code": "478001"
+  },
+  "purchase_datetime": "2025-05-26T16:50:56.781714Z"
+}

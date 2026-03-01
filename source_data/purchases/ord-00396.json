@@ -1,0 +1,111 @@
+{
+  "purchase_id": "ord-00396",
+  "customer": {
+    "customer_id": "cus-102001",
+    "first_name": "Мефодий",
+    "last_name": "Киселева",
+    "email": "mefodii.kiseleva@yandex.ru",
+    "phone": "87271425630",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-5980C86E2"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0091",
+      "name": "Дыня",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 89.77,
+      "total_price": 179.54,
+      "kbju": {
+        "calories": 35,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 8.0
+      }
+    },
+    {
+      "product_id": "prd-0087",
+      "name": "Черника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 418.4,
+      "total_price": 418.4,
+      "kbju": {
+        "calories": 44,
+        "protein": 0.9,
+        "fat": 0.4,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0083",
+      "name": "Хурма",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 165.51,
+      "total_price": 331.02,
+      "kbju": {
+        "calories": 67,
+        "protein": 0.5,
+        "fat": 0.4,
+        "carbohydrates": 16.0
+      }
+    },
+    {
+      "product_id": "prd-0072",
+      "name": "Апельсины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 140.57,
+      "total_price": 421.71,
+      "kbju": {
+        "calories": 43,
+        "protein": 0.9,
+        "fat": 0.2,
+        "carbohydrates": 9.0
+      }
+    },
+    {
+      "product_id": "prd-0034",
+      "name": "Форель",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 725.0,
+      "total_price": 725.0,
+      "kbju": {
+        "calories": 150,
+        "protein": 20.0,
+        "fat": 7.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    }
+  ],
+  "total_amount": 2075.67,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-03T16:50:56.891050Z"
+}

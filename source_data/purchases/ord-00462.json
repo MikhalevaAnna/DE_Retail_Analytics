@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00462",
+  "customer": {
+    "customer_id": "cus-102060",
+    "first_name": "Элеонора",
+    "last_name": "Лыткин",
+    "email": "eleonora.lytkin@gmail.com",
+    "phone": "+7 (891) 553-1829",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D289F03B0"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ул. Лучезара",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Лучезара",
+      "house": "3",
+      "postal_code": "300397"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0093",
+      "name": "Лайм",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 144.76,
+      "total_price": 434.28,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 10.5
+      }
+    }
+  ],
+  "total_amount": 434.28,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-09-10T16:50:56.925083Z"
+}

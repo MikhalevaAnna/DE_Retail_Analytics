@@ -1,0 +1,104 @@
+{
+  "purchase_id": "ord-00106",
+  "customer": {
+    "customer_id": "cus-102031",
+    "first_name": "Самуил",
+    "last_name": "Ильин",
+    "email": "samuil.ilin@gmail.com",
+    "phone": "+7 (809) 033-68-43",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-43CA76750"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на пр. Нефтекамск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "пр. Нефтекамск",
+      "house": "8",
+      "postal_code": "016782"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0023",
+      "name": "Булгур",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 132.33,
+      "total_price": 264.66,
+      "kbju": {
+        "calories": 342,
+        "protein": 12.3,
+        "fat": 1.3,
+        "carbohydrates": 75.9
+      }
+    },
+    {
+      "product_id": "prd-0013",
+      "name": "Ячневая крупа",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 36.9,
+      "total_price": 73.8,
+      "kbju": {
+        "calories": 313,
+        "protein": 10.4,
+        "fat": 1.1,
+        "carbohydrates": 65.4
+      }
+    },
+    {
+      "product_id": "prd-0095",
+      "name": "Морковь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 51.4,
+      "total_price": 51.4,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.3,
+        "fat": 0.1,
+        "carbohydrates": 6.9
+      }
+    },
+    {
+      "product_id": "prd-0069",
+      "name": "Сыр козий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 664.85,
+      "total_price": 664.85,
+      "kbju": {
+        "calories": 290,
+        "protein": 18.0,
+        "fat": 23.0,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 1054.71,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "ул. Тельмана",
+    "house": "47",
+    "apartment": "81",
+    "postal_code": "596955"
+  },
+  "purchase_datetime": "2025-05-16T16:50:56.733590Z"
+}

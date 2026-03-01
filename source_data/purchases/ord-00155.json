@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00155",
+  "customer": {
+    "customer_id": "cus-102033",
+    "first_name": "Гедеон",
+    "last_name": "Харитонов",
+    "email": "gedeon.kharitonov@gmail.com",
+    "phone": "89342475584",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-82830ECCA"
+  },
+  "store": {
+    "store_id": "store-016",
+    "store_name": "Большая Пикча — Магазин на пр. Сосновый Бор",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Иркутск",
+      "street": "пр. Сосновый Бор",
+      "house": "19",
+      "postal_code": "844167"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0006",
+      "name": "Крупа гречневая",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 112.67,
+      "total_price": 338.01,
+      "kbju": {
+        "calories": 308,
+        "protein": 12.6,
+        "fat": 3.3,
+        "carbohydrates": 57.1
+      }
+    },
+    {
+      "product_id": "prd-0050",
+      "name": "Творог 5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 131.29,
+      "total_price": 131.29,
+      "kbju": {
+        "calories": 121,
+        "protein": 16.5,
+        "fat": 5.0,
+        "carbohydrates": 3.3
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 469.3,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Иркутск",
+    "street": "пер. Рязанский",
+    "house": "35",
+    "apartment": "29",
+    "postal_code": "101423"
+  },
+  "purchase_datetime": "2025-12-11T16:50:56.760155Z"
+}

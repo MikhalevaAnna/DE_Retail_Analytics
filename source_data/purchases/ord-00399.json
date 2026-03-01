@@ -1,0 +1,108 @@
+{
+  "purchase_id": "ord-00399",
+  "customer": {
+    "customer_id": "cus-102081",
+    "first_name": "Фадей",
+    "last_name": "Агафонов",
+    "email": "fadei.agafonov@hotmail.com",
+    "phone": "+7 (950) 708-65-72",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B32BC6967"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0036",
+      "name": "Кальмары",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 392.03,
+      "total_price": 392.03,
+      "kbju": {
+        "calories": 92,
+        "protein": 18.0,
+        "fat": 1.2,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0065",
+      "name": "Айран",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 87.77,
+      "total_price": 263.31,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.8,
+        "fat": 1.5,
+        "carbohydrates": 3.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0001",
+      "name": "Хлеб ржаной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 57.42,
+      "total_price": 114.84,
+      "kbju": {
+        "calories": 165,
+        "protein": 6.6,
+        "fat": 1.2,
+        "carbohydrates": 33.4
+      }
+    },
+    {
+      "product_id": "prd-0051",
+      "name": "Сметана 20%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 99.27,
+      "total_price": 198.54,
+      "kbju": {
+        "calories": 206,
+        "protein": 2.5,
+        "fat": 20.0,
+        "carbohydrates": 3.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 968.72,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-22T16:50:56.893050Z"
+}

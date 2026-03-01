@@ -1,0 +1,24 @@
+{
+  "id": "prd-0094",
+  "name": "Картофель",
+  "group": "🥦 Овощи и зелень",
+  "description": "Картофель.",
+  "kbju": {
+    "calories": 77,
+    "protein": 2.0,
+    "fat": 0.1,
+    "carbohydrates": 17.0
+  },
+  "price": 59.63,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 32,
+  "is_organic": true,
+  "barcode": "9265896211027",
+  "manufacturer": {
+    "name": "АПК Агрокультура",
+    "country": "Россия",
+    "website": "https://agro.ru",
+    "inn": "7756789016"
+  }
+}

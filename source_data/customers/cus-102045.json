@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102045",
+  "first_name": "Раиса",
+  "last_name": "Ковалева",
+  "email": "raisa.kovaleva@gmail.com",
+  "phone": "+7 261 941 0639",
+  "birth_date": "1977-03-28",
+  "gender": "male",
+  "registration_date": "2024-09-04T16:50:56.656591Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-EE2BA17CC",
+  "purchase_location": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на пр. Апшеронск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Казань",
+    "street": "пр. Апшеронск",
+    "house": "6",
+    "postal_code": "973734"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Казань",
+    "street": "ул. Снежная",
+    "house": "36",
+    "apartment": "11",
+    "postal_code": "333183"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

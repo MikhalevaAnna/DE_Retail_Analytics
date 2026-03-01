@@ -1,0 +1,108 @@
+{
+  "purchase_id": "ord-00297",
+  "customer": {
+    "customer_id": "cus-102077",
+    "first_name": "Николай",
+    "last_name": "Корнилова",
+    "email": "nikolai.kornilova@mail.ru",
+    "phone": "+7 (248) 892-6036",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-FDF9303F3"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на ул. Ждановаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Ждановаа",
+      "house": "40",
+      "postal_code": "314679"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0030",
+      "name": "Яйцо куриное С1",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 95.19,
+      "total_price": 190.38,
+      "kbju": {
+        "calories": 155,
+        "protein": 12.7,
+        "fat": 10.9,
+        "carbohydrates": 0.7
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0047",
+      "name": "Сельдь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 193.4,
+      "total_price": 580.2,
+      "kbju": {
+        "calories": 161,
+        "protein": 17.0,
+        "fat": 10.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0088",
+      "name": "Смородина черная",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 252.0,
+      "total_price": 252.0,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.0,
+        "fat": 0.4,
+        "carbohydrates": 7.3
+      }
+    },
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 1740.3,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 2762.88,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-25T16:50:56.838956Z"
+}

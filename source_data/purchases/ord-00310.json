@@ -1,0 +1,95 @@
+{
+  "purchase_id": "ord-00310",
+  "customer": {
+    "customer_id": "cus-102018",
+    "first_name": "Будимир",
+    "last_name": "Турова",
+    "email": "budimir.turova@hotmail.com",
+    "phone": "+7 (231) 414-45-44",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EE34F81C0"
+  },
+  "store": {
+    "store_id": "store-009",
+    "store_name": "Большая Пикча — Магазин на пер. Серова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Красноярск",
+      "street": "пер. Серова",
+      "house": "11",
+      "postal_code": "998228"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0058",
+      "name": "Сыр плавленый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 66.59,
+      "total_price": 133.18,
+      "kbju": {
+        "calories": 240,
+        "protein": 12.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 318.36,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    },
+    {
+      "product_id": "prd-0047",
+      "name": "Сельдь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 193.4,
+      "total_price": 193.4,
+      "kbju": {
+        "calories": 161,
+        "protein": 17.0,
+        "fat": 10.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 644.94,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Красноярск",
+    "street": "пр. Троицкий",
+    "house": "33",
+    "apartment": "40",
+    "postal_code": "872990"
+  },
+  "purchase_datetime": "2025-08-16T16:50:56.845955Z"
+}

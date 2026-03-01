@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00318",
+  "customer": {
+    "customer_id": "cus-102030",
+    "first_name": "Максимильян",
+    "last_name": "Быков",
+    "email": "maksimilian.bykov@yandex.ru",
+    "phone": "8 (535) 375-4965",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7793A78A8"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0041",
+      "name": "Сосиски",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 267.77,
+      "total_price": 535.54,
+      "kbju": {
+        "calories": 300,
+        "protein": 11.0,
+        "fat": 28.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0020",
+      "name": "Кекс",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 117.3,
+      "total_price": 117.3,
+      "kbju": {
+        "calories": 340,
+        "protein": 6.0,
+        "fat": 15.0,
+        "carbohydrates": 45.0
+      }
+    }
+  ],
+  "total_amount": 652.84,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "наб. Островского",
+    "house": "25",
+    "apartment": "101",
+    "postal_code": "899351"
+  },
+  "purchase_datetime": "2025-04-06T16:50:56.850956Z"
+}

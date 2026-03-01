@@ -1,0 +1,24 @@
+{
+  "id": "prd-0003",
+  "name": "Батон нарезной",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Батон нарезной.",
+  "kbju": {
+    "calories": 262,
+    "protein": 7.5,
+    "fat": 2.9,
+    "carbohydrates": 51.4
+  },
+  "price": 59.33,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 4,
+  "is_organic": false,
+  "barcode": "5961296136086",
+  "manufacturer": {
+    "name": "ООО Зернышко",
+    "country": "Россия",
+    "website": "https://zernyshko.ru",
+    "inn": "7756789012"
+  }
+}

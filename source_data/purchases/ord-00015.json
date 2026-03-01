@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00015",
+  "customer": {
+    "customer_id": "cus-102002",
+    "first_name": "Аггей",
+    "last_name": "Селезнева",
+    "email": "aggei.selezneva@hotmail.com",
+    "phone": "+7 768 564 99 31",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7D18A718B"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на ул. Блохинаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "ул. Блохинаа",
+      "house": "10",
+      "postal_code": "842894"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0084",
+      "name": "Ананас",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 276.95,
+      "total_price": 276.95,
+      "kbju": {
+        "calories": 52,
+        "protein": 0.4,
+        "fat": 0.1,
+        "carbohydrates": 11.0
+      }
+    },
+    {
+      "product_id": "prd-0026",
+      "name": "Говядина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 495.77,
+      "total_price": 495.77,
+      "kbju": {
+        "calories": 187,
+        "protein": 18.9,
+        "fat": 12.4,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    }
+  ],
+  "total_amount": 772.72,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-07T16:50:56.687591Z"
+}

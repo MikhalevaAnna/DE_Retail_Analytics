@@ -1,0 +1,24 @@
+{
+  "id": "prd-0034",
+  "name": "Форель",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Форель.",
+  "kbju": {
+    "calories": 150,
+    "protein": 20.0,
+    "fat": 7.0,
+    "carbohydrates": 0.0
+  },
+  "price": 725.0,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 6,
+  "is_organic": false,
+  "barcode": "9880474009935",
+  "manufacturer": {
+    "name": "ООО Птицефабрика",
+    "country": "Россия",
+    "website": "https://ptica.ru",
+    "inn": "7723456790"
+  }
+}

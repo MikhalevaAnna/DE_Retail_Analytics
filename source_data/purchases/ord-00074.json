@@ -1,0 +1,117 @@
+{
+  "purchase_id": "ord-00074",
+  "customer": {
+    "customer_id": "cus-102051",
+    "first_name": "Кира",
+    "last_name": "Ситникова",
+    "email": "kira.sitnikova@gmail.com",
+    "phone": "+7 942 309 5361",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-85E980FD3"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на бул. Новостройка",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "бул. Новостройка",
+      "house": "38",
+      "postal_code": "627392"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0002",
+      "name": "Хлеб пшеничный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 35.14,
+      "total_price": 105.42,
+      "kbju": {
+        "calories": 260,
+        "protein": 8.1,
+        "fat": 1.2,
+        "carbohydrates": 48.8
+      }
+    },
+    {
+      "product_id": "prd-0084",
+      "name": "Ананас",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 276.95,
+      "total_price": 830.85,
+      "kbju": {
+        "calories": 52,
+        "protein": 0.4,
+        "fat": 0.1,
+        "carbohydrates": 11.0
+      }
+    },
+    {
+      "product_id": "prd-0052",
+      "name": "Масло сливочное",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 202.67,
+      "total_price": 202.67,
+      "kbju": {
+        "calories": 748,
+        "protein": 0.5,
+        "fat": 82.5,
+        "carbohydrates": 0.8
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 318.36,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    },
+    {
+      "product_id": "prd-0033",
+      "name": "Минтай",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 247.87,
+      "total_price": 743.61,
+      "kbju": {
+        "calories": 72,
+        "protein": 15.9,
+        "fat": 0.9,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 2200.91,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-14T16:50:56.717590Z"
+}

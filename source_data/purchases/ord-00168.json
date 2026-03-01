@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00168",
+  "customer": {
+    "customer_id": "cus-102039",
+    "first_name": "Олег",
+    "last_name": "Яковлев",
+    "email": "oleg.iakovlev@mail.ru",
+    "phone": "+73210570782",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E03293973"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на бул. Свердлова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "бул. Свердлова",
+      "house": "32",
+      "postal_code": "152628"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0044",
+      "name": "Пельмени",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 235.45,
+      "total_price": 470.9,
+      "kbju": {
+        "calories": 280,
+        "protein": 12.0,
+        "fat": 14.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0087",
+      "name": "Черника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 418.4,
+      "total_price": 836.8,
+      "kbju": {
+        "calories": 44,
+        "protein": 0.9,
+        "fat": 0.4,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0111",
+      "name": "Петрушка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 59.47,
+      "total_price": 59.47,
+      "kbju": {
+        "calories": 47,
+        "protein": 3.7,
+        "fat": 0.8,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0001",
+      "name": "Хлеб ржаной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 57.42,
+      "total_price": 57.42,
+      "kbju": {
+        "calories": 165,
+        "protein": 6.6,
+        "fat": 1.2,
+        "carbohydrates": 33.4
+      }
+    }
+  ],
+  "total_amount": 1424.59,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-28T16:50:56.767714Z"
+}

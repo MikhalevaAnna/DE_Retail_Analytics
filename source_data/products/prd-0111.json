@@ -1,0 +1,24 @@
+{
+  "id": "prd-0111",
+  "name": "Петрушка",
+  "group": "🥦 Овощи и зелень",
+  "description": "Петрушка.",
+  "kbju": {
+    "calories": 47,
+    "protein": 3.7,
+    "fat": 0.8,
+    "carbohydrates": 7.6
+  },
+  "price": 59.47,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 4,
+  "is_organic": false,
+  "barcode": "1281293313223",
+  "manufacturer": {
+    "name": "ООО Овощебаза",
+    "country": "Россия",
+    "website": "https://ovoshi.ru",
+    "inn": "7723456793"
+  }
+}

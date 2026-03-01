@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00109",
+  "customer": {
+    "customer_id": "cus-102009",
+    "first_name": "Тихон",
+    "last_name": "Потапова",
+    "email": "tikhon.potapova@rambler.ru",
+    "phone": "+7 655 577 2836",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B412CAC75"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на ул. Кирилловаа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Кирилловаа",
+      "house": "28",
+      "postal_code": "404165"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0062",
+      "name": "Сыр Пармезан",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 845.19,
+      "total_price": 845.19,
+      "kbju": {
+        "calories": 392,
+        "protein": 35.0,
+        "fat": 26.0,
+        "carbohydrates": 0.1
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    }
+  ],
+  "total_amount": 845.19,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-07T16:50:56.735590Z"
+}

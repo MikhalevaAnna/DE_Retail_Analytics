@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00239",
+  "customer": {
+    "customer_id": "cus-102039",
+    "first_name": "Олег",
+    "last_name": "Яковлев",
+    "email": "oleg.iakovlev@mail.ru",
+    "phone": "+73210570782",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E03293973"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на бул. Свердлова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "бул. Свердлова",
+      "house": "32",
+      "postal_code": "152628"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0077",
+      "name": "Клубника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 260.82,
+      "total_price": 521.64,
+      "kbju": {
+        "calories": 32,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 7.5
+      }
+    },
+    {
+      "product_id": "prd-0085",
+      "name": "Манго",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 224.25,
+      "total_price": 224.25,
+      "kbju": {
+        "calories": 60,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 15.0
+      }
+    },
+    {
+      "product_id": "prd-0069",
+      "name": "Сыр козий",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 664.85,
+      "total_price": 664.85,
+      "kbju": {
+        "calories": 290,
+        "protein": 18.0,
+        "fat": 23.0,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 1410.74,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-29T16:50:56.805855Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0055",
+  "name": "Ряженка",
+  "group": "🥛 Молочные продукты",
+  "description": "Ряженка.",
+  "kbju": {
+    "calories": 54,
+    "protein": 2.8,
+    "fat": 2.5,
+    "carbohydrates": 4.2
+  },
+  "price": 61.56,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 10,
+  "is_organic": false,
+  "barcode": "3593407255502",
+  "manufacturer": {
+    "name": "ООО Вимм-Билль-Данн",
+    "country": "Россия",
+    "website": "https://wbd.ru",
+    "inn": "7723456791"
+  }
+}

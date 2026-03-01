@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00058",
+  "customer": {
+    "customer_id": "cus-102084",
+    "first_name": "Василий",
+    "last_name": "Лебедев",
+    "email": "vasilii.lebedev@mail.ru",
+    "phone": "+7 (392) 637-0530",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B9689A32B"
+  },
+  "store": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на ул. Дорофееваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тюмень",
+      "street": "ул. Дорофееваа",
+      "house": "6",
+      "postal_code": "583032"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0078",
+      "name": "Малина",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 335.04,
+      "total_price": 335.04,
+      "kbju": {
+        "calories": 42,
+        "protein": 0.8,
+        "fat": 0.5,
+        "carbohydrates": 8.6
+      }
+    }
+  ],
+  "total_amount": 335.04,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "ул. Восьмого Марта",
+    "house": "42",
+    "apartment": "37",
+    "postal_code": "100320"
+  },
+  "purchase_datetime": "2025-10-27T16:50:56.709590Z"
+}

@@ -1,0 +1,75 @@
+{
+  "purchase_id": "ord-00382",
+  "customer": {
+    "customer_id": "cus-102077",
+    "first_name": "Николай",
+    "last_name": "Корнилова",
+    "email": "nikolai.kornilova@mail.ru",
+    "phone": "+7 (248) 892-6036",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-FDF9303F3"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0108",
+      "name": "Тыква",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 52.67,
+      "total_price": 52.67,
+      "kbju": {
+        "calories": 26,
+        "protein": 1.0,
+        "fat": 0.1,
+        "carbohydrates": 6.5
+      }
+    },
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 477.54,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    },
+    {
+      "product_id": "prd-0098",
+      "name": "Помидоры",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 159.68,
+      "total_price": 319.36,
+      "kbju": {
+        "calories": 20,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carbohydrates": 4.0
+      }
+    }
+  ],
+  "total_amount": 849.57,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-10-28T16:50:56.884016Z"
+}

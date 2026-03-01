@@ -1,0 +1,24 @@
+{
+  "id": "prd-0102",
+  "name": "Цветная капуста",
+  "group": "🥦 Овощи и зелень",
+  "description": "Цветная капуста.",
+  "kbju": {
+    "calories": 30,
+    "protein": 2.5,
+    "fat": 0.3,
+    "carbohydrates": 5.4
+  },
+  "price": 167.2,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 7,
+  "is_organic": true,
+  "barcode": "1313139958418",
+  "manufacturer": {
+    "name": "ООО Витамин",
+    "country": "Россия",
+    "website": "https://vitamin.ru",
+    "inn": "7745678905"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00455",
+  "customer": {
+    "customer_id": "cus-102053",
+    "first_name": "Варвара",
+    "last_name": "Воронов",
+    "email": "varvara.voronov@yandex.ru",
+    "phone": "8 519 030 01 45",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1B51C0597"
+  },
+  "store": {
+    "store_id": "store-003",
+    "store_name": "Большая Пикча — Магазин на ул. Дьячкова",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "ул. Дьячкова",
+      "house": "39",
+      "postal_code": "826126"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0025",
+      "name": "Куриное филе",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 265.39,
+      "total_price": 530.78,
+      "kbju": {
+        "calories": 110,
+        "protein": 23.0,
+        "fat": 1.2,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 530.78,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "алл. Полевая",
+    "house": "7",
+    "apartment": "30",
+    "postal_code": "538721"
+  },
+  "purchase_datetime": "2025-08-03T16:50:56.921083Z"
+}

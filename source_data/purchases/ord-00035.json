@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00035",
+  "customer": {
+    "customer_id": "cus-102058",
+    "first_name": "Ксения",
+    "last_name": "Сысоева",
+    "email": "kseniia.sysoeva@mail.ru",
+    "phone": "8 065 801 6708",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-A0D86168D"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 239.18,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    }
+  ],
+  "total_amount": 239.18,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "ул. Безымянная",
+    "house": "23",
+    "apartment": "16",
+    "postal_code": "006911"
+  },
+  "purchase_datetime": "2025-08-13T16:50:56.697590Z"
+}

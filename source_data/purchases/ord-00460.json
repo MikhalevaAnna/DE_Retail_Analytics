@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00460",
+  "customer": {
+    "customer_id": "cus-102037",
+    "first_name": "Виктория",
+    "last_name": "Самсонова",
+    "email": "viktoriia.samsonova@yahoo.com",
+    "phone": "8 084 158 2775",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-01E1D4BC9"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на ул. Антоноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Москва",
+      "street": "ул. Антоноваа",
+      "house": "15",
+      "postal_code": "229970"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0007",
+      "name": "Рис круглозерный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 97.72,
+      "total_price": 195.44,
+      "kbju": {
+        "calories": 330,
+        "protein": 6.7,
+        "fat": 0.7,
+        "carbohydrates": 78.9
+      }
+    },
+    {
+      "product_id": "prd-0027",
+      "name": "Свинина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 392.61,
+      "total_price": 392.61,
+      "kbju": {
+        "calories": 259,
+        "protein": 16.0,
+        "fat": 21.7,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 588.05,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-24T16:50:56.924083Z"
+}

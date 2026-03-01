@@ -1,0 +1,24 @@
+{
+  "id": "prd-0004",
+  "name": "Лаваш армянский",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Лаваш армянский.",
+  "kbju": {
+    "calories": 236,
+    "protein": 7.0,
+    "fat": 1.0,
+    "carbohydrates": 48.0
+  },
+  "price": 68.88,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 7,
+  "is_organic": false,
+  "barcode": "2833201941012",
+  "manufacturer": {
+    "name": "ЗАО Русский Хлеб",
+    "country": "Россия",
+    "website": "https://russianbread.ru",
+    "inn": "7734567890"
+  }
+}

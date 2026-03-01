@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00152",
+  "customer": {
+    "customer_id": "cus-102079",
+    "first_name": "Мартын",
+    "last_name": "Гусев",
+    "email": "martyn.gusev@gmail.com",
+    "phone": "+7 587 191 28 11",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-87BA1671D"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на ул. Ждановаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Ждановаа",
+      "house": "40",
+      "postal_code": "314679"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0021",
+      "name": "Ржаные хлебцы",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 84.23,
+      "total_price": 168.46,
+      "kbju": {
+        "calories": 300,
+        "protein": 8.0,
+        "fat": 2.0,
+        "carbohydrates": 60.0
+      }
+    },
+    {
+      "product_id": "prd-0088",
+      "name": "Смородина черная",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 252.0,
+      "total_price": 756.0,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.0,
+        "fat": 0.4,
+        "carbohydrates": 7.3
+      }
+    },
+    {
+      "product_id": "prd-0060",
+      "name": "Сгущенное молоко",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 136.57,
+      "total_price": 409.71,
+      "kbju": {
+        "calories": 328,
+        "protein": 7.2,
+        "fat": 8.5,
+        "carbohydrates": 55.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0079",
+      "name": "Киви",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 104.37,
+      "total_price": 208.74,
+      "kbju": {
+        "calories": 47,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 8.1
+      }
+    }
+  ],
+  "total_amount": 1542.91,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-04T16:50:56.759155Z"
+}

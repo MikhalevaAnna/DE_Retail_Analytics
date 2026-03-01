@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00161",
+  "customer": {
+    "customer_id": "cus-102025",
+    "first_name": "Филарет",
+    "last_name": "Константинова",
+    "email": "filaret.konstantinova@hotmail.com",
+    "phone": "8 (107) 633-1912",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0D0236C22"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на пр. Находка",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "пр. Находка",
+      "house": "24",
+      "postal_code": "799974"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 217.96,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 217.96,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2026-02-05T16:50:56.763715Z"
+}

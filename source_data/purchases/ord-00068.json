@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00068",
+  "customer": {
+    "customer_id": "cus-102071",
+    "first_name": "Мокей",
+    "last_name": "Мамонтов",
+    "email": "mokei.mamontov@yandex.ru",
+    "phone": "8 (147) 550-9453",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-99AB8D2B5"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на ул. Евгенияа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Евгенияа",
+      "house": "1",
+      "postal_code": "271882"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0098",
+      "name": "Помидоры",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 159.68,
+      "total_price": 159.68,
+      "kbju": {
+        "calories": 20,
+        "protein": 1.0,
+        "fat": 0.2,
+        "carbohydrates": 4.0
+      }
+    }
+  ],
+  "total_amount": 159.68,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-19T16:50:56.714590Z"
+}

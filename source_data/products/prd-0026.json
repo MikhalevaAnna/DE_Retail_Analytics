@@ -1,0 +1,24 @@
+{
+  "id": "prd-0026",
+  "name": "Говядина",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Говядина.",
+  "kbju": {
+    "calories": 187,
+    "protein": 18.9,
+    "fat": 12.4,
+    "carbohydrates": 0.0
+  },
+  "price": 495.77,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 8,
+  "is_organic": true,
+  "barcode": "9174138891425",
+  "manufacturer": {
+    "name": "АО Мясокомбинат",
+    "country": "Россия",
+    "website": "https://myaso.ru",
+    "inn": "7712345679"
+  }
+}

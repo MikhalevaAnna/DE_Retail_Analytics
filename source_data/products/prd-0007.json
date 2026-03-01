@@ -1,0 +1,24 @@
+{
+  "id": "prd-0007",
+  "name": "Рис круглозерный",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Рис круглозерный.",
+  "kbju": {
+    "calories": 330,
+    "protein": 6.7,
+    "fat": 0.7,
+    "carbohydrates": 78.9
+  },
+  "price": 97.72,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 438,
+  "is_organic": false,
+  "barcode": "5986487471678",
+  "manufacturer": {
+    "name": "ЗАО Русский Хлеб",
+    "country": "Россия",
+    "website": "https://russianbread.ru",
+    "inn": "7734567890"
+  }
+}

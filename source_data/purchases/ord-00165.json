@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00165",
+  "customer": {
+    "customer_id": "cus-102041",
+    "first_name": "Митофан",
+    "last_name": "Кудряшова",
+    "email": "mitofan.kudriashova@yandex.ru",
+    "phone": "+7 536 259 4287",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EEE70340A"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на бул. Свердлова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "бул. Свердлова",
+      "house": "32",
+      "postal_code": "152628"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0081",
+      "name": "Нектарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 157.4,
+      "total_price": 472.2,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 10.6
+      }
+    },
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 583.29,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    }
+  ],
+  "total_amount": 1055.49,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-02T16:50:56.765716Z"
+}

@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00085",
+  "customer": {
+    "customer_id": "cus-102046",
+    "first_name": "Аполлон",
+    "last_name": "Полякова",
+    "email": "apollon.poliakova@rambler.ru",
+    "phone": "+7 (825) 434-52-58",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-98AFA4E32"
+  },
+  "store": {
+    "store_id": "store-037",
+    "store_name": "Маленькая Пикча — Магазин на ул. Валерияа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Краснодар",
+      "street": "ул. Валерияа",
+      "house": "26",
+      "postal_code": "760934"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0114",
+      "name": "Сельдерей",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 130.13,
+      "total_price": 260.26,
+      "kbju": {
+        "calories": 16,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 3.0
+      }
+    }
+  ],
+  "total_amount": 260.26,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-30T16:50:56.722591Z"
+}

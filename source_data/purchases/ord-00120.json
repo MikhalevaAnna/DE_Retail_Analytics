@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00120",
+  "customer": {
+    "customer_id": "cus-102060",
+    "first_name": "Элеонора",
+    "last_name": "Лыткин",
+    "email": "eleonora.lytkin@gmail.com",
+    "phone": "+7 (891) 553-1829",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D289F03B0"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ул. Лучезара",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Лучезара",
+      "house": "3",
+      "postal_code": "300397"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0058",
+      "name": "Сыр плавленый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 66.59,
+      "total_price": 133.18,
+      "kbju": {
+        "calories": 240,
+        "protein": 12.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0003",
+      "name": "Батон нарезной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 59.33,
+      "total_price": 118.66,
+      "kbju": {
+        "calories": 262,
+        "protein": 7.5,
+        "fat": 2.9,
+        "carbohydrates": 51.4
+      }
+    },
+    {
+      "product_id": "prd-0111",
+      "name": "Петрушка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 59.47,
+      "total_price": 59.47,
+      "kbju": {
+        "calories": 47,
+        "protein": 3.7,
+        "fat": 0.8,
+        "carbohydrates": 7.6
+      }
+    }
+  ],
+  "total_amount": 311.31,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-29T16:50:56.741590Z"
+}

@@ -1,0 +1,39 @@
+{
+  "store_id": "store-032",
+  "store_name": "Маленькая Пикча — Магазин на ул. Эраста",
+  "store_network": "Маленькая Пикча",
+  "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Вера Геннадиевна Павлова",
+    "phone": "+7 (825) 758-8123",
+    "email": "nina2006@example.org"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Иркутск",
+    "street": "ул. Эраста",
+    "house": "13",
+    "postal_code": "983181",
+    "coordinates": {
+      "latitude": 42.604965,
+      "longitude": 100.986557
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "08:00-22:00",
+    "sat": "09:00-21:00",
+    "sun": "09:00-20:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": false,
+  "warehouse_connected": true,
+  "last_inventory_date": "2026-02-13"
+}

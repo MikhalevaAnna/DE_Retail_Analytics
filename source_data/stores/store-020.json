@@ -1,0 +1,39 @@
+{
+  "store_id": "store-020",
+  "store_name": "Большая Пикча — Магазин на пр. Коломна",
+  "store_network": "Большая Пикча",
+  "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Болеслав Тихонович Третьяков",
+    "phone": "+7 (085) 513-77-16",
+    "email": "stojan_28@example.net"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Тольятти",
+    "street": "пр. Коломна",
+    "house": "29",
+    "postal_code": "595083",
+    "coordinates": {
+      "latitude": 30.492436,
+      "longitude": 175.998861
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "09:00-21:00",
+    "sat": "10:00-20:00",
+    "sun": "10:00-18:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": false,
+  "last_inventory_date": "2026-02-03"
+}

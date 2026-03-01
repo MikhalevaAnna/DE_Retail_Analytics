@@ -1,0 +1,24 @@
+{
+  "id": "prd-0069",
+  "name": "Сыр козий",
+  "group": "🥛 Молочные продукты",
+  "description": "Сыр козий.",
+  "kbju": {
+    "calories": 290,
+    "protein": 18.0,
+    "fat": 23.0,
+    "carbohydrates": 0.5
+  },
+  "price": 664.85,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 52,
+  "is_organic": false,
+  "barcode": "2830292209380",
+  "manufacturer": {
+    "name": "ООО Вимм-Билль-Данн",
+    "country": "Россия",
+    "website": "https://wbd.ru",
+    "inn": "7723456791"
+  }
+}

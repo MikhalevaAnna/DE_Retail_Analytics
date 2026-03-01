@@ -1,0 +1,102 @@
+{
+  "purchase_id": "ord-00344",
+  "customer": {
+    "customer_id": "cus-102084",
+    "first_name": "Василий",
+    "last_name": "Лебедев",
+    "email": "vasilii.lebedev@mail.ru",
+    "phone": "+7 (392) 637-0530",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B9689A32B"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на пр. Жданова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тюмень",
+      "street": "пр. Жданова",
+      "house": "14",
+      "postal_code": "752365"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0054",
+      "name": "Йогурт питьевой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 64.14,
+      "total_price": 192.42,
+      "kbju": {
+        "calories": 80,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 239.18,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0037",
+      "name": "Фасоль красная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 82.12,
+      "total_price": 164.24,
+      "kbju": {
+        "calories": 337,
+        "protein": 22.5,
+        "fat": 1.5,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0100",
+      "name": "Перец болгарский",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 196.78,
+      "total_price": 590.34,
+      "kbju": {
+        "calories": 27,
+        "protein": 1.3,
+        "fat": 0.2,
+        "carbohydrates": 5.3
+      }
+    }
+  ],
+  "total_amount": 1186.18,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-09T16:50:56.864558Z"
+}

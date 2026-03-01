@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00186",
+  "customer": {
+    "customer_id": "cus-102024",
+    "first_name": "Орест",
+    "last_name": "Емельянов",
+    "email": "orest.emelianov@yandex.ru",
+    "phone": "8 485 078 2786",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-451088E34"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ул. Емельяноваа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "ул. Емельяноваа",
+      "house": "6",
+      "postal_code": "482671"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0031",
+      "name": "Филе индейки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 417.98,
+      "total_price": 417.98,
+      "kbju": {
+        "calories": 112,
+        "protein": 22.6,
+        "fat": 1.8,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Рыбный мир",
+        "country": "Россия",
+        "website": "https://riba.ru",
+        "inn": "7734567891"
+      }
+    },
+    {
+      "product_id": "prd-0082",
+      "name": "Гранат",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 188.02,
+      "total_price": 564.06,
+      "kbju": {
+        "calories": 72,
+        "protein": 0.9,
+        "fat": 0.3,
+        "carbohydrates": 14.5
+      }
+    },
+    {
+      "product_id": "prd-0002",
+      "name": "Хлеб пшеничный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 35.14,
+      "total_price": 35.14,
+      "kbju": {
+        "calories": 260,
+        "protein": 8.1,
+        "fat": 1.2,
+        "carbohydrates": 48.8
+      }
+    },
+    {
+      "product_id": "prd-0086",
+      "name": "Авокадо",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 185.15,
+      "total_price": 555.45,
+      "kbju": {
+        "calories": 160,
+        "protein": 2.0,
+        "fat": 14.7,
+        "carbohydrates": 8.5
+      }
+    }
+  ],
+  "total_amount": 1572.63,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-18T16:50:56.776715Z"
+}

@@ -1,0 +1,123 @@
+{
+  "purchase_id": "ord-00353",
+  "customer": {
+    "customer_id": "cus-102068",
+    "first_name": "Никанор",
+    "last_name": "Калинина",
+    "email": "nikanor.kalinina@yahoo.com",
+    "phone": "+7 (756) 213-99-14",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D9763F079"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ул. Фадеева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "ул. Фадеева",
+      "house": "8",
+      "postal_code": "646736"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0108",
+      "name": "Тыква",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 52.67,
+      "total_price": 158.01,
+      "kbju": {
+        "calories": 26,
+        "protein": 1.0,
+        "fat": 0.1,
+        "carbohydrates": 6.5
+      }
+    },
+    {
+      "product_id": "prd-0113",
+      "name": "Руккола",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 189.46,
+      "total_price": 378.92,
+      "kbju": {
+        "calories": 25,
+        "protein": 2.6,
+        "fat": 0.7,
+        "carbohydrates": 2.0
+      }
+    },
+    {
+      "product_id": "prd-0045",
+      "name": "Баранина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 559.68,
+      "total_price": 559.68,
+      "kbju": {
+        "calories": 209,
+        "protein": 15.6,
+        "fat": 16.3,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0064",
+      "name": "Кумыс",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 115.47,
+      "total_price": 115.47,
+      "kbju": {
+        "calories": 50,
+        "protein": 2.5,
+        "fat": 2.0,
+        "carbohydrates": 5.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0031",
+      "name": "Филе индейки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 417.98,
+      "total_price": 1253.94,
+      "kbju": {
+        "calories": 112,
+        "protein": 22.6,
+        "fat": 1.8,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Рыбный мир",
+        "country": "Россия",
+        "website": "https://riba.ru",
+        "inn": "7734567891"
+      }
+    }
+  ],
+  "total_amount": 2466.02,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-31T16:50:56.869558Z"
+}

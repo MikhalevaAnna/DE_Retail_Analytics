@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00417",
+  "customer": {
+    "customer_id": "cus-102062",
+    "first_name": "Вадим",
+    "last_name": "Шилов",
+    "email": "vadim.shilov@hotmail.com",
+    "phone": "+74092481952",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7E0C93764"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на бул. Макаренко",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "бул. Макаренко",
+      "house": "4",
+      "postal_code": "911255"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0059",
+      "name": "Мороженое пломбир",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 93.14,
+      "total_price": 93.14,
+      "kbju": {
+        "calories": 232,
+        "protein": 3.7,
+        "fat": 15.0,
+        "carbohydrates": 20.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 93.14,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-19T16:50:56.902082Z"
+}

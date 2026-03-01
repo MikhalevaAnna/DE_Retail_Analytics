@@ -1,0 +1,90 @@
+{
+  "purchase_id": "ord-00034",
+  "customer": {
+    "customer_id": "cus-102027",
+    "first_name": "Милан",
+    "last_name": "Рябова",
+    "email": "milan.riabova@yandex.ru",
+    "phone": "89105899882",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E59A28501"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на ул. Дорофееваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "ул. Дорофееваа",
+      "house": "4",
+      "postal_code": "022531"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0093",
+      "name": "Лайм",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 144.76,
+      "total_price": 144.76,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 10.5
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 489.78,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    },
+    {
+      "product_id": "prd-0015",
+      "name": "Сухари панировочные",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 52.48,
+      "total_price": 104.96,
+      "kbju": {
+        "calories": 350,
+        "protein": 11.2,
+        "fat": 1.4,
+        "carbohydrates": 72.4
+      }
+    },
+    {
+      "product_id": "prd-0088",
+      "name": "Смородина черная",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 252.0,
+      "total_price": 756.0,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.0,
+        "fat": 0.4,
+        "carbohydrates": 7.3
+      }
+    }
+  ],
+  "total_amount": 1495.5,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-24T16:50:56.696590Z"
+}

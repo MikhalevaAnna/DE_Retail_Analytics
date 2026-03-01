@@ -1,0 +1,108 @@
+{
+  "purchase_id": "ord-00385",
+  "customer": {
+    "customer_id": "cus-102005",
+    "first_name": "Ермил",
+    "last_name": "Зайцева",
+    "email": "ermil.zaitseva@yahoo.com",
+    "phone": "8 826 311 57 12",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-792DD2879"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на бул. Новостройка",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "бул. Новостройка",
+      "house": "38",
+      "postal_code": "627392"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0036",
+      "name": "Кальмары",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 392.03,
+      "total_price": 784.06,
+      "kbju": {
+        "calories": 92,
+        "protein": 18.0,
+        "fat": 1.2,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0076",
+      "name": "Мандарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 161.49,
+      "total_price": 161.49,
+      "kbju": {
+        "calories": 38,
+        "protein": 0.8,
+        "fat": 0.3,
+        "carbohydrates": 8.1
+      }
+    },
+    {
+      "product_id": "prd-0064",
+      "name": "Кумыс",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 115.47,
+      "total_price": 115.47,
+      "kbju": {
+        "calories": 50,
+        "protein": 2.5,
+        "fat": 2.0,
+        "carbohydrates": 5.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0028",
+      "name": "Фарш говяжий",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 359.9,
+      "total_price": 719.8,
+      "kbju": {
+        "calories": 190,
+        "protein": 17.0,
+        "fat": 14.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    }
+  ],
+  "total_amount": 1780.82,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-10T16:50:56.885016Z"
+}

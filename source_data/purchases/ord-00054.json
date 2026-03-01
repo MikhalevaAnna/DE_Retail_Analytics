@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00054",
+  "customer": {
+    "customer_id": "cus-102041",
+    "first_name": "Митофан",
+    "last_name": "Кудряшова",
+    "email": "mitofan.kudriashova@yandex.ru",
+    "phone": "+7 536 259 4287",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EEE70340A"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0037",
+      "name": "Фасоль красная",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 82.12,
+      "total_price": 246.36,
+      "kbju": {
+        "calories": 337,
+        "protein": 22.5,
+        "fat": 1.5,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0007",
+      "name": "Рис круглозерный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 97.72,
+      "total_price": 97.72,
+      "kbju": {
+        "calories": 330,
+        "protein": 6.7,
+        "fat": 0.7,
+        "carbohydrates": 78.9
+      }
+    }
+  ],
+  "total_amount": 344.08,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-17T16:50:56.707591Z"
+}

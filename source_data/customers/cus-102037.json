@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102037",
+  "first_name": "Виктория",
+  "last_name": "Самсонова",
+  "email": "viktoriia.samsonova@yahoo.com",
+  "phone": "8 084 158 2775",
+  "birth_date": "2005-02-12",
+  "gender": "female",
+  "registration_date": "2025-08-24T16:50:56.652590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-01E1D4BC9",
+  "purchase_location": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на ул. Антоноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Москва",
+    "street": "ул. Антоноваа",
+    "house": "15",
+    "postal_code": "229970"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Москва",
+    "street": "наб. Краснопартизанская",
+    "house": "18",
+    "apartment": "123",
+    "postal_code": "965982"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

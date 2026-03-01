@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00332",
+  "customer": {
+    "customer_id": "cus-102004",
+    "first_name": "Елена",
+    "last_name": "Михеева",
+    "email": "elena.mikheeva@mail.ru",
+    "phone": "8 (483) 860-52-68",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2AE23D145"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на бул. Новостройка",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "бул. Новостройка",
+      "house": "38",
+      "postal_code": "627392"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0097",
+      "name": "Капуста белокочанная",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 50.53,
+      "total_price": 101.06,
+      "kbju": {
+        "calories": 28,
+        "protein": 1.8,
+        "fat": 0.1,
+        "carbohydrates": 4.7
+      }
+    },
+    {
+      "product_id": "prd-0030",
+      "name": "Яйцо куриное С1",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 95.19,
+      "total_price": 95.19,
+      "kbju": {
+        "calories": 155,
+        "protein": 12.7,
+        "fat": 10.9,
+        "carbohydrates": 0.7
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 196.25,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-11T16:50:56.857559Z"
+}

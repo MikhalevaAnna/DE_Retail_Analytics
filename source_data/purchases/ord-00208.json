@@ -1,0 +1,102 @@
+{
+  "purchase_id": "ord-00208",
+  "customer": {
+    "customer_id": "cus-102082",
+    "first_name": "Радим",
+    "last_name": "Елисеева",
+    "email": "radim.eliseeva@yahoo.com",
+    "phone": "+7 (633) 145-8778",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C47BC7587"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0029",
+      "name": "Котлеты",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 316.3,
+      "total_price": 632.6,
+      "kbju": {
+        "calories": 240,
+        "protein": 14.0,
+        "fat": 20.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0039",
+      "name": "Чечевица",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 125.07,
+      "total_price": 125.07,
+      "kbju": {
+        "calories": 295,
+        "protein": 24.0,
+        "fat": 1.5,
+        "carbohydrates": 46.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0116",
+      "name": "Хрен",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 172.92,
+      "total_price": 172.92,
+      "kbju": {
+        "calories": 48,
+        "protein": 1.4,
+        "fat": 0.4,
+        "carbohydrates": 10.5
+      }
+    },
+    {
+      "product_id": "prd-0003",
+      "name": "Батон нарезной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 59.33,
+      "total_price": 59.33,
+      "kbju": {
+        "calories": 262,
+        "protein": 7.5,
+        "fat": 2.9,
+        "carbohydrates": 51.4
+      }
+    }
+  ],
+  "total_amount": 989.92,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-21T16:50:56.788715Z"
+}

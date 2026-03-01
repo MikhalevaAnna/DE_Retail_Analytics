@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00376",
+  "customer": {
+    "customer_id": "cus-102057",
+    "first_name": "Гаврила",
+    "last_name": "Куликов",
+    "email": "gavrila.kulikov@yahoo.com",
+    "phone": "+7 077 653 8580",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B3C39FFBE"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на ул. Кирилловаа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Кирилловаа",
+      "house": "28",
+      "postal_code": "404165"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0011",
+      "name": "Манка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 44.49,
+      "total_price": 133.47,
+      "kbju": {
+        "calories": 328,
+        "protein": 10.3,
+        "fat": 1.0,
+        "carbohydrates": 70.6
+      }
+    }
+  ],
+  "total_amount": 133.47,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-12T16:50:56.881471Z"
+}

@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00377",
+  "customer": {
+    "customer_id": "cus-102000",
+    "first_name": "Епифан",
+    "last_name": "Фадеева",
+    "email": "epifan.fadeeva@yahoo.com",
+    "phone": "+7 (377) 932-4620",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-896441DFF"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0097",
+      "name": "Капуста белокочанная",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 50.53,
+      "total_price": 50.53,
+      "kbju": {
+        "calories": 28,
+        "protein": 1.8,
+        "fat": 0.1,
+        "carbohydrates": 4.7
+      }
+    },
+    {
+      "product_id": "prd-0001",
+      "name": "Хлеб ржаной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 57.42,
+      "total_price": 57.42,
+      "kbju": {
+        "calories": 165,
+        "protein": 6.6,
+        "fat": 1.2,
+        "carbohydrates": 33.4
+      }
+    }
+  ],
+  "total_amount": 107.95,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-28T16:50:56.881985Z"
+}

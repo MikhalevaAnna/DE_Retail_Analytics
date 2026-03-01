@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00048",
+  "customer": {
+    "customer_id": "cus-102069",
+    "first_name": "Рюрик",
+    "last_name": "Наумова",
+    "email": "riurik.naumova@hotmail.com",
+    "phone": "8 677 381 37 55",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-F0E875138"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "пр. Мостовской",
+      "house": "24",
+      "postal_code": "193220"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 194.43,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    },
+    {
+      "product_id": "prd-0115",
+      "name": "Имбирь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 170.21,
+      "total_price": 510.63,
+      "kbju": {
+        "calories": 80,
+        "protein": 1.8,
+        "fat": 0.8,
+        "carbohydrates": 17.8
+      }
+    },
+    {
+      "product_id": "prd-0099",
+      "name": "Огурцы",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 96.43,
+      "total_price": 96.43,
+      "kbju": {
+        "calories": 15,
+        "protein": 0.8,
+        "fat": 0.1,
+        "carbohydrates": 3.0
+      }
+    },
+    {
+      "product_id": "prd-0027",
+      "name": "Свинина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 392.61,
+      "total_price": 1177.83,
+      "kbju": {
+        "calories": 259,
+        "protein": 16.0,
+        "fat": 21.7,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 1979.32,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-22T16:50:56.704591Z"
+}

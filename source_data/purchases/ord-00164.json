@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00164",
+  "customer": {
+    "customer_id": "cus-102015",
+    "first_name": "Валерия",
+    "last_name": "Громова",
+    "email": "valeriia.gromova@yandex.ru",
+    "phone": "8 (245) 000-33-25",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4489EA5D7"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ул. Аксеноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Челябинск",
+      "street": "ул. Аксеноваа",
+      "house": "29",
+      "postal_code": "749962"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0099",
+      "name": "Огурцы",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 96.43,
+      "total_price": 96.43,
+      "kbju": {
+        "calories": 15,
+        "protein": 0.8,
+        "fat": 0.1,
+        "carbohydrates": 3.0
+      }
+    },
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 217.96,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 314.39,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-25T16:50:56.765716Z"
+}

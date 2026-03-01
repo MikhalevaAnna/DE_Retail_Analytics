@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00038",
+  "customer": {
+    "customer_id": "cus-102088",
+    "first_name": "Рюрик",
+    "last_name": "Голубева",
+    "email": "riurik.golubeva@yahoo.com",
+    "phone": "8 249 687 93 51",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-23F131F64"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на пр. Находка",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "пр. Находка",
+      "house": "24",
+      "postal_code": "799974"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0050",
+      "name": "Творог 5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 131.29,
+      "total_price": 131.29,
+      "kbju": {
+        "calories": 121,
+        "protein": 16.5,
+        "fat": 5.0,
+        "carbohydrates": 3.3
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 131.29,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ижевск",
+    "street": "алл. Ясная",
+    "house": "22",
+    "apartment": "138",
+    "postal_code": "243170"
+  },
+  "purchase_datetime": "2025-10-10T16:50:56.699590Z"
+}

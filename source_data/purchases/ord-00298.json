@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00298",
+  "customer": {
+    "customer_id": "cus-102008",
+    "first_name": "Иосиф",
+    "last_name": "Зуев",
+    "email": "iosif.zuev@gmail.com",
+    "phone": "+7 766 757 96 34",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-DB9B3B1A5"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0020",
+      "name": "Кекс",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 117.3,
+      "total_price": 234.6,
+      "kbju": {
+        "calories": 340,
+        "protein": 6.0,
+        "fat": 15.0,
+        "carbohydrates": 45.0
+      }
+    }
+  ],
+  "total_amount": 234.6,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2026-02-15T16:50:56.839956Z"
+}

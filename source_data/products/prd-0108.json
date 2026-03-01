@@ -1,0 +1,24 @@
+{
+  "id": "prd-0108",
+  "name": "Тыква",
+  "group": "🥦 Овощи и зелень",
+  "description": "Тыква.",
+  "kbju": {
+    "calories": 26,
+    "protein": 1.0,
+    "fat": 0.1,
+    "carbohydrates": 6.5
+  },
+  "price": 52.67,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 42,
+  "is_organic": false,
+  "barcode": "1790139808989",
+  "manufacturer": {
+    "name": "ООО Овощебаза",
+    "country": "Россия",
+    "website": "https://ovoshi.ru",
+    "inn": "7723456793"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "purchase_id": "ord-00452",
+  "customer": {
+    "customer_id": "cus-102031",
+    "first_name": "Самуил",
+    "last_name": "Ильин",
+    "email": "samuil.ilin@gmail.com",
+    "phone": "+7 (809) 033-68-43",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-43CA76750"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на пр. Нефтекамск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "пр. Нефтекамск",
+      "house": "8",
+      "postal_code": "016782"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0023",
+      "name": "Булгур",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 132.33,
+      "total_price": 264.66,
+      "kbju": {
+        "calories": 342,
+        "protein": 12.3,
+        "fat": 1.3,
+        "carbohydrates": 75.9
+      }
+    },
+    {
+      "product_id": "prd-0053",
+      "name": "Сыр Российский",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 658.87,
+      "total_price": 1317.74,
+      "kbju": {
+        "calories": 360,
+        "protein": 24.0,
+        "fat": 29.0,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    },
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 217.96,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0105",
+      "name": "Свекла",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 43.49,
+      "total_price": 43.49,
+      "kbju": {
+        "calories": 43,
+        "protein": 1.6,
+        "fat": 0.2,
+        "carbohydrates": 8.8
+      }
+    },
+    {
+      "product_id": "prd-0111",
+      "name": "Петрушка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 59.47,
+      "total_price": 59.47,
+      "kbju": {
+        "calories": 47,
+        "protein": 3.7,
+        "fat": 0.8,
+        "carbohydrates": 7.6
+      }
+    }
+  ],
+  "total_amount": 1903.32,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "ул. Тельмана",
+    "house": "47",
+    "apartment": "81",
+    "postal_code": "596955"
+  },
+  "purchase_datetime": "2025-10-26T16:50:56.920082Z"
+}

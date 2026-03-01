@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00275",
+  "customer": {
+    "customer_id": "cus-102006",
+    "first_name": "Евлампий",
+    "last_name": "Щербаков",
+    "email": "evlampii.shcherbakov@mail.ru",
+    "phone": "8 526 266 8999",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-AE253DB99"
+  },
+  "store": {
+    "store_id": "store-027",
+    "store_name": "Большая Пикча — Магазин на пр. Охотск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Нижний Новгород",
+      "street": "пр. Охотск",
+      "house": "33",
+      "postal_code": "898849"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0011",
+      "name": "Манка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 44.49,
+      "total_price": 88.98,
+      "kbju": {
+        "calories": 328,
+        "protein": 10.3,
+        "fat": 1.0,
+        "carbohydrates": 70.6
+      }
+    },
+    {
+      "product_id": "prd-0083",
+      "name": "Хурма",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 165.51,
+      "total_price": 496.53,
+      "kbju": {
+        "calories": 67,
+        "protein": 0.5,
+        "fat": 0.4,
+        "carbohydrates": 16.0
+      }
+    }
+  ],
+  "total_amount": 585.51,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-19T16:50:56.825954Z"
+}

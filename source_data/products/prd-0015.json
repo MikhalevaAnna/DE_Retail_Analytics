@@ -1,0 +1,24 @@
+{
+  "id": "prd-0015",
+  "name": "Сухари панировочные",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Сухари панировочные.",
+  "kbju": {
+    "calories": 350,
+    "protein": 11.2,
+    "fat": 1.4,
+    "carbohydrates": 72.4
+  },
+  "price": 52.48,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 220,
+  "is_organic": false,
+  "barcode": "0281726399160",
+  "manufacturer": {
+    "name": "ЗАО Русский Хлеб",
+    "country": "Россия",
+    "website": "https://russianbread.ru",
+    "inn": "7734567890"
+  }
+}

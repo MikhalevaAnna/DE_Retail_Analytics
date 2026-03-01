@@ -1,0 +1,24 @@
+{
+  "id": "prd-0030",
+  "name": "Яйцо куриное С1",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Яйцо куриное С1.",
+  "kbju": {
+    "calories": 155,
+    "protein": 12.7,
+    "fat": 10.9,
+    "carbohydrates": 0.7
+  },
+  "price": 95.19,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 28,
+  "is_organic": true,
+  "barcode": "9807805965746",
+  "manufacturer": {
+    "name": "ООО Мираторг",
+    "country": "Россия",
+    "website": "https://miratorg.ru",
+    "inn": "7745678902"
+  }
+}

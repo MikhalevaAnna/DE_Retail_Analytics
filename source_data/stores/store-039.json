@@ -1,0 +1,39 @@
+{
+  "store_id": "store-039",
+  "store_name": "Маленькая Пикча — Магазин на бул. Новостройка",
+  "store_network": "Маленькая Пикча",
+  "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Любовь Робертовна Гордеева",
+    "phone": "+7 884 080 33 25",
+    "email": "artem25@example.org"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "бул. Новостройка",
+    "house": "38",
+    "postal_code": "627392",
+    "coordinates": {
+      "latitude": -64.783338,
+      "longitude": -129.559445
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "08:00-22:00",
+    "sat": "09:00-21:00",
+    "sun": "09:00-20:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": false,
+  "warehouse_connected": true,
+  "last_inventory_date": "2026-02-07"
+}

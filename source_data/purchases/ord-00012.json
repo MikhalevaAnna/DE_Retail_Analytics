@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00012",
+  "customer": {
+    "customer_id": "cus-102048",
+    "first_name": "Наркис",
+    "last_name": "Сазонов",
+    "email": "narkis.sazonov@rambler.ru",
+    "phone": "+77397891838",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B69FB80EB"
+  },
+  "store": {
+    "store_id": "store-001",
+    "store_name": "Большая Пикча — Магазин на ул. Блохинаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "ул. Блохинаа",
+      "house": "10",
+      "postal_code": "842894"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0076",
+      "name": "Мандарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 161.49,
+      "total_price": 322.98,
+      "kbju": {
+        "calories": 38,
+        "protein": 0.8,
+        "fat": 0.3,
+        "carbohydrates": 8.1
+      }
+    },
+    {
+      "product_id": "prd-0080",
+      "name": "Персики",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 193.6,
+      "total_price": 580.8,
+      "kbju": {
+        "calories": 45,
+        "protein": 0.9,
+        "fat": 0.1,
+        "carbohydrates": 9.5
+      }
+    },
+    {
+      "product_id": "prd-0008",
+      "name": "Макароны",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 96.25,
+      "total_price": 288.75,
+      "kbju": {
+        "calories": 340,
+        "protein": 11.0,
+        "fat": 1.3,
+        "carbohydrates": 70.0
+      }
+    },
+    {
+      "product_id": "prd-0063",
+      "name": "Творог зерненый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 105.17,
+      "total_price": 210.34,
+      "kbju": {
+        "calories": 110,
+        "protein": 12.0,
+        "fat": 5.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 1402.87,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-17T16:50:56.685590Z"
+}

@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00282",
+  "customer": {
+    "customer_id": "cus-102007",
+    "first_name": "Никодим",
+    "last_name": "Титова",
+    "email": "nikodim.titova@mail.ru",
+    "phone": "8 516 480 3686",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-615E57E7F"
+  },
+  "store": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на ул. Дорофееваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тюмень",
+      "street": "ул. Дорофееваа",
+      "house": "6",
+      "postal_code": "583032"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 61.08,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    },
+    {
+      "product_id": "prd-0027",
+      "name": "Свинина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 392.61,
+      "total_price": 1177.83,
+      "kbju": {
+        "calories": 259,
+        "protein": 16.0,
+        "fat": 21.7,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 1238.91,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "ш. Санаторное",
+    "house": "49",
+    "apartment": "133",
+    "postal_code": "900549"
+  },
+  "purchase_datetime": "2025-12-19T16:50:56.829957Z"
+}

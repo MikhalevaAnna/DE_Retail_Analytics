@@ -1,0 +1,87 @@
+{
+  "purchase_id": "ord-00412",
+  "customer": {
+    "customer_id": "cus-102063",
+    "first_name": "Валентина",
+    "last_name": "Воронов",
+    "email": "valentina.voronov@yandex.ru",
+    "phone": "+72150063044",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-27CD4793A"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на бул. Макаренко",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "бул. Макаренко",
+      "house": "4",
+      "postal_code": "911255"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0105",
+      "name": "Свекла",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 43.49,
+      "total_price": 43.49,
+      "kbju": {
+        "calories": 43,
+        "protein": 1.6,
+        "fat": 0.2,
+        "carbohydrates": 8.8
+      }
+    },
+    {
+      "product_id": "prd-0049",
+      "name": "Кефир 2.5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 85.31,
+      "total_price": 170.62,
+      "kbju": {
+        "calories": 50,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0038",
+      "name": "Горох",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 65.34,
+      "total_price": 65.34,
+      "kbju": {
+        "calories": 298,
+        "protein": 20.5,
+        "fat": 2.0,
+        "carbohydrates": 53.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 279.45,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-02-23T16:50:56.899083Z"
+}

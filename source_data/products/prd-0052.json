@@ -1,0 +1,24 @@
+{
+  "id": "prd-0052",
+  "name": "Масло сливочное",
+  "group": "🥛 Молочные продукты",
+  "description": "Масло сливочное.",
+  "kbju": {
+    "calories": 748,
+    "protein": 0.5,
+    "fat": 82.5,
+    "carbohydrates": 0.8
+  },
+  "price": 202.67,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 41,
+  "is_organic": true,
+  "barcode": "0816108555669",
+  "manufacturer": {
+    "name": "ООО Домик в деревне",
+    "country": "Россия",
+    "website": "https://domik.ru",
+    "inn": "7745678903"
+  }
+}

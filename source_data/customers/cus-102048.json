@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102048",
+  "first_name": "Наркис",
+  "last_name": "Сазонов",
+  "email": "narkis.sazonov@rambler.ru",
+  "phone": "+77397891838",
+  "birth_date": "2006-10-19",
+  "gender": "male",
+  "registration_date": "2025-09-06T16:50:56.658590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-B69FB80EB",
+  "purchase_location": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "пр. Дубна",
+    "house": "1",
+    "postal_code": "733315"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "ул. Пархоменко",
+    "house": "2",
+    "apartment": "3",
+    "postal_code": "523743"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

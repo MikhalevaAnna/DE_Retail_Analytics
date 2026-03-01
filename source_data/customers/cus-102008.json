@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102008",
+  "first_name": "Иосиф",
+  "last_name": "Зуев",
+  "email": "iosif.zuev@gmail.com",
+  "phone": "+7 766 757 96 34",
+  "birth_date": "1975-12-01",
+  "gender": "male",
+  "registration_date": "2025-01-18T16:50:56.637063Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-DB9B3B1A5",
+  "purchase_location": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на ул. Ждановаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "ул. Ждановаа",
+    "house": "40",
+    "postal_code": "314679"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "ул. Базарная",
+    "house": "38",
+    "apartment": "11",
+    "postal_code": "018921"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "online",
+    "receive_promotions": false
+  }
+}

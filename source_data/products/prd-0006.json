@@ -1,0 +1,24 @@
+{
+  "id": "prd-0006",
+  "name": "Крупа гречневая",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Крупа гречневая.",
+  "kbju": {
+    "calories": 308,
+    "protein": 12.6,
+    "fat": 3.3,
+    "carbohydrates": 57.1
+  },
+  "price": 112.67,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 730,
+  "is_organic": false,
+  "barcode": "9469532763660",
+  "manufacturer": {
+    "name": "ЗАО Русский Хлеб",
+    "country": "Россия",
+    "website": "https://russianbread.ru",
+    "inn": "7734567890"
+  }
+}

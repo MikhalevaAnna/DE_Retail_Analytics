@@ -1,0 +1,125 @@
+{
+  "purchase_id": "ord-00489",
+  "customer": {
+    "customer_id": "cus-102049",
+    "first_name": "Карл",
+    "last_name": "Гусев",
+    "email": "karl.gusev@mail.ru",
+    "phone": "8 (333) 500-9013",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-765EF4E22"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0048",
+      "name": "Молоко 3.2%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 97.36,
+      "total_price": 97.36,
+      "kbju": {
+        "calories": 60,
+        "protein": 2.9,
+        "fat": 3.2,
+        "carbohydrates": 4.7
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0089",
+      "name": "Клюква",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 320.56,
+      "total_price": 641.12,
+      "kbju": {
+        "calories": 28,
+        "protein": 0.5,
+        "fat": 0.2,
+        "carbohydrates": 6.0
+      }
+    },
+    {
+      "product_id": "prd-0093",
+      "name": "Лайм",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 144.76,
+      "total_price": 289.52,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 10.5
+      }
+    },
+    {
+      "product_id": "prd-0049",
+      "name": "Кефир 2.5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 85.31,
+      "total_price": 170.62,
+      "kbju": {
+        "calories": 50,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    },
+    {
+      "product_id": "prd-0111",
+      "name": "Петрушка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 59.47,
+      "total_price": 59.47,
+      "kbju": {
+        "calories": 47,
+        "protein": 3.7,
+        "fat": 0.8,
+        "carbohydrates": 7.6
+      }
+    }
+  ],
+  "total_amount": 1258.09,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ростов-на-Дону",
+    "street": "пр. Трудовой",
+    "house": "41",
+    "apartment": "84",
+    "postal_code": "941246"
+  },
+  "purchase_datetime": "2025-03-11T16:50:56.938083Z"
+}

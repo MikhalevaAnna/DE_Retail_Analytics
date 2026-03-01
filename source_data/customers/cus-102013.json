@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102013",
+  "first_name": "Моисей",
+  "last_name": "Блинова",
+  "email": "moisei.blinova@yahoo.com",
+  "phone": "+7 742 569 5571",
+  "birth_date": "1984-08-22",
+  "gender": "male",
+  "registration_date": "2024-09-05T16:50:56.640063Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-C0192FCB6",
+  "purchase_location": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "пр. Мостовской",
+    "house": "24",
+    "postal_code": "193220"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "ул. Дальняя",
+    "house": "34",
+    "apartment": "51",
+    "postal_code": "172356"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

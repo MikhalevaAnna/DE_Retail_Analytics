@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00363",
+  "customer": {
+    "customer_id": "cus-102048",
+    "first_name": "Наркис",
+    "last_name": "Сазонов",
+    "email": "narkis.sazonov@rambler.ru",
+    "phone": "+77397891838",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B69FB80EB"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0031",
+      "name": "Филе индейки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 417.98,
+      "total_price": 1253.94,
+      "kbju": {
+        "calories": 112,
+        "protein": 22.6,
+        "fat": 1.8,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Рыбный мир",
+        "country": "Россия",
+        "website": "https://riba.ru",
+        "inn": "7734567891"
+      }
+    }
+  ],
+  "total_amount": 1253.94,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-04T16:50:56.874667Z"
+}

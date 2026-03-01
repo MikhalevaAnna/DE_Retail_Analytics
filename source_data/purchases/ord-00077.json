@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00077",
+  "customer": {
+    "customer_id": "cus-102044",
+    "first_name": "Терентий",
+    "last_name": "Петрова",
+    "email": "terentii.petrova@gmail.com",
+    "phone": "8 733 525 25 79",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4A92F7F3E"
+  },
+  "store": {
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ишим",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "пр. Ишим",
+      "house": "20",
+      "postal_code": "539395"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0015",
+      "name": "Сухари панировочные",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 52.48,
+      "total_price": 157.44,
+      "kbju": {
+        "calories": 350,
+        "protein": 11.2,
+        "fat": 1.4,
+        "carbohydrates": 72.4
+      }
+    },
+    {
+      "product_id": "prd-0068",
+      "name": "Биойогурт",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 80.21,
+      "total_price": 160.42,
+      "kbju": {
+        "calories": 90,
+        "protein": 3.5,
+        "fat": 3.0,
+        "carbohydrates": 11.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 317.86,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "пер. Парковый",
+    "house": "17",
+    "apartment": "86",
+    "postal_code": "816099"
+  },
+  "purchase_datetime": "2025-07-17T16:50:56.719590Z"
+}

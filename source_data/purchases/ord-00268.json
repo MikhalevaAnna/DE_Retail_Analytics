@@ -1,0 +1,119 @@
+{
+  "purchase_id": "ord-00268",
+  "customer": {
+    "customer_id": "cus-102077",
+    "first_name": "Николай",
+    "last_name": "Корнилова",
+    "email": "nikolai.kornilova@mail.ru",
+    "phone": "+7 (248) 892-6036",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-FDF9303F3"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0007",
+      "name": "Рис круглозерный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 97.72,
+      "total_price": 195.44,
+      "kbju": {
+        "calories": 330,
+        "protein": 6.7,
+        "fat": 0.7,
+        "carbohydrates": 78.9
+      }
+    },
+    {
+      "product_id": "prd-0013",
+      "name": "Ячневая крупа",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 36.9,
+      "total_price": 73.8,
+      "kbju": {
+        "calories": 313,
+        "protein": 10.4,
+        "fat": 1.1,
+        "carbohydrates": 65.4
+      }
+    },
+    {
+      "product_id": "prd-0059",
+      "name": "Мороженое пломбир",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 93.14,
+      "total_price": 279.42,
+      "kbju": {
+        "calories": 232,
+        "protein": 3.7,
+        "fat": 15.0,
+        "carbohydrates": 20.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0104",
+      "name": "Чеснок",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 194.43,
+      "total_price": 583.29,
+      "kbju": {
+        "calories": 149,
+        "protein": 6.4,
+        "fat": 0.5,
+        "carbohydrates": 33.0
+      }
+    },
+    {
+      "product_id": "prd-0014",
+      "name": "Кукурузные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 121.93,
+      "total_price": 243.86,
+      "kbju": {
+        "calories": 363,
+        "protein": 7.7,
+        "fat": 1.2,
+        "carbohydrates": 84.0
+      }
+    }
+  ],
+  "total_amount": 1375.81,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "пер. Рылеева",
+    "house": "21",
+    "apartment": "111",
+    "postal_code": "573966"
+  },
+  "purchase_datetime": "2025-09-24T16:50:56.820952Z"
+}

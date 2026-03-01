@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00044",
+  "customer": {
+    "customer_id": "cus-102043",
+    "first_name": "Чеслав",
+    "last_name": "Савин",
+    "email": "cheslav.savin@rambler.ru",
+    "phone": "+7 (426) 144-7585",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D4EA6A111"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на наб. Озерная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "наб. Озерная",
+      "house": "6",
+      "postal_code": "143031"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 1740.3,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 1740.3,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "ул. Кузнецова",
+    "house": "50",
+    "apartment": "16",
+    "postal_code": "286977"
+  },
+  "purchase_datetime": "2025-11-04T16:50:56.702590Z"
+}

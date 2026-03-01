@@ -1,0 +1,24 @@
+{
+  "id": "prd-0010",
+  "name": "Пшено",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Пшено.",
+  "kbju": {
+    "calories": 342,
+    "protein": 11.5,
+    "fat": 3.3,
+    "carbohydrates": 66.5
+  },
+  "price": 63.48,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 285,
+  "is_organic": false,
+  "barcode": "4931884893494",
+  "manufacturer": {
+    "name": "ООО Зернышко",
+    "country": "Россия",
+    "website": "https://zernyshko.ru",
+    "inn": "7756789012"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0058",
+  "name": "Сыр плавленый",
+  "group": "🥛 Молочные продукты",
+  "description": "Сыр плавленый.",
+  "kbju": {
+    "calories": 240,
+    "protein": 12.0,
+    "fat": 20.0,
+    "carbohydrates": 2.0
+  },
+  "price": 66.59,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 93,
+  "is_organic": true,
+  "barcode": "0618284498941",
+  "manufacturer": {
+    "name": "ООО Домик в деревне",
+    "country": "Россия",
+    "website": "https://domik.ru",
+    "inn": "7745678903"
+  }
+}

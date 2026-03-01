@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00018",
+  "customer": {
+    "customer_id": "cus-102081",
+    "first_name": "Фадей",
+    "last_name": "Агафонов",
+    "email": "fadei.agafonov@hotmail.com",
+    "phone": "+7 (950) 708-65-72",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B32BC6967"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0041",
+      "name": "Сосиски",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 267.77,
+      "total_price": 267.77,
+      "kbju": {
+        "calories": 300,
+        "protein": 11.0,
+        "fat": 28.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 122.16,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    }
+  ],
+  "total_amount": 389.93,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-21T16:50:56.688591Z"
+}

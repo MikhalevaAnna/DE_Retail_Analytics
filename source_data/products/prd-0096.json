@@ -1,0 +1,24 @@
+{
+  "id": "prd-0096",
+  "name": "Лук репчатый",
+  "group": "🥦 Овощи и зелень",
+  "description": "Лук репчатый.",
+  "kbju": {
+    "calories": 40,
+    "protein": 1.4,
+    "fat": 0.2,
+    "carbohydrates": 8.2
+  },
+  "price": 30.2,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 49,
+  "is_organic": true,
+  "barcode": "7780727185787",
+  "manufacturer": {
+    "name": "АПК Агрокультура",
+    "country": "Россия",
+    "website": "https://agro.ru",
+    "inn": "7756789016"
+  }
+}

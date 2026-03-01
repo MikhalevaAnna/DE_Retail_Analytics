@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00043",
+  "customer": {
+    "customer_id": "cus-102037",
+    "first_name": "Виктория",
+    "last_name": "Самсонова",
+    "email": "viktoriia.samsonova@yahoo.com",
+    "phone": "8 084 158 2775",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-01E1D4BC9"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на ул. Антоноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Москва",
+      "street": "ул. Антоноваа",
+      "house": "15",
+      "postal_code": "229970"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0001",
+      "name": "Хлеб ржаной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 57.42,
+      "total_price": 172.26,
+      "kbju": {
+        "calories": 165,
+        "protein": 6.6,
+        "fat": 1.2,
+        "carbohydrates": 33.4
+      }
+    }
+  ],
+  "total_amount": 172.26,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Москва",
+    "street": "наб. Краснопартизанская",
+    "house": "18",
+    "apartment": "123",
+    "postal_code": "965982"
+  },
+  "purchase_datetime": "2025-08-31T16:50:56.701590Z"
+}

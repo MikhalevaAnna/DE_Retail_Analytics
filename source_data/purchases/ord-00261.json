@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00261",
+  "customer": {
+    "customer_id": "cus-102085",
+    "first_name": "Марина",
+    "last_name": "Кулаков",
+    "email": "marina.kulakov@gmail.com",
+    "phone": "+76309783580",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-FDAE6BA6B"
+  },
+  "store": {
+    "store_id": "store-021",
+    "store_name": "Большая Пикча — Магазин на наб. Озерная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Волгоград",
+      "street": "наб. Озерная",
+      "house": "6",
+      "postal_code": "143031"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0080",
+      "name": "Персики",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 193.6,
+      "total_price": 193.6,
+      "kbju": {
+        "calories": 45,
+        "protein": 0.9,
+        "fat": 0.1,
+        "carbohydrates": 9.5
+      }
+    },
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 108.98,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0095",
+      "name": "Морковь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 51.4,
+      "total_price": 51.4,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.3,
+        "fat": 0.1,
+        "carbohydrates": 6.9
+      }
+    }
+  ],
+  "total_amount": 353.98,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-10T16:50:56.817954Z"
+}

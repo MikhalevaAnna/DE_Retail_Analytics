@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00004",
+  "customer": {
+    "customer_id": "cus-102055",
+    "first_name": "Фотий",
+    "last_name": "Никифорова",
+    "email": "fotii.nikiforova@rambler.ru",
+    "phone": "8 (925) 757-20-72",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1FCE809B2"
+  },
+  "store": {
+    "store_id": "store-004",
+    "store_name": "Большая Пикча — Магазин на ул. Дорофееваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тюмень",
+      "street": "ул. Дорофееваа",
+      "house": "6",
+      "postal_code": "583032"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0082",
+      "name": "Гранат",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 188.02,
+      "total_price": 376.04,
+      "kbju": {
+        "calories": 72,
+        "protein": 0.9,
+        "fat": 0.3,
+        "carbohydrates": 14.5
+      }
+    }
+  ],
+  "total_amount": 376.04,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "алл. Кошевого",
+    "house": "2",
+    "apartment": "30",
+    "postal_code": "360770"
+  },
+  "purchase_datetime": "2025-10-11T16:50:56.681591Z"
+}

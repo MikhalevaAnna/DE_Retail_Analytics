@@ -1,0 +1,87 @@
+{
+  "purchase_id": "ord-00245",
+  "customer": {
+    "customer_id": "cus-102022",
+    "first_name": "Станислав",
+    "last_name": "Гусева",
+    "email": "stanislav.guseva@hotmail.com",
+    "phone": "+7 (491) 393-7583",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-DACE1F382"
+  },
+  "store": {
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на пр. Сорочинск",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Саратов",
+      "street": "пр. Сорочинск",
+      "house": "38",
+      "postal_code": "747986"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0067",
+      "name": "Йогурт густой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 62.09,
+      "total_price": 124.18,
+      "kbju": {
+        "calories": 100,
+        "protein": 4.0,
+        "fat": 3.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    },
+    {
+      "product_id": "prd-0026",
+      "name": "Говядина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 495.77,
+      "total_price": 495.77,
+      "kbju": {
+        "calories": 187,
+        "protein": 18.9,
+        "fat": 12.4,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0093",
+      "name": "Лайм",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 144.76,
+      "total_price": 289.52,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 10.5
+      }
+    }
+  ],
+  "total_amount": 909.47,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-14T16:50:56.808856Z"
+}

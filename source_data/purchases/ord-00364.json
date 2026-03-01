@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00364",
+  "customer": {
+    "customer_id": "cus-102036",
+    "first_name": "Анисим",
+    "last_name": "Ершов",
+    "email": "anisim.ershov@gmail.com",
+    "phone": "8 094 047 53 25",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4843EB068"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на ул. Азарийа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Уфа",
+      "street": "ул. Азарийа",
+      "house": "23",
+      "postal_code": "744672"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0001",
+      "name": "Хлеб ржаной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 57.42,
+      "total_price": 114.84,
+      "kbju": {
+        "calories": 165,
+        "protein": 6.6,
+        "fat": 1.2,
+        "carbohydrates": 33.4
+      }
+    }
+  ],
+  "total_amount": 114.84,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-07T16:50:56.875230Z"
+}

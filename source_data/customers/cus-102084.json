@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102084",
+  "first_name": "Василий",
+  "last_name": "Лебедев",
+  "email": "vasilii.lebedev@mail.ru",
+  "phone": "+7 (392) 637-0530",
+  "birth_date": "1975-01-10",
+  "gender": "female",
+  "registration_date": "2025-03-02T16:50:56.677590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-B9689A32B",
+  "purchase_location": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на пр. Жданова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "пр. Жданова",
+    "house": "14",
+    "postal_code": "752365"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "ул. Восьмого Марта",
+    "house": "42",
+    "apartment": "37",
+    "postal_code": "100320"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

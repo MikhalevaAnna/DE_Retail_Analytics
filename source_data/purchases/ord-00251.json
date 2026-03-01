@@ -1,0 +1,113 @@
+{
+  "purchase_id": "ord-00251",
+  "customer": {
+    "customer_id": "cus-102016",
+    "first_name": "Януарий",
+    "last_name": "Молчанов",
+    "email": "ianuarii.molchanov@mail.ru",
+    "phone": "+73883260072",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-51A2EFDFA"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на пр. Алексин",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Хабаровск",
+      "street": "пр. Алексин",
+      "house": "8",
+      "postal_code": "969218"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0090",
+      "name": "Арбуз",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 66.85,
+      "total_price": 200.55,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0014",
+      "name": "Кукурузные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 121.93,
+      "total_price": 243.86,
+      "kbju": {
+        "calories": 363,
+        "protein": 7.7,
+        "fat": 1.2,
+        "carbohydrates": 84.0
+      }
+    },
+    {
+      "product_id": "prd-0007",
+      "name": "Рис круглозерный",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 97.72,
+      "total_price": 293.16,
+      "kbju": {
+        "calories": 330,
+        "protein": 6.7,
+        "fat": 0.7,
+        "carbohydrates": 78.9
+      }
+    },
+    {
+      "product_id": "prd-0011",
+      "name": "Манка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 44.49,
+      "total_price": 88.98,
+      "kbju": {
+        "calories": 328,
+        "protein": 10.3,
+        "fat": 1.0,
+        "carbohydrates": 70.6
+      }
+    },
+    {
+      "product_id": "prd-0099",
+      "name": "Огурцы",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 96.43,
+      "total_price": 192.86,
+      "kbju": {
+        "calories": 15,
+        "protein": 0.8,
+        "fat": 0.1,
+        "carbohydrates": 3.0
+      }
+    }
+  ],
+  "total_amount": 1019.41,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Хабаровск",
+    "street": "алл. Парковая",
+    "house": "27",
+    "apartment": "123",
+    "postal_code": "528664"
+  },
+  "purchase_datetime": "2025-06-15T16:50:56.811909Z"
+}

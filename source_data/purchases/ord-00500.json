@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00500",
+  "customer": {
+    "customer_id": "cus-102063",
+    "first_name": "Валентина",
+    "last_name": "Воронов",
+    "email": "valentina.voronov@yandex.ru",
+    "phone": "+72150063044",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-27CD4793A"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на ул. Дорофееваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "ул. Дорофееваа",
+      "house": "4",
+      "postal_code": "022531"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 358.77,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0029",
+      "name": "Котлеты",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 316.3,
+      "total_price": 316.3,
+      "kbju": {
+        "calories": 240,
+        "protein": 14.0,
+        "fat": 20.0,
+        "carbohydrates": 3.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 675.07,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Пермь",
+    "street": "ш. Черемуховое",
+    "house": "31",
+    "apartment": "89",
+    "postal_code": "910539"
+  },
+  "purchase_datetime": "2025-11-26T16:50:56.944082Z"
+}

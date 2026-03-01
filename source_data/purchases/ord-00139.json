@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00139",
+  "customer": {
+    "customer_id": "cus-102086",
+    "first_name": "Любим",
+    "last_name": "Соловьев",
+    "email": "liubim.solovev@yahoo.com",
+    "phone": "+7 643 923 1884",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-5852B1865"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на пр. Находка",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "пр. Находка",
+      "house": "24",
+      "postal_code": "799974"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0061",
+      "name": "Сыр Моцарелла",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 441.75,
+      "total_price": 883.5,
+      "kbju": {
+        "calories": 280,
+        "protein": 22.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0102",
+      "name": "Цветная капуста",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 167.2,
+      "total_price": 334.4,
+      "kbju": {
+        "calories": 30,
+        "protein": 2.5,
+        "fat": 0.3,
+        "carbohydrates": 5.4
+      }
+    }
+  ],
+  "total_amount": 1217.9,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-14T16:50:56.751591Z"
+}

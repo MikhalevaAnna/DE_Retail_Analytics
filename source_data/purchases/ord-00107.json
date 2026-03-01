@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00107",
+  "customer": {
+    "customer_id": "cus-102003",
+    "first_name": "Лора",
+    "last_name": "Яковлева",
+    "email": "lora.iakovleva@mail.ru",
+    "phone": "8 003 887 9789",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1F7663007"
+  },
+  "store": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на пр. Новочеркасск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "пр. Новочеркасск",
+      "house": "11",
+      "postal_code": "724485"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 122.16,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    },
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 326.52,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    }
+  ],
+  "total_amount": 448.68,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-14T16:50:56.734594Z"
+}

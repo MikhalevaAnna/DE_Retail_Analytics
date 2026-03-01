@@ -1,0 +1,24 @@
+{
+  "id": "prd-0051",
+  "name": "Сметана 20%",
+  "group": "🥛 Молочные продукты",
+  "description": "Сметана 20%.",
+  "kbju": {
+    "calories": 206,
+    "protein": 2.5,
+    "fat": 20.0,
+    "carbohydrates": 3.4
+  },
+  "price": 99.27,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 10,
+  "is_organic": true,
+  "barcode": "5416370740449",
+  "manufacturer": {
+    "name": "ООО Домик в деревне",
+    "country": "Россия",
+    "website": "https://domik.ru",
+    "inn": "7745678903"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00334",
+  "customer": {
+    "customer_id": "cus-102079",
+    "first_name": "Мартын",
+    "last_name": "Гусев",
+    "email": "martyn.gusev@gmail.com",
+    "phone": "+7 587 191 28 11",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-87BA1671D"
+  },
+  "store": {
+    "store_id": "store-040",
+    "store_name": "Маленькая Пикча — Магазин на ул. Кирилловаа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Кирилловаа",
+      "house": "28",
+      "postal_code": "404165"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0006",
+      "name": "Крупа гречневая",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 112.67,
+      "total_price": 225.34,
+      "kbju": {
+        "calories": 308,
+        "protein": 12.6,
+        "fat": 3.3,
+        "carbohydrates": 57.1
+      }
+    }
+  ],
+  "total_amount": 225.34,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-17T16:50:56.858559Z"
+}

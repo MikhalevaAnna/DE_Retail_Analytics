@@ -1,0 +1,87 @@
+{
+  "purchase_id": "ord-00366",
+  "customer": {
+    "customer_id": "cus-102011",
+    "first_name": "Семен",
+    "last_name": "Исакова",
+    "email": "semen.isakova@rambler.ru",
+    "phone": "+7 203 364 47 46",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9F20D822A"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ул. Лучезара",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Лучезара",
+      "house": "3",
+      "postal_code": "300397"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0026",
+      "name": "Говядина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 495.77,
+      "total_price": 991.54,
+      "kbju": {
+        "calories": 187,
+        "protein": 18.9,
+        "fat": 12.4,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0014",
+      "name": "Кукурузные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 121.93,
+      "total_price": 121.93,
+      "kbju": {
+        "calories": 363,
+        "protein": 7.7,
+        "fat": 1.2,
+        "carbohydrates": 84.0
+      }
+    },
+    {
+      "product_id": "prd-0053",
+      "name": "Сыр Российский",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 658.87,
+      "total_price": 1317.74,
+      "kbju": {
+        "calories": 360,
+        "protein": 24.0,
+        "fat": 29.0,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    }
+  ],
+  "total_amount": 2431.21,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-02T16:50:56.876275Z"
+}

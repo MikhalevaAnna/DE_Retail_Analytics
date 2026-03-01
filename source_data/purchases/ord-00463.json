@@ -1,0 +1,89 @@
+{
+  "purchase_id": "ord-00463",
+  "customer": {
+    "customer_id": "cus-102084",
+    "first_name": "Василий",
+    "last_name": "Лебедев",
+    "email": "vasilii.lebedev@mail.ru",
+    "phone": "+7 (392) 637-0530",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B9689A32B"
+  },
+  "store": {
+    "store_id": "store-028",
+    "store_name": "Большая Пикча — Магазин на ш. Фабричное",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тюмень",
+      "street": "ш. Фабричное",
+      "house": "40",
+      "postal_code": "533113"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0008",
+      "name": "Макароны",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 96.25,
+      "total_price": 96.25,
+      "kbju": {
+        "calories": 340,
+        "protein": 11.0,
+        "fat": 1.3,
+        "carbohydrates": 70.0
+      }
+    },
+    {
+      "product_id": "prd-0011",
+      "name": "Манка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 44.49,
+      "total_price": 88.98,
+      "kbju": {
+        "calories": 328,
+        "protein": 10.3,
+        "fat": 1.0,
+        "carbohydrates": 70.6
+      }
+    },
+    {
+      "product_id": "prd-0047",
+      "name": "Сельдь",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 193.4,
+      "total_price": 386.8,
+      "kbju": {
+        "calories": 161,
+        "protein": 17.0,
+        "fat": 10.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 572.03,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "ул. Восьмого Марта",
+    "house": "42",
+    "apartment": "37",
+    "postal_code": "100320"
+  },
+  "purchase_datetime": "2025-07-21T16:50:56.925083Z"
+}

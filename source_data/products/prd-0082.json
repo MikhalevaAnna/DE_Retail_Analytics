@@ -1,0 +1,24 @@
+{
+  "id": "prd-0082",
+  "name": "Гранат",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Гранат.",
+  "kbju": {
+    "calories": 72,
+    "protein": 0.9,
+    "fat": 0.3,
+    "carbohydrates": 14.5
+  },
+  "price": 188.02,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 25,
+  "is_organic": false,
+  "barcode": "7107352297478",
+  "manufacturer": {
+    "name": "ООО Фруктовый рай",
+    "country": "Россия",
+    "website": "https://fruitparadise.ru",
+    "inn": "7712345681"
+  }
+}

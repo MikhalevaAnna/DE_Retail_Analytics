@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00431",
+  "customer": {
+    "customer_id": "cus-102036",
+    "first_name": "Анисим",
+    "last_name": "Ершов",
+    "email": "anisim.ershov@gmail.com",
+    "phone": "8 094 047 53 25",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4843EB068"
+  },
+  "store": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на ул. Азарийа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Уфа",
+      "street": "ул. Азарийа",
+      "house": "23",
+      "postal_code": "744672"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0049",
+      "name": "Кефир 2.5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 85.31,
+      "total_price": 170.62,
+      "kbju": {
+        "calories": 50,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    }
+  ],
+  "total_amount": 170.62,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-19T16:50:56.909083Z"
+}

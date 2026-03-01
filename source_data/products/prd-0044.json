@@ -1,0 +1,24 @@
+{
+  "id": "prd-0044",
+  "name": "Пельмени",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Пельмени.",
+  "kbju": {
+    "calories": 280,
+    "protein": 12.0,
+    "fat": 14.0,
+    "carbohydrates": 25.0
+  },
+  "price": 235.45,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 45,
+  "is_organic": true,
+  "barcode": "7599815543480",
+  "manufacturer": {
+    "name": "ООО Мираторг",
+    "country": "Россия",
+    "website": "https://miratorg.ru",
+    "inn": "7745678902"
+  }
+}

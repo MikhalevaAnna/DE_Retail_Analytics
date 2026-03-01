@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102026",
+  "first_name": "Якуб",
+  "last_name": "Михеев",
+  "email": "iakub.mikheev@mail.ru",
+  "phone": "8 688 522 25 47",
+  "birth_date": "1986-11-17",
+  "gender": "female",
+  "registration_date": "2024-10-10T16:50:56.646062Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-568E88662",
+  "purchase_location": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на пр. Находка",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Ижевск",
+    "street": "пр. Находка",
+    "house": "24",
+    "postal_code": "799974"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ижевск",
+    "street": "пер. Машиностроителей",
+    "house": "1",
+    "apartment": "116",
+    "postal_code": "714440"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "online",
+    "receive_promotions": true
+  }
+}

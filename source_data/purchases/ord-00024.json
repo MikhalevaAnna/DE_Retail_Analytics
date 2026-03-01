@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00024",
+  "customer": {
+    "customer_id": "cus-102084",
+    "first_name": "Василий",
+    "last_name": "Лебедев",
+    "email": "vasilii.lebedev@mail.ru",
+    "phone": "+7 (392) 637-0530",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B9689A32B"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на пр. Жданова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тюмень",
+      "street": "пр. Жданова",
+      "house": "14",
+      "postal_code": "752365"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0058",
+      "name": "Сыр плавленый",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 66.59,
+      "total_price": 133.18,
+      "kbju": {
+        "calories": 240,
+        "protein": 12.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 133.18,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "ул. Восьмого Марта",
+    "house": "42",
+    "apartment": "37",
+    "postal_code": "100320"
+  },
+  "purchase_datetime": "2025-05-16T16:50:56.691590Z"
+}

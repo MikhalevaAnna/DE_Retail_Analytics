@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00308",
+  "customer": {
+    "customer_id": "cus-102081",
+    "first_name": "Фадей",
+    "last_name": "Агафонов",
+    "email": "fadei.agafonov@hotmail.com",
+    "phone": "+7 (950) 708-65-72",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B32BC6967"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0112",
+      "name": "Зеленый лук",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 77.86,
+      "total_price": 233.58,
+      "kbju": {
+        "calories": 32,
+        "protein": 1.3,
+        "fat": 0.1,
+        "carbohydrates": 5.7
+      }
+    },
+    {
+      "product_id": "prd-0111",
+      "name": "Петрушка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 59.47,
+      "total_price": 118.94,
+      "kbju": {
+        "calories": 47,
+        "protein": 3.7,
+        "fat": 0.8,
+        "carbohydrates": 7.6
+      }
+    }
+  ],
+  "total_amount": 352.52,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-11T16:50:56.844956Z"
+}

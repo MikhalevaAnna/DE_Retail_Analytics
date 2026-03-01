@@ -1,0 +1,125 @@
+{
+  "purchase_id": "ord-00123",
+  "customer": {
+    "customer_id": "cus-102045",
+    "first_name": "Раиса",
+    "last_name": "Ковалева",
+    "email": "raisa.kovaleva@gmail.com",
+    "phone": "+7 261 941 0639",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EE2BA17CC"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на пр. Апшеронск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Казань",
+      "street": "пр. Апшеронск",
+      "house": "6",
+      "postal_code": "973734"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0088",
+      "name": "Смородина черная",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 252.0,
+      "total_price": 252.0,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.0,
+        "fat": 0.4,
+        "carbohydrates": 7.3
+      }
+    },
+    {
+      "product_id": "prd-0015",
+      "name": "Сухари панировочные",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 52.48,
+      "total_price": 157.44,
+      "kbju": {
+        "calories": 350,
+        "protein": 11.2,
+        "fat": 1.4,
+        "carbohydrates": 72.4
+      }
+    },
+    {
+      "product_id": "prd-0065",
+      "name": "Айран",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 87.77,
+      "total_price": 263.31,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.8,
+        "fat": 1.5,
+        "carbohydrates": 3.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    },
+    {
+      "product_id": "prd-0057",
+      "name": "Творожная масса",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 114.23,
+      "total_price": 114.23,
+      "kbju": {
+        "calories": 232,
+        "protein": 7.5,
+        "fat": 12.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    },
+    {
+      "product_id": "prd-0020",
+      "name": "Кекс",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 117.3,
+      "total_price": 117.3,
+      "kbju": {
+        "calories": 340,
+        "protein": 6.0,
+        "fat": 15.0,
+        "carbohydrates": 45.0
+      }
+    }
+  ],
+  "total_amount": 904.28,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Казань",
+    "street": "ул. Снежная",
+    "house": "36",
+    "apartment": "11",
+    "postal_code": "333183"
+  },
+  "purchase_datetime": "2025-07-14T16:50:56.742590Z"
+}

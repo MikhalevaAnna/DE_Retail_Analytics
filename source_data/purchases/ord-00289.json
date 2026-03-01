@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00289",
+  "customer": {
+    "customer_id": "cus-102076",
+    "first_name": "Назар",
+    "last_name": "Афанасьев",
+    "email": "nazar.afanasev@gmail.com",
+    "phone": "+7 411 698 2008",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-5E26AF930"
+  },
+  "store": {
+    "store_id": "store-039",
+    "store_name": "Маленькая Пикча — Магазин на бул. Новостройка",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "бул. Новостройка",
+      "house": "38",
+      "postal_code": "627392"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0004",
+      "name": "Лаваш армянский",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 68.88,
+      "total_price": 68.88,
+      "kbju": {
+        "calories": 236,
+        "protein": 7.0,
+        "fat": 1.0,
+        "carbohydrates": 48.0
+      }
+    },
+    {
+      "product_id": "prd-0074",
+      "name": "Груши",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 158.17,
+      "total_price": 474.51,
+      "kbju": {
+        "calories": 57,
+        "protein": 0.4,
+        "fat": 0.3,
+        "carbohydrates": 15.0
+      }
+    }
+  ],
+  "total_amount": 543.39,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-01T16:50:56.833955Z"
+}

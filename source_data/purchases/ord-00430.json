@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00430",
+  "customer": {
+    "customer_id": "cus-102014",
+    "first_name": "Твердислав",
+    "last_name": "Королева",
+    "email": "tverdislav.koroleva@gmail.com",
+    "phone": "8 767 850 20 33",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9E5FE8A02"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ул. Аксеноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Челябинск",
+      "street": "ул. Аксеноваа",
+      "house": "29",
+      "postal_code": "749962"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0094",
+      "name": "Картофель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 59.63,
+      "total_price": 178.89,
+      "kbju": {
+        "calories": 77,
+        "protein": 2.0,
+        "fat": 0.1,
+        "carbohydrates": 17.0
+      }
+    },
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 119.59,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    }
+  ],
+  "total_amount": 298.48,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-20T16:50:56.908081Z"
+}

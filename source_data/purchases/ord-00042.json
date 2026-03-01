@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00042",
+  "customer": {
+    "customer_id": "cus-102074",
+    "first_name": "Нина",
+    "last_name": "Васильев",
+    "email": "nina.vasilev@yandex.ru",
+    "phone": "+7 (504) 432-69-90",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-1814E6038"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на ул. Хвойная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Краснодар",
+      "street": "ул. Хвойная",
+      "house": "39",
+      "postal_code": "049448"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0066",
+      "name": "Сыр Адыгейский",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 251.23,
+      "total_price": 502.46,
+      "kbju": {
+        "calories": 220,
+        "protein": 18.0,
+        "fat": 16.0,
+        "carbohydrates": 1.5
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    }
+  ],
+  "total_amount": 502.46,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Краснодар",
+    "street": "наб. Ватутина",
+    "house": "27",
+    "apartment": "35",
+    "postal_code": "364854"
+  },
+  "purchase_datetime": "2025-04-29T16:50:56.701590Z"
+}

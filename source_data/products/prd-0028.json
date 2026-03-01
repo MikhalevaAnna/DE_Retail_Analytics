@@ -1,0 +1,24 @@
+{
+  "id": "prd-0028",
+  "name": "Фарш говяжий",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Фарш говяжий.",
+  "kbju": {
+    "calories": 190,
+    "protein": 17.0,
+    "fat": 14.0,
+    "carbohydrates": 0.0
+  },
+  "price": 359.9,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 3,
+  "is_organic": false,
+  "barcode": "2584906351278",
+  "manufacturer": {
+    "name": "АО Мясокомбинат",
+    "country": "Россия",
+    "website": "https://myaso.ru",
+    "inn": "7712345679"
+  }
+}

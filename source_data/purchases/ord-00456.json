@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00456",
+  "customer": {
+    "customer_id": "cus-102027",
+    "first_name": "Милан",
+    "last_name": "Рябова",
+    "email": "milan.riabova@yandex.ru",
+    "phone": "89105899882",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E59A28501"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на бул. Макаренко",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "бул. Макаренко",
+      "house": "4",
+      "postal_code": "911255"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0059",
+      "name": "Мороженое пломбир",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 93.14,
+      "total_price": 186.28,
+      "kbju": {
+        "calories": 232,
+        "protein": 3.7,
+        "fat": 15.0,
+        "carbohydrates": 20.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0106",
+      "name": "Кабачки",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 66.58,
+      "total_price": 199.74,
+      "kbju": {
+        "calories": 24,
+        "protein": 0.6,
+        "fat": 0.3,
+        "carbohydrates": 4.6
+      }
+    }
+  ],
+  "total_amount": 386.02,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-23T16:50:56.922083Z"
+}

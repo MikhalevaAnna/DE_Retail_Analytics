@@ -1,0 +1,125 @@
+{
+  "purchase_id": "ord-00178",
+  "customer": {
+    "customer_id": "cus-102037",
+    "first_name": "Виктория",
+    "last_name": "Самсонова",
+    "email": "viktoriia.samsonova@yahoo.com",
+    "phone": "8 084 158 2775",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-01E1D4BC9"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на ул. Антоноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Москва",
+      "street": "ул. Антоноваа",
+      "house": "15",
+      "postal_code": "229970"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0077",
+      "name": "Клубника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 260.82,
+      "total_price": 260.82,
+      "kbju": {
+        "calories": 32,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 7.5
+      }
+    },
+    {
+      "product_id": "prd-0079",
+      "name": "Киви",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 104.37,
+      "total_price": 313.11,
+      "kbju": {
+        "calories": 47,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 8.1
+      }
+    },
+    {
+      "product_id": "prd-0106",
+      "name": "Кабачки",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 66.58,
+      "total_price": 199.74,
+      "kbju": {
+        "calories": 24,
+        "protein": 0.6,
+        "fat": 0.3,
+        "carbohydrates": 4.6
+      }
+    },
+    {
+      "product_id": "prd-0051",
+      "name": "Сметана 20%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 99.27,
+      "total_price": 297.81,
+      "kbju": {
+        "calories": 206,
+        "protein": 2.5,
+        "fat": 20.0,
+        "carbohydrates": 3.4
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0064",
+      "name": "Кумыс",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 115.47,
+      "total_price": 346.41,
+      "kbju": {
+        "calories": 50,
+        "protein": 2.5,
+        "fat": 2.0,
+        "carbohydrates": 5.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    }
+  ],
+  "total_amount": 1417.89,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Москва",
+    "street": "наб. Краснопартизанская",
+    "house": "18",
+    "apartment": "123",
+    "postal_code": "965982"
+  },
+  "purchase_datetime": "2025-02-25T16:50:56.772716Z"
+}

@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00066",
+  "customer": {
+    "customer_id": "cus-102027",
+    "first_name": "Милан",
+    "last_name": "Рябова",
+    "email": "milan.riabova@yandex.ru",
+    "phone": "89105899882",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E59A28501"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на бул. Макаренко",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "бул. Макаренко",
+      "house": "4",
+      "postal_code": "911255"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0039",
+      "name": "Чечевица",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 125.07,
+      "total_price": 125.07,
+      "kbju": {
+        "calories": 295,
+        "protein": 24.0,
+        "fat": 1.5,
+        "carbohydrates": 46.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 125.07,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2026-02-08T16:50:56.713590Z"
+}

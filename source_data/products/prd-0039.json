@@ -1,0 +1,24 @@
+{
+  "id": "prd-0039",
+  "name": "Чечевица",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Чечевица.",
+  "kbju": {
+    "calories": 295,
+    "protein": 24.0,
+    "fat": 1.5,
+    "carbohydrates": 46.3
+  },
+  "price": 125.07,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 576,
+  "is_organic": false,
+  "barcode": "8332120989883",
+  "manufacturer": {
+    "name": "АПК Черкизово",
+    "country": "Россия",
+    "website": "https://cherkizovo.ru",
+    "inn": "7756789013"
+  }
+}

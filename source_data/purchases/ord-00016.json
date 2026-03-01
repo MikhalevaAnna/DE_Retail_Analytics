@@ -1,0 +1,111 @@
+{
+  "purchase_id": "ord-00016",
+  "customer": {
+    "customer_id": "cus-102073",
+    "first_name": "Натан",
+    "last_name": "Кошелев",
+    "email": "natan.koshelev@rambler.ru",
+    "phone": "89833534675",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-F9D05BCD8"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на ул. Сысоева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Сысоева",
+      "house": "1",
+      "postal_code": "115335"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0027",
+      "name": "Свинина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 392.61,
+      "total_price": 1177.83,
+      "kbju": {
+        "calories": 259,
+        "protein": 16.0,
+        "fat": 21.7,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 119.59,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    },
+    {
+      "product_id": "prd-0080",
+      "name": "Персики",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 193.6,
+      "total_price": 387.2,
+      "kbju": {
+        "calories": 45,
+        "protein": 0.9,
+        "fat": 0.1,
+        "carbohydrates": 9.5
+      }
+    },
+    {
+      "product_id": "prd-0110",
+      "name": "Укроп",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 77.26,
+      "total_price": 231.78,
+      "kbju": {
+        "calories": 43,
+        "protein": 3.5,
+        "fat": 1.1,
+        "carbohydrates": 7.0
+      }
+    },
+    {
+      "product_id": "prd-0097",
+      "name": "Капуста белокочанная",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 50.53,
+      "total_price": 151.59,
+      "kbju": {
+        "calories": 28,
+        "protein": 1.8,
+        "fat": 0.1,
+        "carbohydrates": 4.7
+      }
+    }
+  ],
+  "total_amount": 2067.99,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2026-02-12T16:50:56.687591Z"
+}

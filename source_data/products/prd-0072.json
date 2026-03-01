@@ -1,0 +1,24 @@
+{
+  "id": "prd-0072",
+  "name": "Апельсины",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Апельсины.",
+  "kbju": {
+    "calories": 43,
+    "protein": 0.9,
+    "fat": 0.2,
+    "carbohydrates": 9.0
+  },
+  "price": 140.57,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 16,
+  "is_organic": true,
+  "barcode": "8853275258049",
+  "manufacturer": {
+    "name": "ООО Фруктовый рай",
+    "country": "Россия",
+    "website": "https://fruitparadise.ru",
+    "inn": "7712345681"
+  }
+}

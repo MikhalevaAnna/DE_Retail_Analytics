@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00064",
+  "customer": {
+    "customer_id": "cus-102013",
+    "first_name": "Моисей",
+    "last_name": "Блинова",
+    "email": "moisei.blinova@yahoo.com",
+    "phone": "+7 742 569 5571",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C0192FCB6"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ул. Лучезара",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Лучезара",
+      "house": "3",
+      "postal_code": "300397"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0067",
+      "name": "Йогурт густой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 62.09,
+      "total_price": 124.18,
+      "kbju": {
+        "calories": 100,
+        "protein": 4.0,
+        "fat": 3.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    }
+  ],
+  "total_amount": 124.18,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "ул. Дальняя",
+    "house": "34",
+    "apartment": "51",
+    "postal_code": "172356"
+  },
+  "purchase_datetime": "2026-01-08T16:50:56.712589Z"
+}

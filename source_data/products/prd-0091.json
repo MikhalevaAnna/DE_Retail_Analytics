@@ -1,0 +1,24 @@
+{
+  "id": "prd-0091",
+  "name": "Дыня",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Дыня.",
+  "kbju": {
+    "calories": 35,
+    "protein": 0.6,
+    "fat": 0.2,
+    "carbohydrates": 8.0
+  },
+  "price": 89.77,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 7,
+  "is_organic": false,
+  "barcode": "7303988466404",
+  "manufacturer": {
+    "name": "ИП Фрукт-Импорт",
+    "country": "Россия",
+    "website": "https://fruitimport.ru",
+    "inn": "7756789015"
+  }
+}

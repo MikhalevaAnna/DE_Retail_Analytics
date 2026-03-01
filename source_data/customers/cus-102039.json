@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102039",
+  "first_name": "Олег",
+  "last_name": "Яковлев",
+  "email": "oleg.iakovlev@mail.ru",
+  "phone": "+73210570782",
+  "birth_date": "1972-08-31",
+  "gender": "male",
+  "registration_date": "2025-09-15T16:50:56.653591Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-E03293973",
+  "purchase_location": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Самара",
+    "street": "пер. Пушкина",
+    "house": "35",
+    "postal_code": "881953"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Самара",
+    "street": "алл. Юбилейная",
+    "house": "17",
+    "apartment": "92",
+    "postal_code": "109162"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

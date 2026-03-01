@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00390",
+  "customer": {
+    "customer_id": "cus-102047",
+    "first_name": "Нинель",
+    "last_name": "Рогова",
+    "email": "ninel.rogova@mail.ru",
+    "phone": "+7 (783) 851-21-53",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8306AEDC7"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на ул. Сысоева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Сысоева",
+      "house": "1",
+      "postal_code": "115335"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0040",
+      "name": "Нут",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 137.86,
+      "total_price": 275.72,
+      "kbju": {
+        "calories": 364,
+        "protein": 19.0,
+        "fat": 6.0,
+        "carbohydrates": 61.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 275.72,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-03T16:50:56.888016Z"
+}

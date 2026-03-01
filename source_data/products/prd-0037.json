@@ -1,0 +1,24 @@
+{
+  "id": "prd-0037",
+  "name": "Фасоль красная",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Фасоль красная.",
+  "kbju": {
+    "calories": 337,
+    "protein": 22.5,
+    "fat": 1.5,
+    "carbohydrates": 61.0
+  },
+  "price": 82.12,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 421,
+  "is_organic": true,
+  "barcode": "4426937796117",
+  "manufacturer": {
+    "name": "ООО Мираторг",
+    "country": "Россия",
+    "website": "https://miratorg.ru",
+    "inn": "7745678902"
+  }
+}

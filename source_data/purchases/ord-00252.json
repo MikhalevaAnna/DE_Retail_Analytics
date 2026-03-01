@@ -1,0 +1,102 @@
+{
+  "purchase_id": "ord-00252",
+  "customer": {
+    "customer_id": "cus-102047",
+    "first_name": "Нинель",
+    "last_name": "Рогова",
+    "email": "ninel.rogova@mail.ru",
+    "phone": "+7 (783) 851-21-53",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8306AEDC7"
+  },
+  "store": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на ул. Евгенияа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Евгенияа",
+      "house": "1",
+      "postal_code": "271882"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0036",
+      "name": "Кальмары",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 392.03,
+      "total_price": 784.06,
+      "kbju": {
+        "calories": 92,
+        "protein": 18.0,
+        "fat": 1.2,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0089",
+      "name": "Клюква",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 320.56,
+      "total_price": 641.12,
+      "kbju": {
+        "calories": 28,
+        "protein": 0.5,
+        "fat": 0.2,
+        "carbohydrates": 6.0
+      }
+    },
+    {
+      "product_id": "prd-0012",
+      "name": "Перловка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 48.42,
+      "total_price": 145.26,
+      "kbju": {
+        "calories": 315,
+        "protein": 9.3,
+        "fat": 1.1,
+        "carbohydrates": 66.9
+      }
+    },
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 217.96,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 1788.4,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-09-02T16:50:56.812910Z"
+}

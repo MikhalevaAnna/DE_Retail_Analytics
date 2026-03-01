@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102016",
+  "first_name": "Януарий",
+  "last_name": "Молчанов",
+  "email": "ianuarii.molchanov@mail.ru",
+  "phone": "+73883260072",
+  "birth_date": "1986-01-25",
+  "gender": "female",
+  "registration_date": "2025-05-03T16:50:56.641062Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-51A2EFDFA",
+  "purchase_location": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на пр. Алексин",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Хабаровск",
+    "street": "пр. Алексин",
+    "house": "8",
+    "postal_code": "969218"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Хабаровск",
+    "street": "алл. Парковая",
+    "house": "27",
+    "apartment": "123",
+    "postal_code": "528664"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

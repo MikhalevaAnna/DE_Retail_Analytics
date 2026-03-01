@@ -1,0 +1,111 @@
+{
+  "purchase_id": "ord-00389",
+  "customer": {
+    "customer_id": "cus-102019",
+    "first_name": "Казимир",
+    "last_name": "Семенова",
+    "email": "kazimir.semenova@yandex.ru",
+    "phone": "+7 (846) 806-2423",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-A5126FF8E"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Воронеж",
+      "street": "ул. Назароваа",
+      "house": "34",
+      "postal_code": "502070"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0005",
+      "name": "Булочка с маком",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 44.28,
+      "total_price": 88.56,
+      "kbju": {
+        "calories": 310,
+        "protein": 8.0,
+        "fat": 5.0,
+        "carbohydrates": 55.0
+      }
+    },
+    {
+      "product_id": "prd-0115",
+      "name": "Имбирь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 170.21,
+      "total_price": 170.21,
+      "kbju": {
+        "calories": 80,
+        "protein": 1.8,
+        "fat": 0.8,
+        "carbohydrates": 17.8
+      }
+    },
+    {
+      "product_id": "prd-0076",
+      "name": "Мандарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 161.49,
+      "total_price": 161.49,
+      "kbju": {
+        "calories": 38,
+        "protein": 0.8,
+        "fat": 0.3,
+        "carbohydrates": 8.1
+      }
+    },
+    {
+      "product_id": "prd-0021",
+      "name": "Ржаные хлебцы",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 84.23,
+      "total_price": 252.69,
+      "kbju": {
+        "calories": 300,
+        "protein": 8.0,
+        "fat": 2.0,
+        "carbohydrates": 60.0
+      }
+    },
+    {
+      "product_id": "prd-0068",
+      "name": "Биойогурт",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 80.21,
+      "total_price": 240.63,
+      "kbju": {
+        "calories": 90,
+        "protein": 3.5,
+        "fat": 3.0,
+        "carbohydrates": 11.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 913.58,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-06T16:50:56.887016Z"
+}

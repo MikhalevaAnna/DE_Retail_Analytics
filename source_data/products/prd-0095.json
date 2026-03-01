@@ -1,0 +1,24 @@
+{
+  "id": "prd-0095",
+  "name": "Морковь",
+  "group": "🥦 Овощи и зелень",
+  "description": "Морковь.",
+  "kbju": {
+    "calories": 35,
+    "protein": 1.3,
+    "fat": 0.1,
+    "carbohydrates": 6.9
+  },
+  "price": 51.4,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 28,
+  "is_organic": true,
+  "barcode": "5372794996308",
+  "manufacturer": {
+    "name": "АО Тепличный",
+    "country": "Россия",
+    "website": "https://teplica.ru",
+    "inn": "7712345682"
+  }
+}

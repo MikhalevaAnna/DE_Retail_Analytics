@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00007",
+  "customer": {
+    "customer_id": "cus-102011",
+    "first_name": "Семен",
+    "last_name": "Исакова",
+    "email": "semen.isakova@rambler.ru",
+    "phone": "+7 203 364 47 46",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9F20D822A"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "пр. Мостовской",
+      "house": "24",
+      "postal_code": "193220"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0046",
+      "name": "Скумбрия",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 311.2,
+      "total_price": 622.4,
+      "kbju": {
+        "calories": 191,
+        "protein": 18.0,
+        "fat": 13.2,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0006",
+      "name": "Крупа гречневая",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 112.67,
+      "total_price": 112.67,
+      "kbju": {
+        "calories": 308,
+        "protein": 12.6,
+        "fat": 3.3,
+        "carbohydrates": 57.1
+      }
+    },
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 122.16,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    },
+    {
+      "product_id": "prd-0094",
+      "name": "Картофель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 59.63,
+      "total_price": 119.26,
+      "kbju": {
+        "calories": 77,
+        "protein": 2.0,
+        "fat": 0.1,
+        "carbohydrates": 17.0
+      }
+    }
+  ],
+  "total_amount": 976.49,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-10-30T16:50:56.682590Z"
+}

@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00391",
+  "customer": {
+    "customer_id": "cus-102068",
+    "first_name": "Никанор",
+    "last_name": "Калинина",
+    "email": "nikanor.kalinina@yahoo.com",
+    "phone": "+7 (756) 213-99-14",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D9763F079"
+  },
+  "store": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ул. Фадеева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "ул. Фадеева",
+      "house": "8",
+      "postal_code": "646736"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0102",
+      "name": "Цветная капуста",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 167.2,
+      "total_price": 167.2,
+      "kbju": {
+        "calories": 30,
+        "protein": 2.5,
+        "fat": 0.3,
+        "carbohydrates": 5.4
+      }
+    }
+  ],
+  "total_amount": 167.2,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "ул. Промышленная",
+    "house": "6",
+    "apartment": "40",
+    "postal_code": "230545"
+  },
+  "purchase_datetime": "2025-07-18T16:50:56.888016Z"
+}

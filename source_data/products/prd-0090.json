@@ -1,0 +1,24 @@
+{
+  "id": "prd-0090",
+  "name": "Арбуз",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Арбуз.",
+  "kbju": {
+    "calories": 30,
+    "protein": 0.6,
+    "fat": 0.2,
+    "carbohydrates": 7.6
+  },
+  "price": 66.85,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 11,
+  "is_organic": false,
+  "barcode": "8778988387674",
+  "manufacturer": {
+    "name": "АО Южные плоды",
+    "country": "Россия",
+    "website": "https://yugfruit.ru",
+    "inn": "7734567893"
+  }
+}

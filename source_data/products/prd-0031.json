@@ -1,0 +1,24 @@
+{
+  "id": "prd-0031",
+  "name": "Филе индейки",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Филе индейки.",
+  "kbju": {
+    "calories": 112,
+    "protein": 22.6,
+    "fat": 1.8,
+    "carbohydrates": 0.0
+  },
+  "price": 417.98,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 8,
+  "is_organic": false,
+  "barcode": "2598102747575",
+  "manufacturer": {
+    "name": "ЗАО Рыбный мир",
+    "country": "Россия",
+    "website": "https://riba.ru",
+    "inn": "7734567891"
+  }
+}

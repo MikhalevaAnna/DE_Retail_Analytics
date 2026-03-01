@@ -1,0 +1,24 @@
+{
+  "id": "prd-0116",
+  "name": "Хрен",
+  "group": "🥦 Овощи и зелень",
+  "description": "Хрен.",
+  "kbju": {
+    "calories": 48,
+    "protein": 1.4,
+    "fat": 0.4,
+    "carbohydrates": 10.5
+  },
+  "price": 172.92,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 34,
+  "is_organic": true,
+  "barcode": "1660970458547",
+  "manufacturer": {
+    "name": "ЗАО Зеленая грядка",
+    "country": "Россия",
+    "website": "https://greenbed.ru",
+    "inn": "7734567894"
+  }
+}

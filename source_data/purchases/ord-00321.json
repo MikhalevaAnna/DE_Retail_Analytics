@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00321",
+  "customer": {
+    "customer_id": "cus-102059",
+    "first_name": "Ефим",
+    "last_name": "Сафонов",
+    "email": "efim.safonov@rambler.ru",
+    "phone": "+7 (809) 366-73-43",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-38CBF130C"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ул. Лучезара",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Лучезара",
+      "house": "3",
+      "postal_code": "300397"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0028",
+      "name": "Фарш говяжий",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 359.9,
+      "total_price": 719.8,
+      "kbju": {
+        "calories": 190,
+        "protein": 17.0,
+        "fat": 14.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0086",
+      "name": "Авокадо",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 185.15,
+      "total_price": 555.45,
+      "kbju": {
+        "calories": 160,
+        "protein": 2.0,
+        "fat": 14.7,
+        "carbohydrates": 8.5
+      }
+    }
+  ],
+  "total_amount": 1275.25,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "бул. Харьковский",
+    "house": "12",
+    "apartment": "50",
+    "postal_code": "651865"
+  },
+  "purchase_datetime": "2025-06-16T16:50:56.851956Z"
+}

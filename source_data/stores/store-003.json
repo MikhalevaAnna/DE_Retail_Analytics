@@ -1,0 +1,39 @@
+{
+  "store_id": "store-003",
+  "store_name": "Большая Пикча — Магазин на ул. Дьячкова",
+  "store_network": "Большая Пикча",
+  "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Бирюков Евграф Ильич",
+    "phone": "+7 (173) 708-92-02",
+    "email": "adementev@example.org"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Нижний Новгород",
+    "street": "ул. Дьячкова",
+    "house": "39",
+    "postal_code": "826126",
+    "coordinates": {
+      "latitude": 59.5358625,
+      "longitude": -49.003256
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "09:00-21:00",
+    "sat": "10:00-20:00",
+    "sun": "10:00-18:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": false,
+  "last_inventory_date": "2026-02-09"
+}

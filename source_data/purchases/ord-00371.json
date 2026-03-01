@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00371",
+  "customer": {
+    "customer_id": "cus-102026",
+    "first_name": "Якуб",
+    "last_name": "Михеев",
+    "email": "iakub.mikheev@mail.ru",
+    "phone": "8 688 522 25 47",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-568E88662"
+  },
+  "store": {
+    "store_id": "store-045",
+    "store_name": "Маленькая Пикча — Магазин на ул. Емельяноваа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "ул. Емельяноваа",
+      "house": "6",
+      "postal_code": "482671"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0015",
+      "name": "Сухари панировочные",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 52.48,
+      "total_price": 52.48,
+      "kbju": {
+        "calories": 350,
+        "protein": 11.2,
+        "fat": 1.4,
+        "carbohydrates": 72.4
+      }
+    },
+    {
+      "product_id": "prd-0081",
+      "name": "Нектарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 157.4,
+      "total_price": 314.8,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 10.6
+      }
+    }
+  ],
+  "total_amount": 367.28,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-17T16:50:56.878872Z"
+}

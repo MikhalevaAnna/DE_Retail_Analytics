@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00116",
+  "customer": {
+    "customer_id": "cus-102045",
+    "first_name": "Раиса",
+    "last_name": "Ковалева",
+    "email": "raisa.kovaleva@gmail.com",
+    "phone": "+7 261 941 0639",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EE2BA17CC"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на пр. Апшеронск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Казань",
+      "street": "пр. Апшеронск",
+      "house": "6",
+      "postal_code": "973734"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0017",
+      "name": "Пряники",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 163.26,
+      "total_price": 489.78,
+      "kbju": {
+        "calories": 350,
+        "protein": 5.0,
+        "fat": 3.0,
+        "carbohydrates": 76.0
+      }
+    },
+    {
+      "product_id": "prd-0003",
+      "name": "Батон нарезной",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 59.33,
+      "total_price": 59.33,
+      "kbju": {
+        "calories": 262,
+        "protein": 7.5,
+        "fat": 2.9,
+        "carbohydrates": 51.4
+      }
+    },
+    {
+      "product_id": "prd-0088",
+      "name": "Смородина черная",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 252.0,
+      "total_price": 756.0,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.0,
+        "fat": 0.4,
+        "carbohydrates": 7.3
+      }
+    },
+    {
+      "product_id": "prd-0068",
+      "name": "Биойогурт",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 80.21,
+      "total_price": 80.21,
+      "kbju": {
+        "calories": 90,
+        "protein": 3.5,
+        "fat": 3.0,
+        "carbohydrates": 11.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 1385.32,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-30T16:50:56.739590Z"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0104",
+  "name": "Чеснок",
+  "group": "🥦 Овощи и зелень",
+  "description": "Чеснок.",
+  "kbju": {
+    "calories": 149,
+    "protein": 6.4,
+    "fat": 0.5,
+    "carbohydrates": 33.0
+  },
+  "price": 194.43,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 85,
+  "is_organic": false,
+  "barcode": "8438856131203",
+  "manufacturer": {
+    "name": "ЗАО Зеленая грядка",
+    "country": "Россия",
+    "website": "https://greenbed.ru",
+    "inn": "7734567894"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0101",
+  "name": "Брокколи",
+  "group": "🥦 Овощи и зелень",
+  "description": "Брокколи.",
+  "kbju": {
+    "calories": 34,
+    "protein": 2.8,
+    "fat": 0.4,
+    "carbohydrates": 6.6
+  },
+  "price": 178.19,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 8,
+  "is_organic": false,
+  "barcode": "3366940305108",
+  "manufacturer": {
+    "name": "АО Тепличный",
+    "country": "Россия",
+    "website": "https://teplica.ru",
+    "inn": "7712345682"
+  }
+}

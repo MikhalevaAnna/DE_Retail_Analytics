@@ -1,0 +1,24 @@
+{
+  "id": "prd-0093",
+  "name": "Лайм",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Лайм.",
+  "kbju": {
+    "calories": 30,
+    "protein": 0.7,
+    "fat": 0.2,
+    "carbohydrates": 10.5
+  },
+  "price": 144.76,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 16,
+  "is_organic": true,
+  "barcode": "4548076539599",
+  "manufacturer": {
+    "name": "ЗАО Сады Кубани",
+    "country": "Россия",
+    "website": "https://sadykubani.ru",
+    "inn": "7723456792"
+  }
+}

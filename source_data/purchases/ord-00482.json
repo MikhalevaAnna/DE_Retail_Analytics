@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00482",
+  "customer": {
+    "customer_id": "cus-102028",
+    "first_name": "Еремей",
+    "last_name": "Афанасьева",
+    "email": "eremei.afanaseva@yahoo.com",
+    "phone": "8 790 433 6527",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-064806562"
+  },
+  "store": {
+    "store_id": "store-014",
+    "store_name": "Большая Пикча — Магазин на ул. Иринаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ульяновск",
+      "street": "ул. Иринаа",
+      "house": "12",
+      "postal_code": "144801"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0076",
+      "name": "Мандарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 161.49,
+      "total_price": 484.47,
+      "kbju": {
+        "calories": 38,
+        "protein": 0.8,
+        "fat": 0.3,
+        "carbohydrates": 8.1
+      }
+    }
+  ],
+  "total_amount": 484.47,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "ш. Запрудное",
+    "house": "48",
+    "apartment": "146",
+    "postal_code": "078440"
+  },
+  "purchase_datetime": "2025-03-17T16:50:56.934082Z"
+}

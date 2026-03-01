@@ -1,0 +1,117 @@
+{
+  "purchase_id": "ord-00492",
+  "customer": {
+    "customer_id": "cus-102046",
+    "first_name": "Аполлон",
+    "last_name": "Полякова",
+    "email": "apollon.poliakova@rambler.ru",
+    "phone": "+7 (825) 434-52-58",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-98AFA4E32"
+  },
+  "store": {
+    "store_id": "store-023",
+    "store_name": "Большая Пикча — Магазин на ул. Хвойная",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Краснодар",
+      "street": "ул. Хвойная",
+      "house": "39",
+      "postal_code": "049448"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 1740.3,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0095",
+      "name": "Морковь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 51.4,
+      "total_price": 102.8,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.3,
+        "fat": 0.1,
+        "carbohydrates": 6.9
+      }
+    },
+    {
+      "product_id": "prd-0081",
+      "name": "Нектарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 157.4,
+      "total_price": 472.2,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 10.6
+      }
+    },
+    {
+      "product_id": "prd-0078",
+      "name": "Малина",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 335.04,
+      "total_price": 1005.12,
+      "kbju": {
+        "calories": 42,
+        "protein": 0.8,
+        "fat": 0.5,
+        "carbohydrates": 8.6
+      }
+    },
+    {
+      "product_id": "prd-0061",
+      "name": "Сыр Моцарелла",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 441.75,
+      "total_price": 1325.25,
+      "kbju": {
+        "calories": 280,
+        "protein": 22.0,
+        "fat": 20.0,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 4645.67,
+  "payment_method": "card",
+  "is_delivery": false,
+  "purchase_datetime": "2025-10-29T16:50:56.940082Z"
+}

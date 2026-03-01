@@ -1,0 +1,24 @@
+{
+  "id": "prd-0045",
+  "name": "Баранина",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Баранина.",
+  "kbju": {
+    "calories": 209,
+    "protein": 15.6,
+    "fat": 16.3,
+    "carbohydrates": 0.0
+  },
+  "price": 559.68,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 6,
+  "is_organic": true,
+  "barcode": "1589781881330",
+  "manufacturer": {
+    "name": "АПК Черкизово",
+    "country": "Россия",
+    "website": "https://cherkizovo.ru",
+    "inn": "7756789013"
+  }
+}

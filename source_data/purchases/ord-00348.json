@@ -1,0 +1,87 @@
+{
+  "purchase_id": "ord-00348",
+  "customer": {
+    "customer_id": "cus-102059",
+    "first_name": "Ефим",
+    "last_name": "Сафонов",
+    "email": "efim.safonov@rambler.ru",
+    "phone": "+7 (809) 366-73-43",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-38CBF130C"
+  },
+  "store": {
+    "store_id": "store-030",
+    "store_name": "Большая Пикча — Магазин на ул. Трифона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Трифона",
+      "house": "15",
+      "postal_code": "777632"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0044",
+      "name": "Пельмени",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 235.45,
+      "total_price": 706.35,
+      "kbju": {
+        "calories": 280,
+        "protein": 12.0,
+        "fat": 14.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0035",
+      "name": "Креветки",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 580.1,
+      "total_price": 580.1,
+      "kbju": {
+        "calories": 95,
+        "protein": 19.0,
+        "fat": 1.5,
+        "carbohydrates": 0.5
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    },
+    {
+      "product_id": "prd-0099",
+      "name": "Огурцы",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 96.43,
+      "total_price": 192.86,
+      "kbju": {
+        "calories": 15,
+        "protein": 0.8,
+        "fat": 0.1,
+        "carbohydrates": 3.0
+      }
+    }
+  ],
+  "total_amount": 1479.31,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-17T16:50:56.866558Z"
+}

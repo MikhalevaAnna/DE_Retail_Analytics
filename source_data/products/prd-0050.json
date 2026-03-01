@@ -1,0 +1,24 @@
+{
+  "id": "prd-0050",
+  "name": "Творог 5%",
+  "group": "🥛 Молочные продукты",
+  "description": "Творог 5%.",
+  "kbju": {
+    "calories": 121,
+    "protein": 16.5,
+    "fat": 5.0,
+    "carbohydrates": 3.3
+  },
+  "price": 131.29,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 10,
+  "is_organic": true,
+  "barcode": "2234661482891",
+  "manufacturer": {
+    "name": "ООО Вимм-Билль-Данн",
+    "country": "Россия",
+    "website": "https://wbd.ru",
+    "inn": "7723456791"
+  }
+}

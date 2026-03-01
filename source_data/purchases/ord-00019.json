@@ -1,0 +1,119 @@
+{
+  "purchase_id": "ord-00019",
+  "customer": {
+    "customer_id": "cus-102005",
+    "first_name": "Ермил",
+    "last_name": "Зайцева",
+    "email": "ermil.zaitseva@yahoo.com",
+    "phone": "8 826 311 57 12",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-792DD2879"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на ул. Мирона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "ул. Мирона",
+      "house": "27",
+      "postal_code": "717225"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0083",
+      "name": "Хурма",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 165.51,
+      "total_price": 496.53,
+      "kbju": {
+        "calories": 67,
+        "protein": 0.5,
+        "fat": 0.4,
+        "carbohydrates": 16.0
+      }
+    },
+    {
+      "product_id": "prd-0094",
+      "name": "Картофель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 59.63,
+      "total_price": 178.89,
+      "kbju": {
+        "calories": 77,
+        "protein": 2.0,
+        "fat": 0.1,
+        "carbohydrates": 17.0
+      }
+    },
+    {
+      "product_id": "prd-0028",
+      "name": "Фарш говяжий",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 359.9,
+      "total_price": 1079.7,
+      "kbju": {
+        "calories": 190,
+        "protein": 17.0,
+        "fat": 14.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0103",
+      "name": "Шпинат",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 117.06,
+      "total_price": 117.06,
+      "kbju": {
+        "calories": 23,
+        "protein": 2.9,
+        "fat": 0.4,
+        "carbohydrates": 3.6
+      }
+    },
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 318.36,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    }
+  ],
+  "total_amount": 2190.54,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "ш. 30 лет Победы",
+    "house": "42",
+    "apartment": "31",
+    "postal_code": "530964"
+  },
+  "purchase_datetime": "2026-02-03T16:50:56.689591Z"
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102036",
+  "first_name": "Анисим",
+  "last_name": "Ершов",
+  "email": "anisim.ershov@gmail.com",
+  "phone": "8 094 047 53 25",
+  "birth_date": "1981-11-02",
+  "gender": "male",
+  "registration_date": "2024-11-11T16:50:56.651591Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-4843EB068",
+  "purchase_location": {
+    "store_id": "store-017",
+    "store_name": "Большая Пикча — Магазин на ул. Азарийа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Уфа",
+    "street": "ул. Азарийа",
+    "house": "23",
+    "postal_code": "744672"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Уфа",
+    "street": "ул. Вишневая",
+    "house": "22",
+    "apartment": "55",
+    "postal_code": "339793"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": false
+  }
+}

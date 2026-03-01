@@ -1,0 +1,24 @@
+{
+  "id": "prd-0089",
+  "name": "Клюква",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Клюква.",
+  "kbju": {
+    "calories": 28,
+    "protein": 0.5,
+    "fat": 0.2,
+    "carbohydrates": 6.0
+  },
+  "price": 320.56,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 29,
+  "is_organic": false,
+  "barcode": "8022757064267",
+  "manufacturer": {
+    "name": "ЗАО Сады Кубани",
+    "country": "Россия",
+    "website": "https://sadykubani.ru",
+    "inn": "7723456792"
+  }
+}

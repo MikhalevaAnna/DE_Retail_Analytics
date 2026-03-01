@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00491",
+  "customer": {
+    "customer_id": "cus-102019",
+    "first_name": "Казимир",
+    "last_name": "Семенова",
+    "email": "kazimir.semenova@yandex.ru",
+    "phone": "+7 (846) 806-2423",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-A5126FF8E"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Воронеж",
+      "street": "ул. Назароваа",
+      "house": "34",
+      "postal_code": "502070"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0018",
+      "name": "Печенье овсяное",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 159.18,
+      "total_price": 477.54,
+      "kbju": {
+        "calories": 420,
+        "protein": 6.5,
+        "fat": 15.0,
+        "carbohydrates": 65.0
+      }
+    }
+  ],
+  "total_amount": 477.54,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-27T16:50:56.939082Z"
+}

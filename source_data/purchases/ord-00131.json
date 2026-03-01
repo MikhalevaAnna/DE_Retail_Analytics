@@ -1,0 +1,90 @@
+{
+  "purchase_id": "ord-00131",
+  "customer": {
+    "customer_id": "cus-102069",
+    "first_name": "Рюрик",
+    "last_name": "Наумова",
+    "email": "riurik.naumova@hotmail.com",
+    "phone": "8 677 381 37 55",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-F0E875138"
+  },
+  "store": {
+    "store_id": "store-034",
+    "store_name": "Маленькая Пикча — Магазин на ул. Лучезара",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "ул. Лучезара",
+      "house": "3",
+      "postal_code": "300397"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0079",
+      "name": "Киви",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 104.37,
+      "total_price": 313.11,
+      "kbju": {
+        "calories": 47,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 8.1
+      }
+    },
+    {
+      "product_id": "prd-0021",
+      "name": "Ржаные хлебцы",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 84.23,
+      "total_price": 252.69,
+      "kbju": {
+        "calories": 300,
+        "protein": 8.0,
+        "fat": 2.0,
+        "carbohydrates": 60.0
+      }
+    },
+    {
+      "product_id": "prd-0094",
+      "name": "Картофель",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 59.63,
+      "total_price": 178.89,
+      "kbju": {
+        "calories": 77,
+        "protein": 2.0,
+        "fat": 0.1,
+        "carbohydrates": 17.0
+      }
+    },
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 61.08,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    }
+  ],
+  "total_amount": 805.77,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2026-01-01T16:50:56.747592Z"
+}

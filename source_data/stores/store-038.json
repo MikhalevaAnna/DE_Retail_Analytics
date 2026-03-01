@@ -1,0 +1,39 @@
+{
+  "store_id": "store-038",
+  "store_name": "Маленькая Пикча — Магазин на пр. Агата",
+  "store_network": "Маленькая Пикча",
+  "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Егоров Лука Викентьевич",
+    "phone": "+7 549 631 3952",
+    "email": "anna1997@example.com"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Ульяновск",
+    "street": "пр. Агата",
+    "house": "32",
+    "postal_code": "460702",
+    "coordinates": {
+      "latitude": 70.720957,
+      "longitude": -28.41032
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "08:00-22:00",
+    "sat": "09:00-21:00",
+    "sun": "09:00-20:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": false,
+  "last_inventory_date": "2026-02-12"
+}

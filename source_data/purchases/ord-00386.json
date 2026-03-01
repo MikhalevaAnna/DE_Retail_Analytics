@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00386",
+  "customer": {
+    "customer_id": "cus-102068",
+    "first_name": "Никанор",
+    "last_name": "Калинина",
+    "email": "nikanor.kalinina@yahoo.com",
+    "phone": "+7 (756) 213-99-14",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D9763F079"
+  },
+  "store": {
+    "store_id": "store-015",
+    "store_name": "Большая Пикча — Магазин на пр. Нефтекамск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Барнаул",
+      "street": "пр. Нефтекамск",
+      "house": "8",
+      "postal_code": "016782"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0071",
+      "name": "Бананы",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 96.92,
+      "total_price": 96.92,
+      "kbju": {
+        "calories": 96,
+        "protein": 1.5,
+        "fat": 0.5,
+        "carbohydrates": 21.0
+      }
+    }
+  ],
+  "total_amount": 96.92,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "ул. Промышленная",
+    "house": "6",
+    "apartment": "40",
+    "postal_code": "230545"
+  },
+  "purchase_datetime": "2025-11-09T16:50:56.886016Z"
+}

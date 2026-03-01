@@ -1,0 +1,89 @@
+{
+  "purchase_id": "ord-00234",
+  "customer": {
+    "customer_id": "cus-102051",
+    "first_name": "Кира",
+    "last_name": "Ситникова",
+    "email": "kira.sitnikova@gmail.com",
+    "phone": "+7 942 309 5361",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-85E980FD3"
+  },
+  "store": {
+    "store_id": "store-026",
+    "store_name": "Большая Пикча — Магазин на ул. Мирона",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "ул. Мирона",
+      "house": "27",
+      "postal_code": "717225"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0071",
+      "name": "Бананы",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 96.92,
+      "total_price": 96.92,
+      "kbju": {
+        "calories": 96,
+        "protein": 1.5,
+        "fat": 0.5,
+        "carbohydrates": 21.0
+      }
+    },
+    {
+      "product_id": "prd-0038",
+      "name": "Горох",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 65.34,
+      "total_price": 65.34,
+      "kbju": {
+        "calories": 298,
+        "protein": 20.5,
+        "fat": 2.0,
+        "carbohydrates": 53.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    },
+    {
+      "product_id": "prd-0020",
+      "name": "Кекс",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 117.3,
+      "total_price": 117.3,
+      "kbju": {
+        "calories": 340,
+        "protein": 6.0,
+        "fat": 15.0,
+        "carbohydrates": 45.0
+      }
+    }
+  ],
+  "total_amount": 279.56,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "алл. 60 лет Октября",
+    "house": "14",
+    "apartment": "134",
+    "postal_code": "801689"
+  },
+  "purchase_datetime": "2025-07-27T16:50:56.802798Z"
+}

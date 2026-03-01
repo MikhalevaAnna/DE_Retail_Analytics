@@ -1,0 +1,75 @@
+{
+  "purchase_id": "ord-00409",
+  "customer": {
+    "customer_id": "cus-102071",
+    "first_name": "Мокей",
+    "last_name": "Мамонтов",
+    "email": "mokei.mamontov@yandex.ru",
+    "phone": "8 (147) 550-9453",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-99AB8D2B5"
+  },
+  "store": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на ул. Сысоева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Санкт-Петербург",
+      "street": "ул. Сысоева",
+      "house": "1",
+      "postal_code": "115335"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0021",
+      "name": "Ржаные хлебцы",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 84.23,
+      "total_price": 84.23,
+      "kbju": {
+        "calories": 300,
+        "protein": 8.0,
+        "fat": 2.0,
+        "carbohydrates": 60.0
+      }
+    },
+    {
+      "product_id": "prd-0083",
+      "name": "Хурма",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 165.51,
+      "total_price": 331.02,
+      "kbju": {
+        "calories": 67,
+        "protein": 0.5,
+        "fat": 0.4,
+        "carbohydrates": 16.0
+      }
+    },
+    {
+      "product_id": "prd-0111",
+      "name": "Петрушка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 59.47,
+      "total_price": 59.47,
+      "kbju": {
+        "calories": 47,
+        "protein": 3.7,
+        "fat": 0.8,
+        "carbohydrates": 7.6
+      }
+    }
+  ],
+  "total_amount": 474.72,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-17T16:50:56.898082Z"
+}

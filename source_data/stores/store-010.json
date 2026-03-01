@@ -1,0 +1,39 @@
+{
+  "store_id": "store-010",
+  "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+  "store_network": "Большая Пикча",
+  "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Комаров Ипат Арсеньевич",
+    "phone": "+7 (335) 479-4725",
+    "email": "proklbelov@example.net"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Воронеж",
+    "street": "ул. Назароваа",
+    "house": "34",
+    "postal_code": "502070",
+    "coordinates": {
+      "latitude": 62.9409265,
+      "longitude": 70.793998
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "09:00-21:00",
+    "sat": "10:00-20:00",
+    "sun": "10:00-18:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": false,
+  "last_inventory_date": "2026-02-17"
+}

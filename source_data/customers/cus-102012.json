@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102012",
+  "first_name": "Галактион",
+  "last_name": "Кулагина",
+  "email": "galaktion.kulagina@gmail.com",
+  "phone": "8 (261) 721-2266",
+  "birth_date": "1982-07-28",
+  "gender": "male",
+  "registration_date": "2025-08-02T16:50:56.639062Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-03A4C258F",
+  "purchase_location": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "пр. Мостовской",
+    "house": "24",
+    "postal_code": "193220"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Новосибирск",
+    "street": "пер. Набережный",
+    "house": "7",
+    "apartment": "136",
+    "postal_code": "040455"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00464",
+  "customer": {
+    "customer_id": "cus-102061",
+    "first_name": "Алла",
+    "last_name": "Бурова",
+    "email": "alla.burova@rambler.ru",
+    "phone": "+7 (077) 125-4659",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-6CFAA3CA9"
+  },
+  "store": {
+    "store_id": "store-006",
+    "store_name": "Большая Пикча — Магазин на пр. Мостовской",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Новосибирск",
+      "street": "пр. Мостовской",
+      "house": "24",
+      "postal_code": "193220"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0070",
+      "name": "Яблоки Голден",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 144.1,
+      "total_price": 288.2,
+      "kbju": {
+        "calories": 52,
+        "protein": 0.3,
+        "fat": 0.2,
+        "carbohydrates": 14.0
+      }
+    }
+  ],
+  "total_amount": 288.2,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-10-26T16:50:56.926083Z"
+}

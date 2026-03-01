@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00466",
+  "customer": {
+    "customer_id": "cus-102019",
+    "first_name": "Казимир",
+    "last_name": "Семенова",
+    "email": "kazimir.semenova@yandex.ru",
+    "phone": "+7 (846) 806-2423",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-A5126FF8E"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Воронеж",
+      "street": "ул. Назароваа",
+      "house": "34",
+      "postal_code": "502070"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0096",
+      "name": "Лук репчатый",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 30.2,
+      "total_price": 90.6,
+      "kbju": {
+        "calories": 40,
+        "protein": 1.4,
+        "fat": 0.2,
+        "carbohydrates": 8.2
+      }
+    }
+  ],
+  "total_amount": 90.6,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-13T16:50:56.927083Z"
+}

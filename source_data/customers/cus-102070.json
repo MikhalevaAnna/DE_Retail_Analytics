@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102070",
+  "first_name": "Боян",
+  "last_name": "Воронова",
+  "email": "boian.voronova@yandex.ru",
+  "phone": "+7 996 362 2359",
+  "birth_date": "1993-03-09",
+  "gender": "male",
+  "registration_date": "2024-12-16T16:50:56.669590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-F28A29B7A",
+  "purchase_location": {
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на пр. Сорочинск",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Саратов",
+    "street": "пр. Сорочинск",
+    "house": "38",
+    "postal_code": "747986"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Саратов",
+    "street": "ул. Смирнова",
+    "house": "35",
+    "apartment": "111",
+    "postal_code": "146298"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "online",
+    "receive_promotions": false
+  }
+}

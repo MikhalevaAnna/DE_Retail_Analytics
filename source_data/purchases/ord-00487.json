@@ -1,0 +1,96 @@
+{
+  "purchase_id": "ord-00487",
+  "customer": {
+    "customer_id": "cus-102062",
+    "first_name": "Вадим",
+    "last_name": "Шилов",
+    "email": "vadim.shilov@hotmail.com",
+    "phone": "+74092481952",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-7E0C93764"
+  },
+  "store": {
+    "store_id": "store-013",
+    "store_name": "Большая Пикча — Магазин на ул. Дорофееваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "ул. Дорофееваа",
+      "house": "4",
+      "postal_code": "022531"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0075",
+      "name": "Виноград",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 168.65,
+      "total_price": 505.95,
+      "kbju": {
+        "calories": 69,
+        "protein": 0.6,
+        "fat": 0.3,
+        "carbohydrates": 16.0
+      }
+    },
+    {
+      "product_id": "prd-0055",
+      "name": "Ряженка",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 61.56,
+      "total_price": 123.12,
+      "kbju": {
+        "calories": 54,
+        "protein": 2.8,
+        "fat": 2.5,
+        "carbohydrates": 4.2
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0081",
+      "name": "Нектарины",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 157.4,
+      "total_price": 472.2,
+      "kbju": {
+        "calories": 44,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 10.6
+      }
+    },
+    {
+      "product_id": "prd-0114",
+      "name": "Сельдерей",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 130.13,
+      "total_price": 390.39,
+      "kbju": {
+        "calories": 16,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 3.0
+      }
+    }
+  ],
+  "total_amount": 1491.66,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-03-26T16:50:56.937083Z"
+}

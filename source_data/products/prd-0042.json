@@ -1,0 +1,24 @@
+{
+  "id": "prd-0042",
+  "name": "Ветчина",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Ветчина.",
+  "kbju": {
+    "calories": 270,
+    "protein": 15.0,
+    "fat": 22.0,
+    "carbohydrates": 1.0
+  },
+  "price": 448.75,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 24,
+  "is_organic": false,
+  "barcode": "8023283065520",
+  "manufacturer": {
+    "name": "ООО Мираторг",
+    "country": "Россия",
+    "website": "https://miratorg.ru",
+    "inn": "7745678902"
+  }
+}

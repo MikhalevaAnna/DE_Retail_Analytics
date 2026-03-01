@@ -1,0 +1,89 @@
+{
+  "purchase_id": "ord-00070",
+  "customer": {
+    "customer_id": "cus-102026",
+    "first_name": "Якуб",
+    "last_name": "Михеев",
+    "email": "iakub.mikheev@mail.ru",
+    "phone": "8 688 522 25 47",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-568E88662"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на пр. Находка",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "пр. Находка",
+      "house": "24",
+      "postal_code": "799974"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0085",
+      "name": "Манго",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 224.25,
+      "total_price": 224.25,
+      "kbju": {
+        "calories": 60,
+        "protein": 0.8,
+        "fat": 0.4,
+        "carbohydrates": 15.0
+      }
+    },
+    {
+      "product_id": "prd-0084",
+      "name": "Ананас",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 276.95,
+      "total_price": 553.9,
+      "kbju": {
+        "calories": 52,
+        "protein": 0.4,
+        "fat": 0.1,
+        "carbohydrates": 11.0
+      }
+    },
+    {
+      "product_id": "prd-0056",
+      "name": "Сливки 10%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 108.98,
+      "total_price": 217.96,
+      "kbju": {
+        "calories": 118,
+        "protein": 3.0,
+        "fat": 10.0,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    }
+  ],
+  "total_amount": 996.11,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ижевск",
+    "street": "пер. Машиностроителей",
+    "house": "1",
+    "apartment": "116",
+    "postal_code": "714440"
+  },
+  "purchase_datetime": "2025-10-23T16:50:56.715591Z"
+}

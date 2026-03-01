@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00469",
+  "customer": {
+    "customer_id": "cus-102009",
+    "first_name": "Тихон",
+    "last_name": "Потапова",
+    "email": "tikhon.potapova@rambler.ru",
+    "phone": "+7 655 577 2836",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-B412CAC75"
+  },
+  "store": {
+    "store_id": "store-005",
+    "store_name": "Большая Пикча — Магазин на ул. Ждановаа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "ул. Ждановаа",
+      "house": "40",
+      "postal_code": "314679"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0034",
+      "name": "Форель",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 725.0,
+      "total_price": 725.0,
+      "kbju": {
+        "calories": 150,
+        "protein": 20.0,
+        "fat": 7.0,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    }
+  ],
+  "total_amount": 725.0,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "пер. Крестьянский",
+    "house": "32",
+    "apartment": "41",
+    "postal_code": "349299"
+  },
+  "purchase_datetime": "2025-10-15T16:50:56.928083Z"
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102021",
+  "first_name": "Амос",
+  "last_name": "Жданов",
+  "email": "amos.zhdanov@yahoo.com",
+  "phone": "8 686 624 0712",
+  "birth_date": "1996-11-13",
+  "gender": "male",
+  "registration_date": "2026-02-15T16:50:56.644062Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-8F70C3ED9",
+  "purchase_location": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Воронеж",
+    "street": "ул. Назароваа",
+    "house": "34",
+    "postal_code": "502070"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Воронеж",
+    "street": "бул. Станционный",
+    "house": "50",
+    "apartment": "89",
+    "postal_code": "090637"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "cash",
+    "receive_promotions": true
+  }
+}

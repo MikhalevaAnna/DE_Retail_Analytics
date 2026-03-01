@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00373",
+  "customer": {
+    "customer_id": "cus-102015",
+    "first_name": "Валерия",
+    "last_name": "Громова",
+    "email": "valeriia.gromova@yandex.ru",
+    "phone": "8 (245) 000-33-25",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-4489EA5D7"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ул. Аксеноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Челябинск",
+      "street": "ул. Аксеноваа",
+      "house": "29",
+      "postal_code": "749962"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0023",
+      "name": "Булгур",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 132.33,
+      "total_price": 264.66,
+      "kbju": {
+        "calories": 342,
+        "protein": 12.3,
+        "fat": 1.3,
+        "carbohydrates": 75.9
+      }
+    },
+    {
+      "product_id": "prd-0033",
+      "name": "Минтай",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 247.87,
+      "total_price": 247.87,
+      "kbju": {
+        "calories": 72,
+        "protein": 15.9,
+        "fat": 0.9,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 512.53,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-25T16:50:56.879913Z"
+}

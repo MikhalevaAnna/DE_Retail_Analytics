@@ -1,0 +1,24 @@
+{
+  "id": "prd-0047",
+  "name": "Сельдь",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Сельдь.",
+  "kbju": {
+    "calories": 161,
+    "protein": 17.0,
+    "fat": 10.0,
+    "carbohydrates": 0.0
+  },
+  "price": 193.4,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 13,
+  "is_organic": false,
+  "barcode": "9838680113199",
+  "manufacturer": {
+    "name": "АПК Черкизово",
+    "country": "Россия",
+    "website": "https://cherkizovo.ru",
+    "inn": "7756789013"
+  }
+}

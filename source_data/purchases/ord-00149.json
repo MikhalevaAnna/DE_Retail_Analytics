@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00149",
+  "customer": {
+    "customer_id": "cus-102083",
+    "first_name": "Леонтий",
+    "last_name": "Ковалева",
+    "email": "leontii.kovaleva@rambler.ru",
+    "phone": "8 (190) 244-82-53",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D24398828"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на бул. Свердлова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "бул. Свердлова",
+      "house": "32",
+      "postal_code": "152628"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0087",
+      "name": "Черника",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 418.4,
+      "total_price": 418.4,
+      "kbju": {
+        "calories": 44,
+        "protein": 0.9,
+        "fat": 0.4,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0045",
+      "name": "Баранина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 559.68,
+      "total_price": 1119.36,
+      "kbju": {
+        "calories": 209,
+        "protein": 15.6,
+        "fat": 16.3,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 1537.76,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-07-04T16:50:56.757157Z"
+}

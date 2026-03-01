@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00224",
+  "customer": {
+    "customer_id": "cus-102016",
+    "first_name": "Януарий",
+    "last_name": "Молчанов",
+    "email": "ianuarii.molchanov@mail.ru",
+    "phone": "+73883260072",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-51A2EFDFA"
+  },
+  "store": {
+    "store_id": "store-008",
+    "store_name": "Большая Пикча — Магазин на пр. Алексин",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Хабаровск",
+      "street": "пр. Алексин",
+      "house": "8",
+      "postal_code": "969218"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0038",
+      "name": "Горох",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 65.34,
+      "total_price": 65.34,
+      "kbju": {
+        "calories": 298,
+        "protein": 20.5,
+        "fat": 2.0,
+        "carbohydrates": 53.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 65.34,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Хабаровск",
+    "street": "алл. Парковая",
+    "house": "27",
+    "apartment": "123",
+    "postal_code": "528664"
+  },
+  "purchase_datetime": "2025-04-12T16:50:56.797757Z"
+}

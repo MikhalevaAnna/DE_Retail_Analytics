@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102047",
+  "first_name": "Нинель",
+  "last_name": "Рогова",
+  "email": "ninel.rogova@mail.ru",
+  "phone": "+7 (783) 851-21-53",
+  "birth_date": "1999-05-18",
+  "gender": "male",
+  "registration_date": "2025-10-17T16:50:56.657590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-8306AEDC7",
+  "purchase_location": {
+    "store_id": "store-024",
+    "store_name": "Большая Пикча — Магазин на ул. Евгенияа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Санкт-Петербург",
+    "street": "ул. Евгенияа",
+    "house": "1",
+    "postal_code": "271882"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Санкт-Петербург",
+    "street": "ул. Энгельса",
+    "house": "29",
+    "apartment": "46",
+    "postal_code": "408060"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

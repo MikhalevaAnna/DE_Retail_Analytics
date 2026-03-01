@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00029",
+  "customer": {
+    "customer_id": "cus-102083",
+    "first_name": "Леонтий",
+    "last_name": "Ковалева",
+    "email": "leontii.kovaleva@rambler.ru",
+    "phone": "8 (190) 244-82-53",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-D24398828"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0099",
+      "name": "Огурцы",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 96.43,
+      "total_price": 192.86,
+      "kbju": {
+        "calories": 15,
+        "protein": 0.8,
+        "fat": 0.1,
+        "carbohydrates": 3.0
+      }
+    }
+  ],
+  "total_amount": 192.86,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-25T16:50:56.694591Z"
+}

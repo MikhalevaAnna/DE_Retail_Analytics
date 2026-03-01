@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00260",
+  "customer": {
+    "customer_id": "cus-102000",
+    "first_name": "Епифан",
+    "last_name": "Фадеева",
+    "email": "epifan.fadeeva@yahoo.com",
+    "phone": "+7 (377) 932-4620",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-896441DFF"
+  },
+  "store": {
+    "store_id": "store-025",
+    "store_name": "Большая Пикча — Магазин на пр. Дубна",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ростов-на-Дону",
+      "street": "пр. Дубна",
+      "house": "1",
+      "postal_code": "733315"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0057",
+      "name": "Творожная масса",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 114.23,
+      "total_price": 228.46,
+      "kbju": {
+        "calories": 232,
+        "protein": 7.5,
+        "fat": 12.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ОАО Маслозавод",
+        "country": "Россия",
+        "website": "https://maslo.ru",
+        "inn": "7756789014"
+      }
+    }
+  ],
+  "total_amount": 228.46,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-05-25T16:50:56.816953Z"
+}

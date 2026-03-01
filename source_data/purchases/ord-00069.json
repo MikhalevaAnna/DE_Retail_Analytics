@@ -1,0 +1,102 @@
+{
+  "purchase_id": "ord-00069",
+  "customer": {
+    "customer_id": "cus-102038",
+    "first_name": "Всеслав",
+    "last_name": "Макаров",
+    "email": "vseslav.makarov@yahoo.com",
+    "phone": "+7 (830) 569-4934",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-2D8CC6BF5"
+  },
+  "store": {
+    "store_id": "store-018",
+    "store_name": "Большая Пикча — Магазин на ул. Антоноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Москва",
+      "street": "ул. Антоноваа",
+      "house": "15",
+      "postal_code": "229970"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0036",
+      "name": "Кальмары",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 392.03,
+      "total_price": 1176.09,
+      "kbju": {
+        "calories": 92,
+        "protein": 18.0,
+        "fat": 1.2,
+        "carbohydrates": 2.0
+      },
+      "manufacturer": {
+        "name": "ООО Птицефабрика",
+        "country": "Россия",
+        "website": "https://ptica.ru",
+        "inn": "7723456790"
+      }
+    },
+    {
+      "product_id": "prd-0026",
+      "name": "Говядина",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 495.77,
+      "total_price": 991.54,
+      "kbju": {
+        "calories": 187,
+        "protein": 18.9,
+        "fat": 12.4,
+        "carbohydrates": 0.0
+      },
+      "manufacturer": {
+        "name": "АО Мясокомбинат",
+        "country": "Россия",
+        "website": "https://myaso.ru",
+        "inn": "7712345679"
+      }
+    },
+    {
+      "product_id": "prd-0014",
+      "name": "Кукурузные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 121.93,
+      "total_price": 365.79,
+      "kbju": {
+        "calories": 363,
+        "protein": 7.7,
+        "fat": 1.2,
+        "carbohydrates": 84.0
+      }
+    },
+    {
+      "product_id": "prd-0023",
+      "name": "Булгур",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 132.33,
+      "total_price": 264.66,
+      "kbju": {
+        "calories": 342,
+        "protein": 12.3,
+        "fat": 1.3,
+        "carbohydrates": 75.9
+      }
+    }
+  ],
+  "total_amount": 2798.08,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-13T16:50:56.714590Z"
+}

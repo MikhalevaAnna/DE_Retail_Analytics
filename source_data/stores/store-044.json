@@ -1,0 +1,39 @@
+{
+  "store_id": "store-044",
+  "store_name": "Маленькая Пикча — Магазин на пр. Ишим",
+  "store_network": "Маленькая Пикча",
+  "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+  "type": "offline",
+  "categories": [
+    "🥖 Зерновые и хлебобулочные изделия",
+    "🥩 Мясо, рыба, яйца и бобовые",
+    "🥛 Молочные продукты",
+    "🍏 Фрукты и ягоды",
+    "🥦 Овощи и зелень"
+  ],
+  "manager": {
+    "name": "Павлов Кондрат Демьянович",
+    "phone": "8 (344) 479-3798",
+    "email": "julianzimin@example.com"
+  },
+  "location": {
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "пр. Ишим",
+    "house": "20",
+    "postal_code": "539395",
+    "coordinates": {
+      "latitude": 54.6961865,
+      "longitude": 71.209056
+    }
+  },
+  "opening_hours": {
+    "mon_fri": "08:00-22:00",
+    "sat": "09:00-21:00",
+    "sun": "09:00-20:00"
+  },
+  "accepts_online_orders": true,
+  "delivery_available": true,
+  "warehouse_connected": true,
+  "last_inventory_date": "2026-02-20"
+}

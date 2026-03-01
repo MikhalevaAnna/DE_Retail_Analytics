@@ -1,0 +1,89 @@
+{
+  "purchase_id": "ord-00499",
+  "customer": {
+    "customer_id": "cus-102056",
+    "first_name": "Антонин",
+    "last_name": "Устинов",
+    "email": "antonin.ustinov@mail.ru",
+    "phone": "+7 259 462 6489",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0D89757F1"
+  },
+  "store": {
+    "store_id": "store-029",
+    "store_name": "Большая Пикча — Магазин на пр. Асбест",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Екатеринбург",
+      "street": "пр. Асбест",
+      "house": "35",
+      "postal_code": "639666"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0093",
+      "name": "Лайм",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 144.76,
+      "total_price": 289.52,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.7,
+        "fat": 0.2,
+        "carbohydrates": 10.5
+      }
+    },
+    {
+      "product_id": "prd-0064",
+      "name": "Кумыс",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 115.47,
+      "total_price": 115.47,
+      "kbju": {
+        "calories": 50,
+        "protein": 2.5,
+        "fat": 2.0,
+        "carbohydrates": 5.0
+      },
+      "manufacturer": {
+        "name": "ООО Домик в деревне",
+        "country": "Россия",
+        "website": "https://domik.ru",
+        "inn": "7745678903"
+      }
+    },
+    {
+      "product_id": "prd-0102",
+      "name": "Цветная капуста",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 167.2,
+      "total_price": 334.4,
+      "kbju": {
+        "calories": 30,
+        "protein": 2.5,
+        "fat": 0.3,
+        "carbohydrates": 5.4
+      }
+    }
+  ],
+  "total_amount": 739.39,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Екатеринбург",
+    "street": "ул. Бригадная",
+    "house": "12",
+    "apartment": "103",
+    "postal_code": "824385"
+  },
+  "purchase_datetime": "2025-08-26T16:50:56.943083Z"
+}

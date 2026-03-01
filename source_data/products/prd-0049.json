@@ -1,0 +1,24 @@
+{
+  "id": "prd-0049",
+  "name": "Кефир 2.5%",
+  "group": "🥛 Молочные продукты",
+  "description": "Кефир 2.5%.",
+  "kbju": {
+    "calories": 50,
+    "protein": 3.0,
+    "fat": 2.5,
+    "carbohydrates": 4.0
+  },
+  "price": 85.31,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 9,
+  "is_organic": false,
+  "barcode": "3330677642089",
+  "manufacturer": {
+    "name": "АО Молочный Комбинат",
+    "country": "Россия",
+    "website": "https://moloko.ru",
+    "inn": "7712345680"
+  }
+}

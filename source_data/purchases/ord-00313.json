@@ -1,0 +1,60 @@
+{
+  "purchase_id": "ord-00313",
+  "customer": {
+    "customer_id": "cus-102005",
+    "first_name": "Ермил",
+    "last_name": "Зайцева",
+    "email": "ermil.zaitseva@yahoo.com",
+    "phone": "8 826 311 57 12",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-792DD2879"
+  },
+  "store": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на пр. Новочеркасск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "пр. Новочеркасск",
+      "house": "11",
+      "postal_code": "724485"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0006",
+      "name": "Крупа гречневая",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 112.67,
+      "total_price": 338.01,
+      "kbju": {
+        "calories": 308,
+        "protein": 12.6,
+        "fat": 3.3,
+        "carbohydrates": 57.1
+      }
+    },
+    {
+      "product_id": "prd-0009",
+      "name": "Овсяные хлопья",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 61.08,
+      "total_price": 183.24,
+      "kbju": {
+        "calories": 366,
+        "protein": 11.9,
+        "fat": 6.1,
+        "carbohydrates": 62.0
+      }
+    }
+  ],
+  "total_amount": 521.25,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-09-06T16:50:56.847957Z"
+}

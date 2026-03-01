@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00303",
+  "customer": {
+    "customer_id": "cus-102027",
+    "first_name": "Милан",
+    "last_name": "Рябова",
+    "email": "milan.riabova@yandex.ru",
+    "phone": "89105899882",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-E59A28501"
+  },
+  "store": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на бул. Макаренко",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Пермь",
+      "street": "бул. Макаренко",
+      "house": "4",
+      "postal_code": "911255"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0095",
+      "name": "Морковь",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 51.4,
+      "total_price": 154.2,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.3,
+        "fat": 0.1,
+        "carbohydrates": 6.9
+      }
+    }
+  ],
+  "total_amount": 154.2,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-12-18T16:50:56.841956Z"
+}

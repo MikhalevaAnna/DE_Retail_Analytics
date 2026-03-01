@@ -1,0 +1,24 @@
+{
+  "id": "prd-0098",
+  "name": "Помидоры",
+  "group": "🥦 Овощи и зелень",
+  "description": "Помидоры.",
+  "kbju": {
+    "calories": 20,
+    "protein": 1.0,
+    "fat": 0.2,
+    "carbohydrates": 4.0
+  },
+  "price": 159.68,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 6,
+  "is_organic": false,
+  "barcode": "9992608376551",
+  "manufacturer": {
+    "name": "ЗАО Зеленая грядка",
+    "country": "Россия",
+    "website": "https://greenbed.ru",
+    "inn": "7734567894"
+  }
+}

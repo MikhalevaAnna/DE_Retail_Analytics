@@ -1,0 +1,81 @@
+{
+  "purchase_id": "ord-00046",
+  "customer": {
+    "customer_id": "cus-102082",
+    "first_name": "Радим",
+    "last_name": "Елисеева",
+    "email": "radim.eliseeva@yahoo.com",
+    "phone": "+7 (633) 145-8778",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-C47BC7587"
+  },
+  "store": {
+    "store_id": "store-042",
+    "store_name": "Маленькая Пикча — Магазин на бул. Свердлова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "бул. Свердлова",
+      "house": "32",
+      "postal_code": "152628"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0083",
+      "name": "Хурма",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 165.51,
+      "total_price": 165.51,
+      "kbju": {
+        "calories": 67,
+        "protein": 0.5,
+        "fat": 0.4,
+        "carbohydrates": 16.0
+      }
+    },
+    {
+      "product_id": "prd-0054",
+      "name": "Йогурт питьевой",
+      "category": "🥛 Молочные продукты",
+      "quantity": 3,
+      "unit": "шт",
+      "price_per_unit": 64.14,
+      "total_price": 192.42,
+      "kbju": {
+        "calories": 80,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 12.0
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0089",
+      "name": "Клюква",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 3,
+      "unit": "кг",
+      "price_per_unit": 320.56,
+      "total_price": 961.68,
+      "kbju": {
+        "calories": 28,
+        "protein": 0.5,
+        "fat": 0.2,
+        "carbohydrates": 6.0
+      }
+    }
+  ],
+  "total_amount": 1319.61,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-06-27T16:50:56.702590Z"
+}

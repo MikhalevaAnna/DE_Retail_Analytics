@@ -1,0 +1,68 @@
+{
+  "purchase_id": "ord-00232",
+  "customer": {
+    "customer_id": "cus-102076",
+    "first_name": "Назар",
+    "last_name": "Афанасьев",
+    "email": "nazar.afanasev@gmail.com",
+    "phone": "+7 411 698 2008",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-5E26AF930"
+  },
+  "store": {
+    "store_id": "store-002",
+    "store_name": "Большая Пикча — Магазин на пр. Новочеркасск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Омск",
+      "street": "пр. Новочеркасск",
+      "house": "11",
+      "postal_code": "724485"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0111",
+      "name": "Петрушка",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 59.47,
+      "total_price": 59.47,
+      "kbju": {
+        "calories": 47,
+        "protein": 3.7,
+        "fat": 0.8,
+        "carbohydrates": 7.6
+      }
+    },
+    {
+      "product_id": "prd-0024",
+      "name": "Мюсли",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 151.36,
+      "total_price": 302.72,
+      "kbju": {
+        "calories": 380,
+        "protein": 10.0,
+        "fat": 8.0,
+        "carbohydrates": 65.0
+      }
+    }
+  ],
+  "total_amount": 362.19,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Омск",
+    "street": "пер. Папанина",
+    "house": "28",
+    "apartment": "132",
+    "postal_code": "789182"
+  },
+  "purchase_datetime": "2025-04-21T16:50:56.801797Z"
+}

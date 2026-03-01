@@ -1,0 +1,51 @@
+{
+  "purchase_id": "ord-00416",
+  "customer": {
+    "customer_id": "cus-102025",
+    "first_name": "Филарет",
+    "last_name": "Константинова",
+    "email": "filaret.konstantinova@hotmail.com",
+    "phone": "8 (107) 633-1912",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-0D0236C22"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на пр. Находка",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "пр. Находка",
+      "house": "24",
+      "postal_code": "799974"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0044",
+      "name": "Пельмени",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 235.45,
+      "total_price": 235.45,
+      "kbju": {
+        "calories": 280,
+        "protein": 12.0,
+        "fat": 14.0,
+        "carbohydrates": 25.0
+      },
+      "manufacturer": {
+        "name": "ООО Мираторг",
+        "country": "Россия",
+        "website": "https://miratorg.ru",
+        "inn": "7745678902"
+      }
+    }
+  ],
+  "total_amount": 235.45,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-04-15T16:50:56.902082Z"
+}

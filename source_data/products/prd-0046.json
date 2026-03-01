@@ -1,0 +1,24 @@
+{
+  "id": "prd-0046",
+  "name": "Скумбрия",
+  "group": "🥩 Мясо, рыба, яйца и бобовые",
+  "description": "Скумбрия.",
+  "kbju": {
+    "calories": 191,
+    "protein": 18.0,
+    "fat": 13.2,
+    "carbohydrates": 0.0
+  },
+  "price": 311.2,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 5,
+  "is_organic": false,
+  "barcode": "9170474010162",
+  "manufacturer": {
+    "name": "АО Мясокомбинат",
+    "country": "Россия",
+    "website": "https://myaso.ru",
+    "inn": "7712345679"
+  }
+}

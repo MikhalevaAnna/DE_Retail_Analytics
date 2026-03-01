@@ -1,0 +1,66 @@
+{
+  "purchase_id": "ord-00302",
+  "customer": {
+    "customer_id": "cus-102045",
+    "first_name": "Раиса",
+    "last_name": "Ковалева",
+    "email": "raisa.kovaleva@gmail.com",
+    "phone": "+7 261 941 0639",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EE2BA17CC"
+  },
+  "store": {
+    "store_id": "store-022",
+    "store_name": "Большая Пикча — Магазин на пр. Апшеронск",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Казань",
+      "street": "пр. Апшеронск",
+      "house": "6",
+      "postal_code": "973734"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0011",
+      "name": "Манка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 44.49,
+      "total_price": 44.49,
+      "kbju": {
+        "calories": 328,
+        "protein": 10.3,
+        "fat": 1.0,
+        "carbohydrates": 70.6
+      }
+    },
+    {
+      "product_id": "prd-0038",
+      "name": "Горох",
+      "category": "🥩 Мясо, рыба, яйца и бобовые",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 65.34,
+      "total_price": 196.02,
+      "kbju": {
+        "calories": 298,
+        "protein": 20.5,
+        "fat": 2.0,
+        "carbohydrates": 53.3
+      },
+      "manufacturer": {
+        "name": "АПК Черкизово",
+        "country": "Россия",
+        "website": "https://cherkizovo.ru",
+        "inn": "7756789013"
+      }
+    }
+  ],
+  "total_amount": 240.51,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-11-24T16:50:56.841956Z"
+}

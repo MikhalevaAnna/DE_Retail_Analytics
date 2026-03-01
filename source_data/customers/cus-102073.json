@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102073",
+  "first_name": "Натан",
+  "last_name": "Кошелев",
+  "email": "natan.koshelev@rambler.ru",
+  "phone": "89833534675",
+  "birth_date": "1991-02-05",
+  "gender": "male",
+  "registration_date": "2025-11-03T16:50:56.671591Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-F9D05BCD8",
+  "purchase_location": {
+    "store_id": "store-036",
+    "store_name": "Маленькая Пикча — Магазин на ул. Сысоева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Санкт-Петербург",
+    "street": "ул. Сысоева",
+    "house": "1",
+    "postal_code": "115335"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Санкт-Петербург",
+    "street": "бул. Братский",
+    "house": "40",
+    "apartment": "54",
+    "postal_code": "589058"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "online",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "purchase_id": "ord-00240",
+  "customer": {
+    "customer_id": "cus-102070",
+    "first_name": "Боян",
+    "last_name": "Воронова",
+    "email": "boian.voronova@yandex.ru",
+    "phone": "+7 996 362 2359",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-F28A29B7A"
+  },
+  "store": {
+    "store_id": "store-035",
+    "store_name": "Маленькая Пикча — Магазин на пр. Сорочинск",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Саратов",
+      "street": "пр. Сорочинск",
+      "house": "38",
+      "postal_code": "747986"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0055",
+      "name": "Ряженка",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 61.56,
+      "total_price": 123.12,
+      "kbju": {
+        "calories": 54,
+        "protein": 2.8,
+        "fat": 2.5,
+        "carbohydrates": 4.2
+      },
+      "manufacturer": {
+        "name": "ООО Вимм-Билль-Данн",
+        "country": "Россия",
+        "website": "https://wbd.ru",
+        "inn": "7723456791"
+      }
+    },
+    {
+      "product_id": "prd-0110",
+      "name": "Укроп",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 77.26,
+      "total_price": 154.52,
+      "kbju": {
+        "calories": 43,
+        "protein": 3.5,
+        "fat": 1.1,
+        "carbohydrates": 7.0
+      }
+    },
+    {
+      "product_id": "prd-0060",
+      "name": "Сгущенное молоко",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 136.57,
+      "total_price": 273.14,
+      "kbju": {
+        "calories": 328,
+        "protein": 7.2,
+        "fat": 8.5,
+        "carbohydrates": 55.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 550.78,
+  "payment_method": "cash",
+  "is_delivery": false,
+  "purchase_datetime": "2025-08-15T16:50:56.805855Z"
+}

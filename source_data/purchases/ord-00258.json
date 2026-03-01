@@ -1,0 +1,98 @@
+{
+  "purchase_id": "ord-00258",
+  "customer": {
+    "customer_id": "cus-102041",
+    "first_name": "Митофан",
+    "last_name": "Кудряшова",
+    "email": "mitofan.kudriashova@yandex.ru",
+    "phone": "+7 536 259 4287",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EEE70340A"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0102",
+      "name": "Цветная капуста",
+      "category": "🥦 Овощи и зелень",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 167.2,
+      "total_price": 167.2,
+      "kbju": {
+        "calories": 30,
+        "protein": 2.5,
+        "fat": 0.3,
+        "carbohydrates": 5.4
+      }
+    },
+    {
+      "product_id": "prd-0024",
+      "name": "Мюсли",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 151.36,
+      "total_price": 302.72,
+      "kbju": {
+        "calories": 380,
+        "protein": 10.0,
+        "fat": 8.0,
+        "carbohydrates": 65.0
+      }
+    },
+    {
+      "product_id": "prd-0012",
+      "name": "Перловка",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 3,
+      "unit": "упаковка",
+      "price_per_unit": 48.42,
+      "total_price": 145.26,
+      "kbju": {
+        "calories": 315,
+        "protein": 9.3,
+        "fat": 1.1,
+        "carbohydrates": 66.9
+      }
+    },
+    {
+      "product_id": "prd-0092",
+      "name": "Лимон",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 119.59,
+      "total_price": 119.59,
+      "kbju": {
+        "calories": 29,
+        "protein": 1.1,
+        "fat": 0.3,
+        "carbohydrates": 9.3
+      }
+    }
+  ],
+  "total_amount": 734.77,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Самара",
+    "street": "наб. Дорожников",
+    "house": "6",
+    "apartment": "15",
+    "postal_code": "847530"
+  },
+  "purchase_datetime": "2025-05-02T16:50:56.815952Z"
+}

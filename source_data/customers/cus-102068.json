@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102068",
+  "first_name": "Никанор",
+  "last_name": "Калинина",
+  "email": "nikanor.kalinina@yahoo.com",
+  "phone": "+7 (756) 213-99-14",
+  "birth_date": "1970-12-12",
+  "gender": "female",
+  "registration_date": "2024-10-05T16:50:56.668590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-D9763F079",
+  "purchase_location": {
+    "store_id": "store-033",
+    "store_name": "Маленькая Пикча — Магазин на ул. Фадеева",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "ул. Фадеева",
+    "house": "8",
+    "postal_code": "646736"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Барнаул",
+    "street": "ул. Промышленная",
+    "house": "6",
+    "apartment": "40",
+    "postal_code": "230545"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

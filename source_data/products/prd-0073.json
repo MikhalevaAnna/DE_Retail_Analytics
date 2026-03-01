@@ -1,0 +1,24 @@
+{
+  "id": "prd-0073",
+  "name": "Лимоны",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Лимоны.",
+  "kbju": {
+    "calories": 34,
+    "protein": 0.8,
+    "fat": 0.2,
+    "carbohydrates": 5.4
+  },
+  "price": 108.99,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 20,
+  "is_organic": true,
+  "barcode": "3168618536582",
+  "manufacturer": {
+    "name": "ООО Мир ягод",
+    "country": "Россия",
+    "website": "https://yagoda.ru",
+    "inn": "7745678904"
+  }
+}

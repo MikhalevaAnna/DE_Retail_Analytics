@@ -1,0 +1,24 @@
+{
+  "id": "prd-0012",
+  "name": "Перловка",
+  "group": "🥖 Зерновые и хлебобулочные изделия",
+  "description": "Перловка.",
+  "kbju": {
+    "calories": 315,
+    "protein": 9.3,
+    "fat": 1.1,
+    "carbohydrates": 66.9
+  },
+  "price": 48.42,
+  "unit": "упаковка",
+  "origin_country": "Россия",
+  "expiry_days": 371,
+  "is_organic": false,
+  "barcode": "3921427826943",
+  "manufacturer": {
+    "name": "ООО Каравай",
+    "country": "Россия",
+    "website": "https://karavay.ru",
+    "inn": "7723456789"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "purchase_id": "ord-00434",
+  "customer": {
+    "customer_id": "cus-102024",
+    "first_name": "Орест",
+    "last_name": "Емельянов",
+    "email": "orest.emelianov@yandex.ru",
+    "phone": "8 485 078 2786",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-451088E34"
+  },
+  "store": {
+    "store_id": "store-012",
+    "store_name": "Большая Пикча — Магазин на пр. Находка",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Ижевск",
+      "street": "пр. Находка",
+      "house": "24",
+      "postal_code": "799974"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0065",
+      "name": "Айран",
+      "category": "🥛 Молочные продукты",
+      "quantity": 1,
+      "unit": "шт",
+      "price_per_unit": 87.77,
+      "total_price": 87.77,
+      "kbju": {
+        "calories": 35,
+        "protein": 1.8,
+        "fat": 1.5,
+        "carbohydrates": 3.5
+      },
+      "manufacturer": {
+        "name": "ЗАО Простоквашино",
+        "country": "Россия",
+        "website": "https://prostokvashino.ru",
+        "inn": "7734567892"
+      }
+    }
+  ],
+  "total_amount": 87.77,
+  "payment_method": "card",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Ижевск",
+    "street": "ш. Алтайское",
+    "house": "49",
+    "apartment": "26",
+    "postal_code": "027236"
+  },
+  "purchase_datetime": "2025-09-27T16:50:56.910083Z"
+}

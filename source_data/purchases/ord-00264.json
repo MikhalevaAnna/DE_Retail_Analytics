@@ -1,0 +1,45 @@
+{
+  "purchase_id": "ord-00264",
+  "customer": {
+    "customer_id": "cus-102021",
+    "first_name": "Амос",
+    "last_name": "Жданов",
+    "email": "amos.zhdanov@yahoo.com",
+    "phone": "8 686 624 0712",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-8F70C3ED9"
+  },
+  "store": {
+    "store_id": "store-010",
+    "store_name": "Большая Пикча — Магазин на ул. Назароваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Воронеж",
+      "street": "ул. Назароваа",
+      "house": "34",
+      "postal_code": "502070"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0090",
+      "name": "Арбуз",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 1,
+      "unit": "кг",
+      "price_per_unit": 66.85,
+      "total_price": 66.85,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 7.6
+      }
+    }
+  ],
+  "total_amount": 66.85,
+  "payment_method": "online",
+  "is_delivery": false,
+  "purchase_datetime": "2025-10-14T16:50:56.818954Z"
+}

@@ -1,0 +1,53 @@
+{
+  "purchase_id": "ord-00204",
+  "customer": {
+    "customer_id": "cus-102041",
+    "first_name": "Митофан",
+    "last_name": "Кудряшова",
+    "email": "mitofan.kudriashova@yandex.ru",
+    "phone": "+7 536 259 4287",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-EEE70340A"
+  },
+  "store": {
+    "store_id": "store-019",
+    "store_name": "Большая Пикча — Магазин на пер. Пушкина",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Самара",
+      "street": "пер. Пушкина",
+      "house": "35",
+      "postal_code": "881953"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0006",
+      "name": "Крупа гречневая",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 112.67,
+      "total_price": 225.34,
+      "kbju": {
+        "calories": 308,
+        "protein": 12.6,
+        "fat": 3.3,
+        "carbohydrates": 57.1
+      }
+    }
+  ],
+  "total_amount": 225.34,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Самара",
+    "street": "наб. Дорожников",
+    "house": "6",
+    "apartment": "15",
+    "postal_code": "847530"
+  },
+  "purchase_datetime": "2025-12-22T16:50:56.786714Z"
+}

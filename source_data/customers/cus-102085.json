@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102085",
+  "first_name": "Марина",
+  "last_name": "Кулаков",
+  "email": "marina.kulakov@gmail.com",
+  "phone": "+76309783580",
+  "birth_date": "1993-12-30",
+  "gender": "female",
+  "registration_date": "2025-07-06T16:50:56.677590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-FDAE6BA6B",
+  "purchase_location": {
+    "store_id": "store-044",
+    "store_name": "Маленькая Пикча — Магазин на пр. Ишим",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "пр. Ишим",
+    "house": "20",
+    "postal_code": "539395"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Волгоград",
+    "street": "наб. Комарова",
+    "house": "17",
+    "apartment": "123",
+    "postal_code": "951213"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": true
+  }
+}

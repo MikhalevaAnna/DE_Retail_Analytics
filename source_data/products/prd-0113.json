@@ -1,0 +1,24 @@
+{
+  "id": "prd-0113",
+  "name": "Руккола",
+  "group": "🥦 Овощи и зелень",
+  "description": "Руккола.",
+  "kbju": {
+    "calories": 25,
+    "protein": 2.6,
+    "fat": 0.7,
+    "carbohydrates": 2.0
+  },
+  "price": 189.46,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 4,
+  "is_organic": true,
+  "barcode": "0563403733864",
+  "manufacturer": {
+    "name": "АПК Агрокультура",
+    "country": "Россия",
+    "website": "https://agro.ru",
+    "inn": "7756789016"
+  }
+}

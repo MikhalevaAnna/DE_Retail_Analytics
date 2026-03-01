@@ -1,0 +1,24 @@
+{
+  "id": "prd-0060",
+  "name": "Сгущенное молоко",
+  "group": "🥛 Молочные продукты",
+  "description": "Сгущенное молоко.",
+  "kbju": {
+    "calories": 328,
+    "protein": 7.2,
+    "fat": 8.5,
+    "carbohydrates": 55.5
+  },
+  "price": 136.57,
+  "unit": "шт",
+  "origin_country": "Россия",
+  "expiry_days": 534,
+  "is_organic": false,
+  "barcode": "2212401542135",
+  "manufacturer": {
+    "name": "ЗАО Простоквашино",
+    "country": "Россия",
+    "website": "https://prostokvashino.ru",
+    "inn": "7734567892"
+  }
+}

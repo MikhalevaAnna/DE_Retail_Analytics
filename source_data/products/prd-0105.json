@@ -1,0 +1,24 @@
+{
+  "id": "prd-0105",
+  "name": "Свекла",
+  "group": "🥦 Овощи и зелень",
+  "description": "Свекла.",
+  "kbju": {
+    "calories": 43,
+    "protein": 1.6,
+    "fat": 0.2,
+    "carbohydrates": 8.8
+  },
+  "price": 43.49,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 48,
+  "is_organic": true,
+  "barcode": "2618151126166",
+  "manufacturer": {
+    "name": "ЗАО Зеленая грядка",
+    "country": "Россия",
+    "website": "https://greenbed.ru",
+    "inn": "7734567894"
+  }
+}

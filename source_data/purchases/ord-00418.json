@@ -1,0 +1,68 @@
+{
+  "purchase_id": "ord-00418",
+  "customer": {
+    "customer_id": "cus-102007",
+    "first_name": "Никодим",
+    "last_name": "Титова",
+    "email": "nikodim.titova@mail.ru",
+    "phone": "8 516 480 3686",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-615E57E7F"
+  },
+  "store": {
+    "store_id": "store-043",
+    "store_name": "Маленькая Пикча — Магазин на пр. Жданова",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Тюмень",
+      "street": "пр. Жданова",
+      "house": "14",
+      "postal_code": "752365"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0019",
+      "name": "Вафли",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 125.0,
+      "total_price": 125.0,
+      "kbju": {
+        "calories": 530,
+        "protein": 6.0,
+        "fat": 30.0,
+        "carbohydrates": 58.0
+      }
+    },
+    {
+      "product_id": "prd-0006",
+      "name": "Крупа гречневая",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 1,
+      "unit": "упаковка",
+      "price_per_unit": 112.67,
+      "total_price": 112.67,
+      "kbju": {
+        "calories": 308,
+        "protein": 12.6,
+        "fat": 3.3,
+        "carbohydrates": 57.1
+      }
+    }
+  ],
+  "total_amount": 237.67,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Тюмень",
+    "street": "ш. Санаторное",
+    "house": "49",
+    "apartment": "133",
+    "postal_code": "900549"
+  },
+  "purchase_datetime": "2025-04-10T16:50:56.902082Z"
+}

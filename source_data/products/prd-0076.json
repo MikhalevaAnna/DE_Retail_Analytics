@@ -1,0 +1,24 @@
+{
+  "id": "prd-0076",
+  "name": "Мандарины",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Мандарины.",
+  "kbju": {
+    "calories": 38,
+    "protein": 0.8,
+    "fat": 0.3,
+    "carbohydrates": 8.1
+  },
+  "price": 161.49,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 13,
+  "is_organic": false,
+  "barcode": "9995592166740",
+  "manufacturer": {
+    "name": "ИП Фрукт-Импорт",
+    "country": "Россия",
+    "website": "https://fruitimport.ru",
+    "inn": "7756789015"
+  }
+}

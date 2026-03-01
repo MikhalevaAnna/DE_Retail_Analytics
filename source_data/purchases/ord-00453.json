@@ -1,0 +1,68 @@
+{
+  "purchase_id": "ord-00453",
+  "customer": {
+    "customer_id": "cus-102014",
+    "first_name": "Твердислав",
+    "last_name": "Королева",
+    "email": "tverdislav.koroleva@gmail.com",
+    "phone": "8 767 850 20 33",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-9E5FE8A02"
+  },
+  "store": {
+    "store_id": "store-007",
+    "store_name": "Большая Пикча — Магазин на ул. Аксеноваа",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Челябинск",
+      "street": "ул. Аксеноваа",
+      "house": "29",
+      "postal_code": "749962"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0089",
+      "name": "Клюква",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 320.56,
+      "total_price": 641.12,
+      "kbju": {
+        "calories": 28,
+        "protein": 0.5,
+        "fat": 0.2,
+        "carbohydrates": 6.0
+      }
+    },
+    {
+      "product_id": "prd-0090",
+      "name": "Арбуз",
+      "category": "🍏 Фрукты и ягоды",
+      "quantity": 2,
+      "unit": "кг",
+      "price_per_unit": 66.85,
+      "total_price": 133.7,
+      "kbju": {
+        "calories": 30,
+        "protein": 0.6,
+        "fat": 0.2,
+        "carbohydrates": 7.6
+      }
+    }
+  ],
+  "total_amount": 774.82,
+  "payment_method": "online",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Челябинск",
+    "street": "ш. Кошевого",
+    "house": "20",
+    "apartment": "145",
+    "postal_code": "329144"
+  },
+  "purchase_datetime": "2026-01-14T16:50:56.920082Z"
+}

@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102080",
+  "first_name": "Адам",
+  "last_name": "Казакова",
+  "email": "adam.kazakova@yandex.ru",
+  "phone": "8 (564) 238-7998",
+  "birth_date": "1971-12-20",
+  "gender": "male",
+  "registration_date": "2024-11-21T16:50:56.675590Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-736D70D86",
+  "purchase_location": {
+    "store_id": "store-041",
+    "store_name": "Маленькая Пикча — Магазин на ул. Волковаа",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Москва",
+    "street": "ул. Волковаа",
+    "house": "28",
+    "postal_code": "948531"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Москва",
+    "street": "алл. Элеваторная",
+    "house": "23",
+    "apartment": "111",
+    "postal_code": "325191"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "card",
+    "receive_promotions": false
+  }
+}

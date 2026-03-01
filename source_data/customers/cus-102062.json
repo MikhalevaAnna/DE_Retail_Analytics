@@ -1,0 +1,36 @@
+{
+  "customer_id": "cus-102062",
+  "first_name": "Вадим",
+  "last_name": "Шилов",
+  "email": "vadim.shilov@hotmail.com",
+  "phone": "+74092481952",
+  "birth_date": "1989-11-12",
+  "gender": "female",
+  "registration_date": "2025-05-19T16:50:56.665591Z",
+  "is_loyalty_member": true,
+  "loyalty_card_number": "LOYAL-7E0C93764",
+  "purchase_location": {
+    "store_id": "store-031",
+    "store_name": "Маленькая Пикча — Магазин на бул. Макаренко",
+    "store_network": "Маленькая Пикча",
+    "store_type_description": "Магазин у дома площадью менее 100 кв.м. Входит в федеральную сеть из 15 магазинов, некоторые из которых находятся в одном городе.",
+    "country": "Россия",
+    "city": "Пермь",
+    "street": "бул. Макаренко",
+    "house": "4",
+    "postal_code": "911255"
+  },
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Пермь",
+    "street": "пер. Кольцова",
+    "house": "24",
+    "apartment": "125",
+    "postal_code": "162430"
+  },
+  "preferences": {
+    "preferred_language": "ru",
+    "preferred_payment_method": "online",
+    "receive_promotions": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prd-0110",
+  "name": "Укроп",
+  "group": "🥦 Овощи и зелень",
+  "description": "Укроп.",
+  "kbju": {
+    "calories": 43,
+    "protein": 3.5,
+    "fat": 1.1,
+    "carbohydrates": 7.0
+  },
+  "price": 77.26,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 5,
+  "is_organic": false,
+  "barcode": "5002278016405",
+  "manufacturer": {
+    "name": "ООО Овощебаза",
+    "country": "Россия",
+    "website": "https://ovoshi.ru",
+    "inn": "7723456793"
+  }
+}

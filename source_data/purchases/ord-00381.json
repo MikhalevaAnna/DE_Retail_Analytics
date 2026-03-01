@@ -1,0 +1,74 @@
+{
+  "purchase_id": "ord-00381",
+  "customer": {
+    "customer_id": "cus-102070",
+    "first_name": "Боян",
+    "last_name": "Воронова",
+    "email": "boian.voronova@yandex.ru",
+    "phone": "+7 996 362 2359",
+    "is_loyalty_member": true,
+    "loyalty_card_number": "LOYAL-F28A29B7A"
+  },
+  "store": {
+    "store_id": "store-011",
+    "store_name": "Большая Пикча — Магазин на наб. Воронежская",
+    "store_network": "Большая Пикча",
+    "store_type_description": "Супермаркет площадью более 200 кв.м. Входит в федеральную сеть из 30 магазинов, некоторые из которых находятся в одном городе.",
+    "location": {
+      "city": "Саратов",
+      "street": "наб. Воронежская",
+      "house": "25",
+      "postal_code": "889871"
+    }
+  },
+  "items": [
+    {
+      "product_id": "prd-0019",
+      "name": "Вафли",
+      "category": "🥖 Зерновые и хлебобулочные изделия",
+      "quantity": 2,
+      "unit": "упаковка",
+      "price_per_unit": 125.0,
+      "total_price": 250.0,
+      "kbju": {
+        "calories": 530,
+        "protein": 6.0,
+        "fat": 30.0,
+        "carbohydrates": 58.0
+      }
+    },
+    {
+      "product_id": "prd-0049",
+      "name": "Кефир 2.5%",
+      "category": "🥛 Молочные продукты",
+      "quantity": 2,
+      "unit": "шт",
+      "price_per_unit": 85.31,
+      "total_price": 170.62,
+      "kbju": {
+        "calories": 50,
+        "protein": 3.0,
+        "fat": 2.5,
+        "carbohydrates": 4.0
+      },
+      "manufacturer": {
+        "name": "АО Молочный Комбинат",
+        "country": "Россия",
+        "website": "https://moloko.ru",
+        "inn": "7712345680"
+      }
+    }
+  ],
+  "total_amount": 420.62,
+  "payment_method": "cash",
+  "is_delivery": true,
+  "delivery_address": {
+    "country": "Россия",
+    "city": "Саратов",
+    "street": "ул. Смирнова",
+    "house": "35",
+    "apartment": "111",
+    "postal_code": "146298"
+  },
+  "purchase_datetime": "2025-04-02T16:50:56.883010Z"
+}

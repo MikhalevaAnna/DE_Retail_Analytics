@@ -1,0 +1,24 @@
+{
+  "id": "prd-0075",
+  "name": "Виноград",
+  "group": "🍏 Фрукты и ягоды",
+  "description": "Виноград.",
+  "kbju": {
+    "calories": 69,
+    "protein": 0.6,
+    "fat": 0.3,
+    "carbohydrates": 16.0
+  },
+  "price": 168.65,
+  "unit": "кг",
+  "origin_country": "Россия",
+  "expiry_days": 5,
+  "is_organic": false,
+  "barcode": "7371793404980",
+  "manufacturer": {
+    "name": "ООО Фруктовый рай",
+    "country": "Россия",
+    "website": "https://fruitparadise.ru",
+    "inn": "7712345681"
+  }
+}
