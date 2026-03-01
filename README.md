@@ -350,3 +350,102 @@
 2. Файл формируется и загружается в **S3** (**MINIO**, **Selectel**).
 
 ## Реализация проекта   
+### Диаграмма архитектуры проекта
+```mermaid
+graph TD
+    subgraph Host ["🖥️ Хост-машина (вне Docker)"]
+        direction TB
+        PyGen["🐍 Python<br><strong>Задача 1: Генерация файлов</strong><br>Генерирует исходные файлы"]
+    end
+    
+    subgraph DockerCompose ["🐳 Docker Compose окружение"]
+        direction TB
+        
+        subgraph OrchestrationLayer ["🎯 Слой оркестрации"]
+            Airflow["⏰ Airflow<br><strong>DAG Orchestrator</strong><br>Управляет задачами 2-7"]
+        end
+        
+        subgraph StorageLayer ["💾 Слой хранения"]
+            MongoDB["🍃 MongoDB<br>NoSQL Database"]
+            Kafka["🎯 Kafka<br>Message Broker"]
+        end
+        
+        subgraph ClickHouseLayer ["🔥 ClickHouse"]
+            direction TB
+            
+            CH_RAW["<b>🔥 ClickHouse RAW</b><br><u>Сырые данные</u><br>- Необработанные логи<br>- Исходный формат<br>- Прямая загрузка из Kafka"]
+            
+            CH_MART["<b>📈 ClickHouse Mart</b><br><u>Очищенные данные</u><br>- ✓ Валидация и очистка<br>- ✓ Нормализация форматов<br>- ✓ Обогащение данными<br>- ✓ Приведение типов<br>- ✓ Дубликаты удалены"]
+            
+            CH_RAW -->|"ETL: очистка и трансформация"| CH_MART
+        end
+        
+        subgraph ProcessingLayer ["⚙️ Слой обработки"]
+            PySpark["⚡ PySpark<br>Распределенные вычисления"]
+        end
+        
+        subgraph MonitoringLayer ["📊 Grafana Monitoring"]
+            direction TB
+            
+            Dashboard["<b>📋 Дашборд</b><br>• Количество загруженных данных<br>• Процент дубликатов в RAW<br>• Статус пайплайна"]
+            
+            Alert["<b>⚠️ Алертинг</b><br>• Проверка дубликатов<br>• Условие: >50% дубликатов<br>• Email-уведомления"]
+            
+            Dashboard --> Alert
+        end
+    end
+    
+    subgraph ExternalSystems ["☁️ Внешние системы"]
+        S3["<b>☁️ Selectel S3</b><br>Объектное хранилище<br><i>Внешний сервис Selectel</i>"]
+        Email["📨 Email<br>Получатели алертов"]
+    end
+
+    %% Связи: Генерация файлов (вне Docker)
+    PyGen -.->|"1. Генерирует файлы"| Airflow
+    
+    %% Связи: Airflow оркестрирует все задачи
+    Airflow -->|"2. Загружает файлы"| MongoDB
+    Airflow -->|"3. Публикует события"| Kafka
+    Airflow -->|"4. Загружает RAW данные"| CH_RAW
+    Airflow -->|"5. Очистка и трансформация<br>в ClickHouse Mart"| CH_MART
+    Airflow -->|"6. Запускает Spark-задачи"| PySpark
+    Airflow -->|"7. Сохраняет результаты"| S3
+    
+    %% Потоки данных между сервисами
+    MongoDB -->|CDC / Stream| Kafka
+    Kafka -->|Consume| CH_RAW
+    CH_MART -->|Read clean data| PySpark
+    PySpark -->|Write results| S3
+    
+    %% Grafana мониторинг
+    CH_RAW -.->|"📊 Запрос:<br>SELECT count(*), duplicates FROM ..."| Dashboard
+    Dashboard -.->|"🚨 Если дубликаты > 50%"| Alert
+    Alert -.->|"📧 Отправка алерта"| Email
+    
+    %% Стилизация
+    classDef python fill:#3776AB,color:#fff;
+    classDef airflow fill:#017CEE,color:#fff;
+    classDef mongodb fill:#47A248,color:#fff;
+    classDef kafka fill:#231F20,color:#fff;
+    classDef clickhouseRaw fill:#FFCC00,color:#000,stroke:#ff6b6b,stroke-width:2px;
+    classDef clickhouseMart fill:#FFCC00,color:#000,stroke:#51cf66,stroke-width:2px;
+    classDef pyspark fill:#E25A1C,color:#fff;
+    classDef s3 fill:#569A31,color:#fff;
+    classDef grafana fill:#F46800,color:#fff;
+    classDef alert fill:#ff4444,color:#fff,stroke:#333,stroke-width:2px;
+    classDef email fill:#666,color:#fff,stroke:#333,stroke-width:1px;
+    classDef external fill:#999,color:#fff,stroke:#333,stroke-dasharray: 5 5;
+    
+    class PyGen python;
+    class Airflow airflow;
+    class MongoDB mongodb;
+    class Kafka kafka;
+    class CH_RAW clickhouseRaw;
+    class CH_MART clickhouseMart;
+    class PySpark pyspark;
+    class S3 s3;
+    class Dashboard grafana;
+    class Alert alert;
+    class Email email;
+    class ExternalSystems external;
+```
