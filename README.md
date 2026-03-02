@@ -625,10 +625,23 @@ DE_Retail_Analytics/
 в нужном количестве загружены в `RAW (сырое) хранилище ClickHouse`:</br>
 Дашборд можно также увидеть в папке `screenshots`.
 <img width="1669" height="540" alt="image" src="https://github.com/user-attachments/assets/9c5ecd09-dc76-4041-933b-71d982da1c09" />
-2) В сыром слое `ClickHouse` проверяются дубликаты и в случае превышения > 50 % дубликатов в исходных таблицах алерты отправляются мне 
-   на Яндекс-почту при помощи Grafana. Все скриншоты можно увидеть в папке проекта `screenshots`.</br>
+2) В сыром слое `ClickHouse` проверяются дубликаты и в случае превышения > 50 % дубликатов в исходных таблицах алерты отправляются  
+   на мою Яндекс-почту при помощи Grafana. Все скриншоты можно увидеть в папке проекта `screenshots`.</br>
 <img width="1690" height="647" alt="image" src="https://github.com/user-attachments/assets/b629e053-5f9b-421a-96e2-26a389f55abf" />
 <img width="1690" height="160" alt="image" src="https://github.com/user-attachments/assets/3b2fb98a-6c64-4c12-bb6a-bb76f1324092" />
-Письмо от Grafana выглядит так:
-<img width="433" height="581" alt="image" src="https://github.com/user-attachments/assets/66a215c1-1a6a-4ac6-8cc9-85288512dffe" />
+<img width="656" height="295" alt="image" src="https://github.com/user-attachments/assets/910d25da-3a0f-4725-b52d-ea43f3da46f7" />
+<img width="333" height="481" alt="image" src="https://github.com/user-attachments/assets/66a215c1-1a6a-4ac6-8cc9-85288512dffe" />
+### Настройка традиционного ETL на PySpark (локально).
+1) Данные для построения витрины берутся из `Clickhouse MART` (который в **Docker**)
+   - За это отвечает задача `spark_etl_task` из **DAG** `pipeline_retail_data.py`.</br>
+   Задача использует `utils/ spark/ pyspark_etl.py` -  Запускает ETL процесс для расчета признаков покупателей.</br>
+   В модуле выполняется полный цикл ETL:</br>
+    1. Инициализируется `Spark` сессия с необходимыми конфигурациями для подключения к `S3`.</br>
+    2. Проверяется подключение к `S3` хранилищу.</br>
+    3. Читаются данные из `Clickhouse MART`.</br> 
+    `(customers, purchases, products, stores, purchase_items)`.</br>
+    4. Рассчитываются признаки покупателей с помощью `FeatureEngineer` из модуля `utils/ spark/ feature_engineering.py`</br>
+    5. Записываются результаты в S3 Selectel в формате **CSV**, с помощью модуля `utils/ s3/ s3_writer.py`.</br>
 
+2) В ходе создания витрины созданы 30 полей, а именно матрица признаков, для кластеризации покупателей.
+Примеры файлов витрины, можно посмотреть в директории `CSV_from_Selectel_S3/analytic_result_2026_02_28.csv`
