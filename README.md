@@ -568,7 +568,7 @@ DE_Retail_Analytics/
 ### Генератор данных generator.py (папка `data_generator`)
 
 Модуль генерирует реалистичные тестовые данные для розничной сети с использованием библиотеки **Faker** и с </br>
-использованием словарей данных из `config/constants.py`.
+использованием словарей данных из [config/constants.py](config/constants.py).
 
 #### 📊 Генерируемые JSON файлы
 
@@ -581,13 +581,13 @@ DE_Retail_Analytics/
  
 ### JSON-файлы добавляются в NoSQL хранилище MongoDB.
 1) Добавляю **JSON** файлы в **NoSQL** хранилище **MongoDB**. 
-   - Задача, которая отвечает за загрузку данных в **MongoDB** `load_mongo_task` в **DAG** `pipeline_retail_data.py`.</br>
-   - Задача использует модули из `utils/ mongo/ mongo_tasks.py <- load_to_mongo.py`.</br>
+   - Задача, которая отвечает за загрузку данных в **MongoDB** `load_mongo_task` в **DAG** [dags/ pipeline_retail_data.py](dags/ pipeline_retail_data.py).</br>
+   - Задача использует модули из [utils/ mongo/ mongo_tasks.py](utils/ mongo/ mongo_tasks.py) `<- load_to_mongo.py`.</br>
 2) Проверяю загруженные данные в **MongoDB**.
-   - За это отвечает задача `check_mongo_data_task` в **DAG** `pipeline_retail_data.py`.</br>
-   - Задача использует модули из `utils/ mongo/ mongo_tasks.py <- check_data_in_mongo.py`.</br>
+   - За это отвечает задача `check_mongo_data_task` в **DAG** [dags/ pipeline_retail_data.py](dags/ pipeline_retail_data.py).</br>
+   - Задача использует модули из [utils/ mongo/ mongo_tasks.py](utils/ mongo/ mongo_tasks.py)  `<- check_data_in_mongo.py`.</br>
 3) Вывод 3-х документов из **MongoDB**
-   - Можно увидеть в логах `logs/dag_id=pipeline_retail_data/task_id=check_mongo_data_task/attempt=1.log` или на скриншоте:</br>
+   - Можно увидеть в логах [logs/dag_id=pipeline_retail_data/task_id=check_mongo_data_task/attempt=1.log](dag_id=pipeline_retail_data) или на скриншоте:</br>
    <img width="1609" height="707" alt="image" src="https://github.com/user-attachments/assets/2cb4a898-289f-4e93-9ba6-67369515fac1" />
 
 4) Более наглядно выполнение задач можно увидеть на скриншоте `screenshots/ Airflow_Graph.png`.
@@ -618,7 +618,98 @@ DE_Retail_Analytics/
   - Записи старше 365 дней удаляются.</br>
   - В таблицах используется партиционирование по году и месяцу.</br> 
 6) Проверка дублирования в сырых данных и преобразованных:
-  - Реализуется через движок ReplacingMergeTree(version) и условный `id` таблицы.</br>
+  - Реализуется через движок `ReplacingMergeTree(version)` и условный `id` таблицы.</br>
+  
+### ClickHouse Data Warehouse
+
+**ClickHouse** — основное аналитическое хранилище данных с поддержкой Materialized Views.</br>
+Детально структуры таблиц можно посмотреть в файле [init-db.sql](init-db.sql). Этот файл
+
+#### 🏗 Слои данных
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    CLICKHOUSE WAREHOUSE                     │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │  RAW DATA (raw_data)                                 │   │
+│  │  • raw_products    - Сырые данные товаров            │   │
+│  │  • raw_stores      - Сырые данные магазинов          │   │
+│  │  • raw_customers   - Сырые данные клиентов           │   │
+│  │  • raw_purchases   - Сырые данные покупок            │   │
+│  │                                                      │   │
+│  │  Engine: ReplacingMergeTree                          │   │
+│  │  Partition: by month                                 │   │
+│  │  TTL: 180 дней                                       │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                          ▼                                  │
+│  ┌──────────────────────────────────────────────────────┐   │
+│  │  DATA MART (mart_data)                               │   │
+│  │                                                      │   │
+│  │  DIMENSIONS (15 справочников):                       │   │
+│  │  • dim_categories       • dim_cities                 │   │
+│  │  • dim_units            • dim_address                │   │
+│  │  • dim_countries        • dim_delivery_addresses     │   │
+│  │  • dim_language         • dim_managers               │   │
+│  │  • dim_store_networks   • dim_opening_hours          │   │
+│  │  • dim_gender           • dim_manufacturer           │   │
+│  │  • dim_payment_method   • dim_type_store             │   │
+│  │                                                      │   │
+│  │  FACT TABLES:                                        │   │
+│  │  • products_details     • customers_details          │   │
+│  │  • stores_details       • purchases_details          │   │
+│  │  • purchase_item_details                             │   │
+│  │                                                      │   │
+│  │  MATERIALIZED VIEWS (автообновление):                │   │
+│  │  • mv_dim_*             • mv_products_details        │   │
+│  │  • mv_customers_details • mv_stores_details          │   │
+│  │  • mv_purchases_details • mv_purchase_item_details   │   │
+│  └──────────────────────────────────────────────────────┘   │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+#### 📊 Схема RAW таблицы (пример)
+
+```sql
+CREATE TABLE IF NOT EXISTS raw_data.raw_products (
+    id String,
+    name String,
+    group String,
+    description String,
+    calories Float64,
+    protein Float64,
+    fat Float64,
+    carbohydrates Float64,
+    price Float64,
+    unit String,
+    origin_country String,
+    expiry_days UInt16,
+    is_organic Bool,
+    barcode String,
+    manufacturer_name String,
+    manufacturer_country String,
+    manufacturer_website String,
+    manufacturer_inn String,
+    load_date DateTime,
+    version UInt64 DEFAULT toUnixTimestamp(load_date)
+) ENGINE = ReplacingMergeTree(version)
+ORDER BY id
+PARTITION BY toYYYYMM(load_date)
+TTL load_date + INTERVAL 180 DAY DELETE
+SETTINGS index_granularity = 8192;
+```
+
+#### 🔑 Хэширование первичных ключей
+
+Для всех справочников используется `cityHash64` для генерации уникальных ID:
+
+```sql
+cityHash64(lowerUTF8(category_name)) AS category_id
+cityHash64(lowerUTF8(customer_id)) AS customer_pk
+cityHash64(lowerUTF8(store_id)) AS store_pk
+```
 
 ### Формируются дашборды и алерты в Grafana.
 1) На основе дашборда в `Grafana` можно сделать вывод о том, что все данные </br>
@@ -631,17 +722,15 @@ DE_Retail_Analytics/
 <img width="1690" height="160" alt="image" src="https://github.com/user-attachments/assets/3b2fb98a-6c64-4c12-bb6a-bb76f1324092" />
 <img width="656" height="295" alt="image" src="https://github.com/user-attachments/assets/910d25da-3a0f-4725-b52d-ea43f3da46f7" />
 <img width="333" height="481" alt="image" src="https://github.com/user-attachments/assets/66a215c1-1a6a-4ac6-8cc9-85288512dffe" />
+
 ### Настройка традиционного ETL на PySpark (локально).
-1) Данные для построения витрины берутся из `Clickhouse MART` (который в **Docker**)
+Данные для построения витрины берутся из `Clickhouse MART`</br>
    - За это отвечает задача `spark_etl_task` из **DAG** `pipeline_retail_data.py`.</br>
-   Задача использует `utils/ spark/ pyspark_etl.py` -  Запускает ETL процесс для расчета признаков покупателей.</br>
-   В модуле выполняется полный цикл ETL:</br>
+   - Задача использует `utils/ spark/ pyspark_etl.py`.</br>
+   - Выполняется полный цикл ETL:</br>
     1. Инициализируется `Spark` сессия с необходимыми конфигурациями для подключения к `S3`.</br>
     2. Проверяется подключение к `S3` хранилищу.</br>
-    3. Читаются данные из `Clickhouse MART`.</br> 
-    `(customers, purchases, products, stores, purchase_items)`.</br>
+    3. Читаются данные из `Clickhouse MART` `(customers, purchases, products, stores, purchase_items)`.</br>
     4. Рассчитываются признаки покупателей с помощью `FeatureEngineer` из модуля `utils/ spark/ feature_engineering.py`</br>
-    5. Записываются результаты в S3 Selectel в формате **CSV**, с помощью модуля `utils/ s3/ s3_writer.py`.</br>
-
-2) В ходе создания витрины созданы 30 полей, а именно матрица признаков, для кластеризации покупателей.
-Примеры файлов витрины, можно посмотреть в директории [CSV_from_Selectel_S3/analytic_result_2026_02_28.csv](CSV_from_Selectel_S3/analytic_result_2026_02_28.csv)
+    5. Записываются, результаты кластеризации покупателей (всего 30 полей, согласно ТЗ), в S3 Selectel в формате **CSV**, с помощью модуля `utils/ s3/ s3_writer.py`.</br>
+    6. Примеры файлов витрины, можно посмотреть в директории [CSV_from_Selectel_S3/analytic_result_2026_02_28.csv](CSV_from_Selectel_S3/analytic_result_2026_02_28.csv)</br>
