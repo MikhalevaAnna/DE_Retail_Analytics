@@ -581,11 +581,11 @@ DE_Retail_Analytics/
  
 ### JSON-файлы добавляются в NoSQL хранилище MongoDB.
 1) Добавляю **JSON** файлы в **NoSQL** хранилище **MongoDB**. 
-   - Задача, которая отвечает за загрузку данных в **MongoDB** `load_mongo_task` в **DAG** [dags/ pipeline_retail_data.py](dags/ pipeline_retail_data.py).</br>
-   - Задача использует модули из [utils/ mongo/ mongo_tasks.py](utils/ mongo/ mongo_tasks.py) `<- load_to_mongo.py`.</br>
+   - Задача, которая отвечает за загрузку данных в **MongoDB** `load_mongo_task` в **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
+   - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py) `<- load_to_mongo.py`.</br>
 2) Проверяю загруженные данные в **MongoDB**.
-   - За это отвечает задача `check_mongo_data_task` в **DAG** [dags/ pipeline_retail_data.py](dags/ pipeline_retail_data.py).</br>
-   - Задача использует модули из [utils/ mongo/ mongo_tasks.py](utils/ mongo/ mongo_tasks.py)  `<- check_data_in_mongo.py`.</br>
+   - За это отвечает задача `check_mongo_data_task` в **DAG** [dags/pipeline_retail_data.py](dags/ pipeline_retail_data.py).</br>
+   - Задача использует модули из [utils/ mongo/ mongo_tasks.py](utils/mongo/mongo_tasks.py)  `<- check_data_in_mongo.py`.</br>
 3) Вывод 3-х документов из **MongoDB**
    - Можно увидеть в логах [logs/dag_id=pipeline_retail_data/task_id=check_mongo_data_task/attempt=1.log](dag_id=pipeline_retail_data) или на скриншоте:</br>
    <img width="1609" height="707" alt="image" src="https://github.com/user-attachments/assets/2cb4a898-289f-4e93-9ba6-67369515fac1" />
@@ -598,25 +598,30 @@ DE_Retail_Analytics/
 ### При помощи Kafka данные загружаю в RAW (сырое) хранилище ClickHouse.
 1) До того, как данные попадают в `RAW (сырое) хранилище ClickHous` персональная информация (телефон и почта) </br>
  приводится каждая к своему стандартному виду и шифруется `md5`.
-  - Загрузка и шифрование данных из MongoDB в Каfka осуществляется задачей `transfer_mongo_to_kafka` из **DAG** `pipeline_retail_data.py`.</br>
-  - Задача использует `utils/ kafka/ mongo_kafka_transfer.py`.</br>
+  - Загрузка и шифрование данных из MongoDB в Каfka осуществляется задачей `transfer_mongo_to_kafka` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
+  - Задача использует [utils/kafka/mongo_kafka_transfer.py](utils/kafka/mongo_kafka_transfer.py).</br>
   - Для таблиц сырого слоя используется движок `ReplacingMergeTree(version) + TTL`, где `version UInt64 DEFAULT toUnixTimestamp(load_date)`
   - Записи старше 180 дней удаляются.</br>
-  - В таблицах используется партиционирование по году и месяцу.</br> 
+  - В таблицах используется партиционирование по году и месяцу.</br>
+    
 2) Отправляются данные в топики **Kafka**.
+
 3) Добавляется дата загрузки документов `kafka_send_date`.
-  - Задача `transfer_kafka_to_clickhouse` из **DAG** `pipeline_retail_data.py`, принимает сообщения из топиков `Kafka`.</br>
+  - Задача `transfer_kafka_to_clickhouse` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py), принимает сообщения из топиков `Kafka`.</br>
+  
 4) Создаются таблицы в `ClickHouse` в сыром слое сразу с правильными типами данных.
   - Незаполненные значения сразу обрабатываются, чтобы в **RAW** таблицах не было **NULL** значений.</br>
   - Для столбца `items` - "Список товаров с количеством, КБЖУ , производителем" - в сыром слое тип данных оставила `String`.</br>
   Это сделано для максимального сохранения исходных данных. В этом поле хранится список вложенных **JSON**-структур. </br>
+  
 5) Создаются справочники и таблицы фактов в базе `mart_data` с использование материализованных представлений при добавлении данных</br>
 в таблицы сырого слоя `ClickHouse`.
   - Проверяются корректность значений - то есть дата покупки, дата рождения - не должны быть позже текущего дня.</br>
   - Все строковые данные приводятся к нижнему регистру.</br>
   - Для справочников и таблиц фактов используется движок `ReplacingMergeTree(version) + TTL`, где `version UInt64 DEFAULT toUnixTimestamp(load_date)`.</br>
   - Записи старше 365 дней удаляются.</br>
-  - В таблицах используется партиционирование по году и месяцу.</br> 
+  - В таблицах используется партиционирование по году и месяцу.</br>
+    
 6) Проверка дублирования в сырых данных и преобразованных:
   - Реализуется через движок `ReplacingMergeTree(version)` и условный `id` таблицы.</br>
   
