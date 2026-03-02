@@ -619,7 +619,8 @@ DE_Retail_Analytics/
 в нужном количестве загружены в `RAW (сырое) хранилище ClickHouse`:</br>
 Дашборд можно также увидеть в папке `screenshots`.
 <img width="1669" height="540" alt="image" src="https://github.com/user-attachments/assets/9c5ecd09-dc76-4041-933b-71d982da1c09" />
-2) В сыром слое `ClickHouse` проверяются дубликаты и в случае превышения > 50 % дубликатов в исходных таблицах алертиты отправляются мне на Яндекс-почту при помощи Grafana. Все скриншоты можно увидеть в папке проекта `screenshots`.
+2) В сыром слое `ClickHouse` проверяются дубликаты и в случае превышения > 50 % дубликатов в исходных таблицах алерты отправляются мне </br>
+   на Яндекс-почту при помощи Grafana. Все скриншоты можно увидеть в папке проекта `screenshots`.
 <img width="1690" height="647" alt="image" src="https://github.com/user-attachments/assets/b629e053-5f9b-421a-96e2-26a389f55abf" />
 <img width="1690" height="160" alt="image" src="https://github.com/user-attachments/assets/3b2fb98a-6c64-4c12-bb6a-bb76f1324092" />
 Письмо от Grafana выглядит так:
