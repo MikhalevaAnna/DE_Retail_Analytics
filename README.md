@@ -500,7 +500,7 @@ DE_Retail_Analytics/
 ├── 📄 Dockerfile                   # Кастомный образ Airflow + Spark + Java
 ├── 📄 requirements.txt             # Python зависимости
 ├── 📄 .env.example                 # Шаблон переменных окружения
-├── 📄 init-db.sql                  # Инициализация ClickHouse
+├── 📄 init-db.sql                  # Инициализация таблиц и MV ClickHouse
 ├── 📄 users.xml                    # Конфигурация пользователей ClickHouse
 │
 ├── 📂 config/                      # Конфигурация проекта
@@ -585,7 +585,7 @@ DE_Retail_Analytics/
    - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py) `<- load_to_mongo.py`.</br>
 2) Проверяю загруженные данные в **MongoDB**.
    - За это отвечает задача `check_mongo_data_task` в **DAG** [dags/pipeline_retail_data.py](dags/ pipeline_retail_data.py).</br>
-   - Задача использует модули из [utils/ mongo/ mongo_tasks.py](utils/mongo/mongo_tasks.py)  `<- check_data_in_mongo.py`.</br>
+   - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py)  `<- check_data_in_mongo.py`.</br>
 3) Вывод 3-х документов из **MongoDB**
    - Можно увидеть в логах [logs/task_id=check_mongo_data_task](logs/dag_id=pipeline_retail_data/2026-03-01/task_id=check_mongo_data_task/attempt=1.log) или на скриншоте:</br>
    <img width="1609" height="707" alt="image" src="https://github.com/user-attachments/assets/2cb4a898-289f-4e93-9ba6-67369515fac1" />
