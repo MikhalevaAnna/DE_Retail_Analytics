@@ -732,14 +732,14 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 ### Настройка традиционного ETL на PySpark (локально).
 Данные для построения витрины берутся из `Clickhouse MART`</br>
  
-   - За это отвечает задача `spark_etl_task` из **DAG** `pipeline_retail_data.py`.</br>
+   - За это отвечает задача `spark_etl_task` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
    
-   - Задача использует `utils/ spark/ pyspark_etl.py`.</br>
+   - Задача использует [utils/spark/pyspark_etl.py](utils/spark/pyspark_etl.py).</br>
    
    - Выполняется полный цикл ETL:</br>
     1. Инициализируется `Spark` сессия с необходимыми конфигурациями для подключения к `S3`.</br>
     2. Проверяется подключение к `S3` хранилищу.</br>
     3. Читаются данные из `Clickhouse MART` `(customers, purchases, products, stores, purchase_items)`.</br>
-    4. Рассчитываются признаки покупателей с помощью `FeatureEngineer` из модуля `utils/ spark/ feature_engineering.py`</br>
-    5. Записываются, результаты кластеризации покупателей (всего 30 полей, согласно ТЗ), в S3 Selectel в формате **CSV**, с помощью модуля `utils/ s3/ s3_writer.py`.</br>
+    4. Рассчитываются признаки покупателей с помощью `FeatureEngineer` из модуля [utils/spark/feature_engineering.py](utils/spark/feature_engineering.py)</br>
+    5. Записываются, результаты кластеризации покупателей (всего 30 полей, согласно ТЗ), в S3 Selectel в формате **CSV**, с помощью модуля [utils/s3/s3_writer.py](utils/s3/s3_writer.py).</br>
     6. Примеры файлов витрины, можно посмотреть в директории [CSV_from_Selectel_S3/analytic_result_2026_02_28.csv](CSV_from_Selectel_S3/analytic_result_2026_02_28.csv)</br>
