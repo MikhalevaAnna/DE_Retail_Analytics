@@ -644,4 +644,4 @@ DE_Retail_Analytics/
     5. Записываются результаты в S3 Selectel в формате **CSV**, с помощью модуля `utils/ s3/ s3_writer.py`.</br>
 
 2) В ходе создания витрины созданы 30 полей, а именно матрица признаков, для кластеризации покупателей.
-Примеры файлов витрины, можно посмотреть в директории `CSV_from_Selectel_S3/analytic_result_2026_02_28.csv`
+Примеры файлов витрины, можно посмотреть в директории [CSV_from_Selectel_S3/analytic_result_2026_02_28.csv](CSV_from_Selectel_S3/analytic_result_2026_02_28.csv)
