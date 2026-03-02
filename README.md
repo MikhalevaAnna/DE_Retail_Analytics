@@ -587,7 +587,7 @@ DE_Retail_Analytics/
    - За это отвечает задача `check_mongo_data_task` в **DAG** [dags/pipeline_retail_data.py](dags/ pipeline_retail_data.py).</br>
    - Задача использует модули из [utils/ mongo/ mongo_tasks.py](utils/mongo/mongo_tasks.py)  `<- check_data_in_mongo.py`.</br>
 3) Вывод 3-х документов из **MongoDB**
-   - Можно увидеть в логах [logs/pipeline_retail_data/check_mongo_data_task/](logs/run_id=manual__2026-03-01T091429.893568+0000/task_id=check_mongo_data_task/attempt=1.log) или на скриншоте:</br>
+   - Можно увидеть в логах [logs/run_id=manual__2026-03-01T091429.893568+0000/task_id=check_mongo_data_task/attempt=1.log](logs/run_id=manual__2026-03-01T091429.893568+0000/task_id=check_mongo_data_task/attempt=1.log) или на скриншоте:</br>
    <img width="1609" height="707" alt="image" src="https://github.com/user-attachments/assets/2cb4a898-289f-4e93-9ba6-67369515fac1" />
 
 4) Более наглядно выполнение задач можно увидеть на скриншоте `screenshots/ Airflow_Graph.png`.
@@ -721,6 +721,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 в нужном количестве загружены в `RAW (сырое) хранилище ClickHouse`:</br>
 Дашборд можно также увидеть в папке `screenshots`.
 <img width="1669" height="540" alt="image" src="https://github.com/user-attachments/assets/9c5ecd09-dc76-4041-933b-71d982da1c09" />
+
 2) В сыром слое `ClickHouse` проверяются дубликаты и в случае превышения > 50 % дубликатов в исходных таблицах алерты отправляются  
    на мою Яндекс-почту при помощи Grafana. Все скриншоты можно увидеть в папке проекта `screenshots`.</br>
 <img width="1690" height="647" alt="image" src="https://github.com/user-attachments/assets/b629e053-5f9b-421a-96e2-26a389f55abf" />
@@ -730,8 +731,11 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 
 ### Настройка традиционного ETL на PySpark (локально).
 Данные для построения витрины берутся из `Clickhouse MART`</br>
+ 
    - За это отвечает задача `spark_etl_task` из **DAG** `pipeline_retail_data.py`.</br>
+   
    - Задача использует `utils/ spark/ pyspark_etl.py`.</br>
+   
    - Выполняется полный цикл ETL:</br>
     1. Инициализируется `Spark` сессия с необходимыми конфигурациями для подключения к `S3`.</br>
     2. Проверяется подключение к `S3` хранилищу.</br>
