@@ -654,7 +654,7 @@ dim_units            -- Единицы измерения
 dim_countries        -- Страны
 dim_language         -- Языки
 dim_cities           -- Города
-dim_address          -- Адреса
+dim_address          -- Адреса юридические
 dim_delivery_addresses -- Адреса доставки
 dim_managers         -- Менеджеры магазинов
 dim_store_networks   -- Сети магазинов
@@ -761,8 +761,8 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 
 | Connection ID | Type | Parameters |
 |---------------|------|------------|
-| `clickhouse_default` | ClickHouse | host:clickhouse, port:9000, schema:default |
-| `clickhouse_raw` | ClickHouse | host:clickhouse, port:9000, schema:raw_data |
+| `clickhouse_default` | ClickHouse | host:clickhouse, port:9000/8123, schema:default |
+| `clickhouse_raw` | ClickHouse | host:clickhouse, port:9000/8123, schema:raw_data |
 | `s3_default` | AWS | endpoint:Selectel, region:ru-7 |
 | `mongodb_default` | Mongo | host:mongodb, port:27017, schema:retail_data |
 | `kafka_default` | Generic | host:kafka, port:29092 |
@@ -777,3 +777,4 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 | **Grafana** | http://localhost:3000 | admin/admin |
 | **Kafka UI** | http://localhost:8083 | - |
 | **ClickHouse HTTP** | http://localhost:8123 | user/strongpassword |
+
