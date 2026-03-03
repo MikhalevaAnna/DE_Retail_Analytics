@@ -767,6 +767,8 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 | `mongodb_default` | Mongo | host:mongodb, port:27017, schema:retail_data |
 | `kafka_default` | Generic | host:kafka, port:29092 |
 
+Для соединения `s3_default` параметры подключения `S3_ACCESS_KEY` и `S3_SECRET_KEY` необходимо указать в корневом файле **.env**.
+
 ## 📈 Мониторинг и визуализация
 
 ### Доступ к интерфейсам
