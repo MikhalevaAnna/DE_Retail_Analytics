@@ -761,8 +761,8 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 
 | Connection ID | Type | Parameters |
 |---------------|------|------------|
-| `clickhouse_default` | ClickHouse | host:clickhouse, port:9000/8123, schema:default |
-| `clickhouse_raw` | ClickHouse | host:clickhouse, port:9000/8123, schema:raw_data |
+| `clickhouse_default` | ClickHouse | host:clickhouse, port:9000(для Kafka consumer)/8123(для jdbc-соединения), schema:default |
+| `clickhouse_raw` | ClickHouse | host:clickhouse, port:9000(для Kafka consumer)/8123(для jdbc-соединения), schema:raw_data |
 | `s3_default` | AWS | endpoint:Selectel, region:ru-7 |
 | `mongodb_default` | Mongo | host:mongodb, port:27017, schema:retail_data |
 | `kafka_default` | Generic | host:kafka, port:29092 |
