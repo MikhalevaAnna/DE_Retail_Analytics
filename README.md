@@ -632,47 +632,57 @@ DE_Retail_Analytics/
 
 #### 🏗 Слои данных
 
+## 📊 Модель данных
+
+### Raw слой
+
+| Таблица | Кол-во колонок | Описание |
+|---------|----------------|----------|
+| `raw_products` | 18 | Сырые данные товаров |
+| `raw_stores` | 24 | Сырые данные магазинов |
+| `raw_customers` | 28 | Сырые данные клиентов |
+| `raw_purchases` | 26 | Сырые данные покупок |
+
+### Data Mart слой
+
+#### Справочники (Dimensions)
+
+```sql
+-- 15 справочников
+dim_categories        -- Категории товаров
+dim_units            -- Единицы измерения
+dim_countries        -- Страны
+dim_language         -- Языки
+dim_cities           -- Города
+dim_address          -- Адреса
+dim_delivery_addresses -- Адреса доставки
+dim_managers         -- Менеджеры магазинов
+dim_store_networks   -- Сети магазинов
+dim_opening_hours    -- Часы работы
+dim_gender           -- Пол
+dim_manufacturer     -- Производители
+dim_payment_method   -- Способы оплаты
+dim_type_store       -- Типы магазинов
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    CLICKHOUSE WAREHOUSE                     │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ┌──────────────────────────────────────────────────────┐   │
-│  │  RAW DATA (raw_data)                                 │   │
-│  │  • raw_products    - Сырые данные товаров            │   │
-│  │  • raw_stores      - Сырые данные магазинов          │   │
-│  │  • raw_customers   - Сырые данные клиентов           │   │
-│  │  • raw_purchases   - Сырые данные покупок            │   │
-│  │                                                      │   │
-│  │  Engine: ReplacingMergeTree                          │   │
-│  │  Partition: by month                                 │   │
-│  │  TTL: 180 дней                                       │   │
-│  └──────────────────────────────────────────────────────┘   │
-│                          ▼                                  │
-│  ┌──────────────────────────────────────────────────────┐   │
-│  │  DATA MART (mart_data)                               │   │
-│  │                                                      │   │
-│  │  DIMENSIONS (15 справочников):                       │   │
-│  │  • dim_categories       • dim_cities                 │   │
-│  │  • dim_units            • dim_address                │   │
-│  │  • dim_countries        • dim_delivery_addresses     │   │
-│  │  • dim_language         • dim_managers               │   │
-│  │  • dim_store_networks   • dim_opening_hours          │   │
-│  │  • dim_gender           • dim_manufacturer           │   │
-│  │  • dim_payment_method   • dim_type_store             │   │
-│  │                                                      │   │
-│  │  FACT TABLES:                                        │   │
-│  │  • products_details     • customers_details          │   │
-│  │  • stores_details       • purchases_details          │   │
-│  │  • purchase_item_details                             │   │
-│  │                                                      │   │
-│  │  MATERIALIZED VIEWS (автообновление):                │   │
-│  │  • mv_dim_*             • mv_products_details        │   │
-│  │  • mv_customers_details • mv_stores_details          │   │
-│  │  • mv_purchases_details • mv_purchase_item_details   │   │
-│  └──────────────────────────────────────────────────────┘   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
+
+#### Фактические таблицы
+
+```sql
+products_details        -- Детали товаров
+customers_details       -- Детали клиентов
+stores_details          -- Детали магазинов
+purchases_details       -- Детали покупок
+purchase_item_details   -- Позиции в покупках
+```
+####  MATERIALIZED VIEWS (автообновление):
+
+```sql
+mv_dim_*
+mv_products_details
+mv_customers_details
+mv_stores_details
+mv_purchases_details
+mv_purchase_item_details
 ```
 
 #### 📊 Схема RAW таблицы (пример)
@@ -708,7 +718,8 @@ SETTINGS index_granularity = 8192;
 
 #### 🔑 Хэширование первичных ключей
 
-Для всех справочников используется `cityHash64` для генерации уникальных ID:
+Для всех справочников используется `cityHash64` для генерации уникальных ID, т.к. это дает быстрый и стабильный результат.
+При повторной загрузке данных тот же продукт получит тот же ID.
 
 ```sql
 cityHash64(lowerUTF8(category_name)) AS category_id
@@ -743,3 +754,26 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
     4. Рассчитываются признаки покупателей с помощью `FeatureEngineer` из модуля [utils/spark/feature_engineering.py](utils/spark/feature_engineering.py)</br>
     5. Записываются, результаты кластеризации покупателей (всего 30 полей, согласно ТЗ), в S3 Selectel в формате **CSV**, с помощью модуля [utils/s3/s3_writer.py](utils/s3/s3_writer.py).</br>
     6. Примеры файлов витрины, можно посмотреть в директории [CSV_from_Selectel_S3/analytic_result_2026_02_28.csv](CSV_from_Selectel_S3/analytic_result_2026_02_28.csv)</br>
+
+## 🔌 Конфигурация подключений
+
+### Airflow Connections
+
+| Connection ID | Type | Parameters |
+|---------------|------|------------|
+| `clickhouse_default` | ClickHouse | host:clickhouse, port:9000, schema:default |
+| `clickhouse_raw` | ClickHouse | host:clickhouse, port:9000, schema:raw_data |
+| `s3_default` | AWS | endpoint:Selectel, region:ru-7 |
+| `mongodb_default` | Mongo | host:mongodb, port:27017, schema:retail_data |
+| `kafka_default` | Generic | host:kafka, port:29092 |
+
+## 📈 Мониторинг и визуализация
+
+### Доступ к интерфейсам
+
+| Сервис | URL | Логин/Пароль |
+|--------|-----|--------------|
+| **Airflow Webserver** | http://localhost:8080 | airflow/airflow |
+| **Grafana** | http://localhost:3000 | admin/admin |
+| **Kafka UI** | http://localhost:8083 | - |
+| **ClickHouse HTTP** | http://localhost:8123 | user/strongpassword |
