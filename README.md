@@ -842,7 +842,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 6. Остановка:
    `docker-compose down`
 7. Подключения к сервисам прописаны в `docker-compose`.
-8. Перейдем к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или в корне проекта запустим [ui_dashboard.html](ui_dashboard.html) и выберем `Открыть Airflow Webserver`.
+8. Перейдем к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или запустим страницу со всеми веб-интерфейсами, которые используются в проекте: [http://localhost:8085](http://localhost:8085) и выберем `Открыть Airflow Webserver`.
 9. После запуска всех сервисов, убедимся, что соединения корректно отображаются в списке `Airflow`. Для этого перейдем в `Admin -> Connectiions` и проверим список соединений, он должен выглядеть так:
    <img width="1907" height="590" alt="image" src="https://github.com/user-attachments/assets/8d8984dd-3eac-4eea-b752-d8c18ba70c92" />
 10. Переходим в папку `data_generator` и запускаем скрипт `generator.py` командой:
