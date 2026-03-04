@@ -743,7 +743,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 ### Настройка традиционного ETL на PySpark (локально).
 Данные для построения витрины берутся из `Clickhouse MART`</br>
  
-   - За это отвечает задача `spark_etl_task` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
+   - За это отвечает задача `spark_etl_task_to_s3` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
    
    - Задача использует [utils/spark/pyspark_etl.py](utils/spark/pyspark_etl.py).</br>
    
@@ -779,6 +779,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 | **Grafana** | http://localhost:3000 | admin/admin |
 | **Kafka UI** | http://localhost:8083 | - |
 | **ClickHouse HTTP** | http://localhost:8123 | user/strongpassword |
+| **MongoDB UI** | http://localhost:8081 | admin/admin |
 
 ---
 
@@ -820,7 +821,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
          │transfer_kafka_to_clickhouse│ ← Consumer в RAW слой, формируется MART слой с помощью MV
          └───────┬────────────────────┘
                  ▼
-         ┌─────────────────┐
-         │  spark_etl_task │ ← Считается 30 признаков в Spark / Запись CSV-файла с результатами в S3
-         └─────────────────┘
+         ┌───────────────────────┐
+         │  spark_etl_task_to_s3 │ ← Считается 30 признаков в Spark / Запись CSV-файла с результатами в S3
+         └───────────────────────┘
 ```
