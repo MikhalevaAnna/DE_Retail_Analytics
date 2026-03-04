@@ -580,13 +580,13 @@ DE_Retail_Analytics/
 | **Покупки** | 500 | Транзакции с детализацией по позициям |
  
 ### JSON-файлы добавляются в NoSQL хранилище MongoDB.
-1) Добавляю **JSON** файлы в **NoSQL** хранилище **MongoDB**. 
+1) Добавляются **JSON** файлы в **NoSQL** хранилище **MongoDB**. 
    - Задача, которая отвечает за загрузку данных в **MongoDB** `load_mongo_task` в **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
    - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py) `<- load_to_mongo.py`.</br>
-2) Проверяю загруженные данные в **MongoDB**.
-   - За это отвечает задача `check_mongo_data_task` в **DAG** [dags/pipeline_retail_data.py](dags/ pipeline_retail_data.py).</br>
+2) Проверяются загруженные данные в **MongoDB**.
+   - За это отвечает задача `check_mongo_data_task` в **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
    - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py)  `<- check_data_in_mongo.py`.</br>
-3) Вывод 3-х документов из **MongoDB**
+3) Выводится 3-х документа из **MongoDB**
    - Можно увидеть в логах [logs/task_id=check_mongo_data_task](logs/dag_id=pipeline_retail_data/2026-03-01/task_id=check_mongo_data_task/attempt=1.log) или на скриншоте:</br>
    <img width="1643" height="781" alt="image" src="https://github.com/user-attachments/assets/d0b9cce0-27b5-4aaf-93cc-d1c438c84776" />
 
@@ -597,38 +597,37 @@ DE_Retail_Analytics/
    
 ### При помощи Kafka данные загружаю в RAW (сырое) хранилище ClickHouse.
 1) До того, как данные попадают в `RAW (сырое) хранилище ClickHous` персональная информация (телефон и почта) </br>
- приводится каждая к своему стандартному виду и шифруется `md5`.
+ каждая приводится к своему нормализованному виду и шифруется `md5`.
   - Загрузка и шифрование данных из MongoDB в Каfka осуществляется задачей `transfer_mongo_to_kafka` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
   - Задача использует [utils/kafka/mongo_kafka_transfer.py](utils/kafka/mongo_kafka_transfer.py).</br>
-  - Для таблиц сырого слоя используется движок `ReplacingMergeTree(version) + TTL`, где `version UInt64 DEFAULT toUnixTimestamp(load_date)`
+  - Для таблиц сырого слоя используется движок `ReplacingMergeTree(version) + TTL`, где `version UInt64 DEFAULT toUnixTimestamp(load_date)`, где **load_date** - дата загрузки.
   - Записи старше 180 дней удаляются.</br>
   - В таблицах используется партиционирование по году и месяцу.</br>
     
-2) Отправляются данные в топики **Kafka**.
+2) Данные отправляются в топики **Kafka**.
 
-3) Добавляется дата загрузки документов `kafka_send_date`.
-  - Задача `transfer_kafka_to_clickhouse` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py), принимает сообщения из топиков `Kafka`.</br>
+3) Задача `transfer_kafka_to_clickhouse` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py), принимает сообщения из топиков `Kafka`.</br>
   
 4) Создаются таблицы в `ClickHouse` в сыром слое сразу с правильными типами данных.
   - Незаполненные значения сразу обрабатываются, чтобы в **RAW** таблицах не было **NULL** значений.</br>
-  - Для столбца `items` - "Список товаров с количеством, КБЖУ , производителем" - в сыром слое тип данных оставила `String`.</br>
+  - Для столбца `items` - "Список товаров с количеством, КБЖУ , производителем" - в сыром слое тип данных `String`.</br>
   Это сделано для максимального сохранения исходных данных. В этом поле хранится список вложенных **JSON**-структур. </br>
   
 5) Создаются справочники и таблицы фактов в базе `mart_data` с использование материализованных представлений при добавлении данных</br>
 в таблицы сырого слоя `ClickHouse`.
   - Проверяются корректность значений - то есть дата покупки, дата рождения - не должны быть позже текущего дня.</br>
   - Все строковые данные приводятся к нижнему регистру.</br>
-  - Для справочников и таблиц фактов используется движок `ReplacingMergeTree(version) + TTL`, где `version UInt64 DEFAULT toUnixTimestamp(load_date)`.</br>
+  - Для справочников и таблиц фактов используется движок `ReplacingMergeTree(version) + TTL`, где `version UInt64 DEFAULT toUnixTimestamp(load_date)`, где **load_date** - дата загрузки.</br>
   - Записи старше 365 дней удаляются.</br>
   - В таблицах используется партиционирование по году и месяцу.</br>
     
 6) Проверка дублирования в сырых данных и преобразованных:
-  - Реализуется через движок `ReplacingMergeTree(version)` и условный `id` таблицы.</br>
+  - Реализуется через движок `ReplacingMergeTree(version)` и уникальный идентификатор записи в таблице.</br>
   
 ### ClickHouse Data Warehouse
 
-**ClickHouse** — основное аналитическое хранилище данных с поддержкой Materialized Views.</br>
-Детально структуры таблиц можно посмотреть в файле [init-db.sql](init-db.sql). Этот файл
+**ClickHouse** — основное аналитическое хранилище данных с поддержкой `Materialized Views`.</br>
+Детально структуры таблиц `RAW слоя`, а также `Data Mart слоя` можно посмотреть в файле [init-db.sql](init-db.sql).</br>
 
 #### 🏗 Слои данных
 
@@ -752,7 +751,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
     2. Проверяется подключение к `S3` хранилищу.</br>
     3. Читаются данные из `Clickhouse MART` `(customers, purchases, products, stores, purchase_items)`.</br>
     4. Рассчитываются признаки покупателей с помощью `FeatureEngineer` из модуля [utils/spark/feature_engineering.py](utils/spark/feature_engineering.py)</br>
-    5. Записываются, результаты кластеризации покупателей (всего 30 полей, согласно ТЗ), в S3 Selectel в формате **CSV**, с помощью модуля [utils/s3/s3_writer.py](utils/s3/s3_writer.py).</br>
+    5. Записываются, результаты кластеризации покупателей (всего 30 полей, согласно ТЗ), в `S3 Selectel` в формате **CSV**, с помощью модуля [utils/s3/s3_writer.py](utils/s3/s3_writer.py).</br>
     6. Примеры файлов витрины, можно посмотреть в директории [CSV_from_Selectel_S3/analytic_result_2026_02_28.csv](CSV_from_Selectel_S3/analytic_result_2026_02_28.csv)</br>
 
 ## 🔌 Конфигурация подключений
@@ -767,11 +766,12 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 | `mongodb_default` | Mongo | host:mongodb, port:27017, schema:retail_data |
 | `kafka_default` | Generic | host:kafka, port:29092 |
 
-Для соединения `s3_default` параметры подключения `S3_ACCESS_KEY` и `S3_SECRET_KEY` необходимо указать в корневом файле **.env**.
+Для соединения `s3_default` параметры подключения `S3_ACCESS_KEY` и `S3_SECRET_KEY` необходимо указать в корневом файле **.env**.</br>
 
 ## 📈 Мониторинг и визуализация
 
 ### Доступ к интерфейсам
+Для доступа к интерфейсам можно воспрользоваться [ui_dashboard.html](ui_dashboard.html). </br>
 
 | Сервис | URL | Логин/Пароль |
 |--------|-----|--------------|
@@ -831,16 +831,16 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
    `git clone git@github.com:MikhalevaAnna/DE_Retail_Analytics.git`
    `cd DE_Retail_Analytics`
 2. Настройка переменных окружения:
-`cp .env.example .env`
-Отредактируйте .env, указав ваши S3 ключи.
+   `cp .env.example .env`
+   Отредактируйте .env, указав ваши S3 ключи.
 3. В **users.xml** необходимо прописать настройки доступа к `Clickhouse` из `Grafana`, если они отличаются от текущих настроек.
 4. Запуск всех сервисов:
- `docker build -t airflow-with-java .`
- `docker-compose up -d --build`
+   `docker build -t airflow-with-java .`
+   `docker-compose up -d --build`
 5. Проверка статуса:
- `docker-compose ps`
+   `docker-compose ps`
 6. Остановка:
-`docker-compose down`
+   `docker-compose down`
 7. Подключения к сервисам прописаны в `docker-compose`.
 8. Перейдем к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или в корне проекта запустим [ui_dashboard.html](ui_dashboard.html) и выберем `Открыть Airflow Webserver`.
 9. После запуска всех сервисов, убедимся, что соединения корректно отображаются в списке `Airflow`. Для этого перейдем в `Admin -> Connectiions` и проверим список соединений, он должен выглядеть так:
@@ -850,4 +850,4 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 11. В директории `source_data` - появятсятся данные по покупателям, магазинам, продуктам и покупкам, с которыми мы будем работать дальше.
 12. Снова переходим к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или в корне проекта запустим [ui_dashboard.html](ui_dashboard.html) и выберем `Открыть Airflow Webserver`. Запускаем **DAG**  [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).
 13. В веб-интерфейсе  [ui_dashboard.html](ui_dashboard.html) можно зайти в **Grafana**, посмотреть количество записей по каждому блоку данных.
-14. Переходим в S3 и видим результирующий файл с 30 метриками.   
+14. Переходим в **S3 Selectel** и видим результирующий файл с 30 метриками.   
