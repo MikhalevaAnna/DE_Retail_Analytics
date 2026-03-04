@@ -588,12 +588,12 @@ DE_Retail_Analytics/
    - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py)  `<- check_data_in_mongo.py`.</br>
 3) Вывод 3-х документов из **MongoDB**
    - Можно увидеть в логах [logs/task_id=check_mongo_data_task](logs/dag_id=pipeline_retail_data/2026-03-01/task_id=check_mongo_data_task/attempt=1.log) или на скриншоте:</br>
-   <img width="1609" height="707" alt="image" src="https://github.com/user-attachments/assets/2cb4a898-289f-4e93-9ba6-67369515fac1" />
+   <img width="1643" height="781" alt="image" src="https://github.com/user-attachments/assets/d0b9cce0-27b5-4aaf-93cc-d1c438c84776" />
 
 4) Более наглядно выполнение задач можно увидеть на скриншоте `screenshots/ Airflow_Graph.png`.
-   <img width="1691" height="709" alt="image" src="https://github.com/user-attachments/assets/1562f872-63b8-445b-adec-575bbe37036a" />
+   <img width="1616" height="748" alt="image" src="https://github.com/user-attachments/assets/31807a93-46c9-47e4-91ab-0754a786788c" />
 
-5) **MongoDB** служит промежуточным хранилищем для сырых данных перед отправкой в Kafka.
+6) **MongoDB** служит промежуточным хранилищем для сырых данных перед отправкой в Kafka.
    
 ### При помощи Kafka данные загружаю в RAW (сырое) хранилище ClickHouse.
 1) До того, как данные попадают в `RAW (сырое) хранилище ClickHous` персональная информация (телефон и почта) </br>
