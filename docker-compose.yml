@@ -334,6 +334,17 @@ services:
       - grafana_data:/var/lib/grafana
     depends_on:
       - clickhouse
+  ui-dashboard:
+    image: nginx:alpine
+    container_name: ui-dashboard
+    restart: unless-stopped
+    ports:
+      - "8085:80"  # Будет доступно на порту 8085
+    volumes:
+      - ${AIRFLOW_PROJ_DIR:-.}/ui_dashboard.html:/usr/share/nginx/html/index.html:ro
+    networks:
+      - default
+
 
 networks:
   default:
