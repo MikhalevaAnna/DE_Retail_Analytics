@@ -825,3 +825,22 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
          │  spark_etl_task_to_s3 │ ← Считается 30 признаков в Spark / Запись CSV-файла с результатами в S3
          └───────────────────────┘
 ```
+## 🚀 Установка и запуск
+
+1. Клонирование репозитория
+   `git clone git@github.com:MikhalevaAnna/DE_Retail_Analytics.git`
+   `cd DE_Retail_Analytics`
+2. Настройка переменных окружения
+`cp .env.example .env`
+Отредактируйте .env, указав ваши S3 ключи
+3. Запуск всех сервисов
+ `docker build -t airflow-with-java .`
+ `docker-compose up -d --build`
+4. Проверка статуса
+ `docker-compose ps`
+5. Остановка
+`docker-compose down`
+6. Подключения к сервисам прописаны в `docker-compose`.
+7. Перейдем к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или в корне проекта запустим **ui_dashboard.html** и выберем `Открыть Airflow Webserver`.
+8. После запуска всех сервисов, убедимся, что соединения корректно отображаются в списке `Airflow`. Для этого перейдем в `Admin -> Connectiions` и проверим список соединений, он должен выглядеть так:
+   <img width="1907" height="590" alt="image" src="https://github.com/user-attachments/assets/8d8984dd-3eac-4eea-b752-d8c18ba70c92" />
