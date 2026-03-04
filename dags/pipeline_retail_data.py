@@ -308,8 +308,8 @@ transfer_kafka_to_clickhouse = PythonOperator(
 )
 
 # === Задача для SPARK ETL ===
-spark_etl_task = PythonOperator(
-    task_id="spark_etl_task",
+spark_etl_task_to_s3 = PythonOperator(
+    task_id="spark_etl_task_to_s3",
     python_callable=run_spark_etl,
     dag=dag,
 )
@@ -322,5 +322,5 @@ spark_etl_task = PythonOperator(
     >> transfer_mongo_to_kafka
     >> check_clickhouse
     >> transfer_kafka_to_clickhouse
-    >> spark_etl_task
+    >> spark_etl_task_to_s3
 )
