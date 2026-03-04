@@ -827,20 +827,27 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 ```
 ## 🚀 Установка и запуск
 
-1. Клонирование репозитория
+1. Клонирование репозитория:
    `git clone git@github.com:MikhalevaAnna/DE_Retail_Analytics.git`
    `cd DE_Retail_Analytics`
-2. Настройка переменных окружения
+2. Настройка переменных окружения:
 `cp .env.example .env`
-Отредактируйте .env, указав ваши S3 ключи
-3. Запуск всех сервисов
+Отредактируйте .env, указав ваши S3 ключи.
+3. В **users.xml** необходимо прописать настройки доступа к `Clickhouse` из `Grafana`, если они отличаются от текущих настроек.
+4. Запуск всех сервисов:
  `docker build -t airflow-with-java .`
  `docker-compose up -d --build`
-4. Проверка статуса
+5. Проверка статуса:
  `docker-compose ps`
-5. Остановка
+6. Остановка:
 `docker-compose down`
-6. Подключения к сервисам прописаны в `docker-compose`.
-7. Перейдем к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или в корне проекта запустим **ui_dashboard.html** и выберем `Открыть Airflow Webserver`.
-8. После запуска всех сервисов, убедимся, что соединения корректно отображаются в списке `Airflow`. Для этого перейдем в `Admin -> Connectiions` и проверим список соединений, он должен выглядеть так:
+7. Подключения к сервисам прописаны в `docker-compose`.
+8. Перейдем к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или в корне проекта запустим [ui_dashboard.html](ui_dashboard.html) и выберем `Открыть Airflow Webserver`.
+9. После запуска всех сервисов, убедимся, что соединения корректно отображаются в списке `Airflow`. Для этого перейдем в `Admin -> Connectiions` и проверим список соединений, он должен выглядеть так:
    <img width="1907" height="590" alt="image" src="https://github.com/user-attachments/assets/8d8984dd-3eac-4eea-b752-d8c18ba70c92" />
+10. Переходим в папку `data_generator` и запускаем скрипт `generator.py` командой:
+    `python generator.py`
+11. В директории `source_data` - появятсятся данные по покупателям, магазинам, продуктам и покупкам, с которыми мы будем работать дальше.
+12. Снова переходим к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или в корне проекта запустим [ui_dashboard.html](ui_dashboard.html) и выберем `Открыть Airflow Webserver`. Запускаем **DAG**  [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).
+13. В веб-интерфейсе  [ui_dashboard.html](ui_dashboard.html) можно зайти в **Grafana**, посмотреть количество записей по каждому блоку данных.
+14. Переходим в S3 и видим результирующий файл с 30 метриками.   
