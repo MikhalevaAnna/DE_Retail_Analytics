@@ -848,6 +848,6 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 10. Переходим в папку `data_generator` и запускаем скрипт `generator.py` командой:
     `python generator.py`
 11. В директории `source_data` - появятсятся данные по покупателям, магазинам, продуктам и покупкам, с которыми мы будем работать дальше.
-12. Снова переходим к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или в корне проекта запустим [ui_dashboard.html](ui_dashboard.html) и выберем `Открыть Airflow Webserver`. Запускаем **DAG**  [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).
-13. В веб-интерфейсе  [ui_dashboard.html](ui_dashboard.html) можно зайти в **Grafana**, посмотреть количество записей по каждому блоку данных.
+12. Снова переходим к веб-интерфейсу по прямой ссылке `Airflow` <a href="http://localhost:8080" target="_blank"> или в корне проекта запустим <a href="http://ui_dashboard.html" target="_blank"> и выберем `Открыть Airflow Webserver`. Запускаем **DAG**  [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).
+13. В веб-интерфейсе  <a href="http://ui_dashboard.html" target="_blank"> можно зайти в **Grafana**, посмотреть количество записей по каждому блоку данных.
 14. Переходим в **S3 Selectel** и видим результирующий файл с 30 метриками.   
