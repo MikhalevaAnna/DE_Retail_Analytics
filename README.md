@@ -556,7 +556,7 @@ DE_Retail_Analytics/
 │   ├── dag_id=pipeline_retail_data/# Логи работы DAG
 │   ├── dag_processor_manager/                        
 │   ├── data_generator/             # Логи работы генератора данных 
-│   └── scheduler/2026-03-01/       # Логи работы DAG
+│   └── scheduler/2026-03-07/       # Логи работы DAG
 │
 ├── 📂 screenshots/                 # Скриншоты алертов, Airflow, Selectel S3
 │
@@ -587,7 +587,7 @@ DE_Retail_Analytics/
    - За это отвечает задача `check_mongo_data_task` в **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
    - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py)  `<- check_data_in_mongo.py`.</br>
 3) Выводится 3-х документа из **MongoDB**
-   - Можно увидеть в логах [logs/task_id=check_mongo_data_task](logs/dag_id=pipeline_retail_data/2026-03-01/task_id=check_mongo_data_task/attempt=1.log) или на скриншоте:</br>
+   - Можно увидеть в логах [logs/task_id=check_mongo_data_task](logs/dag_id=pipeline_retail_data/2026-03-07/task_id=check_mongo_data_task/attempt=1.log) или на скриншоте:</br>
    <img width="1643" height="781" alt="image" src="https://github.com/user-attachments/assets/d0b9cce0-27b5-4aaf-93cc-d1c438c84776" />
 
 4) Более наглядно выполнение задач можно увидеть на скриншоте `screenshots/ Airflow_Graph.png`.
@@ -752,7 +752,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
     3. Читаются данные из `Clickhouse MART` `(customers, purchases, products, stores, purchase_items)`.</br>
     4. Рассчитываются признаки покупателей с помощью `FeatureEngineer` из модуля [utils/spark/feature_engineering.py](utils/spark/feature_engineering.py)</br>
     5. Записываются, результаты кластеризации покупателей (всего 30 полей, согласно ТЗ), в `S3 Selectel` в формате **CSV**, с помощью модуля [utils/s3/s3_writer.py](utils/s3/s3_writer.py).</br>
-    6. Примеры файлов витрины, можно посмотреть в директории [CSV_from_Selectel_S3/analytic_result_2026_02_28.csv](CSV_from_Selectel_S3/analytic_result_2026_02_28.csv)</br>
+    6. Пример готового файла, можно посмотреть в [CSV_from_Selectel_S3/analytic_result_2026_03_07.csv](CSV_from_Selectel_S3/analytic_result_2026_03_07.csv)</br>
 
 ## 🔌 Конфигурация подключений
 
