@@ -239,8 +239,7 @@
 Более того необходимо предусмотреть приведение только этих двух полей к нормальному единому виду.
 ```
 Таким образом, мы получим загрузку данных из хранилища заказчика в наше хранилище посредством использования `Kafka/Python/Clickhouse/NoSQL`. </br> 
-Ну и конечно же, чтобы было удобней проверить данное задание, необходимо выполнить следующий пункт.</br> 
-    - Построить дашборд в графане на основе которого можно будет сделать вывод о том, что количество покупок действительно 200 или больше, а магазинов 45.
+Необходимо построить дашборд в графане на основе которого можно будет сделать вывод о том, что количество покупок действительно 200 или больше, а магазинов 45.
 
 <ins>Критерии проверки следующие:</ins>
 1. Есть **GIT** репозиторий в котором описываются участники команды.
@@ -582,11 +581,11 @@ DE_Retail_Analytics/
 ### JSON-файлы добавляются в NoSQL хранилище MongoDB.
 1) Добавляются **JSON** файлы в **NoSQL** хранилище **MongoDB**. 
    - Задача, которая отвечает за загрузку данных в **MongoDB** `load_mongo_task` в **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
-   - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py) `<- load_to_mongo.py`.</br>
+   - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py) и `load_to_mongo.py`.</br>
 2) Проверяются загруженные данные в **MongoDB**.
    - За это отвечает задача `check_mongo_data_task` в **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
-   - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py)  `<- check_data_in_mongo.py`.</br>
-3) Выводится 3-х документа из **MongoDB**
+   - Задача использует модули из [utils/mongo/mongo_tasks.py](utils/mongo/mongo_tasks.py)  и `check_data_in_mongo.py`.</br>
+3) Выводится 3 документа из **MongoDB**
    - Можно увидеть в логах [logs/task_id=check_mongo_data_task](logs/dag_id=pipeline_retail_data/2026-03-07/task_id=check_mongo_data_task/attempt=1.log) или на скриншоте:</br>
    <img width="1643" height="781" alt="image" src="https://github.com/user-attachments/assets/d0b9cce0-27b5-4aaf-93cc-d1c438c84776" />
 
@@ -600,13 +599,15 @@ DE_Retail_Analytics/
  каждая приводится к своему нормализованному виду и шифруется `md5`.
   - Загрузка и шифрование данных из MongoDB в Каfka осуществляется задачей `transfer_mongo_to_kafka` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
   - Задача использует [utils/kafka/mongo_kafka_transfer.py](utils/kafka/mongo_kafka_transfer.py).</br>
-  - Для таблиц сырого слоя используется движок `ReplacingMergeTree(version) + TTL`, где `version UInt64 DEFAULT toUnixTimestamp(load_date)`, где **load_date** - дата загрузки.
+  - Для таблиц сырого слоя используется движок `ReplacingMergeTree(version) + TTL`,</br>
+    где `version UInt64 DEFAULT toUnixTimestamp(load_date)` и **load_date** - дата загрузки.</br>
   - Записи старше 180 дней удаляются.</br>
   - В таблицах используется партиционирование по году и месяцу.</br>
     
 2) Данные отправляются в топики **Kafka**.
 
-3) Задача `transfer_kafka_to_clickhouse` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py), принимает сообщения из топиков `Kafka`.</br>
+3) Задача `transfer_kafka_to_clickhouse` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py),</br>
+   принимает сообщения из топиков `Kafka`.</br>
   
 4) Создаются таблицы в `ClickHouse` в сыром слое сразу с правильными типами данных.
   - Незаполненные значения сразу обрабатываются, чтобы в **RAW** таблицах не было **NULL** значений.</br>
@@ -615,9 +616,10 @@ DE_Retail_Analytics/
   
 5) Создаются справочники и таблицы фактов в базе `mart_data` с использование материализованных представлений при добавлении данных</br>
 в таблицы сырого слоя `ClickHouse`.
-  - Проверяются корректность значений - то есть дата покупки, дата рождения - не должны быть позже текущего дня.</br>
+  - Проверяется корректность значений - то есть дата покупки, дата рождения - не должны быть позже текущего дня.</br>
   - Все строковые данные приводятся к нижнему регистру.</br>
-  - Для справочников и таблиц фактов используется движок `ReplacingMergeTree(version) + TTL`, где `version UInt64 DEFAULT toUnixTimestamp(load_date)`, где **load_date** - дата загрузки.</br>
+  - Для справочников и таблиц фактов используется движок `ReplacingMergeTree(version) + TTL`,</br>
+    где `version UInt64 DEFAULT toUnixTimestamp(load_date)` и **load_date** - дата загрузки.</br>
   - Записи старше 365 дней удаляются.</br>
   - В таблицах используется партиционирование по году и месяцу.</br>
     
@@ -718,7 +720,7 @@ SETTINGS index_granularity = 8192;
 #### 🔑 Хэширование первичных ключей
 
 Для всех справочников используется `cityHash64` для генерации уникальных ID, т.к. это дает быстрый и стабильный результат.
-При повторной загрузке данных тот же продукт получит тот же ID.
+При повторной загрузке данных, например, одинаковый продукт получит тот же ID.
 
 ```sql
 cityHash64(lowerUTF8(category_name)) AS category_id
@@ -733,7 +735,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 <img width="1669" height="540" alt="image" src="https://github.com/user-attachments/assets/9c5ecd09-dc76-4041-933b-71d982da1c09" />
 
 2) В сыром слое `ClickHouse` проверяются дубликаты и в случае превышения > 50 % дубликатов в исходных таблицах алерты отправляются  
-   на мою Яндекс-почту при помощи Grafana. Все скриншоты можно увидеть в папке проекта `screenshots`.</br>
+   на мою Яндекс-почту при помощи `Grafana`. Все скриншоты можно увидеть в папке проекта `screenshots`.</br>
 <img width="1690" height="647" alt="image" src="https://github.com/user-attachments/assets/b629e053-5f9b-421a-96e2-26a389f55abf" />
 <img width="1690" height="160" alt="image" src="https://github.com/user-attachments/assets/3b2fb98a-6c64-4c12-bb6a-bb76f1324092" />
 <img width="656" height="295" alt="image" src="https://github.com/user-attachments/assets/910d25da-3a0f-4725-b52d-ea43f3da46f7" />
@@ -834,7 +836,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
    `cp .env.example .env`</br> 
    Отредактируйте .env, указав ваши S3 ключи.</br> 
 3. В **users.xml** необходимо прописать настройки доступа к `Clickhouse`, если они отличаются от текущих настроек.</br>
-  Этот файл необходим для `Grafana`.</br>
+  Этот файл необходим для подключения `Clickhouse` в `Grafana`.</br>
 4. Запуск всех сервисов:</br> 
    `docker build -t airflow-with-java .`</br> 
    `docker-compose up -d --build`</br> 
@@ -857,3 +859,6 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 13. В веб-интерфейсе  [http://localhost:8085](http://localhost:8085) можно зайти в **Grafana**,</br> 
     посмотреть количество записей по каждому блоку данных.</br> 
 14. Переходим в **S3 Selectel** и видим результирующий файл с 30 метриками.   </br> 
+
+
+Проект выполнила Михалева Анна
