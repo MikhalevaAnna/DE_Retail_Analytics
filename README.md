@@ -833,7 +833,8 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 2. Настройка переменных окружения:</br> 
    `cp .env.example .env`</br> 
    Отредактируйте .env, указав ваши S3 ключи.</br> 
-3. В **users.xml** необходимо прописать настройки доступа к `Clickhouse` из `Grafana`, если они отличаются от текущих настроек.</br> 
+3. В **users.xml** необходимо прописать настройки доступа к `Clickhouse`, если они отличаются от текущих настроек.</br>
+  Этот файл необходим для `Grafana`.</br>
 4. Запуск всех сервисов:</br> 
    `docker build -t airflow-with-java .`</br> 
    `docker-compose up -d --build`</br> 
@@ -851,7 +852,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
     `python generator.py`</br> 
 11. В директории `source_data` - появятсятся данные по покупателям, магазинам, продуктам и покупкам, с которыми мы будем работать дальше.</br> 
 12. Снова переходим к веб-интерфейсу по прямой ссылке `Airflow` [http://localhost:8080](http://localhost:8080)</br> 
-    или в корне проекта запустим  [http://localhost:8085](http://localhost:8085) и выберем `Открыть Airflow Webserver`.</br> 
+    или в корне проекта запустим  [http://localhost:8085](http://localhost:8085), выберем `Открыть Airflow Webserver`.</br> 
     Запускаем **DAG**  [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br> 
 13. В веб-интерфейсе  [http://localhost:8085](http://localhost:8085) можно зайти в **Grafana**,</br> 
     посмотреть количество записей по каждому блоку данных.</br> 
