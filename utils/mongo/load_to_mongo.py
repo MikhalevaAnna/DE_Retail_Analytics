@@ -18,7 +18,9 @@ from config.constants import Config
 from .mongo_connector import MongoDB
 
 
-def load_json_files(directory: str, collection: Collection, logger: Logger) -> int:
+def load_json_files(directory: str,
+                    collection: Collection,
+                    logger: Logger) -> int:
     """
     Загружает JSON-файлы из указанной директории в коллекцию MongoDB.
 
@@ -38,7 +40,8 @@ def load_json_files(directory: str, collection: Collection, logger: Logger) -> i
         return inserted_count
 
     # Получаем список JSON-файлов
-    json_files: List[str] = [f for f in listdir(directory) if f.endswith(".json")]
+    json_files: List[str] = [f for f in listdir(directory)
+                             if f.endswith(".json")]
 
     if not json_files:
         logger.warning(f"⚠️ Нет JSON-файлов в директории: {directory}")
@@ -70,13 +73,16 @@ def load_json_files(directory: str, collection: Collection, logger: Logger) -> i
         except UnicodeDecodeError as e:
             logger.error(f"❌ Ошибка кодировки в файле {filename}: {e}")
         except Exception as e:
-            logger.error(f"❌ Непредвиденная ошибка при загрузке {filename}: {e}")
+            logger.error(f"❌ Непредвиденная ошибка при "
+                         f"загрузке {filename}: {e}")
 
     logger.info(f"✅ Загружено {inserted_count} из {len(json_files)} файлов")
     return inserted_count
 
 
-def clear_collections(db: Database, collections: List[str], logger: Logger) -> None:
+def clear_collections(db: Database,
+                      collections: List[str],
+                      logger: Logger) -> None:
     """Очистка коллекций перед загрузкой"""
     for collection_name in collections:
         try:
@@ -86,7 +92,8 @@ def clear_collections(db: Database, collections: List[str], logger: Logger) -> N
                 f"(удалено {result.deleted_count} записей)"
             )
         except Exception as e:
-            logger.error(f"❌ Ошибка при очистке коллекции {collection_name}: {e}")
+            logger.error(f"❌ Ошибка при очистке "
+                         f"коллекции {collection_name}: {e}")
 
 
 def load_all_data(
@@ -116,7 +123,8 @@ def load_all_data(
             directory=directory, collection=db[collection_name], logger=logger
         )
 
-        stats[collection_name] = {"directory": directory, "loaded_files": loaded_count}
+        stats[collection_name] = {"directory": directory,
+                                  "loaded_files": loaded_count}
 
     return stats
 
@@ -168,7 +176,8 @@ def main(mongo_client=None, logger=None) -> None:
         logger.info("\n✅ Загрузка успешно завершена!")
 
     except Exception as e:
-        logger.error(f"\n❌ Критическая ошибка в процессе загрузки: {e}", exc_info=True)
+        logger.error(f"\n❌ Критическая ошибка в "
+                     f"процессе загрузки: {e}", exc_info=True)
         sys.exit(1)
 
     finally:

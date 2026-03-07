@@ -43,7 +43,9 @@ def load_mongo_data(**context) -> Dict[str, Any]:
 
         if should_clear:
             logger.info("\n🧹 ОЧИСТКА КОЛЛЕКЦИЙ")
-            clear_collections(db, list(Config.MONGO_COLLECTIONS.keys()), logger)
+            clear_collections(
+                db, list(Config.MONGO_COLLECTIONS.keys()), logger
+            )
 
         # Загрузка данных
         logger.info("\n📥 ЗАГРУЗКА ДАННЫХ")
@@ -86,7 +88,8 @@ def check_mongo_data(**context) -> None:
 
         # Проверяем, что данные загружены
         if results["total_documents"] == 0:
-            raise ValueError("❌ В MongoDB не найдено документов после загрузки!")
+            raise ValueError("❌ В MongoDB не найдено "
+                             "документов после загрузки!")
 
         logger.info("✅ Проверка завершена успешно!")
 

@@ -114,10 +114,15 @@ def get_database_stats(
 
     for collection_name in collection_names:
         try:
-            collection_stats = get_collection_stats(db, collection_name, logger)
+            collection_stats = get_collection_stats(
+                db,
+                collection_name,
+                logger
+            )
             stats.append(collection_stats)
         except Exception as e:
-            logger.error(f"⚠️ Ошибка при проверке коллекции {collection_name}: {e}")
+            logger.error(f"⚠️ Ошибка при проверке "
+                         f"коллекции {collection_name}: {e}")
             stats.append(
                 {
                     "name": collection_name,
@@ -168,7 +173,9 @@ def check_mongodb_data(logger: Logger, verbose: bool = True) -> Dict[str, Any]:
         results["database"] = mongo.database_name
 
         # Подсчет общего количества документов
-        results["total_documents"] = sum(s["total_documents"] for s in stats_list)
+        results["total_documents"] = (
+            sum(s["total_documents"] for s in stats_list)
+        )
 
         # Отображение результатов
         logger.info(f"\n{'=' * 60}")
@@ -231,7 +238,8 @@ def print_summary(results: Dict[str, Any], logger: Logger) -> None:
     for collection in results["collections"]:
         status = "✅" if not collection["is_empty"] else "⚠️"
         logger.info(
-            f"  {status} {collection['name']}: {collection['total_documents']} док."
+            f"  {status} {collection['name']}: "
+            f"{collection['total_documents']} док."
         )
 
 

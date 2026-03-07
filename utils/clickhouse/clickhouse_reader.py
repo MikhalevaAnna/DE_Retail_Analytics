@@ -50,7 +50,8 @@ class ClickHouseReader:
             ValueError: Если указана неподдерживаемая таблица
         """
         url = (
-            f"jdbc:clickhouse://{self.host}:{self.port}/{self.database}?compress=false"
+            f"jdbc:clickhouse://{self.host}:{self.port}"
+            f"/{self.database}?compress=false"
         )
         query = ""
         if table == "mart_data.customers_details":
@@ -59,47 +60,78 @@ class ClickHouseReader:
                 customer_pk,
                 customer_id,
                 CAST(registration_date AS String) as registration_date,
-                is_loyalty_member
+                is_loyalty_member,
+                version
             FROM {table}) AS tmp
            """
         elif table == "mart_data.purchases_details":
             query = f"""
-             (SELECT DISTINCT
+             (SELECT
                  purchase_pk,
                  customer_pk,
                  store_pk,
-                 dda.delivery_address_id as delivery_address_id,
-                 dda.city_id as delivery_city_id,
+                 delivery_address_id,
                  total_amount,
-                 pd.payment_method_id as payment_method_id,
-                 dpm.payment_method_name as payment_method_name,
+                 payment_method_id,
                  is_delivery,
-                 CAST(purchase_datetime AS String) as purchase_datetime
-             FROM {table} pd
-                LEFT JOIN mart_data.dim_delivery_addresses dda
-             ON pd.delivery_address_id = dda.delivery_address_id
-                LEFT JOIN mart_data.dim_payment_method dpm
-             ON pd.payment_method_id = dpm.payment_method_id
+                 CAST(purchase_datetime AS String) as purchase_datetime,
+                 version
+             FROM {table}
+            ) AS tmp
+            """
+        elif table == "mart_data.dim_delivery_addresses":
+            query = f"""
+             (SELECT
+                 delivery_address_id,
+                 city_id as delivery_city_id,
+                 version
+             FROM {table}
+            ) AS tmp
+            """
+        elif table == "mart_data.dim_payment_method":
+            query = f"""
+             (SELECT
+                 payment_method_id,
+                 payment_method_name,
+                 version
+             FROM {table}
             ) AS tmp
             """
         elif table == "mart_data.products_details":
             query = f"""
-            (SELECT pd.product_pk,
-                    pd.name as product_name,
-                    pd.price,
-                    pd.is_organic,
-                    dc.clear_category_name as category_name
-                    FROM {table} pd LEFT JOIN  mart_data.dim_categories dc
-                    ON pd.category_id =dc.category_id
+            (SELECT product_pk,
+                    name as product_name,
+                    price,
+                    is_organic,
+                    product_id,
+                    category_id,
+                    version
+                    FROM {table}
+            ) AS tmp
+            """
+        elif table == "mart_data.dim_categories":
+            query = f"""
+            (SELECT category_id,
+                    clear_category_name as category_name,
+                    version
+                    FROM {table}
             ) AS tmp
             """
         elif table == "mart_data.stores_details":
             query = f"""
-            (SELECT sd.store_pk,
-                    sd.delivery_available as store_delivery_available,
-                    da.city_id as store_city_id
-              FROM {table} sd LEFT JOIN mart_data.dim_address da
-                   ON sd.location_id =da.address_id
+            (SELECT store_pk,
+                    delivery_available as store_delivery_available,
+                    location_id,
+                    version
+              FROM {table}
+            ) AS tmp
+            """
+        elif table == "mart_data.dim_address":
+            query = f"""
+            (SELECT address_id,
+                    city_id as store_city_id,
+                    version
+              FROM {table}
             ) AS tmp
             """
         elif table == "mart_data.purchase_item_details":
@@ -109,7 +141,8 @@ class ClickHouseReader:
                purchase_pk,
                product_pk,
                quantity,
-               total_price
+               total_price,
+               version
             FROM {table}) AS tmp
             """
 
@@ -121,8 +154,8 @@ class ClickHouseReader:
             .option("password", self.password)
             .option("dbtable", query)
             .option("fetchsize", "10000")
-            .option("socket_timeout", "300000")
-            .option("connect_timeout", "30000")
+            .option("socket_timeout", "300000") # 300 секунд
+            .option("connect_timeout", "30000") # 30 секунд
             .load()
         )
         df.show()

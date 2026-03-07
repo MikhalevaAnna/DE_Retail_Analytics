@@ -1,0 +1,33 @@
+[2026-03-07T19:23:46.271+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:23:46.271+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T19:23:46.291+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:23:46.291+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_retail_data to 2026-03-07 10:00:00+00:00, run_after=2026-03-08 10:00:00+00:00
+[2026-03-07T19:23:46.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_retail_data.py took 0.463 seconds
+[2026-03-07T19:24:16.540+0000] {processor.py:161} INFO - Started process (PID=4727) to work on /opt/airflow/dags/pipeline_retail_data.py
+[2026-03-07T19:24:16.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_retail_data.py for tasks to queue
+[2026-03-07T19:24:16.542+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:16.542+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_retail_data.py
+[2026-03-07T19:24:16.706+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:16.706+0000] {base.py:84} INFO - Using connection ID 'clickhouse_raw' for task execution.
+[2026-03-07T19:24:16.711+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:16.710+0000] {base.py:84} INFO - Using connection ID 's3_default' for task execution.
+[2026-03-07T19:24:16.714+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:16.713+0000] {base.py:84} INFO - Using connection ID 'mongodb_default' for task execution.
+[2026-03-07T19:24:16.920+0000] {processor.py:840} INFO - DAG(s) 'pipeline_retail_data' retrieved from /opt/airflow/dags/pipeline_retail_data.py
+[2026-03-07T19:24:16.937+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:16.936+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T19:24:16.954+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:16.954+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_retail_data to 2026-03-07 10:00:00+00:00, run_after=2026-03-08 10:00:00+00:00
+[2026-03-07T19:24:16.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_retail_data.py took 0.439 seconds
+[2026-03-07T19:24:47.222+0000] {processor.py:161} INFO - Started process (PID=4734) to work on /opt/airflow/dags/pipeline_retail_data.py
+[2026-03-07T19:24:47.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_retail_data.py for tasks to queue
+[2026-03-07T19:24:47.225+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:47.225+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_retail_data.py
+[2026-03-07T19:24:47.384+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:47.384+0000] {base.py:84} INFO - Using connection ID 'clickhouse_raw' for task execution.
+[2026-03-07T19:24:47.388+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:47.388+0000] {base.py:84} INFO - Using connection ID 's3_default' for task execution.
+[2026-03-07T19:24:47.391+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:47.391+0000] {base.py:84} INFO - Using connection ID 'mongodb_default' for task execution.
+[2026-03-07T19:24:47.594+0000] {processor.py:840} INFO - DAG(s) 'pipeline_retail_data' retrieved from /opt/airflow/dags/pipeline_retail_data.py
+[2026-03-07T19:24:47.611+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:47.610+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T19:24:47.739+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:24:47.739+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_retail_data to 2026-03-07 10:00:00+00:00, run_after=2026-03-08 10:00:00+00:00
+[2026-03-07T19:24:47.754+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_retail_data.py took 0.539 seconds
+[2026-03-07T19:25:18.002+0000] {processor.py:161} INFO - Started process (PID=4741) to work on /opt/airflow/dags/pipeline_retail_data.py
+[2026-03-07T19:25:18.003+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pipeline_retail_data.py for tasks to queue
+[2026-03-07T19:25:18.005+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:25:18.005+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_retail_data.py
+[2026-03-07T19:25:18.162+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:25:18.162+0000] {base.py:84} INFO - Using connection ID 'clickhouse_raw' for task execution.
+[2026-03-07T19:25:18.166+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:25:18.166+0000] {base.py:84} INFO - Using connection ID 's3_default' for task execution.
+[2026-03-07T19:25:18.169+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:25:18.169+0000] {base.py:84} INFO - Using connection ID 'mongodb_default' for task execution.
+[2026-03-07T19:25:18.373+0000] {processor.py:840} INFO - DAG(s) 'pipeline_retail_data' retrieved from /opt/airflow/dags/pipeline_retail_data.py
+[2026-03-07T19:25:18.390+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:25:18.390+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-07T19:25:18.409+0000] {logging_mixin.py:188} INFO - [2026-03-07T19:25:18.408+0000] {dag.py:3954} INFO - Setting next_dagrun for pipeline_retail_data to 2026-03-07 10:00:00+00:00, run_after=2026-03-08 10:00:00+00:00
+[2026-03-07T19:25:18.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pipeline_retail_data.py took 0.431 seconds

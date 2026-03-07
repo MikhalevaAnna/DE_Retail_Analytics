@@ -177,7 +177,11 @@ class TableManager:
                          cityHash64(
                              lowerUTF8(
                                   trim(
-                                      replaceRegexpOne(group, '^\\p{So}+\\s*', '')
+                                      replaceRegexpOne(
+                                          group,
+                                          '^\\p{So}+\\s*',
+                                          ''
+                                      )
                                   )
                              )
                          ) AS category_id,
@@ -696,7 +700,11 @@ class TableManager:
                         cityHash64(
                              lowerUTF8(
                                   trim(
-                                      replaceRegexpOne(group, '^\\p{So}+\\s*', '')
+                                      replaceRegexpOne(
+                                          group,
+                                          '^\\p{So}+\\s*',
+                                          ''
+                                      )
                                   )
                              )
                          ) AS category_id,
@@ -848,7 +856,7 @@ class TableManager:
                             cityHash64(lowerUTF8(store_network)),
                             0
                         ) as store_network_id,
-                        arrayMap(x -> 
+                        arrayMap(x ->
                         cityHash64(
                              lowerUTF8(
                                   trim(

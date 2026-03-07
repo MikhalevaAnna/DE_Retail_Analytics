@@ -63,7 +63,8 @@ def run_etl() -> None:
         )
         .config("spark.driver.memory", "1g")
         .config("spark.executor.memory", "1g")
-        .config("spark.hadoop.fs.s3a.impl", "org.apache.hadoop.fs.s3a.S3AFileSystem")
+        .config("spark.hadoop.fs.s3a.impl",
+                "org.apache.hadoop.fs.s3a.S3AFileSystem")
         .config("spark.hadoop.fs.s3a.endpoint", S3_ENDPOINT)
         .config("spark.hadoop.fs.s3a.access.key", S3_ACCESS_KEY)
         .config("spark.hadoop.fs.s3a.secret.key", S3_SECRET_KEY)
@@ -99,25 +100,46 @@ def run_etl() -> None:
         purchases_df = reader.read_table("mart_data.purchases_details")
         products_df = reader.read_table("mart_data.products_details")
         stores_df = reader.read_table("mart_data.stores_details")
-        purchase_items_df = reader.read_table("mart_data.purchase_item_details")
+        purchase_items_df = (
+            reader.read_table("mart_data.purchase_item_details")
+        )
+        delivery_addresses_df = (
+            reader.read_table("mart_data.dim_delivery_addresses")
+        )
+        payment_methods_df = reader.read_table("mart_data.dim_payment_method")
+        categories_df = reader.read_table("mart_data.dim_categories")
+        addresses_df = reader.read_table("mart_data.dim_address")
 
+        stores_df.cache()
+        categories_df.cache()
+        payment_methods_df.cache()
+        products_df.cache()
         logger.info(f"📊 customers: {customers_df.count()} записей")
         logger.info(f"📊 purchases: {purchases_df.count()} записей")
         logger.info(f"📊 products: {products_df.count()} записей")
         logger.info(f"📊 stores: {stores_df.count()} записей")
         logger.info(f"📊 purchase_items: {purchase_items_df.count()} записей")
+        logger.info(f"📊 delivery_address: "
+                    f"{delivery_addresses_df.count()} записей")
+        logger.info(f"📊 payment_method: {payment_methods_df.count()} записей")
+        logger.info(f"📊 categories: {categories_df.count()} записей")
+        logger.info(f"📊 address: {addresses_df.count()} записей")
 
         # 3. Расчёт признаков
         engineer = FeatureEngineer(spark)
         features_df = engineer.calculate_features(
-            customers_df, purchases_df, products_df, stores_df, purchase_items_df
+            customers_df, purchases_df, products_df, stores_df,
+            purchase_items_df, delivery_addresses_df,
+            payment_methods_df, categories_df, addresses_df
         )
 
         features_df.printSchema()
         features_df.show(5, truncate=False)
 
         # 4. Запись в S3
-        writer = S3Writer(spark, S3_ENDPOINT, S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET)
+        writer = S3Writer(
+            spark, S3_ENDPOINT, S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET
+        )
         s3_path = writer.write_csv(features_df, S3_PREFIX)
 
         logger.info(f"✅ ETL завершён. Файл: {s3_path}")

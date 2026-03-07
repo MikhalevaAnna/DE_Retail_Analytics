@@ -91,7 +91,9 @@ def safe_bool_convert(value: Any, default: bool = False) -> bool:
     return default
 
 
-def safe_json_loads(value: Any, default: Optional[Dict] = None) -> Union[Dict, Any]:
+def safe_json_loads(value: Any,
+                    default: Optional[Dict] = None
+                    ) -> Union[Dict, Any]:
     """
     Безопасная загрузка JSON.
 
@@ -259,8 +261,12 @@ def transfer(**kwargs: Any) -> int:
     ch_db = kwargs.get("clickhouse_db", "default")
     kafka_broker = kwargs.get("kafka_broker", "kafka:9092")
     kafka_group = kwargs.get("kafka_group", "clickhouse_group")
-    topics = kwargs.get("kafka_topics", "products,stores,customers,purchases").split(
-        ","
+    topics = (
+        kwargs
+        .get(
+            "kafka_topics",
+            "products,stores,customers,purchases"
+        ).split(",")
     )
     max_time = kwargs.get("max_time", 120)
     batch_size = kwargs.get("batch_size", 1000)
@@ -313,7 +319,10 @@ def transfer(**kwargs: Any) -> int:
         start = datetime.now()
         error_count = 0
 
-        while (datetime.now() - start).seconds < max_time and not exiter.exit():
+        while (
+                (datetime.now() - start).seconds < max_time
+                and not exiter.exit()
+        ):
             msg = None
             try:
                 msg = consumer.poll(1.0)
@@ -375,14 +384,26 @@ def transfer(**kwargs: Any) -> int:
                                 product_data.get("name", ""),
                                 product_data.get("group", ""),
                                 product_data.get("description", ""),
-                                safe_float_convert(product_data.get("price", 0.0)),
+                                safe_float_convert(
+                                    product_data.get("price", 0.0)
+                                ),
                                 product_data.get("unit", ""),
                                 product_data.get("origin_country", ""),
-                                safe_float_convert(kbju.get("calories", 0)),
-                                safe_float_convert(kbju.get("protein", 0)),
-                                safe_float_convert(kbju.get("fat", 0)),
-                                safe_float_convert(kbju.get("carbohydrates", 0)),
-                                safe_int_convert(product_data.get("expiry_days", 0)),
+                                safe_float_convert(
+                                    kbju.get("calories", 0)
+                                ),
+                                safe_float_convert(
+                                    kbju.get("protein", 0)
+                                ),
+                                safe_float_convert(
+                                    kbju.get("fat", 0)
+                                ),
+                                safe_float_convert(
+                                    kbju.get("carbohydrates", 0)
+                                ),
+                                safe_int_convert(
+                                    product_data.get("expiry_days", 0)
+                                ),
                                 safe_bool_convert(
                                     product_data.get("is_organic", False)
                                 ),
@@ -401,8 +422,12 @@ def transfer(**kwargs: Any) -> int:
                     customer_data = value
 
                     # Извлекаем вложенные структуры с защитой от None
-                    purchase_location = customer_data.get("purchase_location") or {}
-                    delivery_address = customer_data.get("delivery_address") or {}
+                    purchase_location = (
+                            customer_data.get("purchase_location") or {}
+                    )
+                    delivery_address = (
+                            customer_data.get("delivery_address") or {}
+                    )
                     preferences = customer_data.get("preferences") or {}
 
                     # Парсим даты
@@ -447,13 +472,17 @@ def transfer(**kwargs: Any) -> int:
                                 customer_data.get("gender", ""),
                                 registration_date,
                                 safe_bool_convert(
-                                    customer_data.get("is_loyalty_member", False)
+                                    customer_data.get(
+                                        "is_loyalty_member", False
+                                    )
                                 ),
                                 customer_data.get("loyalty_card_number", ""),
                                 purchase_location.get("store_id", ""),
                                 purchase_location.get("store_name", ""),
                                 purchase_location.get("store_network", ""),
-                                purchase_location.get("store_type_description", ""),
+                                purchase_location.get(
+                                    "store_type_description", ""
+                                ),
                                 purchase_location.get("country", ""),
                                 purchase_location.get("city", ""),
                                 purchase_location.get("street", ""),
@@ -461,14 +490,27 @@ def transfer(**kwargs: Any) -> int:
                                 purchase_location.get("postal_code", ""),
                                 delivery_address.get("country", ""),
                                 delivery_address.get("city", ""),
-                                delivery_address.get("street", ""),
-                                delivery_address.get("house", ""),
-                                delivery_address.get("apartment", ""),
-                                delivery_address.get("postal_code", ""),
-                                preferences.get("preferred_language", ""),
-                                preferences.get("preferred_payment_method", ""),
+                                delivery_address.get(
+                                    "street", ""
+                                ),
+                                delivery_address.get(
+                                    "house", ""
+                                ),
+                                delivery_address.get(
+                                    "apartment", ""
+                                ),
+                                delivery_address.get(
+                                    "postal_code", ""
+                                ),
+                                preferences.get(
+                                    "preferred_language", ""
+                                ),
+                                preferences.get(
+                                    "preferred_payment_method", ""
+                                ),
                                 safe_bool_convert(
-                                    preferences.get("receive_promotions", False)
+                                    preferences
+                                    .get("receive_promotions", False)
                                 ),
                                 kafka_send_date,
                             )
@@ -489,7 +531,9 @@ def transfer(**kwargs: Any) -> int:
                     last_inventory_date = parse_date(
                         store_data.get("last_inventory_date")
                     )
-                    kafka_send_date = parse_datetime(store_data.get("kafka_send_date"))
+                    kafka_send_date = (
+                        parse_datetime(store_data.get("kafka_send_date"))
+                    )
 
                     client.execute(
                         f"""
@@ -523,19 +567,26 @@ def transfer(**kwargs: Any) -> int:
                                 location.get("street", ""),
                                 location.get("house", ""),
                                 location.get("postal_code", ""),
-                                safe_float_convert(coordinates.get("latitude", 0)),
-                                safe_float_convert(coordinates.get("longitude", 0)),
+                                safe_float_convert(
+                                    coordinates.get("latitude", 0)
+                                ),
+                                safe_float_convert(
+                                    coordinates.get("longitude", 0)
+                                ),
                                 opening_hours.get("mon_fri", ""),
                                 opening_hours.get("sat", ""),
                                 opening_hours.get("sun", ""),
                                 safe_bool_convert(
-                                    store_data.get("accepts_online_orders", False)
+                                    store_data
+                                    .get("accepts_online_orders", False)
                                 ),
                                 safe_bool_convert(
-                                    store_data.get("delivery_available", False)
+                                    store_data
+                                    .get("delivery_available", False)
                                 ),
                                 safe_bool_convert(
-                                    store_data.get("warehouse_connected", False)
+                                    store_data
+                                    .get("warehouse_connected", False)
                                 ),
                                 last_inventory_date,
                                 kafka_send_date,
@@ -550,7 +601,9 @@ def transfer(**kwargs: Any) -> int:
                     pd_customer = purchase_data.get("customer") or {}
                     pd_store = purchase_data.get("store") or {}
                     pd_store_location = pd_store.get("location") or {}
-                    pd_delivery_address = purchase_data.get("delivery_address") or {}
+                    pd_delivery_address = (
+                            purchase_data.get("delivery_address") or {}
+                    )
                     pd_items = purchase_data.get("items") or []
 
                     items_str = json.dumps(pd_items, ensure_ascii=False)

@@ -1,0 +1,75 @@
+[2026-03-07T14:59:31.071+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-07T14:59:31.090+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_retail_data.load_mongo_task manual__2026-03-07T14:59:27.042355+00:00 [queued]>
+[2026-03-07T14:59:31.096+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_retail_data.load_mongo_task manual__2026-03-07T14:59:27.042355+00:00 [queued]>
+[2026-03-07T14:59:31.096+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2026-03-07T14:59:31.108+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): load_mongo_task> on 2026-03-07 14:59:27.042355+00:00
+[2026-03-07T14:59:31.112+0000] {standard_task_runner.py:63} INFO - Started process 1777 to run task
+[2026-03-07T14:59:31.115+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'pipeline_retail_data', 'load_mongo_task', 'manual__2026-03-07T14:59:27.042355+00:00', '--job-id', '80', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_retail_data.py', '--cfg-path', '/tmp/tmpimly5o4d']
+[2026-03-07T14:59:31.116+0000] {standard_task_runner.py:91} INFO - Job 80: Subtask load_mongo_task
+[2026-03-07T14:59:31.157+0000] {task_command.py:426} INFO - Running <TaskInstance: pipeline_retail_data.load_mongo_task manual__2026-03-07T14:59:27.042355+00:00 [running]> on host d92a1596ce2a
+[2026-03-07T14:59:31.234+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pipeline_retail_data' AIRFLOW_CTX_TASK_ID='load_mongo_task' AIRFLOW_CTX_EXECUTION_DATE='2026-03-07T14:59:27.042355+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-07T14:59:27.042355+00:00'
+[2026-03-07T14:59:31.235+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-07T14:59:31.246+0000] {mongo_tasks.py:27} INFO - ============================================================
+[2026-03-07T14:59:31.246+0000] {mongo_tasks.py:28} INFO - 🚀 ЗАГРУЗКА ДАННЫХ В MONGODB
+[2026-03-07T14:59:31.246+0000] {mongo_tasks.py:29} INFO - ============================================================
+[2026-03-07T14:59:31.247+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.11/site-packages/***/utils/context.py:320: AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+  warnings.warn(_create_deprecation_warning(k, replacements))
+
+[2026-03-07T14:59:31.248+0000] {mongo_tasks.py:32} INFO - 📅 Дата выполнения: 2026-03-07 14:59:27.042355+00:00
+[2026-03-07T14:59:31.248+0000] {mongo_connector.py:81} INFO - 🔄 Подключение к MongoDB...
+[2026-03-07T14:59:31.283+0000] {mongo_connector.py:92} INFO - ✅ Подключение успешно установлено
+[2026-03-07T14:59:31.284+0000] {mongo_tasks.py:45} INFO - 
+🧹 ОЧИСТКА КОЛЛЕКЦИЙ
+[2026-03-07T14:59:31.289+0000] {load_to_mongo.py:90} INFO - 🧹 Коллекция 'stores' очищена (удалено 45 записей)
+[2026-03-07T14:59:31.292+0000] {load_to_mongo.py:90} INFO - 🧹 Коллекция 'products' очищена (удалено 116 записей)
+[2026-03-07T14:59:31.295+0000] {load_to_mongo.py:90} INFO - 🧹 Коллекция 'customers' очищена (удалено 89 записей)
+[2026-03-07T14:59:31.310+0000] {load_to_mongo.py:90} INFO - 🧹 Коллекция 'purchases' очищена (удалено 500 записей)
+[2026-03-07T14:59:31.310+0000] {mongo_tasks.py:51} INFO - 
+📥 ЗАГРУЗКА ДАННЫХ
+[2026-03-07T14:59:31.310+0000] {load_to_mongo.py:116} INFO - 
+============================================================
+[2026-03-07T14:59:31.311+0000] {load_to_mongo.py:117} INFO - 📦 Загрузка в коллекцию: stores
+[2026-03-07T14:59:31.311+0000] {load_to_mongo.py:118} INFO - 📁 Директория: /opt/***/source_data/stores
+[2026-03-07T14:59:31.312+0000] {load_to_mongo.py:119} INFO - ============================================================
+[2026-03-07T14:59:31.314+0000] {load_to_mongo.py:50} INFO - 📁 Найдено 45 файлов в /opt/***/source_data/stores
+[2026-03-07T14:59:31.509+0000] {load_to_mongo.py:79} INFO - ✅ Загружено 45 из 45 файлов
+[2026-03-07T14:59:31.509+0000] {load_to_mongo.py:116} INFO - 
+============================================================
+[2026-03-07T14:59:31.510+0000] {load_to_mongo.py:117} INFO - 📦 Загрузка в коллекцию: products
+[2026-03-07T14:59:31.510+0000] {load_to_mongo.py:118} INFO - 📁 Директория: /opt/***/source_data/products
+[2026-03-07T14:59:31.510+0000] {load_to_mongo.py:119} INFO - ============================================================
+[2026-03-07T14:59:31.512+0000] {load_to_mongo.py:50} INFO - 📁 Найдено 116 файлов в /opt/***/source_data/products
+[2026-03-07T14:59:31.789+0000] {load_to_mongo.py:79} INFO - ✅ Загружено 116 из 116 файлов
+[2026-03-07T14:59:31.790+0000] {load_to_mongo.py:116} INFO - 
+============================================================
+[2026-03-07T14:59:31.790+0000] {load_to_mongo.py:117} INFO - 📦 Загрузка в коллекцию: customers
+[2026-03-07T14:59:31.790+0000] {load_to_mongo.py:118} INFO - 📁 Директория: /opt/***/source_data/customers
+[2026-03-07T14:59:31.790+0000] {load_to_mongo.py:119} INFO - ============================================================
+[2026-03-07T14:59:31.792+0000] {load_to_mongo.py:50} INFO - 📁 Найдено 89 файлов в /opt/***/source_data/customers
+[2026-03-07T14:59:32.218+0000] {load_to_mongo.py:79} INFO - ✅ Загружено 89 из 89 файлов
+[2026-03-07T14:59:32.218+0000] {load_to_mongo.py:116} INFO - 
+============================================================
+[2026-03-07T14:59:32.219+0000] {load_to_mongo.py:117} INFO - 📦 Загрузка в коллекцию: purchases
+[2026-03-07T14:59:32.219+0000] {load_to_mongo.py:118} INFO - 📁 Директория: /opt/***/source_data/purchases
+[2026-03-07T14:59:32.219+0000] {load_to_mongo.py:119} INFO - ============================================================
+[2026-03-07T14:59:32.222+0000] {load_to_mongo.py:50} INFO - 📁 Найдено 500 файлов в /opt/***/source_data/purchases
+[2026-03-07T14:59:34.148+0000] {load_to_mongo.py:79} INFO - ✅ Загружено 500 из 500 файлов
+[2026-03-07T14:59:34.148+0000] {load_to_mongo.py:134} INFO - 
+============================================================
+[2026-03-07T14:59:34.148+0000] {load_to_mongo.py:135} INFO - 📊 ИТОГОВАЯ СТАТИСТИКА ЗАГРУЗКИ
+[2026-03-07T14:59:34.148+0000] {load_to_mongo.py:136} INFO - ============================================================
+[2026-03-07T14:59:34.149+0000] {load_to_mongo.py:140} INFO - 📦 stores: 45 файлов
+[2026-03-07T14:59:34.149+0000] {load_to_mongo.py:140} INFO - 📦 products: 116 файлов
+[2026-03-07T14:59:34.149+0000] {load_to_mongo.py:140} INFO - 📦 customers: 89 файлов
+[2026-03-07T14:59:34.149+0000] {load_to_mongo.py:140} INFO - 📦 purchases: 500 файлов
+[2026-03-07T14:59:34.150+0000] {load_to_mongo.py:143} INFO - ------------------------------------------------------------
+[2026-03-07T14:59:34.150+0000] {load_to_mongo.py:144} INFO - ✅ ВСЕГО ЗАГРУЖЕНО: 750 файлов
+[2026-03-07T14:59:34.150+0000] {load_to_mongo.py:145} INFO - ============================================================
+[2026-03-07T14:59:34.150+0000] {mongo_tasks.py:58} INFO - ✅ Загрузка завершена! Всего файлов: 750
+[2026-03-07T14:59:34.151+0000] {mongo_tasks.py:69} INFO - 🔌 Подключение к MongoDB закрыто
+[2026-03-07T14:59:34.152+0000] {python.py:237} INFO - Done. Returned value was: {'total_files': 750}
+[2026-03-07T14:59:34.152+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-07T14:59:34.307+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=pipeline_retail_data, task_id=load_mongo_task, run_id=manual__2026-03-07T14:59:27.042355+00:00, execution_date=20260307T145927, start_date=20260307T145931, end_date=20260307T145934
+[2026-03-07T14:59:34.334+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-07T14:59:34.356+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-07T14:59:34.358+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

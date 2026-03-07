@@ -1,0 +1,78 @@
+[2026-03-07T14:59:45.187+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-07T14:59:45.206+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_retail_data.transfer_kafka_to_clickhouse manual__2026-03-07T14:59:27.042355+00:00 [queued]>
+[2026-03-07T14:59:45.214+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_retail_data.transfer_kafka_to_clickhouse manual__2026-03-07T14:59:27.042355+00:00 [queued]>
+[2026-03-07T14:59:45.214+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2026-03-07T14:59:45.226+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transfer_kafka_to_clickhouse> on 2026-03-07 14:59:27.042355+00:00
+[2026-03-07T14:59:45.231+0000] {standard_task_runner.py:63} INFO - Started process 1797 to run task
+[2026-03-07T14:59:45.234+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'pipeline_retail_data', 'transfer_kafka_to_clickhouse', 'manual__2026-03-07T14:59:27.042355+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_retail_data.py', '--cfg-path', '/tmp/tmp0u68gqju']
+[2026-03-07T14:59:45.236+0000] {standard_task_runner.py:91} INFO - Job 84: Subtask transfer_kafka_to_clickhouse
+[2026-03-07T14:59:45.281+0000] {task_command.py:426} INFO - Running <TaskInstance: pipeline_retail_data.transfer_kafka_to_clickhouse manual__2026-03-07T14:59:27.042355+00:00 [running]> on host d92a1596ce2a
+[2026-03-07T14:59:45.364+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pipeline_retail_data' AIRFLOW_CTX_TASK_ID='transfer_kafka_to_clickhouse' AIRFLOW_CTX_EXECUTION_DATE='2026-03-07T14:59:27.042355+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-07T14:59:27.042355+00:00'
+[2026-03-07T14:59:45.365+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-07T14:59:45.376+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-03-07T14:59:45.376+0000] {logging_mixin.py:188} INFO - 📥 ЗАПУСК ПЕРЕНОСА ДАННЫХ ИЗ KAFKA В CLICKHOUSE
+[2026-03-07T14:59:45.377+0000] {logging_mixin.py:188} INFO - ============================================================
+[2026-03-07T14:59:45.385+0000] {base.py:84} INFO - Using connection ID 'kafka_default' for task execution.
+[2026-03-07T14:59:45.385+0000] {logging_mixin.py:188} INFO - 📊 ClickHouse: clickhouse:9000/raw_data
+[2026-03-07T14:59:45.386+0000] {logging_mixin.py:188} INFO - 📨 Kafka broker: kafka:29092
+[2026-03-07T14:59:45.386+0000] {logging_mixin.py:188} INFO - 📋 Топики: ['products', 'stores', 'customers', 'purchases']
+[2026-03-07T14:59:45.387+0000] {consumer_kafka_clickhouse.py:282} INFO - Подключение к ClickHouse clickhouse:9000/raw_data
+[2026-03-07T14:59:45.395+0000] {consumer_kafka_clickhouse.py:293} INFO - ✅ Подключение к ClickHouse установлено
+[2026-03-07T14:59:45.402+0000] {logging_mixin.py:188} INFO - ✅ Таблица raw_data.raw_products готова
+[2026-03-07T14:59:45.403+0000] {consumer_kafka_clickhouse.py:301} INFO - ✅ Таблица raw_data.raw_products готова для RAW слоя
+[2026-03-07T14:59:45.406+0000] {logging_mixin.py:188} INFO - ✅ Таблица raw_data.raw_stores готова
+[2026-03-07T14:59:45.407+0000] {consumer_kafka_clickhouse.py:301} INFO - ✅ Таблица raw_data.raw_stores готова для RAW слоя
+[2026-03-07T14:59:45.409+0000] {logging_mixin.py:188} INFO - ✅ Таблица raw_data.raw_customers готова
+[2026-03-07T14:59:45.410+0000] {consumer_kafka_clickhouse.py:301} INFO - ✅ Таблица raw_data.raw_customers готова для RAW слоя
+[2026-03-07T14:59:45.412+0000] {logging_mixin.py:188} INFO - ✅ Таблица raw_data.raw_purchases готова
+[2026-03-07T14:59:45.412+0000] {consumer_kafka_clickhouse.py:301} INFO - ✅ Таблица raw_data.raw_purchases готова для RAW слоя
+[2026-03-07T14:59:45.414+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_categories готова
+[2026-03-07T14:59:45.421+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_categories готова
+[2026-03-07T14:59:45.423+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_units готова
+[2026-03-07T14:59:45.426+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_units готова
+[2026-03-07T14:59:45.428+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_countries готова
+[2026-03-07T14:59:45.433+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_countries готова
+[2026-03-07T14:59:45.435+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_language готова
+[2026-03-07T14:59:45.438+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_language готова
+[2026-03-07T14:59:45.440+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_cities готова
+[2026-03-07T14:59:45.443+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_cities готова
+[2026-03-07T14:59:45.445+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_address готова
+[2026-03-07T14:59:45.452+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_address готова
+[2026-03-07T14:59:45.454+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_delivery_addresses готова
+[2026-03-07T14:59:45.459+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_delivery_addresses готова
+[2026-03-07T14:59:45.461+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_managers готова
+[2026-03-07T14:59:45.465+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_managers готова
+[2026-03-07T14:59:45.467+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_store_networks готова
+[2026-03-07T14:59:45.469+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_store_networks готова
+[2026-03-07T14:59:45.471+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_opening_hours готова
+[2026-03-07T14:59:45.475+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_opening_hours готова
+[2026-03-07T14:59:45.477+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_gender готова
+[2026-03-07T14:59:45.481+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_gender готова
+[2026-03-07T14:59:45.483+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_manufacturer готова
+[2026-03-07T14:59:45.487+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_manufacturer готова
+[2026-03-07T14:59:45.489+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_payment_method готова
+[2026-03-07T14:59:45.492+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_payment_method готова
+[2026-03-07T14:59:45.494+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.dim_type_store готова
+[2026-03-07T14:59:45.497+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_dim_type_store готова
+[2026-03-07T14:59:45.498+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.products_details готова
+[2026-03-07T14:59:45.504+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_products_details готова
+[2026-03-07T14:59:45.506+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.customers_details готова
+[2026-03-07T14:59:45.514+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_customers_details готова
+[2026-03-07T14:59:45.516+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.stores_details готова
+[2026-03-07T14:59:45.524+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_stores_details готова
+[2026-03-07T14:59:45.526+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.link_customers_stores готова
+[2026-03-07T14:59:45.530+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_link_customers_stores готова
+[2026-03-07T14:59:45.531+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.purchases_details готова
+[2026-03-07T14:59:45.537+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_purchases_details готова
+[2026-03-07T14:59:45.539+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.purchase_item_details готова
+[2026-03-07T14:59:45.547+0000] {logging_mixin.py:188} INFO - ✅ Таблица/MV mart_data.mv_purchase_item_details готова
+[2026-03-07T14:59:45.550+0000] {consumer_kafka_clickhouse.py:317} INFO - 📡 Подписка на топики: ['products', 'stores', 'customers', 'purchases']
+[2026-03-07T15:04:46.191+0000] {consumer_kafka_clickhouse.py:692} INFO - 📊 ИТОГО: Обработано 750 сообщений
+[2026-03-07T15:04:46.192+0000] {logging_mixin.py:188} INFO - 
+✅ Перенос завершен. Обработано сообщений: 750
+[2026-03-07T15:04:46.205+0000] {python.py:237} INFO - Done. Returned value was: 750
+[2026-03-07T15:04:46.205+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-07T15:04:46.220+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=pipeline_retail_data, task_id=transfer_kafka_to_clickhouse, run_id=manual__2026-03-07T14:59:27.042355+00:00, execution_date=20260307T145927, start_date=20260307T145945, end_date=20260307T150446
+[2026-03-07T15:04:46.248+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-07T15:04:46.263+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-07T15:04:46.265+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

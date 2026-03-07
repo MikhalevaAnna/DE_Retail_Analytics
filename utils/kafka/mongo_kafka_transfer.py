@@ -15,7 +15,8 @@ logger = get_airflow_logger()
 class MongoKafkaTransfer:
     """Класс для переноса данных из MongoDB в Kafka."""
 
-    def __init__(self, mongo_conn, kafka_producer, sensitive_topics: List[str] = None):
+    def __init__(self, mongo_conn, kafka_producer,
+                 sensitive_topics: List[str] = None):
         self.mongo = mongo_conn
         self.kafka = kafka_producer
         self.sensitive_topics = sensitive_topics or []
@@ -78,7 +79,8 @@ class MongoKafkaTransfer:
 
         elif isinstance(data, list):
             # Для списков передаем тот же контекст всем элементам
-            return [self._hash_sensitive_fields(item, key_context) for item in data]
+            return [self._hash_sensitive_fields(item, key_context)
+                    for item in data]
 
         else:
             # Для примитивов обрабатываем с учетом контекста
@@ -100,7 +102,9 @@ class MongoKafkaTransfer:
 
         return doc
 
-    def transfer_collection(self, collection_name: str, batch_size: int = 1000) -> int:
+    def transfer_collection(self,
+                            collection_name: str,
+                            batch_size: int = 1000) -> int:
         """Переносит одну коллекцию из MongoDB в Kafka."""
         count = 0
         db = self.mongo.get_default_database()
@@ -112,13 +116,18 @@ class MongoKafkaTransfer:
                 # Используем produce
                 self.kafka.produce(
                     topic=collection_name,
-                    value=json.dumps(processed, ensure_ascii=False).encode("utf-8"),
+                    value=json.dumps(
+                        processed,
+                        ensure_ascii=False)
+                    .encode("utf-8"),
                 )
                 count += 1
 
                 if count % batch_size == 0:
                     self.kafka.flush()
-                    logger.info(f"{collection_name}: обработано {count} документов")
+                    logger.info(
+                        f"{collection_name}: обработано {count} документов"
+                    )
 
             except Exception as e:
                 logger.error(f"Ошибка в документе {doc.get('_id')}: {e}")

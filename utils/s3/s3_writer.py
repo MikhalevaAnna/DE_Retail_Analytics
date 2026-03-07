@@ -119,16 +119,20 @@ class S3Writer:
         hadoop_conf.set("fs.s3a.path.style.access", "true")
         hadoop_conf.set("fs.s3a.connection.ssl.enabled", "true")
 
-        # ВАЖНО: регион ru-7
+        # ВАЖНО: регион ru-7 для Selectel
         hadoop_conf.set("fs.s3a.endpoint.region", "ru-7")
 
         # Для Selectel нужна подпись v4
         hadoop_conf.set("fs.s3a.signing-algorithm", "S3SignerType")
 
-        # Настройки для работы с большими файлами
+        # Настройки для работы с большими файлами, 10 мин., 100 мб
         hadoop_conf.set("fs.s3a.connection.timeout", "600000")
         hadoop_conf.set("fs.s3a.socket.timeout", "600000")
         hadoop_conf.set("fs.s3a.attempts.maximum", "20")
+        # Включает "быструю загрузку" через многопоточность
+        # Без fast.upload: Spark пишет во временный файл,
+        # потом копирует в S3
+        # С fast.upload: Пишет сразу в S3 через multipart upload
         hadoop_conf.set("fs.s3a.fast.upload", "true")
         hadoop_conf.set("fs.s3a.multipart.size", "104857600")
 

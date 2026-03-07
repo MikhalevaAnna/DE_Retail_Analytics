@@ -1,0 +1,68 @@
+[2026-03-07T14:59:35.061+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-07T14:59:35.079+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pipeline_retail_data.check_mongo_data_task manual__2026-03-07T14:59:27.042355+00:00 [queued]>
+[2026-03-07T14:59:35.085+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pipeline_retail_data.check_mongo_data_task manual__2026-03-07T14:59:27.042355+00:00 [queued]>
+[2026-03-07T14:59:35.085+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 4
+[2026-03-07T14:59:35.097+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): check_mongo_data_task> on 2026-03-07 14:59:27.042355+00:00
+[2026-03-07T14:59:35.102+0000] {standard_task_runner.py:63} INFO - Started process 1782 to run task
+[2026-03-07T14:59:35.105+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'pipeline_retail_data', 'check_mongo_data_task', 'manual__2026-03-07T14:59:27.042355+00:00', '--job-id', '81', '--raw', '--subdir', 'DAGS_FOLDER/pipeline_retail_data.py', '--cfg-path', '/tmp/tmpr6g01xmu']
+[2026-03-07T14:59:35.107+0000] {standard_task_runner.py:91} INFO - Job 81: Subtask check_mongo_data_task
+[2026-03-07T14:59:35.148+0000] {task_command.py:426} INFO - Running <TaskInstance: pipeline_retail_data.check_mongo_data_task manual__2026-03-07T14:59:27.042355+00:00 [running]> on host d92a1596ce2a
+[2026-03-07T14:59:35.225+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pipeline_retail_data' AIRFLOW_CTX_TASK_ID='check_mongo_data_task' AIRFLOW_CTX_EXECUTION_DATE='2026-03-07T14:59:27.042355+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-07T14:59:27.042355+00:00'
+[2026-03-07T14:59:35.226+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-07T14:59:35.237+0000] {mongo_tasks.py:77} INFO - ============================================================
+[2026-03-07T14:59:35.238+0000] {mongo_tasks.py:78} INFO - 🔍 ПРОВЕРКА ДАННЫХ В MONGODB
+[2026-03-07T14:59:35.238+0000] {mongo_tasks.py:79} INFO - ============================================================
+[2026-03-07T14:59:35.238+0000] {mongo_connector.py:81} INFO - 🔄 Подключение к MongoDB...
+[2026-03-07T14:59:35.278+0000] {mongo_connector.py:92} INFO - ✅ Подключение успешно установлено
+[2026-03-07T14:59:35.278+0000] {check_data_in_mongo.py:112} INFO - 📊 Сбор статистики по коллекциям...
+[2026-03-07T14:59:35.288+0000] {check_data_in_mongo.py:181} INFO - 
+============================================================
+[2026-03-07T14:59:35.289+0000] {check_data_in_mongo.py:182} INFO - 📊 РЕЗУЛЬТАТЫ ПРОВЕРКИ
+[2026-03-07T14:59:35.289+0000] {check_data_in_mongo.py:183} INFO - ============================================================
+[2026-03-07T14:59:35.289+0000] {check_data_in_mongo.py:184} INFO - 📌 База данных: retail_data
+[2026-03-07T14:59:35.290+0000] {check_data_in_mongo.py:86} INFO - 📁 Коллекция 'stores': 45 документов
+[2026-03-07T14:59:35.290+0000] {check_data_in_mongo.py:89} INFO -   📋 Примеры документов:
+[2026-03-07T14:59:35.290+0000] {check_data_in_mongo.py:95} INFO -     1. {'_id': ObjectId('69ac3d53666158a117da0dea'), 'store_id': 'store-001', 'store_name': 'Большая Пикча — Магазин на ул. Блохинаа', 'store_network': 'Большая Пикча', 'store_type_description': 'Супермаркет...
+[2026-03-07T14:59:35.291+0000] {check_data_in_mongo.py:95} INFO -     2. {'_id': ObjectId('69ac3d53666158a117da0deb'), 'store_id': 'store-002', 'store_name': 'Большая Пикча — Магазин на пр. Новочеркасск', 'store_network': 'Большая Пикча', 'store_type_description': 'Суперма...
+[2026-03-07T14:59:35.291+0000] {check_data_in_mongo.py:95} INFO -     3. {'_id': ObjectId('69ac3d53666158a117da0dec'), 'store_id': 'store-003', 'store_name': 'Большая Пикча — Магазин на ул. Дьячкова', 'store_network': 'Большая Пикча', 'store_type_description': 'Супермаркет...
+[2026-03-07T14:59:35.295+0000] {check_data_in_mongo.py:86} INFO - 📁 Коллекция 'products': 116 документов
+[2026-03-07T14:59:35.295+0000] {check_data_in_mongo.py:89} INFO -   📋 Примеры документов:
+[2026-03-07T14:59:35.296+0000] {check_data_in_mongo.py:95} INFO -     1. {'_id': ObjectId('69ac3d53666158a117da0e17'), 'id': 'prd-0001', 'name': 'Хлеб ржаной', 'group': '🥖 Зерновые и хлебобулочные изделия', 'description': 'Хлеб ржаной.', 'kbju': {'calories': 165, 'protein'...
+[2026-03-07T14:59:35.296+0000] {check_data_in_mongo.py:95} INFO -     2. {'_id': ObjectId('69ac3d53666158a117da0e18'), 'id': 'prd-0002', 'name': 'Хлеб пшеничный', 'group': '🥖 Зерновые и хлебобулочные изделия', 'description': 'Хлеб пшеничный.', 'kbju': {'calories': 260, 'pr...
+[2026-03-07T14:59:35.296+0000] {check_data_in_mongo.py:95} INFO -     3. {'_id': ObjectId('69ac3d53666158a117da0e19'), 'id': 'prd-0003', 'name': 'Батон нарезной', 'group': '🥖 Зерновые и хлебобулочные изделия', 'description': 'Батон нарезной.', 'kbju': {'calories': 262, 'pr...
+[2026-03-07T14:59:35.297+0000] {check_data_in_mongo.py:86} INFO - 📁 Коллекция 'customers': 89 документов
+[2026-03-07T14:59:35.297+0000] {check_data_in_mongo.py:89} INFO -   📋 Примеры документов:
+[2026-03-07T14:59:35.297+0000] {check_data_in_mongo.py:95} INFO -     1. {'_id': ObjectId('69ac3d53666158a117da0e8b'), 'customer_id': 'cus-102000', 'first_name': 'Епифан', 'last_name': 'Фадеева', 'email': 'epifan.fadeeva@yahoo.com', 'phone': '+7 (377) 932-4620', 'birth_dat...
+[2026-03-07T14:59:35.297+0000] {check_data_in_mongo.py:95} INFO -     2. {'_id': ObjectId('69ac3d53666158a117da0e8c'), 'customer_id': 'cus-102001', 'first_name': 'Мефодий', 'last_name': 'Киселева', 'email': 'mefodii.kiseleva@yandex.ru', 'phone': '87271425630', 'birth_date'...
+[2026-03-07T14:59:35.298+0000] {check_data_in_mongo.py:95} INFO -     3. {'_id': ObjectId('69ac3d53666158a117da0e8d'), 'customer_id': 'cus-102002', 'first_name': 'Аггей', 'last_name': 'Селезнева', 'email': 'aggei.selezneva@hotmail.com', 'phone': '+7 768 564 99 31', 'birth_...
+[2026-03-07T14:59:35.298+0000] {check_data_in_mongo.py:86} INFO - 📁 Коллекция 'purchases': 500 документов
+[2026-03-07T14:59:35.298+0000] {check_data_in_mongo.py:89} INFO -   📋 Примеры документов:
+[2026-03-07T14:59:35.298+0000] {check_data_in_mongo.py:95} INFO -     1. {'_id': ObjectId('69ac3d54666158a117da0ee4'), 'purchase_id': 'ord-00001', 'customer': {'customer_id': 'cus-102061', 'first_name': 'Алла', 'last_name': 'Бурова', 'email': 'alla.burova@rambler.ru', 'pho...
+[2026-03-07T14:59:35.299+0000] {check_data_in_mongo.py:95} INFO -     2. {'_id': ObjectId('69ac3d54666158a117da0ee5'), 'purchase_id': 'ord-00002', 'customer': {'customer_id': 'cus-102088', 'first_name': 'Рюрик', 'last_name': 'Голубева', 'email': 'riurik.golubeva@yahoo.com'...
+[2026-03-07T14:59:35.299+0000] {check_data_in_mongo.py:95} INFO -     3. {'_id': ObjectId('69ac3d54666158a117da0ee6'), 'purchase_id': 'ord-00003', 'customer': {'customer_id': 'cus-102087', 'first_name': 'Виктория', 'last_name': 'Муравьев', 'email': 'viktoriia.muravev@rambl...
+[2026-03-07T14:59:35.299+0000] {check_data_in_mongo.py:189} INFO - 
+============================================================
+[2026-03-07T14:59:35.300+0000] {check_data_in_mongo.py:190} INFO - ✅ ВСЕГО ДОКУМЕНТОВ: 750
+[2026-03-07T14:59:35.300+0000] {check_data_in_mongo.py:191} INFO - ============================================================
+[2026-03-07T14:59:35.301+0000] {check_data_in_mongo.py:211} INFO - 
+🔌 Соединение с MongoDB закрыто
+[2026-03-07T14:59:35.301+0000] {check_data_in_mongo.py:222} INFO - 
+============================================================
+[2026-03-07T14:59:35.302+0000] {check_data_in_mongo.py:223} INFO - 📋 СВОДКА ПРОВЕРКИ
+[2026-03-07T14:59:35.302+0000] {check_data_in_mongo.py:224} INFO - ============================================================
+[2026-03-07T14:59:35.302+0000] {check_data_in_mongo.py:233} INFO - ✅ Статус: УСПЕШНО
+[2026-03-07T14:59:35.302+0000] {check_data_in_mongo.py:234} INFO - 📌 База данных: retail_data
+[2026-03-07T14:59:35.303+0000] {check_data_in_mongo.py:235} INFO - 📊 Всего документов: 750
+[2026-03-07T14:59:35.303+0000] {check_data_in_mongo.py:236} INFO - 
+Коллекции:
+[2026-03-07T14:59:35.303+0000] {check_data_in_mongo.py:240} INFO -   ✅ stores: 45 док.
+[2026-03-07T14:59:35.303+0000] {check_data_in_mongo.py:240} INFO -   ✅ products: 116 док.
+[2026-03-07T14:59:35.304+0000] {check_data_in_mongo.py:240} INFO -   ✅ customers: 89 док.
+[2026-03-07T14:59:35.304+0000] {check_data_in_mongo.py:240} INFO -   ✅ purchases: 500 док.
+[2026-03-07T14:59:35.304+0000] {mongo_tasks.py:94} INFO - ✅ Проверка завершена успешно!
+[2026-03-07T14:59:35.304+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-07T14:59:35.305+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-07T14:59:35.314+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=pipeline_retail_data, task_id=check_mongo_data_task, run_id=manual__2026-03-07T14:59:27.042355+00:00, execution_date=20260307T145927, start_date=20260307T145935, end_date=20260307T145935
+[2026-03-07T14:59:35.478+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-07T14:59:35.501+0000] {taskinstance.py:3503} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-07T14:59:35.502+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
