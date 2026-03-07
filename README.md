@@ -827,27 +827,32 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 ```
 ## 🚀 Установка и запуск
 
-1. Клонирование репозитория:
-   `git clone git@github.com:MikhalevaAnna/DE_Retail_Analytics.git`
-   `cd DE_Retail_Analytics`
-2. Настройка переменных окружения:
-   `cp .env.example .env`
-   Отредактируйте .env, указав ваши S3 ключи.
-3. В **users.xml** необходимо прописать настройки доступа к `Clickhouse` из `Grafana`, если они отличаются от текущих настроек.
-4. Запуск всех сервисов:
-   `docker build -t airflow-with-java .`
-   `docker-compose up -d --build`
-5. Проверка статуса:
-   `docker-compose ps`
-6. Остановка:
-   `docker-compose down`
-7. Подключения к сервисам прописаны в `docker-compose`.
-8. Перейдем к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или запустим страницу со всеми веб-интерфейсами, которые используются в проекте: [http://localhost:8085](http://localhost:8085) и выберем `Открыть Airflow Webserver`.
-9. После запуска всех сервисов, убедимся, что соединения корректно отображаются в списке `Airflow`. Для этого перейдем в `Admin -> Connectiions` и проверим список соединений, он должен выглядеть так:
+1. Клонирование репозитория:</br> 
+   `git clone git@github.com:MikhalevaAnna/DE_Retail_Analytics.git`</br> 
+   `cd DE_Retail_Analytics`</br> 
+2. Настройка переменных окружения:</br> 
+   `cp .env.example .env`</br> 
+   Отредактируйте .env, указав ваши S3 ключи.</br> 
+3. В **users.xml** необходимо прописать настройки доступа к `Clickhouse` из `Grafana`, если они отличаются от текущих настроек.</br> 
+4. Запуск всех сервисов:</br> 
+   `docker build -t airflow-with-java .`</br> 
+   `docker-compose up -d --build`</br> 
+5. Проверка статуса:</br> 
+   `docker-compose ps`</br> 
+6. Остановка:</br> 
+   `docker-compose down`</br> 
+7. Подключения к сервисам прописаны в `docker-compose`.</br> 
+8. Перейдем к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или запустим страницу со</br> 
+   всеми веб-интерфейсами, которые используются в проекте: [http://localhost:8085](http://localhost:8085) и выберем `Открыть Airflow Webserver`.</br> 
+9. После запуска всех сервисов, убедимся, что соединения корректно отображаются в списке `Airflow`.</br> 
+    Для этого перейдем в `Admin -> Connectiions` и проверим список соединений, он должен выглядеть так:</br> 
    <img width="1907" height="590" alt="image" src="https://github.com/user-attachments/assets/8d8984dd-3eac-4eea-b752-d8c18ba70c92" />
-10. Переходим в папку `data_generator` и запускаем скрипт `generator.py` командой:
-    `python generator.py`
-11. В директории `source_data` - появятсятся данные по покупателям, магазинам, продуктам и покупкам, с которыми мы будем работать дальше.
-12. Снова переходим к веб-интерфейсу по прямой ссылке `Airflow` [http://localhost:8080](http://localhost:8080) или в корне проекта запустим  [http://localhost:8085](http://localhost:8085) и выберем `Открыть Airflow Webserver`. Запускаем **DAG**  [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).
-13. В веб-интерфейсе  [http://localhost:8085](http://localhost:8085) можно зайти в **Grafana**, посмотреть количество записей по каждому блоку данных.
-14. Переходим в **S3 Selectel** и видим результирующий файл с 30 метриками.   
+10. Переходим в папку `data_generator` и запускаем скрипт `generator.py` командой:</br> 
+    `python generator.py`</br> 
+11. В директории `source_data` - появятсятся данные по покупателям, магазинам, продуктам и покупкам, с которыми мы будем работать дальше.</br> 
+12. Снова переходим к веб-интерфейсу по прямой ссылке `Airflow` [http://localhost:8080](http://localhost:8080)</br> 
+    или в корне проекта запустим  [http://localhost:8085](http://localhost:8085) и выберем `Открыть Airflow Webserver`.</br> 
+    Запускаем **DAG**  [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br> 
+13. В веб-интерфейсе  [http://localhost:8085](http://localhost:8085) можно зайти в **Grafana**,</br> 
+    посмотреть количество записей по каждому блоку данных.</br> 
+14. Переходим в **S3 Selectel** и видим результирующий файл с 30 метриками.   </br> 
