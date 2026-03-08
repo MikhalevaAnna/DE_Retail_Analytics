@@ -599,7 +599,7 @@ DE_Retail_Analytics/
  каждая приводится к своему нормализованному виду и шифруется `md5`.
   - Загрузка и шифрование данных из MongoDB в Каfka осуществляется задачей `transfer_mongo_to_kafka` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
   - Задача использует [utils/kafka/mongo_kafka_transfer.py](utils/kafka/mongo_kafka_transfer.py).</br>
-  - Для таблиц сырого слоя используется движок `ReplacingMergeTree(version) + TTL`,</br>
+  - Для таблиц сырого слоя используется движок Clickhouse для обработки дублирования данных `ReplacingMergeTree(version) + TTL`,</br>
     где `version UInt64 DEFAULT toUnixTimestamp(load_date)` и **load_date** - дата загрузки.</br>
   - Записи старше 180 дней удаляются.</br>
   - В таблицах используется партиционирование по году и месяцу.</br>
@@ -624,7 +624,9 @@ DE_Retail_Analytics/
   - В таблицах используется партиционирование по году и месяцу.</br>
     
 6) Проверка дублирования в сырых данных и преобразованных:
-  - Реализуется через движок `ReplacingMergeTree(version)` и уникальный идентификатор записи в таблице.</br>
+  - Реализуется через движок `ReplacingMergeTree(version)` и уникальный идентификатор записи в таблице,</br>
+    где `version UInt64 DEFAULT toUnixTimestamp(load_date)` и **load_date** - дата загрузки.
+    Уникальный идентификатор записи - это код cityHash64 типа, который дает одинаковый результат для повторной загрузки одинаковых значений в таблицу.</br>
   
 ### ClickHouse Data Warehouse
 
