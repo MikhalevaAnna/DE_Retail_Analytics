@@ -847,7 +847,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 6. Остановка:</br> 
    `docker-compose down`</br> 
 7. Подключения к сервисам прописаны в `docker-compose`.</br> 
-8. Перейдем к веб-интерфейсу по прямой ссылке `Airflow` **http://localhost:8080** или запустим страницу со</br> 
+8. Перейдем к веб-интерфейсу `Airflow` по прямой ссылке **http://localhost:8080** или запустим страницу со</br> 
    всеми веб-интерфейсами, которые используются в проекте: [http://localhost:8085](http://localhost:8085) и выберем `Открыть Airflow Webserver`.</br> 
 9. После запуска всех сервисов, убедимся, что соединения корректно отображаются в списке `Airflow`.</br> 
     Для этого перейдем в `Admin -> Connectiions` и проверим список соединений, он должен выглядеть так:</br> 
@@ -855,7 +855,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 10. Переходим в папку `data_generator` и запускаем скрипт `generator.py` командой:</br> 
     `python generator.py`</br> 
 11. В директории `source_data` - появятсятся данные по покупателям, магазинам, продуктам и покупкам, с которыми мы будем работать дальше.</br> 
-12. Снова переходим к веб-интерфейсу по прямой ссылке `Airflow` [http://localhost:8080](http://localhost:8080)</br> 
+12. Снова переходим к веб-интерфейсу `Airflow` по прямой ссылке [http://localhost:8080](http://localhost:8080)</br> 
     или в корне проекта запустим  [http://localhost:8085](http://localhost:8085), выберем `Открыть Airflow Webserver`.</br> 
     Запускаем **DAG**  [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br> 
 13. В веб-интерфейсе  [http://localhost:8085](http://localhost:8085) можно зайти в **Grafana**,</br> 
