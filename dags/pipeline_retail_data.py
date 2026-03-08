@@ -282,7 +282,7 @@ load_mongo_task = PythonOperator(
     dag=dag,
     op_kwargs={
         "params": {
-            "clear_collections": True
+            "clear_collections": True  # Очищаем перед загрузкой
         }
     },
 )

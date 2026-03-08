@@ -922,38 +922,56 @@ SETTINGS index_granularity = 8192;
 -- MV для mart_data.purchase_item_details
 CREATE MATERIALIZED VIEW IF NOT EXISTS mart_data.mv_purchase_item_details TO mart_data.purchase_item_details AS
 SELECT
-    cityHash64(lowerUTF8(purchase_id),
-               lowerUTF8(JSONExtractString(item, 'product_id')),
-                toString(JSONExtractFloat(item, 'quantity'))) as item_pk,
+    cityHash64(
+        lowerUTF8(purchase_id),
+        lowerUTF8(parsed_item.product_id),
+        toString(parsed_item.quantity)
+    ) as item_pk,
     cityHash64(lowerUTF8(purchase_id)) as purchase_pk,
-    cityHash64(lowerUTF8(JSONExtractString(item, 'product_id'))) as product_pk,
+    cityHash64(lowerUTF8(parsed_item.product_id)) as product_pk,
     cityHash64(
         lowerUTF8(
             trim(
-                replaceRegexpOne(
-                    JSONExtractString(item, 'category'),
-                    '^\\p{So}+\\s*', ''
-                )
+                replaceRegexpOne(parsed_item.category, '^\\p{So}+\\s*', '')
             )
         )
     ) as category_id,
-    JSONExtractFloat(item, 'quantity') as quantity,
-    cityHash64(lowerUTF8(JSONExtractString(item, 'unit'))) as unit_id,
-    JSONExtractFloat(item, 'total_price') as total_price,
+    parsed_item.quantity as quantity,
+    cityHash64(lowerUTF8(parsed_item.unit)) as unit_id,
+    parsed_item.total_price as total_price,
     multiIf(
-    JSONExtractString(JSONExtractString(item, 'manufacturer'), 'name') = '' and
-    JSONExtractString(JSONExtractString(item, 'manufacturer'), 'inn') = '', 0,
-    cityHash64(
-        lowerUTF8(JSONExtractString(JSONExtractString(item, 'manufacturer'), 'name')),
-        lowerUTF8(JSONExtractString(JSONExtractString(item, 'manufacturer'), 'inn'))
-    )) as manufacturer_id,
+        parsed_item.manufacturer.name = ''
+        AND parsed_item.manufacturer.inn = '', 0,
+        cityHash64(
+            lowerUTF8(parsed_item.manufacturer.name),
+            lowerUTF8(parsed_item.manufacturer.inn)
+        )
+    ) as manufacturer_id,
     now() as load_date,
     toUnixTimestamp(now()) as version
-FROM raw_data.raw_purchases
-ARRAY JOIN JSONExtractArrayRaw(items) as item
+FROM (
+    SELECT
+        purchase_id,
+        JSONExtract(
+            item,
+            'Tuple(
+                product_id String,
+                category String,
+                quantity Float64,
+                unit String,
+                total_price Float64,
+                manufacturer Tuple(name String, inn String)
+            )'
+        ) as parsed_item
+    FROM raw_data.raw_purchases
+    ARRAY JOIN JSONExtractArrayRaw(items) as item
+    WHERE
+        purchase_id != ''
+        AND JSONExtractString(item, 'product_id') != ''
+        AND JSONExtractFloat(item, 'total_price') > 0
+)
 WHERE
-    purchase_id != ''
-    AND JSONExtractString(item, 'product_id') != ''
-    AND JSONExtractString(item, 'category') != ''
-    AND JSONExtractFloat(item, 'total_price') > 0
-    AND JSONExtractString(item, 'unit') != '';
+    parsed_item.product_id != ''
+    AND parsed_item.category != ''
+    AND parsed_item.total_price > 0
+    AND parsed_item.unit != '';

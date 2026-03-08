@@ -154,8 +154,8 @@ class ClickHouseReader:
             .option("password", self.password)
             .option("dbtable", query)
             .option("fetchsize", "10000")
-            .option("socket_timeout", "300000") # 300 секунд
-            .option("connect_timeout", "30000") # 30 секунд
+            .option("socket_timeout", "300000")
+            .option("connect_timeout", "30000")
             .load()
         )
         df.show()
