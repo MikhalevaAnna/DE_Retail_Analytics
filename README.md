@@ -625,7 +625,7 @@ DE_Retail_Analytics/
     
 6) Проверка дублирования в сырых данных и преобразованных:
   - Реализуется через движок `ReplacingMergeTree(version)` и уникальный идентификатор записи в таблице,</br>
-    где `version UInt64 DEFAULT toUnixTimestamp(load_date)` и **load_date** - дата загрузки.
+    где `version UInt64 DEFAULT toUnixTimestamp(load_date)` и **load_date** - дата загрузки.</br>
     Уникальный идентификатор записи - это код cityHash64 типа, который дает одинаковый результат при повторной загрузке одинаковых значений в таблицу.</br>
   
 ### ClickHouse Data Warehouse
@@ -721,8 +721,8 @@ SETTINGS index_granularity = 8192;
 
 #### 🔑 Хэширование первичных ключей
 
-Для всех справочников используется `cityHash64` для генерации уникальных ID, т.к. это дает быстрый и стабильный результат.
-При повторной загрузке данных, например, одинаковый продукт получит тот же ID.
+Для всех справочников используется `cityHash64` для генерации уникальных ID, т.к. это дает быстрый и стабильный результат.</br>
+При повторной загрузке данных, например, одинаковый продукт получит тот же ID.</br>
 
 ```sql
 cityHash64(lowerUTF8(category_name)) AS category_id
@@ -737,7 +737,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
 <img width="1669" height="540" alt="image" src="https://github.com/user-attachments/assets/9c5ecd09-dc76-4041-933b-71d982da1c09" />
 
 2) В сыром слое `ClickHouse` проверяются дубликаты и в случае превышения > 50 % дубликатов в исходных таблицах алерты отправляются  
-   на мою Яндекс-почту при помощи `Grafana`. Все скриншоты можно увидеть в папке проекта `screenshots`.</br>
+   на мою Яндекс-почту при помощи `Grafana`. Все скриншоты также можно увидеть в папке проекта `screenshots`.</br>
 <img width="1690" height="647" alt="image" src="https://github.com/user-attachments/assets/b629e053-5f9b-421a-96e2-26a389f55abf" />
 <img width="1690" height="160" alt="image" src="https://github.com/user-attachments/assets/3b2fb98a-6c64-4c12-bb6a-bb76f1324092" />
 <img width="656" height="295" alt="image" src="https://github.com/user-attachments/assets/910d25da-3a0f-4725-b52d-ea43f3da46f7" />
