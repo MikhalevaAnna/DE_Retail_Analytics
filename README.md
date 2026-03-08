@@ -864,6 +864,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
     посмотреть количество записей по каждому блоку данных.</br> 
 14. Переходим в **S3 Selectel** и видим результирующий файл с 30 метриками.</br> 
 
+<img width="1529" height="877" alt="image" src="https://github.com/user-attachments/assets/ef3ea8e7-9046-4009-9fe3-27536b92ce01" />
 
 
 ##### Проект выполнила Михалева Анна
