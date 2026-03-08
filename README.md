@@ -836,7 +836,7 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
    `cd DE_Retail_Analytics`</br> 
 2. Настройка переменных окружения:</br> 
    `cp .env.example .env`</br> 
-   Отредактируйте .env, указав ваши S3 ключи.</br> 
+   Отредактируйте **.env**, указав ваши **S3** ключи.</br> 
 3. В **users.xml** необходимо прописать настройки доступа к `Clickhouse`, если они отличаются от текущих настроек.</br>
   Этот файл необходим для подключения `Clickhouse` в `Grafana`.</br>
 4. Запуск всех сервисов:</br> 
@@ -848,19 +848,21 @@ cityHash64(lowerUTF8(store_id)) AS store_pk
    `docker-compose down`</br> 
 7. Подключения к сервисам прописаны в `docker-compose`.</br> 
 8. Перейдем к веб-интерфейсу `Airflow` по прямой ссылке **http://localhost:8080** или запустим страницу со</br> 
-   всеми веб-интерфейсами, которые используются в проекте: [http://localhost:8085](http://localhost:8085) и выберем `Открыть Airflow Webserver`.</br> 
-9. После запуска всех сервисов, убедимся, что соединения корректно отображаются в списке `Airflow`.</br> 
+   всеми веб-интерфейсами, которые используются в проекте:</br>
+   [http://localhost:8085](http://localhost:8085) и выберем `Открыть Airflow Webserver`.</br> 
+10. После запуска всех сервисов, убедимся, что соединения корректно отображаются в списке `Airflow`.</br> 
     Для этого перейдем в `Admin -> Connectiions` и проверим список соединений, он должен выглядеть так:</br> 
    <img width="1907" height="590" alt="image" src="https://github.com/user-attachments/assets/8d8984dd-3eac-4eea-b752-d8c18ba70c92" />
-10. Переходим в папку `data_generator` и запускаем скрипт `generator.py` командой:</br> 
+11. Переходим в папку `data_generator` и запускаем скрипт `generator.py` командой:</br> 
     `python generator.py`</br> 
-11. В директории `source_data` - появятсятся данные по покупателям, магазинам, продуктам и покупкам, с которыми мы будем работать дальше.</br> 
-12. Снова переходим к веб-интерфейсу `Airflow` по прямой ссылке [http://localhost:8080](http://localhost:8080)</br> 
-    или в корне проекта запустим  [http://localhost:8085](http://localhost:8085), выберем `Открыть Airflow Webserver`.</br> 
+12. В директории `source_data` - появятсятся данные по покупателям, магазинам, продуктам и покупкам, с которыми мы будем работать дальше.</br> 
+13. Снова переходим к веб-интерфейсу `Airflow` по прямой ссылке [http://localhost:8080](http://localhost:8080)</br> 
+    или в корне проекта запустим  [http://localhost:8085](http://localhost:8085),</br>
+    выберем `Открыть Airflow Webserver`.</br> 
     Запускаем **DAG**  [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br> 
-13. В веб-интерфейсе  [http://localhost:8085](http://localhost:8085) можно зайти в **Grafana**,</br> 
+15. В веб-интерфейсе  [http://localhost:8085](http://localhost:8085) можно зайти в **Grafana**,</br> 
     посмотреть количество записей по каждому блоку данных.</br> 
-14. Переходим в **S3 Selectel** и видим результирующий файл с 30 метриками.   </br> 
+16. Переходим в **S3 Selectel** и видим результирующий файл с 30 метриками.</br> 
 
 
 
