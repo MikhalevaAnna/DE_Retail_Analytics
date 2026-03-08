@@ -11,7 +11,7 @@ from airflow.hooks.base import BaseHook
 from airflow.providers.mongo.hooks.mongo import MongoHook
 from clickhouse_driver import Client
 
-# 👇 Импортируем конфиг
+# Импортируем конфиг
 from config.config import (
     CLICKHOUSE_HOST,
     CLICKHOUSE_NATIVE_PORT,
@@ -117,13 +117,13 @@ def check_clickhouse_connection(**context):
 
 # Загрузка В MONGODB
 def load_to_mongodb(**context):
-    """Загружает данные в MongoDB (обёртка для совместимости)."""
+    """Загружает данные в MongoDB."""
     return load_mongo_data(**context)
 
 
 # Проверка данных MONGODB
 def check_mongodb_data(**context):
-    """Проверяет данные в MongoDB (обёртка для совместимости)."""
+    """Проверяет данные в MongoDB."""
     return check_mongo_data(**context)
 
 
