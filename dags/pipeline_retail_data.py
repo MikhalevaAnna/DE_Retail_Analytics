@@ -275,7 +275,6 @@ check_clickhouse = PythonOperator(
     task_id="check_clickhouse", python_callable=check_clickhouse_connection, dag=dag
 )
 
-# Задачи для MONGODB
 load_mongo_task = PythonOperator(
     task_id="load_mongo_task",
     python_callable=load_to_mongodb,
@@ -283,7 +282,7 @@ load_mongo_task = PythonOperator(
     dag=dag,
     op_kwargs={
         "params": {
-            "clear_collections": True  # Очищаем перед загрузкой
+            "clear_collections": True
         }
     },
 )
@@ -307,14 +306,12 @@ transfer_kafka_to_clickhouse = PythonOperator(
     dag=dag,
 )
 
-# === Задача для SPARK ETL ===
 spark_etl_task_to_s3 = PythonOperator(
     task_id="spark_etl_task_to_s3",
     python_callable=run_spark_etl,
     dag=dag,
 )
 
-# Порядок выполнения
 (
     [check_mongo, check_kafka]
     >> load_mongo_task
