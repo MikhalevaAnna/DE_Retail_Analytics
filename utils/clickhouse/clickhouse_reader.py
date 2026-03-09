@@ -202,7 +202,6 @@ class ClickHouseReader:
             f"/{self.database}?compress=false"
         )
         query = self._get_query(table)
-        reader = self.spark.read.format("jdbc")
 
         # Добавляем все необходимые опции
         df = (
@@ -232,6 +231,8 @@ class ClickHouseReader:
         if decimal_cols:
             logger.info(f"🔄 Преобразованы в Long: {', '.join(decimal_cols)}")
 
+        logger.info(f"📋 Схема {table}:")
+        df.printSchema()
         logger.info(f"✅ Загружено {df.count()} записей из {table}")
         df.show(5, truncate=False)
 

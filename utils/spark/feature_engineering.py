@@ -56,7 +56,8 @@ class FeatureEngineer:
         Returns:
             Tuple[DataFrame, DataFrame, DataFrame, DataFrame]:
                 Кортеж из обработанных DataFrame
-                (customers, purchases, products, stores)
+                (customers, purchases, products,
+                stores, purchases_item_df)
         """
 
         # 1. PURCHASES
@@ -318,11 +319,17 @@ class FeatureEngineer:
         customers.cache()
         products.cache()
         stores.cache()
-
+        ## Эти DF в реальном проекте могут быть очень большими
+        # и поэтому их кэшировать нельзя, сейчас данных мало,
+        # поэтому кэшированием можно воспользоваться
+        purchases.cache()
+        purchase_items.cache()
         # Форсируем кэширование
         customers.count()
         products.count()
         stores.count()
+        purchases.count()
+        purchase_items.count()
 
         return customers, purchases, products, stores, purchase_items
 

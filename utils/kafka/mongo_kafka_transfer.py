@@ -41,7 +41,7 @@ class MongoKafkaTransfer:
         """Хэширует значение."""
         if not value:
             return value
-        return hashlib.md5(str(value).encode("utf-8")).hexdigest()
+        return hashlib.sha256(str(value).encode("utf-8")).hexdigest()
 
     def _process_value(self, key: str, value: Any) -> Any:
         """
