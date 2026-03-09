@@ -596,7 +596,7 @@ DE_Retail_Analytics/
    
 ### При помощи Kafka данные загружаю в RAW (сырое) хранилище ClickHouse.
 1) До того, как данные попадают в `RAW (сырое) хранилище ClickHous` персональная информация (телефон и почта) </br>
- каждая приводится к своему нормализованному виду и шифруется `md5`.
+ каждая приводится к своему нормализованному виду и шифруется `sha256`.
   - Загрузка и шифрование данных из MongoDB в Каfka осуществляется задачей `transfer_mongo_to_kafka` из **DAG** [dags/pipeline_retail_data.py](dags/pipeline_retail_data.py).</br>
   - Задача использует [utils/kafka/mongo_kafka_transfer.py](utils/kafka/mongo_kafka_transfer.py).</br>
   - Для таблиц сырого слоя используется движок Clickhouse для обработки дублирования данных `ReplacingMergeTree(version) + TTL`,</br>
