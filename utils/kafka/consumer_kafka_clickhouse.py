@@ -306,7 +306,7 @@ def transfer(**kwargs: Any) -> int:
             {
                 "bootstrap.servers": kafka_broker,
                 "group.id": kafka_group,
-                "auto.offset.reset": "latest",
+                "auto.offset.reset": "earliest",
                 "enable.auto.commit": False,
                 "session.timeout.ms": 30000,
                 "max.poll.interval.ms": 600000,
