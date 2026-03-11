@@ -316,12 +316,12 @@ class FeatureEngineer:
 
         # 5. КЭШИРОВАНИЕ
         logger.info("💾 Кэширование данных")
-        customers.cache()
-        products.cache()
         stores.cache()
         ## Эти DF в реальном проекте могут быть очень большими
         # и поэтому их кэшировать нельзя, сейчас данных мало,
         # поэтому кэшированием можно воспользоваться
+        customers.cache()
+        products.cache()
         purchases.cache()
         purchase_items.cache()
         # Форсируем кэширование
@@ -404,7 +404,7 @@ class FeatureEngineer:
             milk_purchases = (
                 purchases.filter(F.col("purchase_date") >= self.cutoff_30d)
                 .join(purchase_items, "purchase_pk")
-                .join(F.broadcast(products), "product_pk")
+                .join(products, "product_pk")
                 .filter(F.col("category_name") == "молочные продукты")
                 .select("customer_pk")
                 .distinct()
@@ -438,7 +438,7 @@ class FeatureEngineer:
             fruits_purchases = (
                 purchases.filter(F.col("purchase_date") >= self.cutoff_14d)
                 .join(purchase_items, "purchase_pk")
-                .join(F.broadcast(products), "product_pk")
+                .join(products, "product_pk")
                 .filter(F.col("category_name") == "фрукты и ягоды")
                 .select("customer_pk")
                 .distinct()
@@ -472,7 +472,7 @@ class FeatureEngineer:
             veggies_purchases = (
                 purchases.filter(F.col("purchase_date") >= self.cutoff_14d)
                 .join(purchase_items, "purchase_pk")
-                .join(F.broadcast(products), "product_pk")
+                .join(products, "product_pk")
                 .filter(F.col("category_name") == "овощи и зелень")
                 .select("customer_pk")
                 .distinct()
@@ -644,7 +644,7 @@ class FeatureEngineer:
         try:
             organic = (
                 purchases.join(purchase_items, "purchase_pk")
-                .join(F.broadcast(products), "product_pk")
+                .join(products, "product_pk")
                 .filter(F.col("is_organic") == True)
                 .select("customer_pk")
                 .distinct()
@@ -727,7 +727,7 @@ class FeatureEngineer:
         try:
             bakery = (
                 purchases.join(purchase_items, "purchase_pk")
-                .join(F.broadcast(products), "product_pk")
+                .join(products, "product_pk")
                 .filter(condition)
                 .select("customer_pk")
                 .distinct()
@@ -840,7 +840,7 @@ class FeatureEngineer:
             meat = (
                 purchases.filter(F.col("purchase_date") >= self.cutoff_7d)
                 .join(purchase_items, "purchase_pk")
-                .join(F.broadcast(products), "product_pk")
+                .join(products, "product_pk")
                 .filter(F.col("category_name") == "мясо, рыба, яйца и бобовые")
                 .select("customer_pk")
                 .distinct()
@@ -1095,7 +1095,7 @@ class FeatureEngineer:
         try:
             varied = (
                 purchases.join(purchase_items, "purchase_pk")
-                .join(F.broadcast(products), "product_pk")
+                .join(products, "product_pk")
                 .groupBy("customer_pk")
                 .agg(F.countDistinct("category_name").alias("category_count"))
                 .withColumn(
@@ -1303,7 +1303,7 @@ class FeatureEngineer:
             fruit_lover = (
                 purchases.filter(F.col("purchase_date") >= self.cutoff_30d)
                 .join(purchase_items, "purchase_pk")
-                .join(F.broadcast(products), "product_pk")
+                .join(products, "product_pk")
                 .filter(F.col("category_name") == "фрукты и ягоды")
                 .groupBy("customer_pk")
                 .agg(F.countDistinct("purchase_pk").alias("fruit_purchases"))
@@ -1341,7 +1341,7 @@ class FeatureEngineer:
             meat_buyers = (
                 purchases.filter(F.col("purchase_date") >= self.cutoff_90d)
                 .join(purchase_items, "purchase_pk")
-                .join(F.broadcast(products), "product_pk")
+                .join(products, "product_pk")
                 .filter(F.col("category_name") == "мясо, рыба, яйца и бобовые")
                 .select("customer_pk")
                 .distinct()

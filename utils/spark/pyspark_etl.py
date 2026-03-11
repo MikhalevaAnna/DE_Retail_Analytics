@@ -110,13 +110,13 @@ def run_etl() -> None:
         categories_df = reader.read_table("mart_data.dim_categories")
         addresses_df = reader.read_table("mart_data.dim_address")
 
-        customers_df.cache()
         stores_df.cache()
         categories_df.cache()
         payment_methods_df.cache()
-        products_df.cache()
         # DF ниже, при больших данных кэшировать нельзя
         # Здесь они закэшированы, потому что мало данных
+        customers_df.cache()
+        products_df.cache()
         addresses_df.cache()
         delivery_addresses_df.cache()
         purchases_df.cache()
