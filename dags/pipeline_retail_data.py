@@ -234,7 +234,7 @@ def consume_kafka_to_clickhouse(**context):
             "clickhouse_password": CLICKHOUSE_PASSWORD,
             "clickhouse_db": CLICKHOUSE_DB,
             "kafka_broker": kafka_broker,
-            "kafka_group": "clickhouse_consumer",
+            "kafka_group": f"clickhouse_consumer_{datetime.now().strftime('%Y%m%d')}",
             "kafka_topics": ",".join(TOPICS),
             "max_time": 300,
             "batch_size": 1000,
