@@ -157,7 +157,6 @@ def transfer_data_to_kafka(**context):
         kafka_producer = Producer(
             {
                 "bootstrap.servers": broker,
-                "acks": "all",
                 "retries": 3,
             }
         )
