@@ -1371,7 +1371,11 @@ class FeatureEngineer:
 
         # ШАГ 1: Начинаем с customers (все клиенты)
         features = customers.select("customer_pk", "customer_id")
-
+        customers.unpersist()
+        purchases.unpersist()
+        products.unpersist()
+        stores.unpersist()
+        purchase_items.unpersist()
         # 1. Проверяем на пустоту финальный DF
         if features.isEmpty():
             raise ValueError("❌ Финальный features пустой!")

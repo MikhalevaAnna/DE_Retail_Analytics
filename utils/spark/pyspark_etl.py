@@ -140,6 +140,18 @@ def run_etl() -> None:
             payment_methods_df, categories_df, addresses_df
         )
 
+        stores_df.unpersist()
+        categories_df.unpersist()
+        payment_methods_df.unpersist()
+        # DF ниже, при больших данных кэшировать нельзя
+        # Здесь они закэшированы, потому что мало данных
+        customers_df.unpersist()
+        products_df.unpersist()
+        addresses_df.unpersist()
+        delivery_addresses_df.unpersist()
+        purchases_df.unpersist()
+        purchase_items_df.unpersist()
+
         features_df.printSchema()
         features_df.show(5, truncate=False)
 
@@ -148,7 +160,7 @@ def run_etl() -> None:
             spark, S3_ENDPOINT, S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET
         )
         s3_path = writer.write_csv(features_df, S3_PREFIX)
-
+        features_df.unpersist()
         logger.info(f"✅ ETL завершён. Файл: {s3_path}")
 
     except Exception as e:
